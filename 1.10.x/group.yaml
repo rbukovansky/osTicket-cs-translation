@@ -1,0 +1,31 @@
+---
+- 
+  id: 1
+  role_id: 1
+  flags: 1
+  name: Lev krotitel
+  notes: Správci systému, kteří mají (zpočátku) plnou kontrolu nad útvary, ke kterým mají přístup.
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 2
+  role_id: 2
+  flags: 1
+  name: Sloní chodci
+  notes: Bílé límečky
+  depts:
+    - 1
+    - 2
+    - 3
+- 
+  id: 3
+  role_id: 2
+  flags: 1
+  name: Bleší Školitelé
+  notes: Řadoví zaměstnanci
+  depts:
+    - 1
+    - 2
+    - 3

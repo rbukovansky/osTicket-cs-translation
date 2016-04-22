@@ -1,0 +1,68 @@
+---
+helpdesk_status:
+  title: Status Helpdesku
+  content: 'Pokud se stav změní na <span class = "doc-desc-opt"> Offline </ span>, klientské rozhraní bude zakázáno. Nemá však vliv na běžnou činnost v agentském rozhraní.'
+helpdesk_url:
+  title: URL Helpdesku
+  content: Tento URL odkaz je základní pro osTicket instalaci. Používá se v e-mailové komunikaci pro směrování koncových uživatelů zpět na Helpdesk.
+helpdesk_name_title:
+  title: Helpdesk jméno/název
+  content: Název zobrazení v kartě prohlížeče. Pokud je Váš help-desk v záložkách, bude tento název zobrazen jako jméno stránky.
+default_department:
+  title: Výchozí oddělení
+  content: 'Vyberte výchozí <span class="doc-desc-title">oddělení</span> pro požadavky které nejsou automaticky směrovány do oddělení. <br/><br/> Požadavky mohou být směrovány na základě druhu požadavku, příchozího emailu a nastavení filtrování požadavků.'
+default_page_size:
+  title: Výchozí velikost stránky
+  content: 'Zvolte požet záznamů zobrazených na stránce ve frontách požadavků na panelu zaměstnance. Každý agent si může nastavit tento počet pro svůj vlastní účet na stránce  <span class="doc-desc-title">Mé předvolby</span>.'
+default_log_level:
+  title: Výchozí úroveň logu
+  content: 'Určuje nejnižší úroveň problémů, které budou zaznamenávány do <span class="doc-desc-title">systémového logu</span>. <span class="doc-desc-opt">Debug</span> znamená nejnižší závažnost a <span class="doc-desc-opt">Error</span> znamená nejvyšší. Pokud například chcete vidět všechny problémy v <span class="doc-desc-title">systémovém logu</span>, zvolte <span class="doc-desc-opt">Debug</span>.'
+purge_logs:
+  title: Mazání logu
+  content: 'Určuje dobu, po kterou budou uchovávány  <span class="doc-desc-title">Systémové záznamy</span> než budou smazány.'
+enable_richtext:
+  title: Enable Rich Text
+  content: If enabled, this will permit the use of rich text formatting between Clients and Agents.
+enable_avatars:
+  title: Enable Avatars on Thread View
+  content: |-
+    Enable this to show <span class="doc-desc-title">Avatars</span> on thread correspondence. <br><br> The <span class="doc-desc-title">Avatar Source</span> can be set in Agents' and Users' settings pages.
+  links:
+    - 
+      title: Agents Settings
+      href: /scp/settings.php?t=agents
+    - 
+      title: Users Settings
+      href: /scp/settings.php?t=users
+collision_avoidance:
+  title: Agent Collision Avoidance
+  content: 'Enter the maximum length of time an Agent is allowed to hold a lock on a ticket or task without any activity. <br><br> Enter <span class="doc-desc-opt">0</span> to disable the lockout feature.'
+date_time_options:
+  title: Možnosti data a času
+  content: 'The following settings define the default settings for Date &amp; Time settings for the help desk. You can choose to use the locale defaults for the selected locale or use customize the formats to meet your unique requirements. Refer to the ICU format strings as a reference for customization.  The dates shown below simply illustrate the result of their corresponding values.'
+  links:
+    - 
+      title: See the ICU Date Formatting Table
+      href: http://userguide.icu-project.org/formatparse/datetime
+languages:
+  title: System Languages
+  content: Choose a system primary language and optionally secondary languages to make your interface feel localized for your agents and end-users.
+primary_language:
+  title: System Primary Language
+  content: 'Content of this language is displayed to agents and end-users if their respective language preference is not currently available. This includes the content of the interface, as well as, custom content such as thank-you pages and email messages. <br/><br/> This is the language in which the untranslated versions of your content should be written.'
+secondary_language:
+  title: Secondary Languages
+  content: Select language preference options for your agents and end-users. The interface will be available in these languages, and custom content, such as thank-you pages and help topic names, will be translatable to these languages.
+attachments:
+  title: Attachment Settings and Storage
+  content: Configure how attachments are stored.
+default_storage_bk:
+  title: File Storage Backend
+  content: 'Choose how attachments are stored. <br<br> Additional storage backends can be added by installing storage plugins'
+max_file_size:
+  title: Maximum File Size
+  content: "Choose a maximum file size for attachments uploaded by agents. This includes canned attachments, knowledge base articles, and attachments to ticket and task replies. The upper limit is controlled by PHP's <code>upload_max_filesize</code> setting."
+  links:
+    - 
+      title: PHP ini settings
+      href: 'http://php.net/manual/en/ini.core.php#ini.upload-max-filesize'
