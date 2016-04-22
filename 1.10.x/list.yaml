@@ -1,14 +1,14 @@
 ---
 - 
   type: ticket-status
-  name: Stav ticketu
-  name_plural: Stavy ticketu
+  name: Stav požadavku
+  name_plural: Stavy požadavku
   sort_mode: SortCol
   masks: 13
-  notes: Stavy ticketu
+  notes: Stavy požadavku
   properties:
-    title: Vlastnosti stavu ticketu
-    instructions: Vlastnosti, které mohou být nastaveny u stavu ticketu.
+    title: Vlastnosti stavu požadavku
+    instructions: Vlastnosti, které mohou být nastaveny u stavu požadavku.
     flags: 0
     fields:
       - 

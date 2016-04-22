@@ -8,7 +8,7 @@
     - 
       type: text
       name: email
-      label: E-mail
+      label: E-mailová adresa
       sort: 1
       flags: 489379
       configuration:
@@ -42,7 +42,7 @@
 - 
   id: 2
   type: T
-  title: Podrobnosti k požadavku
+  title: Podrobnosti požadavku
   instructions: Popište prosím Váš problém
   notes: Tento formulář bude připojen ke každému požadavku bez ohledu na jeho zdroj. Do formuláře můžete přidat jakékoli pole, které bude dostupné pro všechny požadavky a bude ho možné prohledávat pomocí pokročilého vyhledávání a filtrování.
   flags: 0
@@ -51,7 +51,7 @@
       id: 20
       type: text
       name: subject
-      label: Shrnutí problému
+      label: Předmět požadavku
       sort: 1
       flags: 489249
       configuration:
@@ -69,12 +69,12 @@
       id: 22
       type: priority
       name: priority
-      label: Úroveň priority
+      label: Stupeň priority
       flags: 274609
       sort: 3
 - 
   type: C
-  title: Firemní informace
+  title: Informace o zákazníkovi
   instructions: Podrobnosti dostupné v šabloně e-mailu
   flags: 0
   fields:
@@ -167,9 +167,9 @@
         cols: 40
 - 
   type: A
-  title: Task Details
-  instructions: Please Describe The Issue
-  notes: This form is used to create a task.
+  title: Podrobnosti úkolu 
+  instructions: Popište prosím úkol, který zadávate
+  notes: Tento formulář je používán k vytvoření úkolu.
   flags: 0
   fields:
     - 
@@ -177,7 +177,7 @@
       name: title
       flags: 290977
       sort: 1
-      label: Title
+      label: Název
       configuration:
         size: 40
         length: 50
@@ -186,5 +186,5 @@
       name: description
       flags: 282867
       sort: 2
-      label: Description
-      hint: Details on the reason(s) for creating the task.
+      label: Popis
+      hint: Podrobnosti o důvodech pro otevření tohoto úkolu.

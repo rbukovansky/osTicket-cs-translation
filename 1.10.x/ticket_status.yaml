@@ -1,7 +1,7 @@
 ---
 - 
   id: 1
-  name: Otevřít
+  name: Otevřené
   state: open
   mode: 3
   sort: 1
@@ -18,7 +18,7 @@
   properties:
     allowreopen: true
     reopenstatus: 0
-    description: Resolved tickets
+    description: Vyřešené požadavky jsou uzavřené požadavky, které mohou být znovu otevřeny zákazníkem. To může být užitečné, pokud jsou požadavky uzavírány spouštěčem a je odesláno oznámení zákazníkovi.
 - 
   id: 3
   name: Uzavřené
@@ -29,7 +29,7 @@
   properties:
     allowreopen: true
     reopenstatus: 0
-    description: Closed tickets. Tickets will still be accessible on client and staff panels.
+    description: Požadavky, které jsou označeny jako uzavřené, nemůže zákazník znovu otevřít. Požadavky budou stále přístupné na panelu zákazníků a zaměstnanců.
 - 
   id: 4
   name: Archivované
@@ -38,13 +38,13 @@
   sort: 4
   flags: 0
   properties:
-    description: Tickets only adminstratively available but no longer accessible on ticket queues and client panel.
+    description: Požadavky dostupné pouze správcům, ale již nedostupné ve frontě požadavků.
 - 
   id: 5
-  name: Smazáno
+  name: Smazané
   state: deleted
   mode: 3
   sort: 5
   flags: 0
   properties:
-    description: Poždavky čekající na smazání. Nedostupné ve frontě požadavků.
+    description: Požadavky čekající na smazání. Nedostupné ve frontě požadavků.

@@ -8,7 +8,7 @@
     - 
       type: text
       name: email
-      label: E-mail
+      label: E-mailová adresa
       required: true
       sort: 1
       edit_mask: 15
@@ -45,7 +45,7 @@
 - 
   id: 2
   type: T
-  title: Podrobnosti k požadavku
+  title: Podrobnosti požadavku
   instructions: Popište prosím Váš problém
   notes: Tento formulář bude připojen ke každému požadavku bez ohledu na jeho zdroj. Do formuláře můžete přidat jakékoli pole, které bude dostupné pro všechny požadavky a bude ho možné prohledávat pomocí pokročilého vyhledávání a filtrování.
   deletable: false
@@ -54,7 +54,7 @@
       id: 20
       type: text
       name: subject
-      label: Shrnutí problému
+      label: Předmět požadavku
       required: true
       edit_mask: 15
       sort: 1
@@ -74,14 +74,14 @@
       id: 22
       type: priority
       name: priority
-      label: Úroveň priority
+      label: Stupeň priority
       required: false
       private: true
       edit_mask: 3
       sort: 3
 - 
   type: C
-  title: Firemní informace
+  title: Informace o zákazníkovi
   instructions: Podrobnosti dostupné v šabloně e-mailu
   deletable: false
   fields:

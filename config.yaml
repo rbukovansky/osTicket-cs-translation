@@ -1,13 +1,13 @@
 ---
 core:
-  time_format: h:i A
+  time_format: H:i
   date_format: d.m.Y
-  datetime_format: d.m.Y g:i a
-  daydatetime_format: D, M j Y g:ia
+  datetime_format: d.m.Y G:i
+  daydatetime_format: D, d. m. Y G:i
   default_timezone_id: 15
   default_priority_id: 2
-  enable_daylight_saving: 0
-  reply_separator: – Odpověďte nad tento řádek –
+  enable_daylight_saving: 1
+  reply_separator: -- Odpovězte nad tímto řádkem --
   allowed_filetypes: .doc, .pdf, .jpg, .jpeg, .gif, .png, .xls, .docx, .xlsx, .txt
   isonline: 1
   staff_ip_binding: 0
