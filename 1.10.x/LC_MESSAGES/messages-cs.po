@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-20 16:22+0200\n"
+"PO-Revision-Date: 2016-04-22 11:53+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -7636,7 +7636,7 @@ msgstr "např."
 
 #: include/staff/helptopic.inc.php:171
 msgid "Sequence"
-msgstr "Posloupnost"
+msgstr "Číselná řada"
 
 #: include/staff/helptopic.inc.php:176 include/staff/settings-tasks.inc.php:51
 #: include/staff/settings-tickets.inc.php:52
@@ -8708,7 +8708,7 @@ msgstr "Výchozí formát čísla úkolů"
 
 #: include/staff/settings-tasks.inc.php:46
 msgid "Default Task Number Sequence"
-msgstr "Výchozí pořadí čísel úkolů"
+msgstr "Výchozí číselná řada úkolů"
 
 #: include/staff/settings-tasks.inc.php:66
 #: include/staff/settings-tickets.inc.php:98
@@ -8737,7 +8737,7 @@ msgstr "Výchozí formát čísla požadavku"
 
 #: include/staff/settings-tickets.inc.php:47
 msgid "Default Ticket Number Sequence"
-msgstr "Výchozí číselná řada požadavku"
+msgstr "Výchozí číselná řada požadavků"
 
 #: include/staff/settings-tickets.inc.php:68
 msgid "Default Status"
@@ -10289,11 +10289,11 @@ msgstr "Výplňový znak"
 #: include/staff/templates/sequence-manage.tmpl.php:47
 #: include/staff/templates/sequence-manage.tmpl.php:74
 msgid "New Sequence"
-msgstr "Nová sekvence"
+msgstr "Nová číselná řada"
 
 #: include/staff/templates/sequence-manage.tmpl.php:80
 msgid "Add New Sequence"
-msgstr "Přidat novou sekvenci"
+msgstr "Přidat novou číselnou řadu"
 
 #: include/staff/templates/sequence-manage.tmpl.php:84
 msgid ""
