@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-22 16:15+0200\n"
+"PO-Revision-Date: 2016-04-22 16:28+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -1055,7 +1055,7 @@ msgstr "Úkol %s je aktualně přiřazen zaměstnanci %s"
 #: include/ajax.tickets.php:463 include/ajax.tickets.php:520
 #, php-format
 msgid "%s assigned to %s"
-msgstr "Úkol %s byl přiřazen zaměstnanci %s"
+msgstr "%s byl přiřazen zaměstnanci %s"
 
 #: include/ajax.tasks.php:552
 msgid "Unable to assign task"
@@ -4958,7 +4958,7 @@ msgstr "Upozornění na nový požadavek"
 
 #: include/class.template.php:90
 msgid "Alert sent to agents, if enabled, on new ticket."
-msgstr "Upozornění, pokud je povoleno, zasláno zaměstnancům na nový požadavek."
+msgstr "Upozornění na nový požadavek, pokud je povoleno, zasláno zaměstnancům."
 
 #: include/class.template.php:97 include/staff/settings-alerts.inc.php:40
 msgid "New Message Alert"
@@ -4966,7 +4966,7 @@ msgstr "Upozornění na novou zprávu"
 
 #: include/class.template.php:98
 msgid "Alert sent to agents, if enabled, when user replies to an existing ticket."
-msgstr "Upozornění, pokud je povoleno, zasláno zaměstnancům při odpovědi uživatele k existujícímu požadavku."
+msgstr "Upozornění na novou odpověď uživatele k existujícímu požadavku, pokud je povoleno, je zasláno zaměstnancům."
 
 #: include/class.template.php:105
 msgid "Internal Activity Alert"
@@ -5018,7 +5018,7 @@ msgstr "Upozornění na novou událost"
 
 #: include/class.template.php:154
 msgid "Alert sent to selected agents, if enabled, on new activity."
-msgstr "Upozornění, pokud je povoleno, odeslané vybraným zaměstnancům při nové činnosti."
+msgstr "Upozornění na novou aktivitu, pokud je povoleno, je odeslané vybraným zaměstnancům při nové činnosti."
 
 #: include/class.template.php:161 include/staff/settings-tasks.inc.php:180
 msgid "Task Assignment Alert"
