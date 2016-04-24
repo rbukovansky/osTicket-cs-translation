@@ -1,7 +1,7 @@
 ---
 staff_members:
   title: Zaměstnanci
-  content: 'Následující tabulka zobrazuje výsledek nad ní nastaveného filtru. Pokud nejsou nastavená žádná filtrovací kritéria, tak budou zobrazeni všichni <span class="doc-desc-title">zaměstnanci </span> a budou rozděleni do stránek. Použijte sekci stránek níže k procházení více výsledků.'
+  content: 'Následující tabulka zobrazuje výsledek nad ní nastaveného filtru. Pokud nejsou nastavená žádná filtrovací kritéria, tak budou zobrazeni všichni <span class="doc-desc-title">zaměstnanci</span> a tento seznam bude rozdělen na stránky. Použijte navigaci níže k procházení záznamů.'
 apply_filtering_criteria:
-  title: Nastav filtrovací kritéria
-  content: 'Vyberte <span class="doc-desc-title">oddělení</span> které odpovídá vašemu současnému zájmu. Můžete též provést hledání specifického agenta.'
+  title: Nastavit filtrovací kritéria
+  content: 'Vyberte <span class="doc-desc-title">oddělení</span>, kterým se aktuálně chcete zabývat. Můžete též provést hledání specifického zaměstnance.'
