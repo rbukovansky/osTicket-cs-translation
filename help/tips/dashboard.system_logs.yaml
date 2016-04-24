@@ -1,29 +1,29 @@
 ---
 system_logs:
   title: Systémové logy
-  content: Tady najdete veškeré logy (jako chyby, varování nebo bugy) potřebné při odstraňování problémů.
+  content: Tady najdete veškeré logy (např. chyby, varování nebo bugy) potřebné při odstraňování problémů.
   links:
     - 
-      title: 'Uprav jaký typ aktivit bude logován změnou <br /><span class="doc-desc-title">Výchozí úroveň logování</span>.'
+      title: 'Nastavte jaký typ aktivit bude logován změnou položky <br /><span class="doc-desc-title">Výchozí úroveň logování</span>.'
       href: /scp/settings.php?t=system
 date_span:
-  title: Rozpětí datumu
-  content: 'Vyberte váš rozsah kalendáře, který chcete vidět v <span class="doc-desc-title">Systémovém logu</span>.'
+  title: Rozpětí dat
+  content: 'Vyberte počáteční a koncové data, kterými chcete omezit zobrazení <span class="doc-desc-title">systémového logu</span>.'
 type:
   title: Typ
   content: 'Zvolte možnost zúžit zaměření na konkrétní typ činnosti. <span class="doc-desc-opt">Debug</span> představuje nejmenší závažnost, a <span class="doc-desc-opt">Error</span> představuje největší závažnost.'
 showing_logs:
-  title: '&hellip;Logy'
-  content: 'Nezapomeňte se podívat na <span class="doc-desc-title">Page</span> níže, aby jste se ujistili, že tam není více stránek zobrazujících Systémové logy.'
+  title: 'Zobrazení logů'
+  content: 'Nezapomeňte zkontrolovat sekci <span class="doc-desc-title">stránkování</span>, aby jste se ujistili, že není zobrazeno více stránek se systémovými logy.'
 log_title:
-  title: Titulek logu
-  content: 'Klikněte na <span class="doc-desc-title">Log Title</span> v hlavičce tabulky pokud chcete seřadit výsledky dle  <span class="doc-desc-title">Log Title</span>.'
+  title: Název logu
+  content: 'Klikněte na <span class="doc-desc-title">název logu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">názvu logu</span>.'
 log_type:
   title: Typ logu
-  content: 'Klikněte na <span class="doc-desc-title">Log Type</span> v hlavičce tabulky pokud chcete seřadit výsledky dle  <span class="doc-desc-title">Log Type</span>.'
+  content: 'Klikněte na <span class="doc-desc-title">typ logu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">typu logu</span>.'
 log_date:
   title: Datum logu
-  content: 'Toto datum bylo vygenerováno programem. Pokud chcete seřadit výsledky dle <span class="doc-desc-title">Log Date</span>, jednoduše klikněte na <span class="doc-desc-title">Log Date</span> v hlavičče tabulky. (Použijte <span class="doc-desc-title">Date Span</span> formulář výše  pro žůžení výběru vyhledávání logu.)'
+  content: 'Toto datum bylo vygenerováno programem. Klikněte na <span class="doc-desc-title">data logu</span> v hlavičce tabulky pro seřazení výsledků <span class="doc-desc-title">data logu</span>. (Použijte formulář <span class="doc-desc-title">rozpětí dat</span> pro žúžení rozsahu logu.)'
 ip_address:
   title: IP adresa
-  content: 'Toto ukazuje na <span class="doc-desc-title">IP</span><span class="doc-desc-title"> Address</span> agent nebo client který použil osTicket v době vygenerování záznamu.'
+  content: 'Toto ukazuje na <span class="doc-desc-title">IP adresu</span> zaměstnance nebo zákazníka, který používal osTicket v době vygenerování záznamu.'
