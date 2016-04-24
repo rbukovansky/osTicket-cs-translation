@@ -4,10 +4,10 @@ contact_information:
   content: ""
 username:
   title: Uživatelské jméno
-  content: 'Pouze agenti se statusem Admin mohou změnit uživatelske jméno. Pokud jste agent s Admin oprávněním, můžete toho dosáhnout vybráním agenta pro následnou editaci z tabulky<span class="doc-desc-title">Zaměstnanci</span> .'
+  content: 'Pouze správci mohou změnit uživatelské jméno. Pokud jste zaměstnanec se správcovským oprávněním, změny uživatelského jména dosáhnete jeho vybráním a následou úpravou v tabulce<span class="doc-desc-title">Zaměstnanci</span>.'
   links:
     - 
-      title: Změnte uživatelské jméno jako Administrátor
+      title: Změňte uživatelské jméno jako správce
       href: /scp/staff.php
 time_zone:
   title: Časové pásmo
@@ -19,17 +19,17 @@ maximum_page_size:
   title: Maximální velikost stránky
   content: ""
 auto_refresh_rate:
-  title: Automaticky obnovovat
+  title: Rychlost automatického obnovování
   content: ""
 default_signature:
   title: Výchozí podpis
   content: ""
 default_paper_size:
-  title: Výchozí velikost stránky
+  title: Výchozí velikost papíru
   content: ""
 show_assigned_tickets:
-  title: Ukaž přiřazené tikety
-  content: '<p> Enabling this option will override the global setting to hide assigned tickets from the open queues. </p> <p class="info-banner"> <i class="icon-info-sign"></i> This setting is only available when assigned tickets are excluded globally. </p>'
+  title: Ukázat přiřazené požadavky
+  content: 'Povolením schováte vaše jméno z fronty <span class="doc-desc-title">Otevřené</span> požadavky, které vám byli přiřazeny. Po skrytí vašeho jména dojde k jeho nahrazení jménem <span class="doc-desc-title">oddělení</span>, ke kterému náležíte.'
 password:
   title: Heslo
   content: ""
@@ -44,8 +44,8 @@ confirm_new_password:
   content: ""
 signature:
   title: Podpis
-  content: 'Vytvořte volitelný <span class="doc-desc-title">Podpis</span> , který se může objevit v odpovědích na tikety na jejich konci. Jestli se <span class="doc-desc-title">Podpis</span> objeví nebo ne, závísí na <span class="doc-desc-title">Šabloně emailu</span> která bude použita v odpovědi na tiket.'
+  content: 'Vytvořte volitelný <span class="doc-desc-title">podpis</span>, který může být přidán na konec odpovědi na požadavek. Zda-li se tento <span class="doc-desc-title">podpis</span> objeví nebo ne, závisí na <span class="doc-desc-title">šabloně emailu</span>, která bude použita pro odpověď na požadavek.'
   links:
     - 
-      title: Vytvořte šablony emailů v administračním panelu
+      title: Vytvořte šablony emailů ve správcovském panelu
       href: /scp/templates.php
