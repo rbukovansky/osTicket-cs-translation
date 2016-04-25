@@ -21,7 +21,7 @@
   dept_id: 1
   priority_id: 2
   topic: Nahlásit problém
-  notes: Produkt, služba nebo problém související se zařízením
+  notes: Problémy s produktem, službou nebo se souvisejícím zařízením
 - 
   topic_pid: 10
   isactive: 1
