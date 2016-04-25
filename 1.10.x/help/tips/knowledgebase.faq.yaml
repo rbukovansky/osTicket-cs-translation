@@ -1,8 +1,8 @@
 ---
 listing_type:
-  title: Typ procházení
-  content: 'Vyber <span class="doc-desc-opt">veřejnou(publikovanou),</span>, pokud chceš toto<span class="doc-desc-title">FAQ</span>zveřejnit ve Veřejné znalostní bázi pokud je veřejný vzor.'
+  title: Typ vystavení
+  content: 'Vyberte jako <span class="doc-desc-opt">veřejnou (publikovanou)</span>, pokud chcete tento <span class="doc-desc-title">častý dotaz</span>zveřejnit ve veřejné bázi znalostí, pokud je rodičovská kategorie jako veřejná.'
   links:
     - 
-      title: Povol veřejnou Znalostní bázi pro Klientský Portál
+      title: Povolit veřejnou bázi znalostí v zákaznickém portále
       href: /scp/settings.php?t=kb
