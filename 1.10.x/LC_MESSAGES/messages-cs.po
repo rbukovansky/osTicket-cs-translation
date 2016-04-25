@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-25 12:14+0200\n"
+"PO-Revision-Date: 2016-04-25 12:40+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -2257,13 +2257,13 @@ msgstr "Interní, povinné"
 
 #: include/class.dynamic_forms.php:849
 msgid "Label is required for custom form fields"
-msgstr "Je požadován název pro položku uživatelského formuláře"
+msgstr "Je požadován popisek pro položku uživatelského formuláře"
 
 #. `required` is a visibility setting fields
 #. `variable` is used for automation. Internally it's called `name`
 #: include/class.dynamic_forms.php:854
 msgid "Variable name is required for required fields"
-msgstr "Název proměnné je požadován pro povinná pole"
+msgstr "Název proměnné je požadován pro povinné položky"
 
 #: include/class.dynamic_forms.php:861 scp/lists.php:69
 msgid "Invalid character in variable name. Please use letters and numbers only."
@@ -2611,7 +2611,7 @@ msgstr "E-mail"
 #: include/class.export.php:444
 #, php-format
 msgid "%s: Cannot export table with no fields\n"
-msgstr "%s: Nelze exportovat tabulku bez polí\n"
+msgstr "%s: Nelze exportovat tabulku bez položek\n"
 
 #: include/class.faq.php:52
 msgid "FAQ"
@@ -3040,7 +3040,7 @@ msgstr "za %d roků"
 
 #: include/class.forms.php:527
 msgid "Basic Fields"
-msgstr "Základní pole"
+msgstr "Základní položky"
 
 #: include/class.forms.php:528
 msgid "Short Answer"
@@ -3087,11 +3087,11 @@ msgstr "Informace"
 #: include/class.forms.php:673
 #, php-format
 msgid "%s is a required field"
-msgstr "%s je povinné pole"
+msgstr "%s je povinná položka"
 
 #: include/class.forms.php:674
 msgid "This is a required field"
-msgstr "Toto pole je nutné vyplnit"
+msgstr "Tuto položku je nutné vyplnit"
 
 #: include/class.forms.php:868 include/class.forms.php:1644
 #: include/class.forms.php:2834
@@ -3172,7 +3172,7 @@ msgstr "%s: Volání nedefinované funkce"
 
 #: include/class.forms.php:1212
 msgid "Widget not defined for this field"
-msgstr "Widget není definován pro tuto oblast"
+msgstr "Pro tuto položku není nadefinována komponenta (widget)"
 
 #: include/class.forms.php:1246
 msgid "Size"
@@ -3267,7 +3267,7 @@ msgstr "Klapka"
 
 #: include/class.forms.php:1420
 msgid "Add a separate field for the extension"
-msgstr "Zadejte oddělené pole pro rozšíření"
+msgstr "Zadejte samostatnou položku pro rozšíření"
 
 #: include/class.forms.php:1424
 msgid "Minimum length"
@@ -3451,12 +3451,12 @@ msgstr "Direktiva \"file_uploads\" je v php.ini vypnuta"
 
 #: include/class.forms.php:2154
 msgid "Default selection for this field"
-msgstr "Výchozí výběr pro toto pole"
+msgstr "Výchozí výběr pro tuto položku"
 
 #: include/class.forms.php:2169 include/class.forms.php:2235
 #: include/class.forms.php:2356
 msgid "Dynamic Fields"
-msgstr "Dynamická pole"
+msgstr "Dynamická položka"
 
 #: include/class.forms.php:2171 include/class.priority.php:54
 msgid "Priority Level"
@@ -3688,7 +3688,7 @@ msgstr "Ooops. Možná si chtěl odeslat nějaký CSV záznam"
 #: include/class.import.php:71
 #, php-format
 msgid "%s: Field must have `variable` set to be imported"
-msgstr "%s: Pole pro import musí obsahovat `proměnou`"
+msgstr "%s: Položka musí mít nastavenu proměnnou `variable` pro import"
 
 #: include/class.import.php:88
 #, php-format
@@ -3704,7 +3704,7 @@ msgstr "Špatné údaje. Očekáváno: %s"
 #: include/class.import.php:183
 #, php-format
 msgid "%1$s: Invalid data: %2$s"
-msgstr "%1$s: Neplatná údaje: %2$s"
+msgstr "%1$s: Neplatné údaje: %2$s"
 
 #: include/class.json.php:46
 msgid "No errors"
@@ -4198,7 +4198,7 @@ msgstr "%s: V opačném směru nejsou žádné vazby"
 #: include/class.orm.php:371
 #, php-format
 msgid "%s: %s: Field not defined"
-msgstr "%s: %s: Pole nedefinováno"
+msgstr "%s: %s: Položka není nedefinována"
 
 #: include/class.orm.php:427
 #, php-format
@@ -4382,7 +4382,7 @@ msgstr "Klíčová slova - Volitelné"
 
 #: include/class.search.php:731
 msgid "No fields selected for searching"
-msgstr "Nebyly pro hledání vybrány žádná pole"
+msgstr "Žádné položky pro hledání nebyly vybrány"
 
 #: include/class.search.php:758 include/staff/dynamic-lists.inc.php:47
 #: include/staff/emails.inc.php:78 include/staff/org-view.inc.php:65
@@ -4766,7 +4766,7 @@ msgstr "Umožnění mazat úkoly"
 #: include/class.task.php:192 include/class.ticket.php:315
 #, php-format
 msgid "%1$s is missing data on %2$s one or more required fields %3$s and cannot be closed"
-msgstr "%1$s nemá zadány údaje na %2$s jednom či více z požadovaných polí %3$s a nemůže být uzavřen"
+msgstr "%1$s nemá zadány údaje na %2$s jedné či více z požadovaných položek %3$s a nemůže být uzavřen"
 
 #: include/class.task.php:257 include/staff/templates/task-preview.tmpl.php:55
 #: include/staff/templates/task-view.tmpl.php:328 scp/tasks.php:176
@@ -5721,7 +5721,7 @@ msgstr "Neplatný vstup"
 
 #: include/class.validator.php:43
 msgid "No fields set up"
-msgstr "Žádné pole není nastaveno"
+msgstr "Žádná položka není nastavena"
 
 #: include/class.validator.php:115
 msgid "(Five characters min)"
@@ -7003,7 +7003,7 @@ msgstr "Instrukce"
 
 #: include/staff/dynamic-form.inc.php:121
 msgid "User Information Fields"
-msgstr "Uživatelské informační pole"
+msgstr "Uživatelské informační položky"
 
 #: include/staff/dynamic-form.inc.php:122
 #, php-format
@@ -7011,7 +7011,7 @@ msgid ""
 "(These fields are requested for new tickets\n"
 "                via the %s form)"
 msgstr ""
-"(Tyto pole jsou povinná pro nový požadavek\n"
+"(Tyto položky jsou povinné pro nový požadavek\n"
 " pomocí formuláře %s)"
 
 #: include/staff/dynamic-form.inc.php:129
@@ -7037,11 +7037,11 @@ msgstr "Proměnná"
 
 #: include/staff/dynamic-form.inc.php:157
 msgid "Form Fields"
-msgstr "Pole formuláře"
+msgstr "Položky formuláře"
 
 #: include/staff/dynamic-form.inc.php:158
 msgid "fields available where this form is used"
-msgstr "pole jsou dostupná tam, kde je tento formulář použit"
+msgstr "položky jsou dostupné tam, kde je tento formulář použit"
 
 #: include/staff/dynamic-form.inc.php:213
 #: include/staff/dynamic-list.inc.php:166
@@ -7057,11 +7057,11 @@ msgstr "Odstranit existujicí údaje?"
 #: include/staff/dynamic-form.inc.php:305
 #, php-format
 msgid "You are about to delete %s fields."
-msgstr "Chystáš se smazat %s polí."
+msgstr "Chystáš se smazat %s položek."
 
 #: include/staff/dynamic-form.inc.php:307
 msgid "Would you also like to remove data currently entered for this field? <em> If you opt not to remove the data now, you will have the option to delete the the data when editing it.</em>"
-msgstr "Chcete také odstranit údaje zadané do tohoto pole? <em>Jestliže nechcete odstranit údaje nyní, budete mít možnost je smazat během jejich úpravy.</em>"
+msgstr "Chcete také odstranit údaje zadané do této položky? <em>Jestliže nechcete odstranit údaje nyní, budete mít možnost je smazat během jejich úpravy.</em>"
 
 #: include/staff/dynamic-form.inc.php:329 include/staff/footer.inc.php:20
 #: include/staff/footer.inc.php:25
@@ -10020,15 +10020,15 @@ msgstr "Volitelný důvod pro smazání"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:1
 msgid "Field Configuration"
-msgstr "Konfigurace polí"
+msgstr "Konfigurace položek"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:7
 msgid "Field Setup"
-msgstr "Nastavená položky"
+msgstr "Nastavení položky"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:17
 msgid "This field can be disabled which will remove it from the form for new entries, but will preserve the data on all current entries."
-msgstr "Toto pole může být vypnuto, což jej odstraní z formuláře pro nové požadavky, ale zachová údaje na již zadaných požadavcích."
+msgstr "Tato položka může být vypnuta, což ji odstraní z formuláře pro nové požadavky, ale zachová údaje na již zadaných požadavcích."
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:30
 #: include/staff/templates/dynamic-field-config.tmpl.php:32
@@ -10085,7 +10085,7 @@ msgstr "Text nápovědy"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:160
 msgid "Help text shown with the field"
-msgstr "Text nápovědy zobrazen v poli"
+msgstr "Text nápovědy zobrazen u položky"
 
 #: include/staff/templates/dynamic-form.tmpl.php:86
 msgid "Required to close ticket"
@@ -10093,7 +10093,7 @@ msgstr "Vyžadováno pro uzavření požadavku"
 
 #: include/staff/templates/dynamic-form.tmpl.php:87
 msgid "Data is required in this field in order to close the related ticket"
-msgstr "Tuto položku je nutné vyplnit před zavřením požadavku"
+msgstr "Tuto položku je nutné vyplnit před uzavřením požadavku"
 
 #: include/staff/templates/form-manage.tmpl.php:4
 msgid "Sort the forms on this ticket by click and dragging on them. Use the box below the forms list to add new forms to the ticket."
@@ -10203,7 +10203,7 @@ msgstr "Vytvořit novou organizaci"
 
 #: include/staff/templates/org-profile.tmpl.php:18
 msgid "Fields"
-msgstr "Pole"
+msgstr "Položky"
 
 #: include/staff/templates/org-profile.tmpl.php:78
 msgid "Auto-Assignment"
@@ -10571,7 +10571,7 @@ msgstr "Zadejte jedno jméno a e-mailovou adresu na každý řádek."
 
 #: include/staff/templates/user-import.tmpl.php:34
 msgid "To import more other fields, use the Upload tab."
-msgstr "Pro import dalších polí použijte záložku Nahrát."
+msgstr "Pro import dalších položek použijte záložku Nahrát."
 
 #: include/staff/templates/user-import.tmpl.php:37
 msgid "e.g. John Doe, john.doe@osticket.com"
@@ -10580,7 +10580,7 @@ msgstr "např. Jan Novák, jan.novak@firma.cz"
 #: include/staff/templates/user-import.tmpl.php:46
 #, php-format
 msgid "Use the columns shown in the table below. To add more fields, visit the Admin Panel -&gt; Manage -&gt; Forms -&gt; %s page to edit the available fields.  Only fields with `variable` defined can be imported."
-msgstr "Použijte sloupce v níže zobrazené tabulce. Pro přidání dalších sloupců navštivte Panel správce -&gt; Spravovat -&gt; Formuláře -&gt; %s a upravte dostupnost polí. Lze importovat pouze pole s nadefinovanou proměnnou."
+msgstr "Použijte sloupce v níže zobrazené tabulce. Pro přidání dalších sloupců navštivte Panel správce -&gt; Spravovat -&gt; Formuláře -&gt; %s a upravte dostupnost položek. Lze importovat pouze položky s nadefinovanou proměnnou."
 
 #: include/staff/templates/user-import.tmpl.php:54
 msgid "John Doe"
@@ -11338,15 +11338,15 @@ msgstr "uživatelský formulář"
 
 #: scp/forms.php:49 scp/forms.php:118 scp/lists.php:67
 msgid "Field variable name is not unique"
-msgstr "Název pole je duplicitní"
+msgstr "Název položky je duplicitní"
 
 #: scp/forms.php:53
 msgid "The issue summary must be a field that supports user input, such as short answer"
-msgstr "Pole shrnutí požadavku musí umožňovat zadání dat, jako např. krátká odpověď"
+msgstr "Položka pro zadání shrnutí požadavku musí umožňovat zadání údajů, jako např. krátká odpověď"
 
 #: scp/forms.php:62
 msgid "Field has validation errors"
-msgstr "Chyba validace pole"
+msgstr "Chyba validace položky"
 
 #: scp/forms.php:80
 msgid "one custom form"
@@ -12420,7 +12420,7 @@ msgstr "Základní instalace osTicket"
 
 #: setup/inc/install.inc.php:7
 msgid "Please fill out the information below to continue your osTicket installation. All fields are required."
-msgstr "Vyplňte následující informace pro pokračování v instalaci osTicketu. Všechna pole jsou povinné."
+msgstr "Vyplňte následující informace pro pokračování v instalaci osTicketu. Všechny položky jsou povinné."
 
 #: setup/inc/install.inc.php:12
 msgid "The URL of your helpdesk, its name, and the default system email address"
