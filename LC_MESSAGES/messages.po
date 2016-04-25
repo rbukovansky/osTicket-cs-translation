@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-22 16:15+0200\n"
+"PO-Revision-Date: 2016-04-25 12:14+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -697,7 +697,7 @@ msgstr "Vestavěný požadavek"
 #: include/ajax.search.php:155 include/ajax.search.php:174
 #: include/staff/dynamic-forms.inc.php:6 include/staff/dynamic-forms.inc.php:77
 msgid "Custom Forms"
-msgstr "Volitelné formuláře"
+msgstr "Uživatelské formuláře"
 
 #: include/ajax.staff.php:60 include/ajax.staff.php:112
 msgid "Password update failed:"
@@ -2257,7 +2257,7 @@ msgstr "Interní, povinné"
 
 #: include/class.dynamic_forms.php:849
 msgid "Label is required for custom form fields"
-msgstr "Je požadován název pro vlastní pole formuláře"
+msgstr "Je požadován název pro položku uživatelského formuláře"
 
 #. `required` is a visibility setting fields
 #. `variable` is used for automation. Internally it's called `name`
@@ -3782,7 +3782,7 @@ msgstr "Nelze zpracovat zaslané položky"
 
 #: include/class.list.php:595 include/staff/dynamic-lists.inc.php:6
 msgid "Custom Lists"
-msgstr "Vlastní seznam"
+msgstr "Uživatelské seznamy"
 
 #: include/class.list.php:967
 msgid "Allow Reopen"
@@ -4958,7 +4958,7 @@ msgstr "Upozornění na nový požadavek"
 
 #: include/class.template.php:90
 msgid "Alert sent to agents, if enabled, on new ticket."
-msgstr "Upozornění, pokud je povoleno, zasláno agentům na nový požadavek."
+msgstr "Upozornění na nový požadavek, pokud je povoleno, zasláno zaměstnancům."
 
 #: include/class.template.php:97 include/staff/settings-alerts.inc.php:40
 msgid "New Message Alert"
@@ -4966,7 +4966,7 @@ msgstr "Upozornění na novou zprávu"
 
 #: include/class.template.php:98
 msgid "Alert sent to agents, if enabled, when user replies to an existing ticket."
-msgstr "Upozornění, pokud je povoleno, zasláno agentům při odpovědi uživatele k existujícímu požadavku."
+msgstr "Upozornění na novou odpověď uživatele k existujícímu požadavku, pokud je povoleno, je zasláno zaměstnancům."
 
 #: include/class.template.php:105
 msgid "Internal Activity Alert"
@@ -4974,7 +4974,7 @@ msgstr "Upozornění na interní aktivitu"
 
 #: include/class.template.php:106
 msgid "Alert sent out to Agents when internal activity such as an internal note or an agent reply is appended to a ticket."
-msgstr "Upozornění zaslané agentům v případě přidání interní poznámky nebo odpovědi k požadavku."
+msgstr "Upozornění zaslané zaměstnancům v případě přidání interní poznámky nebo odpovědi k požadavku."
 
 #: include/class.template.php:113 include/staff/settings-alerts.inc.php:110
 msgid "Ticket Assignment Alert"
@@ -4982,7 +4982,7 @@ msgstr "Upozornění o přiřazení požadavku"
 
 #: include/class.template.php:114
 msgid "Alert sent to agents on ticket assignment."
-msgstr "Upozornění zasláné agentům při přiřazení požadavku."
+msgstr "Upozornění zasláné zaměstnancům při přiřazení požadavku."
 
 #: include/class.template.php:121 include/staff/settings-alerts.inc.php:141
 msgid "Ticket Transfer Alert"
@@ -4990,7 +4990,7 @@ msgstr "Upozornění o předání požadavku"
 
 #: include/class.template.php:122
 msgid "Alert sent to agents on ticket transfer."
-msgstr "Upozornění zasláné agentům při předání požadavku."
+msgstr "Upozornění zasláné zaměstnancům při předání požadavku."
 
 #: include/class.template.php:129 include/staff/settings-alerts.inc.php:171
 msgid "Overdue Ticket Alert"
@@ -4998,7 +4998,7 @@ msgstr "Upozornění na zpožděný požadavek"
 
 #: include/class.template.php:130
 msgid "Alert sent to agents on stale or overdue tickets."
-msgstr "Upozornění zaslané agentům v případě zastaralého či zpožděného požadavku."
+msgstr "Upozornění zaslané zaměstnancům v případě zastaralého či zpožděného požadavku."
 
 #: include/class.template.php:137 include/staff/settings-tasks.inc.php:109
 msgid "New Task Alert"
@@ -5006,7 +5006,7 @@ msgstr "Upozornění na nový úkol"
 
 #: include/class.template.php:138
 msgid "Alert sent to agents, if enabled, on new task."
-msgstr "Upozornění odeslané agentům na nový úkol, pokud je povoleno."
+msgstr "Upozornění odeslané zaměstnancům na nový úkol, pokud je povoleno."
 
 #: include/class.template.php:146
 msgid "Template used to notify collaborators on task activity."
@@ -5018,7 +5018,7 @@ msgstr "Upozornění na novou událost"
 
 #: include/class.template.php:154
 msgid "Alert sent to selected agents, if enabled, on new activity."
-msgstr "Upozornění odeslané vybraným agentů při nové události, pokud je povoleno."
+msgstr "Upozornění na novou aktivitu, pokud je povoleno, je odeslané vybraným zaměstnancům při nové činnosti."
 
 #: include/class.template.php:161 include/staff/settings-tasks.inc.php:180
 msgid "Task Assignment Alert"
@@ -5026,7 +5026,7 @@ msgstr "Upozornění o přiřazení úkolu"
 
 #: include/class.template.php:162
 msgid "Alert sent to agents on task assignment."
-msgstr "Upozornění odeslané agentům při přiřazení úkolu."
+msgstr "Upozornění odeslané zaměstnancům při přiřazení úkolu."
 
 #: include/class.template.php:169 include/staff/settings-tasks.inc.php:216
 msgid "Task Transfer Alert"
@@ -5034,7 +5034,7 @@ msgstr "Upozornění na předání úkolu"
 
 #: include/class.template.php:170
 msgid "Alert sent to agents on task transfer."
-msgstr "Upozornění odeslané agentům při předání úkolu."
+msgstr "Upozornění odeslané zaměstnancům při předání úkolu."
 
 #: include/class.template.php:177 include/staff/settings-tasks.inc.php:252
 msgid "Overdue Task Alert"
@@ -5042,7 +5042,7 @@ msgstr "Upozornění na zpožděný úkol"
 
 #: include/class.template.php:178
 msgid "Alert sent to agents on stale or overdue task."
-msgstr "Upozornění odeslané agentům v případě zastaralého či zpožděného úkolu."
+msgstr "Upozornění odeslané zaměstnancům v případě zastaralého či zpožděného úkolu."
 
 #: include/class.template.php:274
 msgid "Template Fetch Error"
@@ -5084,7 +5084,7 @@ msgstr "Upravit vlákno"
 
 #: include/class.thread.php:613
 msgid "Ability to edit thread items of other agents"
-msgstr "Umožnění upravit příspěvky jiných agentů ve vlákně požadavku"
+msgstr "Umožnění upravit příspěvky jiných zaměstnanců ve vlákně požadavku"
 
 #: include/class.thread.php:637
 msgid "Email loop detected"
@@ -5131,7 +5131,7 @@ msgstr "Zadavatel položky ve vláknu"
 
 #: include/class.thread.php:1114
 msgid "Agent posting the note or response"
-msgstr "Agent zadávající poznámku či odpověď"
+msgstr "Zaměstnanec zadávající poznámku či odpověď"
 
 #: include/class.thread.php:1116
 msgid "Subject, if any"
@@ -5152,7 +5152,7 @@ msgstr "Zpracovatel změněn z <b>{somebody}</b> na <strong>{assignees}</strong>
 
 #: include/class.thread.php:1831
 msgid "<b>{somebody}</b> assigned this to <strong>{<Staff>data.staff}</strong> {timestamp}"
-msgstr "<b>{somebody}</b> toto přiřadil agentu <strong>{<Staff>data.staff}</strong> {timestamp}"
+msgstr "<b>{somebody}</b> toto přiřadil zaměstnanci <strong>{<Staff>data.staff}</strong> {timestamp}"
 
 #: include/class.thread.php:1834
 msgid "<b>{somebody}</b> assigned this to <strong>{<Team>data.team}</strong> {timestamp}"
@@ -5302,7 +5302,7 @@ msgstr "Umožnění upravit požadavky"
 
 #: include/class.ticket.php:119
 msgid "Ability to assign tickets to agents or teams"
-msgstr "Umožnění přiřazovat požadavky agentům nebo týmům"
+msgstr "Umožnění přiřazovat požadavky zaměstnancům nebo týmům"
 
 #: include/class.ticket.php:124
 msgid "Ability to transfer tickets between departments"
@@ -5750,7 +5750,7 @@ msgstr "Typ poslední události"
 
 #: include/class.variable.php:268
 msgid "Agent performing the assignment"
-msgstr "Agent provádějící přiřazení"
+msgstr "Zaměstnanec provádějící přiřazení"
 
 #: include/class.variable.php:270
 msgid "Access link"
@@ -5962,7 +5962,7 @@ msgstr "Založit účet"
 
 #: include/client/login.inc.php:58
 msgid "I'm an agent"
-msgstr "Jsem agent"
+msgstr "Jsem zaměstnanec"
 
 #: include/client/login.inc.php:59
 msgid "sign in here"
@@ -6820,7 +6820,7 @@ msgstr "Statistiky"
 
 #: include/staff/dashboard.inc.php:69
 msgid "Statistics of tickets organized by department, help topic, and agent."
-msgstr "Statistiky požadavků rozděleny podle oddělení, témat podpory a agentů."
+msgstr "Statistiky požadavků rozděleny podle oddělení, témat podpory a zaměstnanců."
 
 #: include/staff/dashboard.inc.php:117 include/staff/orgs.inc.php:176
 #: include/staff/tasks.inc.php:460 include/staff/tickets.inc.php:630
@@ -6929,11 +6929,11 @@ msgstr "Členové oddělení"
 
 #: include/staff/department.inc.php:325
 msgid "Agents who are primary members of this department"
-msgstr "Agenti, kteří jsou hlavními členy tohoto oddělení"
+msgstr "Zaměstnanci, kteří jsou hlavními členy tohoto oddělení"
 
 #: include/staff/department.inc.php:338 include/staff/team.inc.php:147
 msgid "Select Agent"
-msgstr "Vybrat agenta"
+msgstr "Vybrat zaměstnance"
 
 #: include/staff/department.inc.php:370 include/staff/staff.inc.php:287
 #: include/staff/staff.inc.php:424 include/staff/team.inc.php:169
@@ -6979,7 +6979,7 @@ msgstr "Filtruj"
 #: include/staff/directory.inc.php:109 include/staff/directory.inc.php:144
 #: include/staff/staffmembers.inc.php:220
 msgid "No agents found!"
-msgstr "Nenalezeni žádní agenti!"
+msgstr "Nenalezeni žádní zaměstnanci!"
 
 #: include/staff/dynamic-form.inc.php:5
 msgid "Update form section"
@@ -6987,7 +6987,7 @@ msgstr "Změnit sekci formuláře"
 
 #: include/staff/dynamic-form.inc.php:25
 msgid "Add new custom form section"
-msgstr "Přidat novou volitelnou sekci formuláře"
+msgstr "Přidat novou sekci uživatelského formuláře"
 
 #: include/staff/dynamic-form.inc.php:28
 msgid "Add Form"
@@ -7074,7 +7074,7 @@ msgstr "Odstranit všechny údaje vloženy pro <u>%s</u>?"
 
 #: include/staff/dynamic-forms.inc.php:10
 msgid "Add New Custom Form"
-msgstr "Přidat nový volitelný formulář"
+msgstr "Přidat nový uživatelský formulář"
 
 #: include/staff/dynamic-forms.inc.php:39
 msgid "form"
@@ -7097,8 +7097,8 @@ msgstr "Žádné extra definované adresáře &mdash; %s Přidej jeden! %s"
 msgid "selected custom form"
 msgid_plural "selected custom forms"
 msgstr[0] "vybraný uživatelský formulář"
-msgstr[1] "vybraný uživatelský formulář"
-msgstr[2] "vybraný uživatelský formulář"
+msgstr[1] "vybrané uživatelské formuláře"
+msgstr[2] "vybraných uživatelských formulářů"
 
 #: include/staff/dynamic-list.inc.php:5
 msgid "Update custom list"
@@ -7127,7 +7127,7 @@ msgstr "Vlastnosti"
 
 #: include/staff/dynamic-list.inc.php:49
 msgid "Custom lists are used to provide drop-down lists for custom forms."
-msgstr "Uživatelské seznamy se používají pro volny v rozbalovacích menu v uživatelských formulářích."
+msgstr "Uživatelské seznamy se používají pro volby v rozbalovacích menu uživatelských formulářů."
 
 #: include/staff/dynamic-list.inc.php:72
 msgid "Plural Name"
@@ -7152,7 +7152,7 @@ msgid "custom list"
 msgid_plural "custom lists"
 msgstr[0] "uživatelský seznam"
 msgstr[1] "uživatelské seznamy"
-msgstr[2] "uživatelské seznamy"
+msgstr[2] "uživatelských seznamů"
 
 #: include/staff/dynamic-lists.inc.php:46
 msgid "List Name"
@@ -7161,15 +7161,15 @@ msgstr "Název seznamu"
 #: include/staff/dynamic-lists.inc.php:88
 #, php-format
 msgid "No custom lists defined yet &mdash; %s add one %s!"
-msgstr "Uživatelský seznam není zatím definován &mdash; %s vytvořte o%s!"
+msgstr "Uživatelský seznam není zatím definován &mdash; %s vytvořte jeden %s!"
 
 #: include/staff/dynamic-lists.inc.php:109 scp/lists.php:132 scp/lists.php:135
 #: scp/lists.php:138
 msgid "selected custom list"
 msgid_plural "selected custom lists"
 msgstr[0] "vybraný uživatelský seznam"
-msgstr[1] "vybraný uživatelský seznam"
-msgstr[2] "vybrané uživatelské seznamy"
+msgstr[1] "vybrané uživatelské seznamy"
+msgstr[2] "vybraných uživatelských seznamů"
 
 #: include/staff/email.inc.php:5
 msgid "Update Email Address"
@@ -7571,7 +7571,7 @@ msgstr "Správcovský panel"
 
 #: include/staff/header.inc.php:66
 msgid "Agent Panel"
-msgstr "Panel Agenta"
+msgstr "Panel zaměstnance"
 
 #: include/staff/header.inc.php:69
 msgid "Log Out"
@@ -7673,7 +7673,7 @@ msgstr "Nepřiřazeno"
 #: include/staff/templates/org-profile.tmpl.php:54
 #, php-format
 msgid "Agents (%d)"
-msgstr "Agenti (%d)"
+msgstr "Zaměstnanci (%d)"
 
 #: include/staff/helptopic.inc.php:304 include/staff/ticket-open.inc.php:269
 #: include/staff/templates/org-profile.tmpl.php:64
@@ -8108,7 +8108,7 @@ msgstr "Oprávnění"
 
 #: include/staff/role.inc.php:41
 msgid "Roles are used to define agents' permissions"
-msgstr "Role jsou používány pro nastavení práv agentů"
+msgstr "Role jsou používány pro nastavení práv zaměstnanců"
 
 #: include/staff/roles.inc.php:36 scp/roles.php:55
 msgid "role"
@@ -8152,7 +8152,7 @@ msgstr "Smazané role NEMOHOU být obnoveny."
 
 #: include/staff/settings-agents.inc.php:5
 msgid "Agents Settings"
-msgstr "Nastavení agentů"
+msgstr "Nastavení zaměstnanců"
 
 #: include/staff/settings-agents.inc.php:21
 #: include/staff/settings-system.inc.php:14
@@ -8167,11 +8167,11 @@ msgstr "Formátování jména"
 
 #: include/staff/settings-agents.inc.php:39
 msgid "Agent Identity Masking"
-msgstr "Skrytí identity agenta"
+msgstr "Skrytí identity zaměstnance"
 
 #: include/staff/settings-agents.inc.php:42
 msgid "Hide agent's name on responses."
-msgstr "Neuvádět jméno agenta v odpovědích."
+msgstr "Neuvádět jméno zaměstnance v odpovědích."
 
 #: include/staff/settings-agents.inc.php:47
 #: include/staff/settings-users.inc.php:40
@@ -8209,7 +8209,7 @@ msgstr "Obnova připomínky expirace"
 
 #: include/staff/settings-agents.inc.php:111
 msgid "Agent Excessive Logins"
-msgstr "Nadměrné přihlašování"
+msgstr "Nadměrné přihlašování zaměstnance"
 
 #: include/staff/settings-agents.inc.php:120
 #: include/staff/settings-users.inc.php:102
@@ -8223,7 +8223,7 @@ msgstr "doba do uzamknutí účtu v minutách"
 
 #: include/staff/settings-agents.inc.php:132
 msgid "Agent Session Timeout"
-msgstr "Maximální doba nečinnosti"
+msgstr "Maximální doba nečinnosti zaměstnance"
 
 #: include/staff/settings-agents.inc.php:135
 msgid "(0 to disable)"
@@ -8231,7 +8231,7 @@ msgstr "(pro deaktivaci použít 0)"
 
 #: include/staff/settings-agents.inc.php:139
 msgid "Bind Agent Session to IP"
-msgstr "Spárovat agenta s IP adresou"
+msgstr "Spárovat zaměstnance s IP adresou"
 
 #: include/staff/settings-agents.inc.php:195
 #: include/staff/settings-users.inc.php:175
@@ -8240,7 +8240,7 @@ msgstr "Šablony a stránky přihlášení a registrace"
 
 #: include/staff/settings-agents.inc.php:198
 msgid "Agent Welcome Email"
-msgstr "Uvítací e-mail agenta"
+msgstr "Uvítací e-mail zaměstnance"
 
 #: include/staff/settings-agents.inc.php:199
 msgid "Sign-in Login Banner"
@@ -8296,7 +8296,7 @@ msgstr "Upozornění na novou interní aktivitu"
 
 #: include/staff/settings-alerts.inc.php:126
 msgid "Assigned Agent"
-msgstr "Přiřazený agent"
+msgstr "Přiřazený zaměstnanec"
 
 #: include/staff/settings-alerts.inc.php:202
 msgid "System Alerts"
@@ -8324,7 +8324,7 @@ msgstr "Globální nastavení - může být zakázáno na úrovni oddělení neb
 
 #: include/staff/settings-autoresp.inc.php:21
 msgid "New Ticket by Agent"
-msgstr "Nový požadavek od agenta"
+msgstr "Nový požadavek od zaměstnance"
 
 #: include/staff/settings-autoresp.inc.php:34
 msgid "Submitter: Send receipt confirmation"
@@ -8688,7 +8688,7 @@ msgstr "Vyberte způsob ukládání souborů"
 #. Maximum size for agent-uploaded files (via SCP)
 #: include/staff/settings-system.inc.php:325
 msgid "Agent Maximum File Size"
-msgstr "Maximální velikost souboru pro agenty"
+msgstr "Maximální velikost souboru pro zaměstnance"
 
 #: include/staff/settings-tasks.inc.php:6 scp/settings.php:25
 msgid "Task Settings and Options"
@@ -8830,7 +8830,7 @@ msgstr "Veřejné - každý se může registrovat"
 
 #: include/staff/settings-users.inc.php:81
 msgid "Private — Only agents can register users"
-msgstr "Privátní - registrovat může jen agent"
+msgstr "Privátní - registrovat uživatele mohou jen zaměstnanci"
 
 #: include/staff/settings-users.inc.php:92
 msgid "User Excessive Logins"
@@ -8943,7 +8943,7 @@ msgstr[2] "Vybrané plány SLA"
 
 #: include/staff/staff.inc.php:30
 msgid "Manage Agent"
-msgstr "Spravovat agenta"
+msgstr "Spravovat zaměstnance"
 
 #: include/staff/staff.inc.php:53
 msgid "Permisions"
@@ -8980,7 +8980,7 @@ msgstr "Hlavní oddělení a role"
 
 #: include/staff/staff.inc.php:220
 msgid "Select the departments the agent is allowed to access and optionally select an effective role."
-msgstr "Vyberte oddělení, ke kterým má agent přístup, a volitelně vyberte faktickou roli."
+msgstr "Vyberte oddělení, ke kterým má zaměstnanec přístup, a volitelně vyberte skutečnou roli."
 
 #: include/staff/staff.inc.php:228 include/staff/staff.inc.php:310
 #: include/staff/ticket-open.inc.php:191
@@ -9001,7 +9001,7 @@ msgstr "Přiřazené týmy"
 
 #: include/staff/staff.inc.php:387
 msgid "Agent will have access to tickets assigned to a team they belong to regardless of the ticket's department. Alerts can be enabled for each associated team."
-msgstr "Agent bude mít přístup k požadavkům přiřazeným týmům, ke kterým je přiřazen, nezávisle na oddělení požadavku. Upozornění mohou být povolena pro každý přiřazený tým."
+msgstr "Zaměstnanec bude mít přístup k požadavkům přiřazeným týmům, ke kterým je přiřazen, nezávisle na oddělení požadavku. Upozornění mohou být povolena pro každý přiřazený tým."
 
 #: include/staff/staff.inc.php:402
 msgid "Select Team"
@@ -9011,9 +9011,9 @@ msgstr "Vybrat tým"
 #: scp/staff.php:29
 msgid "agent"
 msgid_plural "agents"
-msgstr[0] "agent"
-msgstr[1] "agenti"
-msgstr[2] "agentů"
+msgstr[0] "zaměstnanec"
+msgstr[1] "zaměstnanci"
+msgstr[2] "zaměstnanců"
 
 #: include/staff/staffmembers.inc.php:96
 msgid "All Teams"
@@ -9062,9 +9062,9 @@ msgstr "Opravdu si přejete  <b>povolit</b> (odemknout) %s?"
 #, php-format
 msgid "selected agent"
 msgid_plural "selected agents"
-msgstr[0] "vybraný agent"
-msgstr[1] "vybraní agenti"
-msgstr[2] "vybraných agentů"
+msgstr[0] "vybraný zaměstnanec"
+msgstr[1] "vybraní zaměstnanci"
+msgstr[2] "vybraných zaměstnanců"
 
 #: include/staff/staffmembers.inc.php:242
 #, php-format
@@ -9361,7 +9361,7 @@ msgstr "Interní poznámky zobrazitelné všemi správci."
 
 #: include/staff/team.inc.php:138
 msgid "Agents who are members of this team"
-msgstr "Agenti, kteří jsou členy tohoto týmu"
+msgstr "Zaměstnanci, kteří jsou členy tohoto týmu"
 
 #: include/staff/teams.inc.php:41 scp/teams.php:20 scp/teams.php:26
 msgid "team"
@@ -9522,7 +9522,7 @@ msgstr "Přidělit"
 
 #: include/staff/ticket-open.inc.php:256
 msgid "Select an Agent OR a Team"
-msgstr "Vybrat agenta nebo tým"
+msgstr "Vybrat zaměstnance nebo tým"
 
 #: include/staff/ticket-open.inc.php:297 include/staff/ticket-view.inc.php:616
 msgid "Response"
@@ -9585,12 +9585,12 @@ msgstr "Aktuální stav požadavku (%s) nedovoluje koncovému uživateli odpově
 #: include/staff/ticket-view.inc.php:34
 #, php-format
 msgid "Ticket is assigned to %s"
-msgstr "Požadavek je přiřazen agentovi %s"
+msgstr "Požadavek je přiřazen zaměstnanci %s"
 
 #: include/staff/ticket-view.inc.php:41
 #, php-format
 msgid "This ticket is currently locked by %s"
-msgstr "Tento požadavek je aktuálně uzamčen agentem %s"
+msgstr "Tento požadavek je aktuálně uzamčen zaměstnancem %s"
 
 #: include/staff/ticket-view.inc.php:44
 msgid "Email is in banlist! Must be removed before any reply/response"
@@ -9688,13 +9688,13 @@ msgstr "Spravovat organizaci"
 #: include/staff/templates/ticket-print.tmpl.php:162
 #, php-format
 msgid "Assigned To"
-msgstr "Přiřazeno agentovi"
+msgstr "Přiřazeno zaměstnanci"
 
 #: include/staff/ticket-view.inc.php:387 include/staff/tickets.inc.php:470
 #: include/staff/templates/task-print.tmpl.php:147
 #: include/staff/templates/task-view.tmpl.php:359
 msgid "Closed By"
-msgstr "Uzavřeno agentem"
+msgstr "Uzavřeno zaměstnancem"
 
 #: include/staff/ticket-view.inc.php:393
 #: include/staff/templates/task-print.tmpl.php:153
@@ -9817,7 +9817,7 @@ msgstr "Jste si jist, že chcete <b>odebrat</b> %s ze seznamu zakázaných?"
 #: include/staff/ticket-view.inc.php:888
 #, php-format
 msgid "Are you sure you want to <b>unassign</b> ticket from <b>%s</b>?"
-msgstr "Jste si jist, že chcete <b>zrušit přiřazení</b> požadavku agentovi <b>%s</b>?"
+msgstr "Jste si jist, že chcete <b>zrušit přiřazení</b> požadavku zaměstnanci <b>%s</b>?"
 
 #: include/staff/ticket-view.inc.php:892
 #, php-format
@@ -10037,7 +10037,7 @@ msgstr "Viditelná"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:33
 msgid "Making fields <em>visible</em> allows agents and endusers to view and create information in this field."
-msgstr "<em>Zviditelnění</em> položek umožňuje agentů a uživatelům zobrazení a zadávání informací do těchto položek."
+msgstr "<em>Zviditelnění</em> položek umožňuje zaměstnancům a uživatelům zobrazení a zadávání informací do těchto položek."
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:41
 #: include/staff/templates/dynamic-field-config.tmpl.php:66
@@ -10049,7 +10049,7 @@ msgstr "Pro uživatele"
 #: include/staff/templates/dynamic-field-config.tmpl.php:73
 #: include/staff/templates/dynamic-field-config.tmpl.php:95
 msgid "For Agents"
-msgstr "Pro agenty"
+msgstr "Pro zaměstnance"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:58
 msgid "New entries cannot be created unless all <em>required</em> fields have valid data."
@@ -10057,7 +10057,7 @@ msgstr "Nové záznamy nemohou být vytvořeny, dokud všechny <em>povinné</em>
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:80
 msgid "Fields marked editable allow agents and endusers to update the content of this field after the form entry has been created."
-msgstr "Položky označené jako měnitelné umožňují agentům a uživatelům upravit obsah těchto polí po tom, co byl uložen záznam formuláře."
+msgstr "Položky označené jako měnitelné umožňují zaměstnancům a uživatelům upravit obsah těchto polí po tom, co byl uložen záznam formuláře."
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:81
 msgid "Editable"
@@ -10359,7 +10359,7 @@ msgstr "Volitelný důvod pro změnu stavu (interní poznámka)"
 #: include/staff/templates/task-view.tmpl.php:35
 #: include/staff/templates/tasks-actions.tmpl.php:73
 msgid "Assign to Agent"
-msgstr "Přiřadit agentu"
+msgstr "Přiřadit zaměstnanci"
 
 #: include/staff/templates/task-view.tmpl.php:43
 #: include/staff/templates/tasks-actions.tmpl.php:78
@@ -11229,7 +11229,7 @@ msgstr "%s nelze označit jako privátní. Pravděpodobně již privátní je!"
 
 #: scp/departments.php:99
 msgid "Departments with agents can not be deleted. Move the agents first."
-msgstr "Oddělení s přiřazenými agenty nelze smazat. Nejprve přesuňte agenty."
+msgstr "Oddělení s přiřazenými zaměstnanci nelze smazat. Nejprve přesuňte zaměstnance."
 
 #: scp/emailsettings.php:27 scp/settings.php:46
 #, php-format
@@ -11334,7 +11334,7 @@ msgstr[2] "zvolených filtrů požadavků"
 
 #: scp/forms.php:7
 msgid "custom form"
-msgstr "vlastní formulář"
+msgstr "uživatelský formulář"
 
 #: scp/forms.php:49 scp/forms.php:118 scp/lists.php:67
 msgid "Field variable name is not unique"
@@ -11350,7 +11350,7 @@ msgstr "Chyba validace pole"
 
 #: scp/forms.php:80
 msgid "one custom form"
-msgstr "vlastní formulář"
+msgstr "uživatelský formulář"
 
 #: scp/forms.php:138
 #, php-format
@@ -11549,7 +11549,7 @@ msgstr "jedna role"
 
 #: scp/settings.php:27
 msgid "Agent Settings and Options"
-msgstr "Nastavení a vlastnosti agentů"
+msgstr "Nastavení a vlastnosti zaměstnanců"
 
 #: scp/settings.php:29
 msgid "User Settings and Options"
@@ -11593,7 +11593,7 @@ msgstr "osTicket:: Ovládací panel zaměstnance"
 
 #: scp/staff.php:60
 msgid "one agent"
-msgstr "jeden agent"
+msgstr "jeden zaměstnanec"
 
 #: scp/staff.php:64
 msgid "You can not disable/delete yourself - you could be the only admin!"
@@ -11766,7 +11766,7 @@ msgstr "Požadavek není přiřazen!"
 #: scp/tickets.php:217
 #, php-format
 msgid "Ticket released (unassigned) from %1$s by %2$s"
-msgstr "Požadavek byl uvolněn (zrušeno jeho přiřazení) od agenta %1$s agentem %2$s"
+msgstr "Požadavek byl uvolněn (zrušeno jeho přiřazení) od zaměstnance %1$s zaměstnancem %2$s"
 
 #: scp/tickets.php:219
 msgid "Ticket unassigned"
@@ -11787,7 +11787,7 @@ msgstr "Pouze otevřené požadavky mohou být přiřazeny"
 #: scp/tickets.php:230
 #, php-format
 msgid "Ticket is already assigned to %s"
-msgstr "Požadavek je již přiřazen agentu %s"
+msgstr "Požadavek je již přiřazen zaměstnanci %s"
 
 #: scp/tickets.php:232
 msgid "Ticket is now assigned to you!"
@@ -11804,7 +11804,7 @@ msgstr "Odepřeno. Nemáte právo označovat požadavky jako zpožděné"
 #: scp/tickets.php:242
 #, php-format
 msgid "Ticket flagged as overdue by %s"
-msgstr "Požadavek byl označen jako zpožděný agentem %s"
+msgstr "Požadavek byl označen jako zpožděný zaměstnancem %s"
 
 #: scp/tickets.php:243
 msgid "Ticket Marked Overdue"
@@ -11821,7 +11821,7 @@ msgstr "Přístup odmítnut. Nemáte právo označovat požadavky"
 #: scp/tickets.php:253
 #, php-format
 msgid "Ticket flagged as answered by %s"
-msgstr "Požadavek byl agentem %s označen jako zodpovězený"
+msgstr "Požadavek byl zaměstnancem %s označen jako zodpovězený"
 
 #: scp/tickets.php:254
 msgid "Ticket Marked Answered"
@@ -11834,7 +11834,7 @@ msgstr "Problém s označením požadavku jako zodpovězeného. Zkuste to znovu"
 #: scp/tickets.php:264
 #, php-format
 msgid "Ticket flagged as unanswered by %s"
-msgstr "Požadavek byl agentem %s označen jako nezodpovězený"
+msgstr "Požadavek byl zaměstnancem %s označen jako nezodpovězený"
 
 #: scp/tickets.php:265
 msgid "Ticket Marked Unanswered"
