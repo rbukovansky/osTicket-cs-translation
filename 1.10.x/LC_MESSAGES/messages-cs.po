@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-25 12:44+0200\n"
+"PO-Revision-Date: 2016-04-25 14:35+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -2315,11 +2315,11 @@ msgstr "Widget"
 
 #: include/class.dynamic_forms.php:1613
 msgid "Drop Down"
-msgstr "Drop Down"
+msgstr "Rozbalovací menu"
 
 #: include/class.dynamic_forms.php:1614
 msgid "Typeahead"
-msgstr "Typeahead"
+msgstr "Dopředný"
 
 #: include/class.dynamic_forms.php:1615
 msgid "Text Input"
@@ -2327,7 +2327,7 @@ msgstr "Textové pole"
 
 #: include/class.dynamic_forms.php:1624
 msgid "Typeahead will work better for large lists"
-msgstr "Typehead bude pracovat lépe pro dlouhé seznamy"
+msgstr "Dopředný bude pracovat lépe pro dlouhé seznamy"
 
 #: include/class.dynamic_forms.php:1627 include/class.forms.php:1279
 msgid "Validation Error"
@@ -2384,7 +2384,7 @@ msgstr "neobsahuje"
 
 #: include/class.email.php:43 include/class.nav.php:268
 msgid "Banlist"
-msgstr "Banlist"
+msgstr "Seznam zakázaných"
 
 #: include/class.email.php:45
 msgid "Ability to add/remove emails from banlist via ticket interface"
@@ -2639,7 +2639,7 @@ msgstr "Vyžadována odpověď na častý dotaz"
 
 #: include/class.faq.php:491 include/staff/faq.inc.php:98
 msgid "Listing Type"
-msgstr "Typ procházení"
+msgstr "Typ výpisu"
 
 #: include/class.file.php:325 include/class.file.php:346
 msgid "Invalid image file type"
@@ -2739,7 +2739,7 @@ msgstr "Hodnota vyžadována"
 
 #: include/class.filter.php:418
 msgid "Valid email required for the match type"
-msgstr "Je požadována platný e-mail pro výběr typu"
+msgstr "Je požadována platný e-mail pro typ porovnání"
 
 #: include/class.filter.php:421
 #, php-format
@@ -3535,7 +3535,7 @@ msgstr "Vyberte maximální velikost jednoho souboru nahraného do tohoto pole"
 
 #: include/class.forms.php:2567
 msgid "Restrict by File Type"
-msgstr "Omezit pomocí Typu Souboru"
+msgstr "Omezit pomocí typu souboru"
 
 #: include/class.forms.php:2568
 msgid "Optionally, choose acceptable file types."
@@ -4129,7 +4129,7 @@ msgstr "Zkontrolovat stav požadavku"
 #: include/class.note.php:67
 #, php-format
 msgid "%s Note"
-msgstr "%s Poznámka"
+msgstr "%s poznámka"
 
 #: scp/js/scp.js:1162
 msgid "Create"
