@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-25 12:40+0200\n"
+"PO-Revision-Date: 2016-04-25 12:44+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -1967,11 +1967,11 @@ msgstr "Neznámá možnost nastavení. Kontaktujte technickou podporu."
 
 #: include/class.config.php:1094
 msgid "Helpdesk URL is required"
-msgstr "URL Helpdesku je povinná"
+msgstr "URL systému zákaznické podpory je povinná"
 
 #: include/class.config.php:1095
 msgid "Helpdesk title is required"
-msgstr "Název Helpdesku je povinný"
+msgstr "Název systému zákaznické podpory je povinný"
 
 #: include/class.config.php:1096
 msgid "Default Department is required"
@@ -5863,7 +5863,7 @@ msgstr "Všechny kategorie"
 
 #: include/client/footer.inc.php:5
 msgid "Helpdesk software - powered by osTicket"
-msgstr "Helpdesk software - powered by osTicket"
+msgstr "Software systému zákaznické podpory - powered by osTicket"
 
 #: include/client/footer.inc.php:9
 msgid "Please Wait!"
@@ -6204,7 +6204,7 @@ msgstr "Hledáte vaše zbývající požadavky?"
 #: include/client/view.inc.php:24
 #, php-format
 msgid "or %s register for an account %s for the best experience on our help desk."
-msgstr "nebo %s se zaregistruj v našem helpdesku %s pro získání více zkušeností."
+msgstr "nebo %s se zaregistruj v našem systému uživatelské podpory %s pro získání více zkušeností."
 
 #: include/client/view.inc.php:34 include/staff/ticket-view.inc.php:223
 msgid "Reload"
@@ -8524,7 +8524,7 @@ msgstr "Nastavení a možnosti systému"
 
 #: include/staff/settings-system.inc.php:21
 msgid "Helpdesk Status"
-msgstr "Stav helpdesku"
+msgstr "Stav systému zákaznické podpory"
 
 #: include/staff/settings-system.inc.php:24
 msgid "Online"
@@ -8537,11 +8537,11 @@ msgstr "Mimo provoz"
 
 #: include/staff/settings-system.inc.php:32 setup/inc/install.inc.php:14
 msgid "Helpdesk URL"
-msgstr "URL helpdesku"
+msgstr "URL systému zákaznické podpory"
 
 #: include/staff/settings-system.inc.php:40
 msgid "Helpdesk Name/Title"
-msgstr "Název helpdesku"
+msgstr "Název systému zákaznické podpory"
 
 #: include/staff/settings-system.inc.php:47
 msgid "Default Department"
@@ -12024,11 +12024,11 @@ msgstr "Zkontrolujte jeden nebo více"
 
 #: setup/tips.php:10 setup/inc/install.inc.php:18
 msgid "Helpdesk Name"
-msgstr "Název helpdesku"
+msgstr "Název systému zákaznické podpory"
 
 #: setup/tips.php:11
 msgid "The name of your support system e.g [Company Name] Support"
-msgstr "Název vašeho systému podpory, např. Helpdesk [název firmy]"
+msgstr "Název vašeho systému zákaznické podpory, např. Podpora [název firmy]"
 
 #: setup/tips.php:15
 msgid "Default email address e.g support@yourcompany.com - you can add more later!"
@@ -12424,7 +12424,7 @@ msgstr "Vyplňte následující informace pro pokračování v instalaci osTicke
 
 #: setup/inc/install.inc.php:12
 msgid "The URL of your helpdesk, its name, and the default system email address"
-msgstr "URL helpdesku, jeho jméno a výchozí e-mailová adresu"
+msgstr "URL systému zákaznické podpory, jeho jméno a výchozí e-mailová adresu"
 
 #: setup/inc/install.inc.php:24
 msgid "Default Email"
