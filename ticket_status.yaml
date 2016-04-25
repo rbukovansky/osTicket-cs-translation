@@ -1,7 +1,7 @@
 ---
 - 
   id: 1
-  name: Otevřít
+  name: Otevřené
   state: open
   mode: 3
   sort: 1
@@ -16,7 +16,7 @@
   sort: 2
   flags: 0
   properties:
-    description: Vyřešené požadavky jsou uzavřené požadavky, které mohou být znovu oteřeny koncovým uživatelem. To může být užitečné, pokud je k uzavírání požadavků používán spouštěč s oznámením koncovému uživateli.
+    description: Vyřešené požadavky jsou uzavřené požadavky, které mohou být znovu otevřeny zákazníkem. To může být užitečné, pokud jsou požadavky uzavírány spouštěčem a je odesláno oznámení zákazníkovi.
 - 
   id: 3
   name: Uzavřené
@@ -25,7 +25,7 @@
   sort: 3
   flags: 0
   properties:
-    description: Požadavky, které jsou označeny jako uzavřené, nemůže znovu koncový uživatel obnovit. Požadavky budou stále přístupné na panelu klientů a zaměstnanců.
+    description: Požadavky, které jsou označeny jako uzavřené, nemůže zákazník znovu otevřít. Požadavky budou stále přístupné na panelu zákazníků a zaměstnanců.
 - 
   id: 4
   name: Archivované
@@ -34,13 +34,13 @@
   sort: 4
   flags: 0
   properties:
-    description: Požadavky dostupné pouze administrativně, ale již nedostupné ve frontě požadavků.
+    description: Požadavky dostupné pouze správcům, ale již nedostupné ve frontě požadavků.
 - 
   id: 5
-  name: Smazáno
+  name: Smazané
   state: deleted
   mode: 3
   sort: 5
   flags: 0
   properties:
-    description: Poždavky čekající na smazání. Nedostupné ve frontě požadavků.
+    description: Požadavky čekající na smazání. Nedostupné ve frontě požadavků.

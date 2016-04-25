@@ -1,8 +1,8 @@
 ---
 - 
   isactive: 1
-  name: Lev krotitel
-  notes: Správci systému, kteří mají (zpočátku) plnou kontrolu nad útvary, ke kterým mají přístup.
+  name: Krotitelé lvů
+  notes: Správci systému, kteří mají (zpočátku) plnou kontrolu nad odděleními, ke kterým mají přístup.
   can_create_tickets: 1
   can_edit_tickets: 1
   can_delete_tickets: 1
@@ -19,7 +19,7 @@
     - 3
 - 
   isactive: 1
-  name: Sloní chodci
+  name: Vodiči slonů
   notes: Bílé límečky
   can_create_tickets: 1
   can_edit_tickets: 1
@@ -37,7 +37,7 @@
     - 3
 - 
   isactive: 1
-  name: Bleší Školitelé
+  name: Trenéři blech
   notes: Řadoví zaměstnanci
   can_create_tickets: 1
   can_edit_tickets: 1

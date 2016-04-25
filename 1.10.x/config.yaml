@@ -1,12 +1,13 @@
 ---
 core:
-  time_format: hh:mm a
-  date_format: MM/dd/y
-  datetime_format: MM/dd/y h:mm a
-  daydatetime_format: EEE, MMM d y h:mm a
+  time_format: H:i
+  date_format: d.m.Y
+  datetime_format: d.m.Y G:i
+  daydatetime_format: D, d. m. Y G:i
+  default_timezone_id: 15
   default_priority_id: 2
-  enable_daylight_saving: 0
-  reply_separator: – Odpověďte nad tento řádek –
+  enable_daylight_saving: 1
+  reply_separator: -- Odpovězte nad tímto řádkem --
   isonline: 1
   staff_ip_binding: 0
   staff_max_logins: 4

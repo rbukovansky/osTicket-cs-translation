@@ -2,8 +2,8 @@
 - 
   id: 1
   flags: 1
-  name: All Access
-  notes: Role with unlimited access
+  name: Bez omezení
+  notes: Role s neomezeným přístupem
   permissions:
     - ticket.create
     - ticket.edit
@@ -24,8 +24,8 @@
 - 
   id: 2
   flags: 1
-  name: Expanded Access
-  notes: Role with expanded access
+  name: Rozšířený přístup
+  notes: Role s rozšířeným přístupem
   permissions:
     - ticket.create
     - ticket.edit
@@ -43,8 +43,8 @@
 - 
   id: 3
   flags: 1
-  name: Limited Access
-  notes: Role with limited access
+  name: Omezený přístup
+  notes: Role s omezeným přístupem
   permissions:
     - ticket.create
     - ticket.assign
@@ -56,6 +56,6 @@
 - 
   id: 4
   flags: 1
-  name: View only
-  notes: Simple role with no permissions
+  name: Pouze prohlížení
+  notes: Prostá role bez oprávnění
   permissions: [ ]
