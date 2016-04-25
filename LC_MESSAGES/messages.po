@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-25 14:35+0200\n"
+"PO-Revision-Date: 2016-04-25 17:30+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -2666,7 +2666,7 @@ msgstr "Meta-data e-mailu"
 
 #: include/class.filter.php:32
 msgid "Reply-To Email"
-msgstr "Odpovědní e-mailovýá adresa"
+msgstr "E-mailová adresa pro odpovědi"
 
 #: include/class.filter.php:33
 msgid "Reply-To Name"
@@ -2714,7 +2714,7 @@ msgstr "Nějaký"
 
 #: include/class.filter.php:367
 msgid "Web Forms"
-msgstr "Web formuláře"
+msgstr "Webové formuláře"
 
 #: include/class.filter.php:368
 msgid "API Calls"
@@ -5925,7 +5925,7 @@ msgstr "Výsledky vyhledávání"
 #: include/client/kb-search.inc.php:7
 #, php-format
 msgid "%d FAQs matched your search criteria."
-msgstr "%d častých dotazů, které odpovídají vyhledávacím kritériím."
+msgstr "%d častých dotazů, které odpovídají vyhledávacím podmínkám."
 
 #: include/client/kb-search.inc.php:17 include/staff/faq-categories.inc.php:139
 msgid "The search did not match any FAQs."
@@ -6877,7 +6877,7 @@ msgstr "Nastavení šablony"
 
 #: include/staff/department.inc.php:218
 msgid "Autoresponder Settings"
-msgstr "Nastavení automatického odpovídače"
+msgstr "Nastavení systému automatických odpovědí"
 
 #: include/staff/department.inc.php:230 include/staff/department.inc.php:242
 msgid "<strong>Disable</strong> for this Department"
@@ -7442,11 +7442,11 @@ msgstr "Název filtru"
 
 #: include/staff/filter.inc.php:57
 msgid "Execution Order"
-msgstr "Pořadí provedení"
+msgstr "Pořadí provádění"
 
 #: include/staff/filter.inc.php:66
 msgid "<strong>Stop</strong> processing further on match!"
-msgstr "<strong>Zastavit</strong> další zpracování!"
+msgstr "<strong>Zastavit</strong> další provádění při shodě!"
 
 #: include/staff/filter.inc.php:73
 msgid "Filter Status"
@@ -7475,11 +7475,11 @@ msgstr "Akce filtru"
 
 #: include/staff/filter.inc.php:127
 msgid "Rules are applied based on the criteria."
-msgstr "Pravidla jsou aplikovány podle kritérií."
+msgstr "Pravidla jsou aplikovány podle podmínek."
 
 #: include/staff/filter.inc.php:135
 msgid "Rules Matching Criteria"
-msgstr "Pravidla přiřazování critérií"
+msgstr "Podmínky shody s pravidly"
 
 #: include/staff/filter.inc.php:139
 msgid "Match All"
@@ -7487,7 +7487,7 @@ msgstr "Všechny"
 
 #: include/staff/filter.inc.php:144
 msgid "Match Any"
-msgstr "Alespoň jeden"
+msgstr "Kterýkoliv"
 
 #: include/staff/filter.inc.php:147
 msgid "case-insensitive comparison"
@@ -8725,7 +8725,7 @@ msgstr "Nastavení a možnosti požadavku"
 
 #: include/staff/settings-tickets.inc.php:15
 msgid "Autoresponder"
-msgstr "Autoresponder"
+msgstr "Systém automatických odpovědí"
 
 #: include/staff/settings-tickets.inc.php:24
 msgid "System-wide default ticket settings and options."
