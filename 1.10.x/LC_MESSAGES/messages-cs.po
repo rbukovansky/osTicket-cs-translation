@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-25 17:30+0200\n"
+"PO-Revision-Date: 2016-04-26 11:17+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -76,7 +76,7 @@ msgstr "Zadejte prosím plané uživatelské jméno nebo e-mail"
 
 #: login.php:64 login.php:125
 msgid "Access Denied. Contact your help desk administrator to have an account registered for you"
-msgstr "Přístup odepřen. Kontaktujte správce help desku, aby vám vytvořil účet"
+msgstr "Přístup odepřen. Kontaktujte správce systému zákaznické podpory, aby vám vytvořil účet"
 
 #: login.php:73
 msgid "Invalid username or password - try again!"
@@ -5455,7 +5455,7 @@ msgstr "Požadavek změněn"
 
 #: include/class.ticket.php:3078
 msgid "This help desk is for use by authorized users only"
-msgstr "Tento systém je k použití pouze autorizovaným osobám"
+msgstr "Tento systém zákaznické podpory je pouze pro autorizované osoby"
 
 #: include/class.ticket.php:3105 include/client/open.inc.php:75
 msgid "Select a Help Topic"
@@ -7656,7 +7656,7 @@ msgstr "Výchozí nastavení oddělení"
 
 #: include/staff/helptopic.inc.php:262 include/staff/page.inc.php:6
 msgid "Thank-You Page"
-msgstr "Stránka \"děkuji\""
+msgstr "Stránka s poděkováním"
 
 #: include/staff/helptopic.inc.php:283
 msgid "Auto-assign To"
@@ -7803,7 +7803,7 @@ msgstr "Obsah stránky"
 
 #: include/staff/page.inc.php:175
 msgid "Ticket variables are only supported in thank-you pages."
-msgstr "Proměnné požadavku jsou podporovány pouze na stránce poděkování."
+msgstr "Proměnné požadavku jsou podporovány pouze na stránce s poděkování."
 
 #: include/staff/pages.inc.php:34 scp/pages.php:21 scp/pages.php:40
 msgid "site page"
@@ -8481,11 +8481,11 @@ msgstr "Vyberte offline stránku"
 
 #: include/staff/settings-pages.inc.php:89
 msgid "Default Thank-You Page"
-msgstr "Výchozí děkovná stránka"
+msgstr "Výchozí stránka s poděkováním"
 
 #: include/staff/settings-pages.inc.php:94
 msgid "Select Thank-You Page"
-msgstr "Vyberte stránku Děkujeme"
+msgstr "Vyberte stránku s poděkováním"
 
 #: include/staff/settings-pages.inc.php:116
 msgid "System Default Logo"
@@ -12488,11 +12488,11 @@ msgstr "Informujte mě"
 
 #: setup/inc/subscribe.inc.php:36
 msgid "No thanks."
-msgstr "Ne děkuji."
+msgstr "Ne, děkuji."
 
 #: setup/inc/subscribe.inc.php:41
 msgid "Thank you!"
-msgstr "Děkuji !"
+msgstr "Děkujeme!"
 
 #: setup/inc/subscribe.inc.php:43
 msgid "Once again, thank you for choosing osTicket as your new customer support platform! "
