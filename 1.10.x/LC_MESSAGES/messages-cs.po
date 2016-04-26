@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-25 17:30+0200\n"
+"PO-Revision-Date: 2016-04-26 11:14+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -76,7 +76,7 @@ msgstr "Zadejte prosím plané uživatelské jméno nebo e-mail"
 
 #: login.php:64 login.php:125
 msgid "Access Denied. Contact your help desk administrator to have an account registered for you"
-msgstr "Přístup odepřen. Kontaktujte správce help desku, aby vám vytvořil účet"
+msgstr "Přístup odepřen. Kontaktujte správce systému zákaznické podpory, aby vám vytvořil účet"
 
 #: login.php:73
 msgid "Invalid username or password - try again!"
@@ -5455,7 +5455,7 @@ msgstr "Požadavek změněn"
 
 #: include/class.ticket.php:3078
 msgid "This help desk is for use by authorized users only"
-msgstr "Tento systém je k použití pouze autorizovaným osobám"
+msgstr "Tento systém zákaznické podpory je pouze pro autorizované osoby"
 
 #: include/class.ticket.php:3105 include/client/open.inc.php:75
 msgid "Select a Help Topic"
