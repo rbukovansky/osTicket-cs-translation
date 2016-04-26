@@ -1,65 +1,65 @@
 ---
 default_email_templates:
-  title: Výchozí sada šablon emailu
-  content: 'Vyberte<span class="doc-desc-title">sadu šablon emailu</span> pro odesílání <span class="doc-desc-title">automatických odpovědí</span> a <span class="doc-desc-title">upozornění</span> pro různé akce v průběhu životního cyklu požadavku. <br><br> Jednotlivým oddělením může být přiřazena specifická sada šablon emailu.'
+  title: Výchozí sada šablon e-mailů
+  content: 'Vyberte <span class="doc-desc-title">sadu šablon e-mailů</span> pro odesílání <span class="doc-desc-title">automatických odpovědí</span> a <span class="doc-desc-title">upozornění</span> pro různé akce v průběhu životního cyklu požadavku.<br><br>Jednotlivým oddělením může být přiřazena specifická sada šablon emailu.'
   links:
     - 
-      title: Uprav sady emailových šablon
+      title: Správa sad šablon e-mailů
       href: /scp/templates.php
 default_system_email:
-  title: Výchozí odchozí Email
-  content: 'Vyberte emailovou adresu ze které budou odesílány odchozí emaily. <br><br> <span class="doc-desc-title">Oddělení</span> si mohou nastavit <span class="doc-desc-title">emailovou adresu</span>, která přepíše toto nastavení.'
+  title: Výchozí odchozí e-mailová adresa
+  content: 'Vyberte e-mailovou adresu, ze které budou odesílány odchozí e-maily.<br><br><span class="doc-desc-title">Oddělení</span> si mohou nastavit <span class="doc-desc-title">e-mailovou adresu</span>, která přepíše toto nastavení.'
   links:
     - 
-      title: Uprav emailové adresy
+      title: Správa e-mailových adres
       href: /scp/emails.php
 default_alert_email:
   title: Výchozí e-mail pro upozornění
-  content: 'Vyberte emailovou adresu ze které budou agentům rozesílána <span class="doc-desc-title">upozornění a oznámení</span>.'
+  content: 'Vyberte e-mailovou adresu, ze které budou zaměstnancům rozesílána <span class="doc-desc-title">upozornění a oznámení</span>.'
   links:
     - 
-      title: Manage Email Addresses
+      title: Správa e-mailových adres
       href: /scp/emails.php
 admins_email_address:
-  title: Administrátorské emailové adresy
-  content: 'Zadejte e-mailovou adresu administrátora pro zasílání (pokud je nastaveno) <span class="doc-desc-title">Systémových chyb </span> a <span class="doc-desc-title">Upozornění na nové tickety</span>.'
+  title: E-mailová adresa správce
+  content: 'Zadejte e-mailovou adresu správce pro zasílání (pokud je nastaveno) <span class="doc-desc-title">systémových logů</span> a <span class="doc-desc-title">upozornění na nové tickety</span>.'
   links:
     - 
-      title: Uprav alarmy a poznámky
+      title: Správa upozornění a oznámení
       href: /scp/settings.php?t=alerts
 email_fetching:
-  title: Načítání e-mailu
-  content: 'Umožní IMAP/POP pooling pro nakonfigurované a povolené <span class="doc-desc-title">Emailové schránky</span>.'
+  title: Stahování e-mailů
+  content: 'Tato volba umožní stahování pomocí IMAP/POP protokolů pro nastavené a povolené <span class="doc-desc-title">e-mailové schránky</span>.'
   links:
     - 
-      title: Uprav mailové schránky
+      title: Správa e-mailových adres
       href: /scp/emails.php
 enable_autocron_fetch:
-  title: Získání emailů pomocí Auto-cron
-  content: 'Umožní pravidelné načítání emailů pomocí interního správce úloh, spouštěného aktivitou agenta.<br><br>Vezměte na vědomí, že emaily nebudou načteny pokud se žádný agent nepřihlásí do systému. Proto důrazně doporučujeme použití externího plánovače úloh, aby se emaily načítaly v předem daných intervalech.'
+  title: Stahování e-mailů pomocí auto-cron
+  content: 'Umožní pravidelné stahování e-mailů pomocí interního správce úloh, spouštěného aktivitami agentů.<br><br>Berte prosím na vědomí, že e-maily nebudou staženy, pokud není žádný zaměstnanec přihlášen do systému. Proto důrazně doporučujeme použití externího plánovače úloh, aby se e-maily stahovaly v předem daných intervalech.'
   links:
     - 
       title: Použití externího plánovače úloh
       href: http://osticket.com/wiki/POP3/IMAP_Setting_Guide
 strip_quoted_reply:
   title: Odstranit citaci v odpovědi
-  content: 'Je-li povoleno, odstraní předchozí zprávu z emailové komunikace. <br><br> Tato vlastnost závisí na <span class="doc-desc-title">Značce pro oddělení odpovědi</span> níže.'
+  content: 'Při povolení této volby systém odstraní předchozí zprávu z e-mailové komunikace.<br><br>Tato vlastnost závisí na níže zobrazené <span class="doc-desc-title">značce pro oddělení odpovědi</span>.'
 reply_separator_tag:
   title: Značka pro oddělení odpovědi
-  content: 'Příznak indikující uživateli, aby odpověděl nad čarou. <br><br> <strong>Poznánka:</strong> Má význam pouze pokud je zapnuto <span class="doc-desc-title">Odstranit citaci v odpovědi</span> výše.'
+  content: 'Text indikující uživateli, aby odpověděl nad daným oddělovačem.<br><br><strong>Poznánka:</strong> Má význam pouze pokud je zapnuto <span class="doc-desc-title">Odstranit citaci v odpovědi</span> výše.'
 emailed_tickets_priority:
-  title: Priorita požadavků zaslaných emailem
-  content: 'Zvolte zda si přejete nastavovat prioritu nových požadavků podle příznaku důležitosti v emailové zprávě (viz např. Outlook). <br><br> Toto nastavení může být přepsáno pomocí <span class="doc-desc-title">Filtrování požadavků</span>.'
+  title: Priorita požadavků zaslaných e-mailem
+  content: 'Zvolte, pokud chcete, aby se nastavení priority zaslaného e-mailu určovalo priority nových požadavků (viz např. Outlook).<br><br> Toto nastavení může být přepsáno pomocí <span class="doc-desc-title">filtrů požadavků</span>.'
   links:
     - 
-      title: Vytváření a správa filtrů požadavků
+      title: Správa filtrů požadavků
       href: /scp/filters.php
 accept_all_emails:
   title: Přijímat všechny e-maily
-  content: 'Přijímat e-maily od neznámých uživatelů. <br><br>  Zrušením této volby budou tickety automaticky odmítány.'
+  content: 'Nastavení zda-li se mají přijímat e-maily od neznámých uživatelů.<br><br>Odškrtnutím této volby budou požadavky automaticky odmítány.'
 accept_email_collaborators:
-  title: Akceptovat emailové spolupracovníky
-  content: 'Přidat emailové adresy účastníků obsažené v polích <code><strong>Komu</strong></code> a  <code><strong>Kopie</strong></code> jako spolupracovníky na požadavku. <br /><br /> <em>Spolupracovníci mohou být kdykoliv přidáni ručně agentem při zobrazení požadavku.</em>'
+  title: Přidat spolupracovníky podle e-mailu
+  content: 'Přidá e-mailové adresy adresátů obsažených v polích <code><strong>Komu</strong></code> a <code><strong>Kopie</strong></code> jako spolupracovníky na požadavku.<br /><br /><em>Spolupracovníci mohou být kdykoliv přidáni ručně agentem při zobrazení požadavku.</em>'
 default_mta:
   title: Výchozí MTA
-  content: '<span class="doc-desc-title">Výchozí MTA</span> zajišťuje odeslání emailu pro odchozí emaily, které nemají nastaveno SMTP.'
+  content: '<span class="doc-desc-title">Výchozí MTA</span> zajišťuje odeslání e-mailů z e-mailových adres, které nemají nastaven SMTP protokol.'

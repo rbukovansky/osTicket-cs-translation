@@ -1,27 +1,25 @@
 ---
 knowledge_base_settings:
-  title: Nastavení vědomostní báze
+  title: Nastavení báze znalostí
   content: ""
 knowledge_base_status:
-  title: Stav znalostní báze
-  content: |
-    Povolte pro umožnění vašim uživatelům přístup k veřejným článkům vaší znalostní báze.
-    <br><br> Kategorie znalostní báze a FAQ mohou být označeny jako interní (viditelné pouze pro agenty).
+  title: Stav báze znalostí
+  content: 'Tato volba umožní vašim zákazníkům samoobslužný přístup k článkům vaší veřejné báze znalostí.<br><br>Kategorie báze znalostí a častých dotazů mohou označeny jako interní (viditelné pouze pro zaměstnance).
   links:
     - 
-      title: Správa znalostní báze
+      title: Správa báze znalostí
       href: /scp/kb.php
 restrict_kb:
-  title: Omezení přístupu do znalostní báze
-  content: Povolte pro zabránění neregistrovaným uživatelům přistupovat do znalostní báze v klientském rozhraní.
+  title: Omezení přístupu do báze znalostí
+  content: Znemožní neregistrovaným uživatelům přistupovat do báze znalostí na zákaznickém portále.
   links:
     - 
       title: Nastavení přístupových práv
       href: /scp/settings.php?t=access
 canned_responses:
   title: Předpřipravené odpovědi
-  content: 'Povolte, chcete-li agentům umožnit použití <span class="doc-desc-title">Připravených odpovědí</span> při odpovídání na požadavky.'
+  content: 'Tato volba umožní zaměstnancům použití <span class="doc-desc-title">předpřipravených odpovědí</span> při odpovídání na požadavky.'
   links:
     - 
-      title: Manage Canned Responses
+      title: Správa předpřipravených odpovědí
       href: /scp/canned.php
