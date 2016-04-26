@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-26 11:17+0200\n"
+"PO-Revision-Date: 2016-04-26 12:41+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -72,7 +72,7 @@ msgstr "Je požadován platný CSRF token"
 
 #: login.php:50
 msgid "Valid username or email address is required"
-msgstr "Zadejte prosím plané uživatelské jméno nebo e-mail"
+msgstr "Zadejte prosím platné uživatelské jméno nebo e-mailovou adresu"
 
 #: login.php:64 login.php:125
 msgid "Access Denied. Contact your help desk administrator to have an account registered for you"
@@ -1490,7 +1490,7 @@ msgstr "Jsme hotovi!"
 
 #: include/ajax.users.php:29
 msgid "Query argument is required"
-msgstr "Je vyžadován argument dotazu"
+msgstr "Je vyžadován parametr dotazu"
 
 #: include/ajax.users.php:187
 msgid "User already registered"
@@ -1612,7 +1612,7 @@ msgstr "Přístup zamítnut. IP %s"
 
 #: include/class.api.php:125
 msgid "Valid IP is required"
-msgstr "Vyžaduje se správná IP"
+msgstr "Je vyžadováná platná IP adresa"
 
 #: include/class.api.php:140 include/class.api.php:153 scp/apikeys.php:29
 #: scp/apikeys.php:32 scp/apikeys.php:42
@@ -1648,7 +1648,7 @@ msgstr "Nelze přidat %s."
 
 #: include/class.api.php:177
 msgid "Valid API key required"
-msgstr "Vyžadován platný API klíč"
+msgstr "Vyžadován platný klíč API"
 
 #: include/class.api.php:179
 msgid "API key not found/active or source IP not authorized"
@@ -1815,7 +1815,7 @@ msgstr "Uvedeno neplatné user-id"
 #: include/class.auth.php:1015 include/class.auth.php:1018
 #: include/class.auth.php:1237 include/class.auth.php:1240
 msgid "Invalid reset token"
-msgstr "Neplatný token obnovy hesla"
+msgstr "Neplatná žádost obnovy hesla"
 
 #: include/class.auth.php:1020 include/class.auth.php:1242
 msgid "Unable to reset password"
@@ -1991,11 +1991,11 @@ msgstr "Formát data je povinný"
 
 #: include/class.config.php:1101
 msgid "Datetime format is required"
-msgstr "Formát datum-čas je povinný"
+msgstr "Formát data a času je povinný"
 
 #: include/class.config.php:1102
 msgid "Day, Datetime format is required"
-msgstr "Formát Den,Datum-čas je povinný"
+msgstr "Formát dne, data a času je povinný"
 
 #: include/class.config.php:1103
 msgid "Default Timezone is required"
@@ -2007,7 +2007,7 @@ msgstr "Je vyžadován výchozí systémový jazyk"
 
 #: include/class.config.php:1160
 msgid "Valid password reset window required"
-msgstr "Vyžadované platné časové okno možnosti obnovy hesla"
+msgstr "Vyžadovana platná lhůta možnosti obnovy hesla"
 
 #: include/class.config.php:1165 include/class.config.php:1191
 #: include/class.dynamic_forms.php:1595
@@ -2018,7 +2018,7 @@ msgstr "Vyber hodnotu z listu"
 #: include/class.config.php:1213 include/class.config.php:1259
 #: include/class.config.php:1337
 msgid "Selection required"
-msgstr "Výběr povinný"
+msgstr "Výběr je povinný"
 
 #: include/class.config.php:1214
 msgid "Enter valid numeric value"
@@ -2026,7 +2026,7 @@ msgstr "Zadejte platnou číselnou hodnotu"
 
 #: include/class.config.php:1219
 msgid "The GD extension is required"
-msgstr "GD extension (rozšíření) je požadováno"
+msgstr "GD rozšíření je požadováno"
 
 #: include/class.config.php:1221
 msgid "PNG support is required for Image Captcha"
@@ -2241,7 +2241,7 @@ msgstr "Neměnné"
 
 #: include/class.dynamic_forms.php:752
 msgid "Required for EndUsers"
-msgstr "Vyžadováni koncoví uživatelé"
+msgstr "Vyžadováno pro uživatele"
 
 #: include/class.dynamic_forms.php:756
 msgid "Required for Agents"
@@ -2257,7 +2257,7 @@ msgstr "Interní, povinné"
 
 #: include/class.dynamic_forms.php:849
 msgid "Label is required for custom form fields"
-msgstr "Je požadován popisek pro položku uživatelského formuláře"
+msgstr "Je vyžadován popisek pro položku uživatelského formuláře"
 
 #. `required` is a visibility setting fields
 #. `variable` is used for automation. Internally it's called `name`
@@ -8185,11 +8185,11 @@ msgstr "Nastavení přihlášení"
 
 #: include/staff/settings-agents.inc.php:77
 msgid "Password Expiration Policy"
-msgstr "Zásady pro vypršení platnosti hesla"
+msgstr "Zásada pro vypršení platnosti hesla"
 
 #: include/staff/settings-agents.inc.php:80
 msgid "No expiration"
-msgstr "Bez časového omezení"
+msgstr "Bez vypršení platnosti"
 
 #: include/staff/settings-agents.inc.php:85
 #, php-format
@@ -8205,7 +8205,7 @@ msgstr "Povolit obnovení hesla"
 
 #: include/staff/settings-agents.inc.php:101
 msgid "Reset Token Expiration"
-msgstr "Obnova připomínky expirace"
+msgstr "Lhůta možnosti obnovy hesla"
 
 #: include/staff/settings-agents.inc.php:111
 msgid "Agent Excessive Logins"
@@ -8231,7 +8231,7 @@ msgstr "(pro deaktivaci použít 0)"
 
 #: include/staff/settings-agents.inc.php:139
 msgid "Bind Agent Session to IP"
-msgstr "Spárovat zaměstnance s IP adresou"
+msgstr "Spárovat relaci zaměstnance s IP adresou"
 
 #: include/staff/settings-agents.inc.php:195
 #: include/staff/settings-users.inc.php:175
@@ -8810,7 +8810,7 @@ msgstr "Nastavení uživatelů"
 
 #: include/staff/settings-users.inc.php:69
 msgid "Registration Required"
-msgstr "Požadovaná registrace"
+msgstr "Vyžadovaná registrace"
 
 #: include/staff/settings-users.inc.php:73
 msgid "Require registration and login to create tickets"
@@ -8838,7 +8838,7 @@ msgstr "Nadměrné přihlašování"
 
 #: include/staff/settings-users.inc.php:113
 msgid "User Session Timeout"
-msgstr "Vypršel časový limit uživatele"
+msgstr "Maximální doba nečinnosti zákazníka"
 
 #: include/staff/settings-users.inc.php:119
 msgid "Authentication Token"
