@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-26 11:17+0200\n"
+"PO-Revision-Date: 2016-04-26 16:51+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -72,7 +72,7 @@ msgstr "Je požadován platný CSRF token"
 
 #: login.php:50
 msgid "Valid username or email address is required"
-msgstr "Zadejte prosím plané uživatelské jméno nebo e-mail"
+msgstr "Zadejte prosím platné uživatelské jméno nebo e-mailovou adresu"
 
 #: login.php:64 login.php:125
 msgid "Access Denied. Contact your help desk administrator to have an account registered for you"
@@ -1490,7 +1490,7 @@ msgstr "Jsme hotovi!"
 
 #: include/ajax.users.php:29
 msgid "Query argument is required"
-msgstr "Je vyžadován argument dotazu"
+msgstr "Je vyžadován parametr dotazu"
 
 #: include/ajax.users.php:187
 msgid "User already registered"
@@ -1612,7 +1612,7 @@ msgstr "Přístup zamítnut. IP %s"
 
 #: include/class.api.php:125
 msgid "Valid IP is required"
-msgstr "Vyžaduje se správná IP"
+msgstr "Je vyžadováná platná IP adresa"
 
 #: include/class.api.php:140 include/class.api.php:153 scp/apikeys.php:29
 #: scp/apikeys.php:32 scp/apikeys.php:42
@@ -1648,7 +1648,7 @@ msgstr "Nelze přidat %s."
 
 #: include/class.api.php:177
 msgid "Valid API key required"
-msgstr "Vyžadován platný API klíč"
+msgstr "Vyžadován platný klíč API"
 
 #: include/class.api.php:179
 msgid "API key not found/active or source IP not authorized"
@@ -1815,7 +1815,7 @@ msgstr "Uvedeno neplatné user-id"
 #: include/class.auth.php:1015 include/class.auth.php:1018
 #: include/class.auth.php:1237 include/class.auth.php:1240
 msgid "Invalid reset token"
-msgstr "Neplatný token obnovy hesla"
+msgstr "Neplatná žádost obnovy hesla"
 
 #: include/class.auth.php:1020 include/class.auth.php:1242
 msgid "Unable to reset password"
@@ -1831,7 +1831,7 @@ msgstr "Nové heslo MUSÍ být odlišné od současného hesla!"
 
 #: include/class.avatar.php:32
 msgid "Avatar"
-msgstr "Avatar"
+msgstr "Ikona uživatele"
 
 #: include/class.avatar.php:91
 msgid "Built-In"
@@ -1855,7 +1855,7 @@ msgstr "Předpřipravit"
 
 #: include/class.canned.php:43
 msgid "Ability to add/update/disable/delete canned responses"
-msgstr "Umožnění přidat/změnit/zakázat/smazat předdefinované odpovědi"
+msgstr "Umožnění přidat/změnit/zakázat/smazat předpřipravené odpovědi"
 
 #: include/class.canned.php:263 include/class.page.php:257
 msgid "Internal error. Try again"
@@ -1880,7 +1880,7 @@ msgstr "Vyžadován text odpovědi"
 #: include/class.canned.php:289 include/class.canned.php:291 scp/canned.php:47
 #: scp/canned.php:72 scp/canned.php:96
 msgid "this canned response"
-msgstr "tato předdefinovaná odpověď"
+msgstr "tato předpřipravená odpověď"
 
 #: include/class.canned.php:291 include/class.dept.php:645
 #: include/class.staff.php:1067 include/class.team.php:188
@@ -1991,11 +1991,11 @@ msgstr "Formát data je povinný"
 
 #: include/class.config.php:1101
 msgid "Datetime format is required"
-msgstr "Formát datum-čas je povinný"
+msgstr "Formát data a času je povinný"
 
 #: include/class.config.php:1102
 msgid "Day, Datetime format is required"
-msgstr "Formát Den,Datum-čas je povinný"
+msgstr "Formát dne, data a času je povinný"
 
 #: include/class.config.php:1103
 msgid "Default Timezone is required"
@@ -2007,7 +2007,7 @@ msgstr "Je vyžadován výchozí systémový jazyk"
 
 #: include/class.config.php:1160
 msgid "Valid password reset window required"
-msgstr "Vyžadované platné časové okno možnosti obnovy hesla"
+msgstr "Vyžadovana platná lhůta možnosti obnovy hesla"
 
 #: include/class.config.php:1165 include/class.config.php:1191
 #: include/class.dynamic_forms.php:1595
@@ -2018,7 +2018,7 @@ msgstr "Vyber hodnotu z listu"
 #: include/class.config.php:1213 include/class.config.php:1259
 #: include/class.config.php:1337
 msgid "Selection required"
-msgstr "Výběr povinný"
+msgstr "Výběr je povinný"
 
 #: include/class.config.php:1214
 msgid "Enter valid numeric value"
@@ -2026,7 +2026,7 @@ msgstr "Zadejte platnou číselnou hodnotu"
 
 #: include/class.config.php:1219
 msgid "The GD extension is required"
-msgstr "GD extension (rozšíření) je požadováno"
+msgstr "GD rozšíření je požadováno"
 
 #: include/class.config.php:1221
 msgid "PNG support is required for Image Captcha"
@@ -2059,7 +2059,7 @@ msgstr "E-mailová adresa správce systému je vyžadována"
 
 #: include/class.config.php:1341
 msgid "Reply separator is required to strip quoted reply."
-msgstr "Oddělovač odpovědí je požadován pro odsazené odpovědi."
+msgstr "Oddělovač odpovědí je požadován pro odstranění citací."
 
 #: include/class.config.php:1344
 msgid "Email already setup as system email"
@@ -2241,7 +2241,7 @@ msgstr "Neměnné"
 
 #: include/class.dynamic_forms.php:752
 msgid "Required for EndUsers"
-msgstr "Vyžadováni koncoví uživatelé"
+msgstr "Vyžadováno pro uživatele"
 
 #: include/class.dynamic_forms.php:756
 msgid "Required for Agents"
@@ -2257,7 +2257,7 @@ msgstr "Interní, povinné"
 
 #: include/class.dynamic_forms.php:849
 msgid "Label is required for custom form fields"
-msgstr "Je požadován popisek pro položku uživatelského formuláře"
+msgstr "Je vyžadován popisek pro položku uživatelského formuláře"
 
 #. `required` is a visibility setting fields
 #. `variable` is used for automation. Internally it's called `name`
@@ -2815,7 +2815,7 @@ msgstr "<strong>Vypnout</strong> automatickou odpověď na nový požadavek"
 
 #: include/class.filter_action.php:240
 msgid "Attach Canned Response"
-msgstr "Připojit předdefinovanou odpověď"
+msgstr "Připojit předpřipravenou odpověď"
 
 #: include/class.filter_action.php:251 include/class.forms.php:1255
 #: include/class.forms.php:3207 include/class.team.php:369
@@ -3527,7 +3527,7 @@ msgstr "Malý"
 
 #: include/class.forms.php:2561
 msgid "Maximum File Size"
-msgstr "Maximální povolená velikost"
+msgstr "Maximální povolená velikost souboru"
 
 #: include/class.forms.php:2562
 msgid "Choose maximum size of a single file uploaded to this field"
@@ -4909,7 +4909,7 @@ msgstr "Automatická odpověď na nový požadavek"
 
 #: include/class.template.php:42
 msgid "Canned Auto-reply sent to user on new ticket, based on filter matches. Overwrites \"normal\" auto-response."
-msgstr "Předdefinovaná automatická odpověď byla zaslána uživateli na základě nového požadavku a filtru. Přepíše \"běžnou\" automatickou odpověď."
+msgstr "Předpřipravená automatická odpověď byla zaslána uživateli na základě nového požadavku a filtru. Přepíše \"běžnou\" automatickou odpověď."
 
 #: include/class.template.php:49
 msgid "New Message Auto-response"
@@ -5395,7 +5395,7 @@ msgstr "%s již v oddělení je"
 
 #: include/class.ticket.php:2432
 msgid "SYSTEM (Canned Reply)"
-msgstr "SYSTEM(Předdefinovaná odpověď)"
+msgstr "SYSTEM (Předpřipravená odpověď)"
 
 #: include/class.ticket.php:2714
 #, php-format
@@ -5417,7 +5417,7 @@ msgstr "Zvol platnou SLA"
 
 #: include/class.ticket.php:2752 include/class.ticket.php:3110
 msgid "Invalid date format - must be MM/DD/YY"
-msgstr "Neplatný formát data - musí být MM/DD/YY"
+msgstr "Neplatný formát data - musí být dd.mm.yy"
 
 #: include/class.ticket.php:2754
 msgid "Invalid user-id"
@@ -6593,11 +6593,11 @@ msgstr "Poznámky správce"
 
 #: include/staff/cannedresponse.inc.php:5
 msgid "Update Canned Response"
-msgstr "Změnit předdefinovanou odpověď"
+msgstr "Změnit předpřipravenou odpověď"
 
 #: include/staff/cannedresponse.inc.php:15
 msgid "Add New Canned Response"
-msgstr "Přidat předdefinovanou odpověď"
+msgstr "Přidat předpřipravenou odpověď"
 
 #: include/staff/cannedresponse.inc.php:17
 msgid "Add Response"
@@ -6605,7 +6605,7 @@ msgstr "Přidat odpověď"
 
 #: include/staff/cannedresponse.inc.php:39
 msgid "Canned response settings"
-msgstr "Nastavení předdefinovaných odpovědí"
+msgstr "Nastavení předpřipravených odpovědí"
 
 #: include/staff/cannedresponse.inc.php:58
 #: include/staff/cannedresponses.inc.php:126 include/staff/directory.inc.php:83
@@ -6617,7 +6617,7 @@ msgstr "Všechna oddělení"
 #: include/staff/cannedresponse.inc.php:81
 #: include/staff/ticket-open.inc.php:306 scp/canned.php:31
 msgid "Canned Response"
-msgstr "předpřipravená odpověď"
+msgstr "Předpřipravená odpověď"
 
 #: include/staff/cannedresponse.inc.php:73
 msgid "Make the title short and clear."
@@ -6637,11 +6637,11 @@ msgstr "(volitelné)"
 
 #: include/staff/cannedresponse.inc.php:107
 msgid "Notes about the canned response."
-msgstr "Poznámky k předdefinované odpovědi."
+msgstr "Poznámky k předpřipravené odpovědi."
 
 #: include/staff/cannedresponse.inc.php:120
 msgid "Canned response is in use by email filter(s)"
-msgstr "Předdefinovaná odpověď se používá mailovým filtrem (filtry)"
+msgstr "Předpřipravená odpověď se používá filtrem (filtry) e-mailů"
 
 #: include/staff/cannedresponses.inc.php:47
 msgid "premade response"
@@ -6660,7 +6660,7 @@ msgstr "Přidat novou odpověď"
 
 #: include/staff/cannedresponses.inc.php:141
 msgid "No canned responses"
-msgstr "Žádné předdefinované odpovědi"
+msgstr "Žádné předpřipravené odpovědi"
 
 #: include/staff/cannedresponses.inc.php:162
 #: include/staff/cannedresponses.inc.php:166
@@ -6669,9 +6669,9 @@ msgstr "Žádné předdefinované odpovědi"
 #: scp/canned.php:133 scp/canned.php:146 scp/canned.php:149 scp/canned.php:152
 msgid "selected canned response"
 msgid_plural "selected canned responses"
-msgstr[0] "vybraná předdefinovaná odpověď"
-msgstr[1] "vybrané předdefinované odpověďi"
-msgstr[2] "vybraných předdefinovaných odpověďí"
+msgstr[0] "vybraná předpřipravená odpověď"
+msgstr[1] "vybrané předpřipravené odpovědi"
+msgstr[2] "vybraných předpřipravených odpovědí"
 
 #: include/staff/cannedresponses.inc.php:171
 #: include/staff/ticket-view.inc.php:901
@@ -7767,7 +7767,7 @@ msgstr "Dotaz vrátil 0 záznamů."
 
 #: include/staff/page.inc.php:4 include/staff/settings-pages.inc.php:49
 msgid "Landing Page"
-msgstr "Vstupní Stránka"
+msgstr "Úvodní stránka"
 
 #: include/staff/page.inc.php:5 include/staff/settings-pages.inc.php:68
 msgid "Offline Page"
@@ -7933,7 +7933,7 @@ msgstr "Oveření"
 
 #: include/staff/profile.inc.php:103
 msgid "Backend"
-msgstr "Na pozadí"
+msgstr "Služba"
 
 #: include/staff/profile.inc.php:129 include/staff/staff.inc.php:168
 msgid "Status and Settings"
@@ -7953,7 +7953,7 @@ msgstr "Volby a nastavení profilu"
 
 #: include/staff/profile.inc.php:167
 msgid "Maximum Page size"
-msgstr "Maximální počet"
+msgstr "Maximální počet záznamů na stránce"
 
 #: include/staff/profile.inc.php:175
 #, php-format
@@ -8176,7 +8176,7 @@ msgstr "Neuvádět jméno zaměstnance v odpovědích."
 #: include/staff/settings-agents.inc.php:47
 #: include/staff/settings-users.inc.php:40
 msgid "Avatar Source"
-msgstr "Zdroj ikonu uživatele"
+msgstr "Zdroj ikony uživatele"
 
 #: include/staff/settings-agents.inc.php:73
 #: include/staff/settings-users.inc.php:66
@@ -8185,11 +8185,11 @@ msgstr "Nastavení přihlášení"
 
 #: include/staff/settings-agents.inc.php:77
 msgid "Password Expiration Policy"
-msgstr "Zásady pro vypršení platnosti hesla"
+msgstr "Zásada pro vypršení platnosti hesla"
 
 #: include/staff/settings-agents.inc.php:80
 msgid "No expiration"
-msgstr "Bez časového omezení"
+msgstr "Bez vypršení platnosti"
 
 #: include/staff/settings-agents.inc.php:85
 #, php-format
@@ -8205,7 +8205,7 @@ msgstr "Povolit obnovení hesla"
 
 #: include/staff/settings-agents.inc.php:101
 msgid "Reset Token Expiration"
-msgstr "Obnova připomínky expirace"
+msgstr "Lhůta možnosti obnovy hesla"
 
 #: include/staff/settings-agents.inc.php:111
 msgid "Agent Excessive Logins"
@@ -8231,7 +8231,7 @@ msgstr "(pro deaktivaci použít 0)"
 
 #: include/staff/settings-agents.inc.php:139
 msgid "Bind Agent Session to IP"
-msgstr "Spárovat zaměstnance s IP adresou"
+msgstr "Spárovat relaci zaměstnance s IP adresou"
 
 #: include/staff/settings-agents.inc.php:195
 #: include/staff/settings-users.inc.php:175
@@ -8404,7 +8404,7 @@ msgstr "Akceptovat e-maily od neznámých uživatelů"
 
 #: include/staff/settings-emails.inc.php:138
 msgid "Accept Email Collaborators"
-msgstr "Akceptovat e-mailové spolupracovníky"
+msgstr "Přidat spolupracovníky podle e-mailu"
 
 #: include/staff/settings-emails.inc.php:141
 msgid "Automatically add collaborators from email fields"
@@ -8448,7 +8448,7 @@ msgstr "Vyřadovat přihlášení zákazníka"
 
 #: include/staff/settings-kb.inc.php:34
 msgid "Enable Canned Responses"
-msgstr "Zapnout předdefinované odpovědi"
+msgstr "Zapnout předpřipravené odpovědi"
 
 #: include/staff/settings-pages.inc.php:5
 msgid "Company Profile"
@@ -8557,7 +8557,7 @@ msgstr "Doba zamčení požadavků"
 
 #: include/staff/settings-system.inc.php:72
 msgid "Default Page Size"
-msgstr "Výchozí velikost stránky"
+msgstr "Výchozí počet záznamů na stránce"
 
 #: include/staff/settings-system.inc.php:87
 msgid "Default Log Level"
@@ -8597,11 +8597,11 @@ msgstr[2] "Po %d měsících"
 
 #: include/staff/settings-system.inc.php:117
 msgid "Show Avatars"
-msgstr "Zobrazit avatar"
+msgstr "Zobrazit ikony uživatelů"
 
 #: include/staff/settings-system.inc.php:121
 msgid "Show Avatars on thread view."
-msgstr "Zobrazit avatar ve vlákně požadavku."
+msgstr "Zobrazit ikony uživatelů ve vlákně požadavku."
 
 #: include/staff/settings-system.inc.php:126
 msgid "Enable Rich Text"
@@ -8654,7 +8654,7 @@ msgstr "Systémové jazyky"
 
 #: include/staff/settings-system.inc.php:238 setup/inc/install.inc.php:30
 msgid "Primary Language"
-msgstr "Přednastavený jazyk"
+msgstr "Hlavní jazyk"
 
 #: include/staff/settings-system.inc.php:243
 msgid "Select a Language"
@@ -8745,7 +8745,7 @@ msgstr "Výchozí stav"
 
 #: include/staff/settings-tickets.inc.php:113
 msgid "Default SLA"
-msgstr "Výchozí SLA"
+msgstr "Výchozí plán SLA"
 
 #: include/staff/settings-tickets.inc.php:135
 msgid "Default Help Topic"
@@ -8773,7 +8773,7 @@ msgstr "pro koncového uživatele"
 
 #: include/staff/settings-tickets.inc.php:175
 msgid "Human Verification"
-msgstr "Verifikace člověka"
+msgstr "Ověření člověka"
 
 #: include/staff/settings-tickets.inc.php:178
 msgid "Enable CAPTCHA on new web tickets."
@@ -8810,7 +8810,7 @@ msgstr "Nastavení uživatelů"
 
 #: include/staff/settings-users.inc.php:69
 msgid "Registration Required"
-msgstr "Požadovaná registrace"
+msgstr "Vyžadovaná registrace"
 
 #: include/staff/settings-users.inc.php:73
 msgid "Require registration and login to create tickets"
@@ -8838,7 +8838,7 @@ msgstr "Nadměrné přihlašování"
 
 #: include/staff/settings-users.inc.php:113
 msgid "User Session Timeout"
-msgstr "Vypršel časový limit uživatele"
+msgstr "Maximální doba nečinnosti zákazníka"
 
 #: include/staff/settings-users.inc.php:119
 msgid "Authentication Token"
@@ -9145,7 +9145,7 @@ msgstr "XML API"
 
 #: include/staff/system.inc.php:22
 msgid "Used for HTML email processing"
-msgstr "použito pro zpracování e-mailů"
+msgstr "použito pro zpracování e-mailů v HTML formátu"
 
 #: include/staff/system.inc.php:26
 msgid "Improves performance creating and processing JSON"
@@ -9534,7 +9534,7 @@ msgstr "Volitelná odpověď na výše uvedený problém."
 
 #: include/staff/ticket-open.inc.php:308 include/staff/ticket-view.inc.php:621
 msgid "Select a canned response"
-msgstr "Vybrat předdefinovanou odpověď"
+msgstr "Vybrat předpřipravenou odpověď"
 
 #: include/staff/ticket-open.inc.php:316
 msgid "Append"
@@ -11166,11 +11166,11 @@ msgstr "e-mail"
 
 #: scp/canned.php:44
 msgid "canned response"
-msgstr "předdefinovaná odpověď"
+msgstr "předpřipravená odpověď"
 
 #: scp/canned.php:102
 msgid "one canned response"
-msgstr "jedna předdefinovaná odpověď"
+msgstr "jedna předpřipravená odpověď"
 
 #: scp/categories.php:38 scp/categories.php:41 scp/categories.php:52
 msgid "this category"
@@ -12395,7 +12395,7 @@ msgstr "(pro XML API)"
 
 #: setup/inc/install-prereq.inc.php:32
 msgid "(for HTML email processing)"
-msgstr "(pro zpracování HTML e-mailu)"
+msgstr "(pro zpracování e-mailu ve formátu HTML)"
 
 #: setup/inc/install-prereq.inc.php:34 setup/inc/install-prereq.inc.php:42
 #: setup/inc/install-prereq.inc.php:44
