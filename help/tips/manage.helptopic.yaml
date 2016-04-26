@@ -1,64 +1,64 @@
 ---
 help_topic_information:
-  title: Informace k tématu nápovědy
-  content: 'Průvodce  <span class="doc-desc-title"> téma nápovědy </span> jaké informace jsou od uživatelů získávány a jak jsou tikety směrovány a přiřazovány.'
+  title: Informace k tématu podpory
+  content: '<span class="doc-desc-title">Témata podpory</span> řídí, jaké informace jsou od zákázníků získávány a jak jsou požadavky směrovány a přiřazovány.'
 topic:
   title: Název tématu
-  content: Unikátní jméno téma nápovědy.
+  content: Unikátní jméno tématu podpory.
 status:
   title: Stav
-  content: 'Je-li zakázáno, toto <span class="doc-desc-title"> téma nápověya</span> nebude k dispozici.'
+  content: 'Je-li <span class="doc-desc-title">téma podpory</span> vypnuto, nebude vůbec k dispozici.'
 type:
-  title: Type
-  content: 'Jestliže je  <span class="doc-desc-title"> nápověda </span> označena jako soukromá, bude k dispozici jen agentům k výběru při otevírání nového tiketu z panelu zaměstnanců.'
+  title: Typ
+  content: 'Je-li <span class="doc-desc-title">téma podpory</span> označeno jako soukromé, bude k dispozici jen zaměstnancům při zakládání nového požadavku v ovládacím panelu zaměstnanců.'
 parent_topic:
   title: Nadřazené téma
-  content: 'Vyber nadřazené téma, ke kterému <span class="doc-desc-title">téma nápovědy </span> patřit. Toto nadřazené téma se bude zobrazovat v listu <span class="doc-desc-title">témat nápověd </span> před tímto tématem.'
+  content: 'Vyberte nadřazené téma, ke kterému toto <span class="doc-desc-title">téma podpory</span> má patřit. Vybrané nadřazené téma se bude zobrazovat v seznamu <span class="doc-desc-title">témat podpory</span> před tímto tématem.'
 custom_form:
-  title: Vlastní formulář
-  content: 'Vlastní formuláře pomůžou získat bližší informace od uživatelů, které se vztahují k této <span class="doc-desc-title"> nápovědě</span>.'
+  title: Uživatelský formulář
+  content: 'Uživatelské formuláře pomohou získat bližší informace od zákazníků, které mají vazbu k tomuto <span class="doc-desc-title">tématu podpory</span>.'
   links:
     - 
-      title: Spravovat vlastní formuláře
+      title: Spravovat uživatelské formuláře
       href: /scp/forms.php
 priority:
-  title: Priority
-  content: 'Zvol prioritu přiřazovanou novým tiketům vztahujícím se k těmto <span class="doc-desc-title">tématům nápovědy</span>. <br><br>  Filtr tiketů může tuto prioritu přepsat.'
+  title: Priorita
+  content: 'Zvolte prioritu, která bude přiřazena novým požadavkům, jež jsou zadány pod toto <span class="doc-desc-title">téma podpory</span>.<br><br>  Filtr požadavků může tuto prioritu přepsat.'
 department:
-  title: Department
-  content: Vyber oddělení, do kterého budou nové tikety s tímto tématem nápovědy směrovat.
+  title: Oddělení
+  content: Vyberte oddělení, kterému požadavky pod tímto tématem podpory budou směřovány.
   links:
     - 
-      title: Manage Departments
+      title: Spravovat oddělení
       href: /scp/departments.php
 sla_plan:
   title: SLA Plan
-  content: 'Vyber SLA plán spojený s tímto  <span class="doc-desc-title">tématem nápovědy</span>. <br><br> Tato volba přepíše jakýkoliv vybraný SLA plán oddělení'
+  content: 'Vyberte plán SLA tohoto <span class="doc-desc-title">tématu podpory</span>.<br><br>Tato volba přepíše jakýkoliv vybraný plán SLA oddělení'
   links:
     - 
-      title: Manage SLA Plans
+      title: Spravovat plány SLA
       href: /scp/slas.php
 thank_you_page:
-  title: 'Stránka "děkuji"'
-  content: 'Vyber "děkuji" stránku, na kterou bude uživatel přesměrován po otevření tiketu pod touto  <span class="doc-desc-title"> nápovědou </span>.'
+  title: 'Stránka s poděkováním'
+  content: 'Vyberte stránku s poděkováním, která bude uživateli zobrazena po založení požadavku pod tímto <span class="doc-desc-title">tématem podpory</span>.'
   links:
     - 
-      title: 'Spravovat stránky "děkuji"'
+      title: 'Spravovat stránky s poděkováním'
       href: /scp/pages.php
 auto_assign_to:
-  title: Automaticky přiřazovat nové tikety
-  content: 'Volitelně vyber agenta nebo tým, který bude přiřazen na základě tiketu otevřeného s tímto <span class="doc-desc-title">tématem nápovědy</span> <br><br> Filtry tiketů mohou toto přiřazování přepsat.'
+  title: Automatické přiřazení nových požadavků
+  content: 'Zde můžete zvolit zaměstnance nebo tým, které mu bude automaticky přiřazen požadavek tohoto <span class="doc-desc-title">tématu podpory</span><br><br>Filtry požadavky mohou toto přiřazení přepsat.'
   links:
     - 
       title: Spravovat zaměstnance a týmy
       href: /scp/staff.php
 ticket_auto_response:
-  title: Automatická odpověď na tiket
-  content: 'Je-li zaškrtnuto, nastavení vypne automatické odpovědi tiketů pro toto <span class="doc-desc-title">téma nápovědy</span>. <br><br> Toto přepíše nastavení automatického odpovídače <span class="doc-desc-title">oddělení </span> a také globální nastavení v <span class="doc-desc-title">nastavení automatického odpovídače</span>.'
+  title: Automatická odpověď na požadavek
+  content: 'Tato volba, je-li zaškrtnuta, vypne automatické odpovědi na požadavky pro toto <span class="doc-desc-title">téma podpory</span>.<br><br> Tato volba také přepíše nastavení systému automatických odpovědí <span class="doc-desc-title">oddělení</span> a také globální nastavení v <span class="doc-desc-title">nastavení systému automatických odpovědí</span>.'
   links:
     - 
-      title: Nastavení automatického odpovídače
+      title: Nastavení systému automatických odpovědí
       href: /scp/settings.php?t=autoresp
 custom_numbers:
-  title: Běžná čísla tiketů
-  content: 'Vybráním "běžná" se přepíšou výchozí systémová nastavení číslování tiketů pro toto téma nápovědy. Více se dozvíš v nápovědě v nastavení tiketů.'
+  title: Vlastní číselná řada požadavků
+  content: 'Vybráním "vlastní" se přepíšou výchozí systémová nastavení číselných řad pro toto téma podpory. Více viz nápověda v nastavení požadavků.'

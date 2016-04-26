@@ -1,31 +1,31 @@
 ---
 ticket_activity:
-  title: Aktivita Tiketu
-  content: 'Vyberte rozsah dat grafu a tabulky (viz <span class="doc-desc-title"> statistiky</span>) k zaměření se na všechny odpovídající údaje pro tato data. Níže uvedený graf bude vždy odrážet široký přehled dat celého systému (tj. počet obyvatel). Nicméně můžete procházet <span class="doc-desc-title"> tabulku statistiky</span> níže a zaměřit se na užší předmět zájmu (např. oddělení, témata nebo personál). Kromě toho můžete exportovat všechny aktuálně zobrazená data v tabulce <span class="doc-desc-title"> statistiky</span>.'
+  title: Aktivita požadavků
+  content: 'Vyberte časový rozsah dat pro zaměření níže zobrazeného grafu a tabulky (viz <span class="doc-desc-title">Statistiky</span>) na veškerá odpovídají data daného rozsahu. Graf vždy odráží širší pohled na data celého systému (např. počty požadavků). Nicméně detailní data můžete procházet pomocí tabulky <span class="doc-desc-title">Statistiky</span> pod grafem a zaměřit se tak na detailnější informace předmětu zájmu (např. oddělení, téma nebo zaměstnance). Mimo tohoto můžete také exportovat všechny aktuálně zobrazená data v tabulce <span class="doc-desc-title"> Statistiky</span> do CSV souboru.'
 report_timeframe:
-  title: Zpráva časového rámce
-  content: Vyberte počáteční datum pro vzorek požadovaných dat pomocí ovládacího prvku Výběr data. Vyberte dobu, od tohoto data a definujte koncové datum pro vzorek dat.
+  title: Časový rozsah dat
+  content: Vyberte pomocí kalendáře počáteční datum vzorku požadovaných dat. Pak vyberte dobu od tohoto data pro určení koncového data vzorku dat.
 statistics:
   title: Statistiky
-  content: Chcete-li zobrazit konkrétní vzorek údajů, přejděte na předmět zájmu klepnutím na příslušnou kartu. Kruhy v tabulce představují velikost jmenovitých údajů. Tedy čím větší bude číslo v určité buňce, tím větší bude sousední kruh.
+  content: Kliknutím na záložku se vám zobrazí podrobnější informace o vybraném vzorku dat. Zobrazené kruvy v tabulce představují velikost nominálních dat. Čím větší bude číslo v určité buňce, tím větší bude přidružený kruh.
 opened:
-  title: Otevřeno
-  content: Toto představuje tikety otevřené agenty (tj, interně otevřené), nikoli klienty.
+  title: Otevřené
+  content: Toto představuje požadavky otevřené agenty (t.j., interně otevřené), nikoli požadavky otevřené zákazníky.
 assigned:
   title: Přiřazené
-  content: 'Systém sleduje každou událost, ať je automaticky nebo manuálně přiřazena konkrétnímu Oddělení nebo Agentovi. Automatické přiřazování bude záviset na zavedeném nastavení pro <span class="doc-desc-title">Nápovědu</span> a <span class="doc-desc-title">Emailové filtry</span> v Administračním panelu.'
+  content: 'Systém sleduje každou událost, ať je to automatické nebo manuální přiřazení požadavku konkrétnímu oddělení či agentovi. Automatické přiřazování bude záviset na provedeném nastavení <span class="doc-desc-title">témat podpory</span> a <span class="doc-desc-title">e-mailových filtrů</span> v správcovském panelu.'
 overdue:
   title: Zpožděné
-  content: Toto je počet ticketů, které porušily SLA plán, kterému náležejí.
+  content: Toto je počet požadavků, které porušily jejich přiřazený SLA plán.
 closed:
   title: Uzavřené
-  content: Toto je množství tiketů, které byly uzavřeny.
+  content: Toto je množství požadavků, které bylo uzavřeno.
 reopened:
   title: Znovu otevřené
-  content: Toto je počet tiketů, které byly znovu otevřeny ať už agentem nebo klientem, který odpověděl na již uzavřený tiket.
+  content: Toto je počet požadavků, které byly znovu otevřeny, ať již agentem či zákazníkovou odpovědí na již uzavřený tiket.
 service_time:
-  title: Délka vypořádání
-  content: '<span class="doc-desc-title">Délka vypořádání</span> je čas, který uplynul od doby založení ticketu do doby jeho uzavření. Sloupec  <span class="doc-desc-title">Délka vypořádání</span> uvádí průměrný čas vypořádání tiketu v hodinách a ve vybraném rozsahu dat.'
+  title: Délka vyřízení
+  content: '<span class="doc-desc-title">Délka vyřízení</span> je doba, která uplynula od doby založení požadavku do doby jeho uzavření. Sloupec  <span class="doc-desc-title">Délka vyřízení</span> uvádí průměrný čas vyřízení požadavku v hodinách v rámci vybraného časového rozsahu.'
 response_time:
   title: Reakční doba
-  content: '<span class="doc-desc-title">Reakční doba</span> je čas, který uplyne od jakékoliv Klientovy komunikace do doby, než Agent odpoví.  Tato doba se netýká pouze prvotního vytvoření Ticketu klientem, ale každého Klientova jednání.'
+  content: '<span class="doc-desc-title">Reakční doba</span> je doba, která uplyne mezi zákazníkovou zprávou a reakcí agenta. Tato doba se netýká pouze prvotního vytvoření požadavku zákazníkem, ale každé zákazníkovy reakce v požadavku.'

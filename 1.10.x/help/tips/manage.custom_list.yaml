@@ -1,9 +1,7 @@
 ---
 custom_lists:
-  title: Custom Lists
-  content: |
-    Váš <span class="doc-desc-title">vlastní seznam</span> dovoluje vytvořit dropdown menu s přednastavenými hodnotami ze kterých Klient může vybítat ve vašem <span class="doc-desc-title">Vlastním formuláři</span>. 
-    Pokud chcete použít tento <span class="doc-desc-title">vlastní seznam</span> jako <span class="doc-desc-title">cíl</span> v <span class="doc-desc-title">Ticket Filteru</span>, nezapomeňte ho přidat do vašeho formuláře <span class="doc-desc-title">Detaily Tiketu</span>.
+  title: Uživatelské seznamy
+  content: 'Váš <span class="doc-desc-title">uživatelský seznam</span> dovoluje vytvořit rozbalovací menu s přednastavenými hodnotami, ze kterých zákazník může vybírat ve vašem <span class="doc-desc-title">uživatelském formuláři</span>. Pokud chcete použít tento <span class="doc-desc-title">uživatelský seznam</span> jako <span class="doc-desc-title">cíl</span> ve <span class="doc-desc-title">filtru požadavků</span>, nezapomeňte ho přidat do vašeho formuláře <span class="doc-desc-title">detaily požadavku</span>.
 name:
   title: Jméno
   content: ""
@@ -21,4 +19,4 @@ value:
   content: ""
 extra:
   title: Extra
-  content: 'Zkratky a tak. Pokud se vám stalo, že používáte interní kódy pro položky v tomto seznamu, tyto kódy a zkratky mohou být uvedeny v tomto sloupci. V případě, že vlastní seznam je vykreslen jako <span class="doc-desc-volby">dopředný</span>, pak tyto zkratky mohou být použity k hledání vlastní seznam položek.'
+  content: 'Kódy, zkratky apod. Pokud použijete interní kódy pro položky v tomto seznamu, tyto kódy a zkratky mohou být zadány v tomto sloupci. V případě, že vlastní seznam je zobrazen jako <span class="doc-desc-volby">dopředný</span>, pak tyto zkratky mohou být použity k hledání položek uživatelského seznamu.'
