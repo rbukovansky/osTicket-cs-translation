@@ -1,59 +1,59 @@
 ---
 type:
   title: Typ
-  content: 'Zvolte <span class="doc-desc-opt">Soukromé</span>, pokud si přejete skrýt přiřazená do tohoto oddělení na klientském portále.  Navíc, je-li označeno jako <span class="doc-desc-opt">Soukromé</span>, nebude uveden <span class="doc-desc-title">Podpis oddělení</span>  v emailových odpovědích. <br/><br/> Nejméně jedno oddělení musí být <span class="doc-desc-opt">Veřejné</span>'
+  content: 'Zvolte <span class="doc-desc-opt">soukromé</span>, pokud si přejete skrýt přiřazení požadavků do tohoto oddělení na zákaznickém portále. Navíc, je-li označeno jako <span class="doc-desc-opt">soukromé</span>, nebude <span class="doc-desc-title">podpis oddělení</span> přidán do e-mailových oznámení o odpovědích na požadavky.<br/><br/>Nejméně jedno oddělení musí být označeno jako <span class="doc-desc-opt">veřejné</span>.'
 email:
-  title: E-mail
-  content: Emailová adresa použitá při odesílaní odpovědí agentů na požadavky uživatelům.
+  title: E-mailová adresa
+  content: Emailová adresa použitá při odesílaní odpovědí zaměstnanců na požadavky uživatelům.
 template:
-  title: Nastavení šablony
-  content: '<span class="doc-desc-title">Sada šablon</span> emailů použitá pro automatické odpovědi, upozornění a oznámení pro požadavky přiřazené tomuto oddělení.'
+  title: Sada šablon
+  content: '<span class="doc-desc-title">Sada šablon</span> e-mailů použitá pro automatické odpovědi, upozornění a oznámení pro požadavky přiřazené tomuto oddělení.'
   links:
     - 
       title: Správa šablon
       href: /scp/templates.php
 sla:
-  title: SLA
-  content: SLA pro požadavky přiřazené tomuto oddělení.
+  title: Plán SLA
+  content: Plán SLA pro požadavky přiřazené tomuto oddělení.
   links:
     - 
-      title: Manage SLA Plans
+      title: Správa SLA Plans
       href: /scp/slas.php
 manager:
   title: Vedoucí oddělení
-  content: 'Vyberte <span class="doc-desc-title">Vedoucího</span> tohoto oddělení. <br/><br/> Vedoucím může být nastaveno zasílální zvláštních upozornění a též mají právo zrušit přiřazení požadavků.'
+  content: 'Vyberte <span class="doc-desc-title">vedoucího</span> tohoto oddělení.<br/><br/>Vedoucí oddělení může dostávat zvláštní upozornění a taky mají právo zrušit přiřazení požadavků.'
   links:
     - 
       title: Správa upozornění a oznámení
       href: /scp/settings.php?t=alerts
 group_membership:
-  title: Příjemci upozornění a oznámení
-  content: 'Vyberte příjemce nakonfigurovaných <span class="doc-desc-title">upozornění a oznámení</span>.'
+  title: Příjemci výstrah a upozornění
+  content: 'Vyberte příjemce nakonfigurovaných <span class="doc-desc-title">výstrah a upozornění</span>.'
   links:
     - 
-      title: Konfigurace upozornění a oznámení
+      title: Konfigurace výstrah a upozornění
       href: /scp/settings.php?t=alerts
 sandboxing:
   title: Omezení přiřazení požadavků
-  content: 'Povolte pro omezení přiřazení požadavků pouze na členy tohoto oddělení. Přiřazení může být rozšířeno o skupiny, pokud <span class="doc-desc-title">příjemci upozornění a oznámení</span> obsahují členy skupin.'
+  content: 'Tato volba omezí přiřazení požadavků pouze na členy tohoto oddělení. Přiřazení může být rozšířeno o skupiny, pokud <span class="doc-desc-title">příjemci výstrah a upozornění</span> obsahují členy skupin.'
 disable_auto_claim:
-  title: Disable Auto Claim
-  content: 'Check this to <strong>disable</strong> auto-claim on response/reply for this department. <br><br> Agents can still manually claim unassigned tickets'
+  title: Zakázat přiřazení si požadavku
+  content: 'Tato volba <strong>zakáže</strong> přiřazení si požadavku při odpovědi na něj pro toto oddělení.<br><br>Zaměstnanci však mohou stále ručně přiřadit si nepřiřazené požadavky.'
 auto_response_settings:
-  title: Autoresponder Settings
-  content: Povoluje přepsat globální nastavení automatických odpovědí pro toto oddělení.
+  title: Nastavení systému automatických odpovědí
+  content: Povoluje přepsat globální nastavení systému automatických odpovědí pro toto oddělení.
 new_ticket:
-  title: New Ticket Auto-Response
-  content: Můžete zakázat zasílání automatických odpovědí, když je tiket přesměrovaný tomuto oddělení.
+  title: Automatická odpověď na nový požadavek
+  content: Můžete zakázat zasílání automatických odpovědí, pokud je požadavek vytvořen a přiřazen tomuto oddělení.
 new_message:
   title: Automatická odpověď na novou zprávu
-  content: Můžete zakázat zasílání automatických odpovědí, když je vytvořená nová odpověď pro tiket pro toto oddělení.
+  content: Můžete zakázat zasílání automatických odpovědí, pokud je vytvořená nová odpověď na požadavku pro toto oddělení.
 auto_response_email:
-  title: Email pro automatickou odpověď
-  content: Vyberte email ze kterého jsou posílané automatické odpovědi z tohoto oddělení.
+  title: E-mailová adresa pro automatickou odpověď
+  content: Vyberte e-mailovou adresu, ze které jsou posílany automatické odpovědi z tohoto oddělení.
 department_access:
-  title: Přístup pro skupiny
-  content: Povolte pracovníkům jiných oddělení přístup k tiketům přiřazeným k tomuto oddělení.
+  title: Přístup skupiny
+  content: Povolte pracovníkům jiných oddělení přístup k požadavkům přiřazeným tomuto oddělení.
 department_signature:
   title: Podpis oddělení
-  content: 'Podpis je použitý jako volba pro  <span class="doc-desc-opt">veřejné</span> oddělení v odpovědi pracovníka.'
+  content: 'Podpis je možné zvolit při odpovědi zaměstnance na požadavek, který je přiřazen oddělení označenému jako <span class="doc-desc-opt">veřejné</span>.'

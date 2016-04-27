@@ -1,28 +1,28 @@
 ---
 teams:
   title: Týmy
-  content: Týmy jsou jeden či více pracovníků podpory, sdružení pro přiřazování požadavků. Členství v týmu může být nezávislé na organizační struktuře.
+  content: Týmy jsou jeden či více zaměstnanců sdružených pro přiřazování požadavků. Členství v týmu se může být nezávislé na hranicích oddělení.
 status:
   title: Stav
-  content: 'Je-li <span class="doc-desc-opt">zakázáno</span>, nebude tento tým dostupný pro přiřazování požadavků ani nebude dostávat oznámení o přiřazeních.'
+  content: 'Je-li nastaveno na <span class="doc-desc-opt">zakázáno</span>, nebude tento tým dostupný pro přiřazování požadavků ani nebude dostávat upozornění na přiřazení.'
 lead:
   title: Vedoucí týmu
-  content: '<span class="doc-desc-title">Tým</span> může mít přiřazen vedoucího, který obdrží <span class="doc-desc-title">oznámení o přiřazení</span> odděleně od členů týmu.'
+  content: '<span class="doc-desc-title">Tým</span> může mít přiřazeného vedoucího zaměstnance, který obdrží <span class="doc-desc-title">upozornění na přiřazení</span> odděleně od členů týmu.'
   links:
     - 
-      title: 'Configure Alerts &amp; Notices'
+      title: 'Správa výstrah &amp; upozornění'
       href: /scp/settings.php?t=alerts
 assignment_alert:
   title: Upozornění na přiřazení
-  content: 'Můžete zakázat <span class="doc-desc-title">oznámení o přiřazení požadavku</span> pro požadavky přiřazené tomuto týmu.'
+  content: 'Můžete zakázat <span class="doc-desc-title">upozornění na přiřazení požadavku</span> pro požadavky přiřazené tomuto týmu.'
   links:
     - 
-      title: 'Configure Alerts &amp; Notices'
+      title: 'Správa výstrah &amp; upozornění'
       href: /scp/settings.php?t=alerts
 members:
   title: Členové týmu
-  content: Členství v týmu je nastaveno v profili pracovníka podpory.
+  content: Členství v týmu je nastaveno v profilu zaměstnance.
   links:
     - 
-      title: Spravovat tým
+      title: Správa týmů
       href: /scp/staff.php

@@ -1,15 +1,18 @@
 ---
 signature:
   title: Podpis zaměstnance
-  content: Vytvoření podpisu zaměstnanců v reakci na tikety. Tento podpis se zobrazí jako možnost ve spodní části odpovědi na tikety
+  content: |
+    Vytvořte podpis zaměstnance pro odpovědi na požadavky. Tento podpis se zobrazí jako možnost ve spodní části odpovědi na požadavky
 type:
   title: Typ účtu
-  content: Administrátoři mají práva pro přístup do Administrátorského rozhraní. Zaměstnanci mohou pouze spravovat tickety a databázi znalostí
+  content: |
+    Správci mají práva pro přístup do správcovského panelu. Zaměstnanci mohou pouze spravovat tickety, úkoly a bázi znalostí
 group:
-  title: Assigned Group
+  title: Členství ve skupině
   content: |
     Členství ve skupině vymezuje úlohu zaměstnanců v systému. Navštivte
-    stránku administrace skupiny k definici, co zaměstnanci mohou dělat
+    stránku správy skupiny k definování, co zaměstnanci mohou dělat
 notes:
   title: Interní poznámky
-  content: 'Vložte interní poznámky  týkající se osoby; poznámky mohou vidět jen administrátoři'
+  content: |
+    Vložte interní poznámky týkající se zaměstnance; poznámky mohou vidět jen správci

@@ -1,8 +1,8 @@
 ---
 type:
   title: Typ
-  content: 'Je-li typ oddělení nastaven na Privátní, pak v odpovědi nebude dostupný podpis oddělení, ani  nebude přiřazení oddělení zobrazeno na portálu klienta.'
+  content: 'Je-li typ oddělení nastaven na soukromé, pak nebude dostupný podpis oddělení pro odpověď a ani nebude přiřazení požadavku k oddělení zobrazeno na zákaznickém portálu.'
 dept_manager:
-  title: Department Manager
-  content: Můžete označit agenta jako manažera oddělení, aby obdržel výstrahy a upozornění na požadavky v oddělení.
-  0: Agenti nemusejí nutně být členy daného oddělení, aby mohli být jeho manažery
+  title: Vedoucí oddělení
+  content: Můžete označit zaměstnance jako vedoucího oddělení, kterému budou zasílány výstrahy a upozornění v odděleních.
+  0: Agenti nemusejí nutně být členy daného oddělení, aby mohli být jeho vedoucí.
