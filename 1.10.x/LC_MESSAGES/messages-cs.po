@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 16:21+0200\n"
+"PO-Revision-Date: 2016-04-28 16:35+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -4552,11 +4552,11 @@ msgstr "Vyžadována platná e-mailová adresa"
 
 #: include/class.staff.php:628
 msgid "Already in-use as system email"
-msgstr "již používáno jako systémový e-mail"
+msgstr "již používána jako systémová e-mailová adresa"
 
 #: include/class.staff.php:631 include/class.staff.php:984
 msgid "Email already in use by another agent"
-msgstr "E-mail je již používán jiným zaměstnancem"
+msgstr "E-mailová adresa je již používána jiným zaměstnancem"
 
 #: include/class.staff.php:634 include/class.staff.php:637
 #: include/class.staff.php:987 include/class.staff.php:990
@@ -4602,7 +4602,7 @@ msgstr "Vnitřní chyba"
 
 #: include/class.staff.php:967 setup/inc/class.installer.php:52
 msgid "First name required"
-msgstr "Vyžadováno křestní jméno"
+msgstr "Vyžadováno jméno"
 
 #: include/class.staff.php:969 setup/inc/class.installer.php:53
 msgid "Last name required"
@@ -4618,7 +4618,7 @@ msgstr "Uživatelské jméno je již použito"
 
 #: include/class.staff.php:981
 msgid "Already in use system email"
-msgstr "Už se používá mailovým systémem"
+msgstr "Je již používána jako systémová e-mailová adresa"
 
 #: include/class.staff.php:993
 msgid "Department is required"
@@ -4639,7 +4639,7 @@ msgstr "tento zaměstnanec"
 
 #: include/class.staff.php:1091
 msgid "Select a valid departent"
-msgstr "Vyberte správné oddělení"
+msgstr "Vyberte platné oddělení"
 
 #: include/class.staff.php:1093
 msgid "Agent already has access to this department"
@@ -4647,7 +4647,7 @@ msgstr "Zaměstnanec již přístup do tohoto oddělení má"
 
 #: include/class.staff.php:1189
 msgid "Send the agent a password reset email"
-msgstr "Odeslat zaměstnanci e-mail s obnovou hesla"
+msgstr "Odeslat zaměstnanci e-mail pro obnovu hesla"
 
 #: include/class.staff.php:1193 include/class.staff.php:1247
 #: include/client/profile.inc.php:74
@@ -4685,7 +4685,7 @@ msgstr "Zkopírovat stávajícího zaměstnance"
 
 #: include/class.staff.php:1330 include/class.staff.php:1332
 msgid "Primary Department"
-msgstr "Primární oddělení"
+msgstr "Hlavní oddělení"
 
 #: include/class.staff.php:1341 include/class.staff.php:1413
 msgid "Primary Role"
@@ -4835,7 +4835,7 @@ msgstr "Změna úkolu"
 #: include/class.task.php:1337
 #, php-format
 msgid "Task #%1$s deleted by %2$s"
-msgstr "Úkol #%1$s byl smazán zaměstnancem %2$s"
+msgstr "Úkol č. %1$s byl smazán zaměstnancem %2$s"
 
 #: include/class.task.php:1339 include/class.thread.php:946
 #: include/class.ticket.php:2716
@@ -4845,11 +4845,11 @@ msgstr "SYSTÉM"
 #: include/class.task.php:1345
 #, php-format
 msgid "Task #%s deleted"
-msgstr "Úkol #%s byl smazán"
+msgstr "Úkol č. %s byl smazán"
 
 #: include/class.team.php:50 include/staff/teams.inc.php:84
 msgid "Team Name"
-msgstr "Názav týmu"
+msgstr "Název týmu"
 
 #: include/class.team.php:52 include/staff/settings-alerts.inc.php:132
 #: include/staff/settings-tasks.inc.php:206 include/staff/team.inc.php:81
@@ -4864,16 +4864,16 @@ msgstr "Členové týmu"
 
 #: include/class.team.php:150
 msgid "Team name is required"
-msgstr "Je vyžadováno jméno skupiny"
+msgstr "Je vyžadováno jméno týmu"
 
 #: include/class.team.php:152
 msgid "Team name already exists"
-msgstr "Jméno skupiny již existuje"
+msgstr "Jméno týmu již existuje"
 
 #: include/class.team.php:185 include/class.team.php:188 scp/teams.php:29
 #: scp/teams.php:32 scp/teams.php:43
 msgid "this team"
-msgstr "tato skupina"
+msgstr "tento tým"
 
 #: include/class.team.php:366
 msgid "Optionally select a leader for the team"
@@ -4901,7 +4901,7 @@ msgstr "Automatická odpověď na nový požadavek"
 
 #: include/class.template.php:34
 msgid "Autoresponse sent to user, if enabled, on new ticket."
-msgstr "Automatická odpověď, pokud je zapnuta, byla zaslána uživateli na základě nového požadavku."
+msgstr "Automatická odpověď, pokud je zapnuta, která je odeslána zákazníkovi na základě nového požadavku."
 
 #: include/class.template.php:41
 msgid "New Ticket Auto-reply"
@@ -4909,7 +4909,7 @@ msgstr "Automatická odpověď na nový požadavek"
 
 #: include/class.template.php:42
 msgid "Canned Auto-reply sent to user on new ticket, based on filter matches. Overwrites \"normal\" auto-response."
-msgstr "Předpřipravená automatická odpověď byla zaslána uživateli na základě nového požadavku a filtru. Přepíše \"běžnou\" automatickou odpověď."
+msgstr "Předpřipravená automatická odpověď zaslaná zákazníkovi na základě nového požadavku a filtru. Přepíše \"běžnou\" automatickou odpověď."
 
 #: include/class.template.php:49
 msgid "New Message Auto-response"
@@ -4917,28 +4917,28 @@ msgstr "Automatická odpověď na novou zprávu"
 
 #: include/class.template.php:50
 msgid "Confirmation sent to user when a new message is appended to an existing ticket."
-msgstr "Potvrzení odesláno uživateli v případě, že je k požadavku přidána nová zpráva."
+msgstr "Potvrzení odesláno zákazníkovi v případě, že je k požadavku přidána nová zpráva."
 
 #: include/class.template.php:57
 msgid "New Ticket Notice"
-msgstr "Oznámení o novém požadavku"
+msgstr "Upozornění na nový požadavek"
 
 #: include/class.template.php:58
 msgid "Notice sent to user, if enabled, on new ticket created by an agent on their behalf (e.g phone calls)."
-msgstr "Oznámení, pokud je povoleno, odeslané uživateli, že byl zaměstnancem vytvořen nový požadavek za daného živatele (např. při telefonickém rozhovoru)."
+msgstr "Oznámení, pokud je povoleno, odeslané zákazníkovi, že byl zaměstnancem vytvořen jejich jménem nový požadavek (např. při telefonickém rozhovoru)."
 
 #: include/class.template.php:65 include/class.ticket.php:1457
 #: include/staff/settings-autoresp.inc.php:48
 msgid "Overlimit Notice"
-msgstr "Oznámení o překročení limitu"
+msgstr "Upozornění na překročení limitu"
 
 #: include/class.template.php:66
 msgid "A one-time notice sent, if enabled, when user has reached the maximum allowed open tickets."
-msgstr "Pokud je povoleno, jednorázově odešle upozornění, když uživatel dosáhne maxima povolených otevřených požadavků."
+msgstr "Pokud je povoleno, jednorázově odešle upozornění v momentě, kdy zákazník dosáhne maxima povolených otevřených požadavků."
 
 #: include/class.template.php:73
 msgid "Response/Reply Template"
-msgstr "Reakce/Odpověď Šablona"
+msgstr "Šabloba odpovědi"
 
 #: include/class.template.php:74
 msgid "Template used on ticket response/reply"
@@ -4946,7 +4946,7 @@ msgstr "Šablona používaná k odpovědi na požadavek"
 
 #: include/class.template.php:81 include/class.template.php:145
 msgid "New Activity Notice"
-msgstr "Oznámení o nové aktivitě"
+msgstr "Upozornění na novou aktivitu"
 
 #: include/class.template.php:82
 msgid "Template used to notify collaborators on ticket activity (e.g CC on reply)"
@@ -4958,7 +4958,7 @@ msgstr "Upozornění na nový požadavek"
 
 #: include/class.template.php:90
 msgid "Alert sent to agents, if enabled, on new ticket."
-msgstr "Upozornění na nový požadavek, pokud je povoleno, zasláno zaměstnancům."
+msgstr "Upozornění na nový požadavek, pokud je povoleno, zasláné zaměstnancům."
 
 #: include/class.template.php:97 include/staff/settings-alerts.inc.php:40
 msgid "New Message Alert"
@@ -4966,7 +4966,7 @@ msgstr "Upozornění na novou zprávu"
 
 #: include/class.template.php:98
 msgid "Alert sent to agents, if enabled, when user replies to an existing ticket."
-msgstr "Upozornění na novou odpověď uživatele k existujícímu požadavku, pokud je povoleno, je zasláno zaměstnancům."
+msgstr "Upozornění, pokud je povoleno, zaslané zaměstnancům, pokud zákazník zadá odpověď k požadavku."
 
 #: include/class.template.php:105
 msgid "Internal Activity Alert"
