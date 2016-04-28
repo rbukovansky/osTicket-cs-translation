@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 15:43+0200\n"
+"PO-Revision-Date: 2016-04-28 15:55+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -3201,7 +3201,7 @@ msgstr "Regularní výraz"
 
 #: include/class.forms.php:1283
 msgid "Message shown to user if the input does not match the validator"
-msgstr "Zpráva ukázaní uživateli pokud vstup neodpovídá ověření"
+msgstr "Zpráva, která se zobrazí uživateli, pokud hodnota neodpovídá validátoru"
 
 #: include/class.forms.php:1285 include/class.forms.php:1373
 msgid "Placeholder"
@@ -3209,7 +3209,7 @@ msgstr "Zástupný"
 
 #: include/class.forms.php:1286 include/class.forms.php:1374
 msgid "Text shown in before any input from the user"
-msgstr "Text ukázaný před jakýmkoli uživatelským vstupem"
+msgstr "Text zobrazený před jakýmkoli uživatelským vstupem"
 
 #: include/class.forms.php:1304
 msgid "Enter a valid email address"
@@ -3233,7 +3233,7 @@ msgstr "Hodnota neodpovídá požadovanému formátu"
 
 #: include/class.forms.php:1364
 msgid "Width"
-msgstr "šířka"
+msgstr "Šířka"
 
 #: include/class.forms.php:1364
 msgid "(chars)"
@@ -3253,7 +3253,7 @@ msgstr "HTML"
 
 #: include/class.forms.php:1371
 msgid "Allow HTML input in this box"
-msgstr "V tomto poli povolit HTML"
+msgstr "V tomto poli povolit HTML formátování"
 
 #. As in a phone number `extension`
 #: include/class.forms.php:1418 include/staff/directory.inc.php:118
@@ -3267,7 +3267,7 @@ msgstr "Klapka"
 
 #: include/class.forms.php:1420
 msgid "Add a separate field for the extension"
-msgstr "Zadejte samostatnou položku pro rozšíření"
+msgstr "Přidat samostatnou položku pro klapku"
 
 #: include/class.forms.php:1424
 msgid "Minimum length"
@@ -3320,7 +3320,7 @@ msgstr "nezaškrtnuto"
 
 #: include/class.forms.php:1541
 msgid "List choices, one per line. To protect against spelling changes, specify key:value names to preserve entries if the list item names change"
-msgstr "Volby seznamu, jedna na řádek. Pro ochranu proti změnám pravopisu, zadejte názvy klíč:hodnota k zachování záznamů, pokud se změní názvy položek seznamu"
+msgstr "Vepište volby, jedna volba, jeden řádek. Pro ochranu proti změnám pravopisu zadejte názvy klíč:hodnota k zachování záznamů, pokud se změní názvy položek seznamu"
 
 #: include/class.forms.php:1546
 msgid "(Enter a key). Value selected from the list initially"
@@ -3346,7 +3346,7 @@ msgstr "Zohlednění časových pásem"
 
 #: include/class.forms.php:1805
 msgid "Show date/time relative to user's timezone"
-msgstr "Zobrazit datum/čas na základě časové zóny uživatele"
+msgstr "Zobrazit datum/čas vztažené k časové zóně uživatele"
 
 #: include/class.forms.php:1807
 msgid "Earliest"
@@ -3362,7 +3362,7 @@ msgstr "Nejnovější"
 
 #: include/class.forms.php:1811
 msgid "Latest date selectable"
-msgstr "Poslední datum k vybrání"
+msgstr "Nejnovější datum k vybrání"
 
 #: include/class.forms.php:1813
 msgid "Allow Future Dates"
@@ -3375,11 +3375,11 @@ msgstr "Povolit záznamy do budoucnosti"
 
 #: include/class.forms.php:1825
 msgid "Selected date is earlier than permitted"
-msgstr "Vybrané datum je dřívější než je povoleno"
+msgstr "Vybrané dřívejší datum než je povoleno"
 
 #: include/class.forms.php:1827
 msgid "Selected date is later than permitted"
-msgstr "Vybrané datum je pozdější než je dovoleno"
+msgstr "Vybrané pozdější datum než je dovoleno"
 
 #: include/class.forms.php:1830
 msgid "Enter a valid date"
@@ -3456,7 +3456,7 @@ msgstr "Výchozí výběr pro tuto položku"
 #: include/class.forms.php:2169 include/class.forms.php:2235
 #: include/class.forms.php:2356
 msgid "Dynamic Fields"
-msgstr "Dynamická položka"
+msgstr "Dynamické položky"
 
 #: include/class.forms.php:2171 include/class.priority.php:54
 msgid "Priority Level"
@@ -3484,42 +3484,42 @@ msgstr "Přiřazený zaměstnanec"
 #: include/class.forms.php:2367
 msgctxt "ticket state name"
 msgid "Open"
-msgstr "Otevřené"
+msgstr "Otevřený [název stavu požadavku]"
 
 #: include/class.forms.php:2368
 msgctxt "ticket state action"
 msgid "Open"
-msgstr "Otevřené"
+msgstr "Otevřít [událost se stavem požadavku]"
 
 #: include/class.forms.php:2371
 msgctxt "ticket state name"
 msgid "Closed"
-msgstr "Uzavřené"
+msgstr "Uzavřený [název stavu požadavku]"
 
 #: include/class.forms.php:2372
 msgctxt "ticket state action"
 msgid "Close"
-msgstr "Zavřít"
+msgstr "Zavřít [událost se stavem požadavku]"
 
 #: include/class.forms.php:2378 include/class.search.php:1135
 msgctxt "ticket state name"
 msgid "Archived"
-msgstr "Archivované"
+msgstr "Archivovaný [název stavu požadavku]"
 
 #: include/class.forms.php:2379
 msgctxt "ticket state action"
 msgid "Archive"
-msgstr "Archiv"
+msgstr "Archivovat [událost se stavem požadavku]"
 
 #: include/class.forms.php:2382 include/class.search.php:1136
 msgctxt "ticket state name"
 msgid "Deleted"
-msgstr "Smazáno"
+msgstr "Smazáný [název stavu požadavku]"
 
 #: include/class.forms.php:2383
 msgctxt "ticket state action"
 msgid "Delete"
-msgstr "Smazat"
+msgstr "Smazat [událost se stavem požadavku]"
 
 #: include/class.forms.php:2534 include/staff/settings-system.inc.php:328
 msgid "Small"
@@ -3527,7 +3527,7 @@ msgstr "Malý"
 
 #: include/class.forms.php:2561
 msgid "Maximum File Size"
-msgstr "Maximální povolená velikost souboru"
+msgstr "Maximální velikost souboru"
 
 #: include/class.forms.php:2562
 msgid "Choose maximum size of a single file uploaded to this field"
@@ -3555,7 +3555,7 @@ msgstr "Volitelně zadejte čárkami oddělený seznam dalších typů souborů 
 
 #: include/class.forms.php:2579
 msgid "Maximum Files"
-msgstr "Maximum souborů"
+msgstr "Maximální počet souborů"
 
 #: include/class.forms.php:2580
 msgid "Users cannot upload more than this many files."
