@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 14:45+0200\n"
+"PO-Revision-Date: 2016-04-28 14:56+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -1802,7 +1802,7 @@ msgstr "Příliš mnoho pokusů o přihlášení uživatele."
 
 #: include/class.auth.php:950
 msgid "Excessive login attempts (user)"
-msgstr "Příliš mnoho pokusů o přihlášení (%s)"
+msgstr "Příliš mnoho pokusů o přihlášení (uživatel)"
 
 #: include/class.auth.php:957
 msgid "Failed login attempt (user)"
@@ -1810,7 +1810,7 @@ msgstr "Neúspěšný pokus o přihlášení (uživatel)"
 
 #: include/class.auth.php:1012 include/class.auth.php:1234
 msgid "Invalid user-id given"
-msgstr "Uvedeno neplatné user-id"
+msgstr "Uvedená neplatná identifikace uživatele"
 
 #: include/class.auth.php:1015 include/class.auth.php:1018
 #: include/class.auth.php:1237 include/class.auth.php:1240
@@ -1827,7 +1827,7 @@ msgstr "Heslo musí mít minimálně 6 znaků"
 
 #: include/class.auth.php:1328 include/class.client.php:429
 msgid "New password MUST be different from the current password!"
-msgstr "Nové heslo MUSÍ být odlišné od současného hesla!"
+msgstr "Nové heslo musí být odlišné od současného hesla!"
 
 #: include/class.avatar.php:32
 msgid "Avatar"
@@ -1847,7 +1847,7 @@ msgstr "Tajemný muž"
 
 #: include/class.banlist.php:79
 msgid "Internal list for email banning. Do not remove"
-msgstr "Interní seznam pro zakázané e-maily. Neodstraňujte"
+msgstr "Interní seznam pro odmítání e-mailů. Neodstraňujte"
 
 #: include/class.canned.php:41
 msgid "Premade"
@@ -1909,12 +1909,12 @@ msgstr "Privátní"
 #: include/staff/helptopic.inc.php:73 include/staff/helptopics.inc.php:145
 #, php-format
 msgid "Public"
-msgstr "Veřejný"
+msgstr "Veřejná"
 
 #: include/class.category.php:56 include/class.faq.php:100
 #: include/class.faq.php:495 include/staff/category.inc.php:54
 msgid "Featured"
-msgstr "Doporučené"
+msgstr "Důležité"
 
 #: include/class.category.php:128
 msgid "Category name is required"
@@ -1967,39 +1967,39 @@ msgstr "Neznámá možnost nastavení. Kontaktujte technickou podporu."
 
 #: include/class.config.php:1094
 msgid "Helpdesk URL is required"
-msgstr "URL systému zákaznické podpory je povinná"
+msgstr "URL systému zákaznické podpory je vyžadována"
 
 #: include/class.config.php:1095
 msgid "Helpdesk title is required"
-msgstr "Název systému zákaznické podpory je povinný"
+msgstr "Název systému zákaznické podpory je vyžadován"
 
 #: include/class.config.php:1096
 msgid "Default Department is required"
-msgstr "Výchozí oddělení je povinné"
+msgstr "Výchozí oddělení je vyžadováno"
 
 #: include/class.config.php:1097
 msgid "Enter lock time in minutes"
-msgstr "Zadejte \"lock time\" v minutách"
+msgstr "Zadejte dobu zámku v minutách"
 
 #: include/class.config.php:1099
 msgid "Time format is required"
-msgstr "Formát času je povinný"
+msgstr "Formát času je vyžadován"
 
 #: include/class.config.php:1100
 msgid "Date format is required"
-msgstr "Formát data je povinný"
+msgstr "Formát data je vyžadován"
 
 #: include/class.config.php:1101
 msgid "Datetime format is required"
-msgstr "Formát data a času je povinný"
+msgstr "Formát data a času je vyžadován"
 
 #: include/class.config.php:1102
 msgid "Day, Datetime format is required"
-msgstr "Formát dne, data a času je povinný"
+msgstr "Formát dne, data a času je vyžadován"
 
 #: include/class.config.php:1103
 msgid "Default Timezone is required"
-msgstr "Výchozí časová zóna je povinná"
+msgstr "Výchozí časová zóna je vyžadována"
 
 #: include/class.config.php:1104
 msgid "A primary system language is required"
@@ -2007,18 +2007,18 @@ msgstr "Je vyžadován výchozí systémový jazyk"
 
 #: include/class.config.php:1160
 msgid "Valid password reset window required"
-msgstr "Vyžadovana platná lhůta možnosti obnovy hesla"
+msgstr "Vyžadována platná lhůta možnosti obnovy hesla"
 
 #: include/class.config.php:1165 include/class.config.php:1191
 #: include/class.dynamic_forms.php:1595
 msgid "Select a value from the list"
-msgstr "Vyber hodnotu z listu"
+msgstr "Vyberte hodnotu ze seznamu"
 
 #: include/class.config.php:1211 include/class.config.php:1212
 #: include/class.config.php:1213 include/class.config.php:1259
 #: include/class.config.php:1337
 msgid "Selection required"
-msgstr "Výběr je povinný"
+msgstr "Výběr je vyžadován"
 
 #: include/class.config.php:1214
 msgid "Enter valid numeric value"
@@ -2026,11 +2026,11 @@ msgstr "Zadejte platnou číselnou hodnotu"
 
 #: include/class.config.php:1219
 msgid "The GD extension is required"
-msgstr "GD rozšíření je požadováno"
+msgstr "GD rozšíření je vyžadováno"
 
 #: include/class.config.php:1221
 msgid "PNG support is required for Image Captcha"
-msgstr "Podpora PNG je požadována pro Captcha"
+msgstr "Podpora PNG je vyžadována pro Captcha"
 
 #: include/class.config.php:1227
 msgid "Default help topic must be set to active"
@@ -2043,15 +2043,15 @@ msgstr "Výchozí téma podpory musí být nastaveno jako aktivní"
 #: include/class.config.php:1523 include/class.config.php:1530
 #: include/class.config.php:1537
 msgid "Select recipient(s)"
-msgstr "Vyber adresáta(ty)"
+msgstr "Vyberte adresáta(ty)"
 
 #: include/class.config.php:1335
 msgid "You must select template"
-msgstr "Musíte vybrat template"
+msgstr "Musíte vybrat šablonu"
 
 #: include/class.config.php:1336
 msgid "Default email is required"
-msgstr "Výchozí e-mail je povinný"
+msgstr "Výchozí e-mailová adresa je vyžadována"
 
 #: include/class.config.php:1338
 msgid "System admin email is required"
@@ -2094,7 +2094,7 @@ msgstr "Oddělení již existuje"
 
 #: include/class.dept.php:595
 msgid "System default department cannot be private"
-msgstr "Systémové výchozí oddělení nemůže být privátní"
+msgstr "Systémové výchozí oddělení nemůže být soukromé"
 
 #: include/class.dept.php:598 include/class.forms.php:4218
 #: include/class.task.php:799 include/class.ticket.php:3108
@@ -2109,7 +2109,7 @@ msgstr "toto oddělení"
 
 #: include/class.dept.php:659 include/class.staff.php:1089
 msgid "Select a valid role"
-msgstr "Zvol platnou roli"
+msgstr "Zvolte platnou roli"
 
 #: include/class.dept.php:661 include/class.team.php:203
 msgid "No such agent"
@@ -2169,7 +2169,7 @@ msgstr "URL není podporovaná"
 
 #: include/class.dispatcher.php:143
 msgid "Dispatcher compile error. Function not callable"
-msgstr "Dispatcher compile error. Funkci není možné volat"
+msgstr "Chyba kompilace dispatchereu. Funkci není možné volat"
 
 #: include/class.dynamic_forms.php:95
 #, php-format
@@ -2178,7 +2178,7 @@ msgstr "%s: Volání neexistující funkce"
 
 #: include/class.dynamic_forms.php:445
 msgid "User Data"
-msgstr "Uživatelské údaje"
+msgstr "Údaje uživatele"
 
 #: include/class.dynamic_forms.php:450 include/class.dynamic_forms.php:454
 #: include/class.mailfetch.php:931 include/class.note.php:30
