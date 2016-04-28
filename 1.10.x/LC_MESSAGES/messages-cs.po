@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 16:35+0200\n"
+"PO-Revision-Date: 2016-04-28 16:57+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -4978,7 +4978,7 @@ msgstr "Upozornění zaslané zaměstnancům v případě přidání interní po
 
 #: include/class.template.php:113 include/staff/settings-alerts.inc.php:110
 msgid "Ticket Assignment Alert"
-msgstr "Upozornění o přiřazení požadavku"
+msgstr "Upozornění na přiřazení požadavku"
 
 #: include/class.template.php:114
 msgid "Alert sent to agents on ticket assignment."
@@ -5006,7 +5006,7 @@ msgstr "Upozornění na nový úkol"
 
 #: include/class.template.php:138
 msgid "Alert sent to agents, if enabled, on new task."
-msgstr "Upozornění odeslané zaměstnancům na nový úkol, pokud je povoleno."
+msgstr "Upozornění, pokud je povoleno, na nový úkol odeslané zaměstnancům."
 
 #: include/class.template.php:146
 msgid "Template used to notify collaborators on task activity."
@@ -5018,11 +5018,11 @@ msgstr "Upozornění na novou událost"
 
 #: include/class.template.php:154
 msgid "Alert sent to selected agents, if enabled, on new activity."
-msgstr "Upozornění na novou aktivitu, pokud je povoleno, je odeslané vybraným zaměstnancům při nové činnosti."
+msgstr "Upozornění, pokud je povoleno, na novou událost odeslané vybraným zaměstnancům."
 
 #: include/class.template.php:161 include/staff/settings-tasks.inc.php:180
 msgid "Task Assignment Alert"
-msgstr "Upozornění o přiřazení úkolu"
+msgstr "Upozornění na přiřazení úkolu"
 
 #: include/class.template.php:162
 msgid "Alert sent to agents on task assignment."
@@ -5046,12 +5046,12 @@ msgstr "Upozornění odeslané zaměstnancům v případě zastaralého či zpo�
 
 #: include/class.template.php:274
 msgid "Template Fetch Error"
-msgstr "Error při vyzvednutí šablony"
+msgstr "Chyba při načtení šablony"
 
 #: include/class.template.php:275
 #, php-format
 msgid "Unable to fetch \"%1$s\" template - id #%d"
-msgstr "Nemohu vyzvednout \"%1$s\" šablonu - id #%d"
+msgstr "Nemohu načíst \"%1$s\" šablonu - id %d"
 
 #: include/class.template.php:379
 msgid "In-use template set cannot be disabled!"
@@ -5063,7 +5063,7 @@ msgstr "Jméno šablony již existuje"
 
 #: include/class.template.php:454
 msgid "Invalid template set specified"
-msgstr "Uvedena neplatná sada šablon"
+msgstr "Zadána neplatná sada šablon"
 
 #: include/class.template.php:472 include/class.template.php:482
 msgid "this template set"
@@ -5071,7 +5071,7 @@ msgstr "tato sada šablon"
 
 #: include/class.template.php:700
 msgid "Email templates must define both \"subject\" and \"body\" parts of the template"
-msgstr "Šablona mailu musí mít nadefinovány obě části šablony předmět i tělo mailu"
+msgstr "Šablony e-mailů musí mít nadefinovány obě části šablony, předmět i tělo e-mailu"
 
 #: include/class.thread.php:392
 #, php-format
@@ -5080,20 +5080,20 @@ msgstr "Přijato od: %1$s <%2$s>"
 
 #: include/class.thread.php:612
 msgid "Edit Thread"
-msgstr "Upravit vlákno"
+msgstr "Změnit vlákno"
 
 #: include/class.thread.php:613
 msgid "Ability to edit thread items of other agents"
-msgstr "Umožnění upravit příspěvky jiných zaměstnanců ve vlákně požadavku"
+msgstr "Umožnění položky vlákna od jiných zaměstnanců"
 
 #: include/class.thread.php:637
 msgid "Email loop detected"
-msgstr "Byla detekována mailová smyčka"
+msgstr "Byla detekována e-mailová smyčka"
 
 #: include/class.thread.php:638
 #, php-format
 msgid "It appears as though &lt;%s&gt; is being used as a forwarded or fetched email account and is also being used as a user / system account. Please correct the loop or seek technical assistance."
-msgstr "Vypadá, že &lt;%s&gt; je používáno jako přeposíláný nebo zachytáváný mailový účet a je také používán jako uživatel / systémový účet. Prosím oprav smyčku nebo vyhledej technickou pomoc."
+msgstr "Vypadá to, že &lt;%s&gt; je používáno jako přeposíláný nebo stahovaný e-mailový účet a je také používán jako uživatelský / systémový účet. Opravte prosím smyčku nebo vyhledejte technickou podporu."
 
 #: include/class.thread.php:901
 #, php-format
@@ -5206,7 +5206,7 @@ msgstr "Změněno uživatelem <b>{somebody}</b> {timestamp} — %s"
 
 #: include/class.thread.php:1962 include/staff/department.inc.php:100
 msgid "SLA"
-msgstr "SLA"
+msgstr "Plán SLA"
 
 #: include/class.thread.php:1964 include/class.ticket.php:1942
 #: include/staff/settings-autoresp.inc.php:16
@@ -5258,7 +5258,7 @@ msgstr "Chybějící nebo neplatné údaje"
 
 #: include/class.thread.php:2287
 msgid "Message content is required"
-msgstr "Telo zprávy je vyžadováno"
+msgstr "Tělo zprávy je vyžadováno"
 
 #: include/class.thread.php:2316 include/class.ticket.php:1468
 msgid "New Response"
@@ -5294,7 +5294,7 @@ msgstr "Popis události"
 
 #: include/class.ticket.php:109
 msgid "Ability to open tickets on behalf of users"
-msgstr "Umožnění vytvářet požadavky za uživatele"
+msgstr "Umožnění vytvářet požadavky za zákazníky"
 
 #: include/class.ticket.php:114
 msgid "Ability to edit tickets"
@@ -5352,7 +5352,7 @@ msgstr "Otevřených požadavků: %d"
 #: include/class.ticket.php:1454
 #, php-format
 msgid "Max allowed: %d"
-msgstr "Maximum povoleno: %d"
+msgstr "Maximálně povoleno: %d"
 
 #: include/class.ticket.php:1455
 msgid "Notice sent to the user."
