@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 14:56+0200\n"
+"PO-Revision-Date: 2016-04-28 15:35+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -2241,7 +2241,7 @@ msgstr "Neměnné"
 
 #: include/class.dynamic_forms.php:752
 msgid "Required for EndUsers"
-msgstr "Vyžadováno pro uživatele"
+msgstr "Vyžadováno pro koncové uživatele"
 
 #: include/class.dynamic_forms.php:756
 msgid "Required for Agents"
@@ -2257,7 +2257,7 @@ msgstr "Interní, povinné"
 
 #: include/class.dynamic_forms.php:849
 msgid "Label is required for custom form fields"
-msgstr "Je vyžadován popisek pro položku uživatelského formuláře"
+msgstr "Je vyžadován popisek pro položky uživatelského formuláře"
 
 #. `required` is a visibility setting fields
 #. `variable` is used for automation. Internally it's called `name`
@@ -2303,15 +2303,15 @@ msgstr "Neznámý nebo neplatný vstup"
 #. Type of widget allowing multiple selections
 #: include/class.dynamic_forms.php:1603
 msgid "Multiselect"
-msgstr "Multivýběr"
+msgstr "Násobný výběr"
 
 #: include/class.dynamic_forms.php:1606
 msgid "Allow multiple selections"
-msgstr "Povol výběr více"
+msgstr "Povolit násobný výběr"
 
 #: include/class.dynamic_forms.php:1610
 msgid "Widget"
-msgstr "Widget"
+msgstr "Nástroj"
 
 #: include/class.dynamic_forms.php:1613
 msgid "Drop Down"
@@ -2319,7 +2319,7 @@ msgstr "Rozbalovací menu"
 
 #: include/class.dynamic_forms.php:1614
 msgid "Typeahead"
-msgstr "Dopředný"
+msgstr "Dopředné"
 
 #: include/class.dynamic_forms.php:1615
 msgid "Text Input"
@@ -2327,11 +2327,11 @@ msgstr "Textové pole"
 
 #: include/class.dynamic_forms.php:1624
 msgid "Typeahead will work better for large lists"
-msgstr "Dopředný bude pracovat lépe pro dlouhé seznamy"
+msgstr "Dopředné bude pracovat lépe pro dlouhé seznamy"
 
 #: include/class.dynamic_forms.php:1627 include/class.forms.php:1279
 msgid "Validation Error"
-msgstr "Chyba ověření"
+msgstr "Chyba zadání"
 
 #: include/class.dynamic_forms.php:1635
 msgid "Message shown to user if the item entered is not in the list"
@@ -2384,7 +2384,7 @@ msgstr "neobsahuje"
 
 #: include/class.email.php:43 include/class.nav.php:268
 msgid "Banlist"
-msgstr "Seznam zakázaných"
+msgstr "Černá listina"
 
 #: include/class.email.php:45
 msgid "Ability to add/remove emails from banlist via ticket interface"
@@ -2392,7 +2392,7 @@ msgstr "Umožnění přidávat/odebírat e-mailové adresy z černé listiny (ba
 
 #: include/class.email.php:248
 msgid "Internal error. Get technical help."
-msgstr "Vnitřní chyba. Získat technickou pomoc."
+msgstr "Vnitřní chyba. Zajistěte si technickou podporu."
 
 #: include/class.email.php:251 setup/inc/class.installer.php:51
 #: setup/inc/class.installer.php:54
@@ -2413,11 +2413,11 @@ msgstr "E-mailová adresa je používána zaměstnancem"
 
 #: include/class.email.php:261
 msgid "Email name required"
-msgstr "Vyžadováno jméno e-mailu"
+msgstr "Vyžadován název e-mailu"
 
 #: include/class.email.php:265
 msgid "Username missing"
-msgstr "Chybějící Uživatelské jméno"
+msgstr "Chybějící uživatelské jméno"
 
 #: include/class.email.php:268 setup/inc/class.installer.php:56
 #: setup/inc/class.installer.php:62
@@ -2426,7 +2426,7 @@ msgstr "Vyžadováno heslo"
 
 #: include/class.email.php:273
 msgid "Unable to encrypt password - get technical support"
-msgstr "Nelze zašifrovat heslo - získat technickou pomoc"
+msgstr "Nelze zašifrovat heslo - zajistěte si technickou podporu"
 
 #: include/class.email.php:282
 msgid "IMAP doesn't exist. PHP must be compiled with IMAP enabled."
@@ -2455,11 +2455,11 @@ msgstr "Vyžadováné maximum e-mailů"
 
 #: include/class.email.php:295
 msgid "Indicate what to do with fetched emails"
-msgstr "Uveďte, co dělat s vyzvednutými e-maily"
+msgstr "Uveďte, co dělat se staženými e-maily"
 
 #: include/class.email.php:298
 msgid "POP mail servers do not support folders"
-msgstr "POP mail servery nepodporují adresáře"
+msgstr "E-mailové servery POP nepodporují adresáře"
 
 #: include/class.email.php:300
 msgid "Valid folder required"
@@ -2467,7 +2467,7 @@ msgstr "Vyžadována platná složka"
 
 #: include/class.email.php:326
 msgid "Host/userid combination already in use."
-msgstr "Kombinace host/uživatel je již použita."
+msgstr "Kombinace název serveru/uživatel je již použita."
 
 #: include/class.email.php:343
 #, php-format
@@ -2513,7 +2513,7 @@ msgstr "Od"
 
 #: include/class.export.php:89 include/class.filter_action.php:559
 msgid "From Email"
-msgstr "Z e-mailu"
+msgstr "Z e-mailové adresy"
 
 #: include/class.export.php:93 include/class.filter_action.php:572
 #: include/class.search.php:813 include/class.thread.php:1965
@@ -2555,7 +2555,7 @@ msgstr "Zpožděné"
 #: include/class.export.php:98 include/class.search.php:1155
 #: scp/tickets.php:387
 msgid "Answered"
-msgstr "Odpovezené"
+msgstr "Zodpovězené"
 
 #: include/class.export.php:99 include/class.export.php:153
 msgid "Agent Assigned"
@@ -2662,7 +2662,7 @@ msgstr "Informace o uživateli"
 
 #: include/class.filter.php:31
 msgid "Email Meta-Data"
-msgstr "Meta-data e-mailu"
+msgstr "Meta-informace o e-mailu"
 
 #: include/class.filter.php:32
 msgid "Reply-To Email"
@@ -2670,7 +2670,7 @@ msgstr "E-mailová adresa pro odpovědi"
 
 #: include/class.filter.php:33
 msgid "Reply-To Name"
-msgstr "Jméno Reply-To"
+msgstr "Jméno pro odpovědi"
 
 #: include/class.filter.php:34
 msgid "Addressee (To and Cc)"
@@ -2694,11 +2694,11 @@ msgstr "Neobsahuje"
 
 #: include/class.filter.php:335
 msgid "Starts With"
-msgstr "Začít s"
+msgstr "Začínat s"
 
 #: include/class.filter.php:336
 msgid "Ends With"
-msgstr "Skončit s"
+msgstr "Končit s"
 
 #: include/class.filter.php:337
 msgid "Matches Regex"
