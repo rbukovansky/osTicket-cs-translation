@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 14:14+0200\n"
+"PO-Revision-Date: 2016-04-28 14:23+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -746,7 +746,7 @@ msgstr "Chyba vložení úkolu - zkuste to znovu!"
 #: include/ajax.tasks.php:563 include/ajax.tasks.php:620
 #: include/ajax.tasks.php:667 include/ajax.tasks.php:730
 msgid "No such task"
-msgstr "Takový úkol neexistuje"
+msgstr "Žádný takový úkol"
 
 #: include/ajax.tasks.php:118 include/ajax.tasks.php:478
 #: include/ajax.tasks.php:522 include/ajax.tasks.php:568
@@ -918,7 +918,7 @@ msgstr "Nemáte oprávnění k úkolům %s"
 
 #: include/ajax.tasks.php:368
 msgid "Status selection required"
-msgstr "Je požadován výběr stavu"
+msgstr "Vyžadován výběr stavu"
 
 #: include/ajax.tasks.php:380
 #, php-format
@@ -947,12 +947,12 @@ msgstr "Volitelný důvod smazání %s"
 #: include/staff/templates.inc.php:164 include/staff/ticket-view.inc.php:900
 #, php-format
 msgid "Are you sure you want to DELETE %s?"
-msgstr "Určitě chcete SMAZAT %s?"
+msgstr "Jste si jist, že chcete smazat %s?"
 
 #: include/ajax.tasks.php:398 include/ajax.tasks.php:653
 #, php-format
 msgid "Deleted tasks CANNOT be recovered, including any associated attachments."
-msgstr "Smazané úkoly NEMOHOU být obnoveny, včetně jakýchkoliv souvisejících příloh."
+msgstr "Smazané úkoly nemohou být obnoveny, včetně jakýchkoliv souvisejících příloh."
 
 #: include/ajax.tasks.php:413 scp/apikeys.php:95 scp/banlist.php:121
 #: scp/canned.php:151 scp/categories.php:110 scp/departments.php:116
@@ -989,7 +989,7 @@ msgstr "průběh"
 #: include/ajax.tasks.php:572 include/ajax.tasks.php:627
 #, php-format
 msgid "Task #%s: %s"
-msgstr "Úkol #%s: %s"
+msgstr "Úkol č. %s: %s"
 
 #: include/ajax.tasks.php:485 include/ajax.tickets.php:391
 #: include/class.task.php:96 include/class.ticket.php:122
@@ -1032,7 +1032,7 @@ msgstr "Nelze předat úkol"
 #: include/staff/templates/ticket-preview.tmpl.php:163
 #, php-format
 msgid "Reassign"
-msgstr "Přiřadit"
+msgstr "Znovupřiřadit"
 
 #: include/ajax.tasks.php:528 include/ajax.tickets.php:437
 #: include/class.task.php:91 include/class.ticket.php:117
@@ -1049,7 +1049,7 @@ msgstr "Přiřadit"
 #: include/ajax.tasks.php:534
 #, php-format
 msgid "%s is currently assigned to %s"
-msgstr "Úkol %s je aktualně přiřazen zaměstnanci %s"
+msgstr "%s je aktualně přiřazen zaměstnanci %s"
 
 #: include/ajax.tasks.php:544 include/ajax.tasks.php:599
 #: include/ajax.tickets.php:463 include/ajax.tickets.php:520
@@ -1116,7 +1116,7 @@ msgstr "Smazat"
 #: include/ajax.tasks.php:637
 #, php-format
 msgid "%s #%s deleted successfully"
-msgstr "Úkol %s č. %s úspěšně smazán"
+msgstr "%s č. %s úspěšně smazán"
 
 #: include/ajax.tasks.php:644
 msgid "Unable to delete task"
@@ -1127,7 +1127,7 @@ msgstr "Nelze smazat úkol"
 #: include/staff/templates/tasks-actions.tmpl.php:31
 #: include/staff/templates/tasks-actions.tmpl.php:53
 msgid "Reopen"
-msgstr "Znovu otevřít"
+msgstr "Znovuotevřít"
 
 #: include/ajax.tasks.php:663 include/class.task.php:106
 #: include/class.ticket.php:132 include/staff/templates/task-view.tmpl.php:163
@@ -1152,7 +1152,7 @@ msgstr "Zavřít úkol č. %s"
 #: include/ajax.tasks.php:694
 #, php-format
 msgid "change status of %s"
-msgstr "změnit stav úkolu %s"
+msgstr "změnit stav %s"
 
 #: include/ajax.tasks.php:697
 msgid "Unknown status"
@@ -1193,7 +1193,7 @@ msgstr "Přidat spolupracovníka"
 
 #: include/ajax.tickets.php:106
 msgid "Lock denied!"
-msgstr "Uzamčení Odepřeno!"
+msgstr "Uzamčení odepřeno!"
 
 #: include/ajax.tickets.php:114 include/ajax.tickets.php:150
 #, php-format
@@ -1203,7 +1203,7 @@ msgstr "Požadavek je uzamčen uživatelem %s"
 #: include/ajax.tickets.php:157
 #, php-format
 msgid "You no longer have access to #%s."
-msgstr "Již nemáte přístup k požadavku %s."
+msgstr "Již nemáte přístup k č. %s."
 
 #: include/ajax.tickets.php:193 include/ajax.tickets.php:381
 #: include/ajax.tickets.php:424 include/ajax.tickets.php:482
