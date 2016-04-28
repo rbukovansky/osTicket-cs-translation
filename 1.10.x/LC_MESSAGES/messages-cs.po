@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 15:35+0200\n"
+"PO-Revision-Date: 2016-04-28 15:43+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -2702,15 +2702,15 @@ msgstr "Končit s"
 
 #: include/class.filter.php:337
 msgid "Matches Regex"
-msgstr "odpovídá Regex"
+msgstr "odpovídá regulárnímu výrazu"
 
 #: include/class.filter.php:338
 msgid "Does Not Match Regex"
-msgstr "Neodpovídá Regex"
+msgstr "Neodpovídá regulárnímu výrazu"
 
 #: include/class.filter.php:366
 msgid "Any"
-msgstr "Nějaký"
+msgstr "Jakýkoliv"
 
 #: include/class.filter.php:367
 msgid "Web Forms"
@@ -2731,7 +2731,7 @@ msgstr "Neplatný výběr"
 
 #: include/class.filter.php:412
 msgid "Invalid match type selection"
-msgstr "Neplatný výběr typu"
+msgstr "Neplatný výběr typu porovnání"
 
 #: include/class.filter.php:414 include/class.list.php:774
 msgid "Value required"
@@ -2739,12 +2739,12 @@ msgstr "Hodnota vyžadována"
 
 #: include/class.filter.php:418
 msgid "Valid email required for the match type"
-msgstr "Je požadována platný e-mail pro typ porovnání"
+msgstr "Je vyžadován platný e-mail pro typ porovnání"
 
 #: include/class.filter.php:421
 #, php-format
 msgid "Regex compile error: (#%s)"
-msgstr "Chyba Regex kompilace: (#%s)"
+msgstr "Chyba kompilace regulárního výrazu: (#%s)"
 
 #: include/class.filter.php:429
 msgid "Incomplete selection"
@@ -2752,11 +2752,11 @@ msgstr "Nekompletní výběr"
 
 #: include/class.filter.php:437
 msgid "You must set at least one rule."
-msgstr "Musíš nastavit alespoň jedno pravidlo."
+msgstr "Musíte nastavit alespoň jedno pravidlo."
 
 #: include/class.filter.php:458
 msgid "Order required"
-msgstr "Pořadí je vyžadováno"
+msgstr "Pořadí vyžadováno"
 
 #: include/class.filter.php:460
 msgid "Must be numeric value"
@@ -2768,11 +2768,11 @@ msgstr "Jméno je již použito"
 
 #: include/class.filter.php:468
 msgid "Unable to validate rules as entered"
-msgstr "Nelze ověřit pravidla jak byla zapsána"
+msgstr "Nelze ověřit pravidla v této podobě"
 
 #: include/class.filter.php:472
 msgid "Target required"
-msgstr "Požadován cíl"
+msgstr "Vyžadován cíl"
 
 #: include/class.filter.php:474
 msgid "Unknown or invalid target"
@@ -2785,7 +2785,7 @@ msgstr "tento filtr požadavků"
 
 #: include/class.filter.php:642
 msgid "Parent filter ID required"
-msgstr "ID rodičovského filtru je požadována"
+msgstr "Vyžadováno ID rodičovského filtru"
 
 #: include/class.filter_action.php:167 include/class.filter_action.php:178
 #, php-format
@@ -2794,11 +2794,11 @@ msgstr "Odmítnout požadavek"
 
 #: include/class.filter_action.php:188
 msgid "Use Reply-To Email"
-msgstr "Použít e-mail pro odpověď"
+msgstr "Použít e-mailovou adresu pro odpovědi"
 
 #: include/class.filter_action.php:208
 msgid "<strong>Use</strong> the Reply-To email header"
-msgstr "<strong>Použít</strong> hlavičku e-mailu Reply-To"
+msgstr "<strong>Použít</strong> e-mailovou hlavičku E-mailová adresa pro odpovědi"
 
 #: include/class.filter_action.php:214 include/class.filter_action.php:236
 #: include/class.filter_action.php:267 include/class.filter_action.php:566
@@ -2886,7 +2886,7 @@ msgstr "Nastavit prioritu"
 
 #: include/class.filter_action.php:329
 msgid "Set SLA Plan"
-msgstr "Nastavit SLA Plán"
+msgstr "Nastavit plán SLA"
 
 #: include/class.filter_action.php:351
 msgid "Assign Team"
@@ -2920,7 +2920,7 @@ msgstr "Příjemce"
 #: include/class.filter_action.php:514 include/staff/settings-emails.inc.php:37
 #: setup/tips.php:14
 msgid "Default System Email"
-msgstr "Výchozí systémový e-mail"
+msgstr "Výchozí systémová e-mailová adresa"
 
 #: include/class.filter_action.php:519 include/staff/department.inc.php:282
 msgid "Recipients"
@@ -3052,7 +3052,7 @@ msgstr "Dlouhá odpověď"
 
 #: include/class.forms.php:530
 msgid "Thread Entry"
-msgstr "Vstup Threadu"
+msgstr "Položka vlákna"
 
 #: include/class.forms.php:531
 msgid "Date and Time"
@@ -3087,11 +3087,11 @@ msgstr "Informace"
 #: include/class.forms.php:673
 #, php-format
 msgid "%s is a required field"
-msgstr "%s je povinná položka"
+msgstr "%s je vyžadovaná položka"
 
 #: include/class.forms.php:674
 msgid "This is a required field"
-msgstr "Tuto položku je nutné vyplnit"
+msgstr "Toto je vyžadovaná položka"
 
 #: include/class.forms.php:868 include/class.forms.php:1644
 #: include/class.forms.php:2834
@@ -3129,7 +3129,7 @@ msgstr "Korektní regulární výraz"
 
 #: include/class.forms.php:926 include/class.forms.php:1276
 msgid "Cannot compile this regular expression"
-msgstr "Nelze kompilovat tento regularni výraz"
+msgstr "Nelze zkompilovat tento regularni výraz"
 
 #: include/class.forms.php:977
 msgid "%s has a value"
