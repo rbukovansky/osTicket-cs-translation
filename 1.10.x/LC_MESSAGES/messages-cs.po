@@ -15,12 +15,12 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-26 16:51+0200\n"
+"PO-Revision-Date: 2016-04-28 14:14+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
 msgid "Incomplete client information"
-msgstr "Informace o zákazníkovi nejsou kompletní"
+msgstr "Nekompletní informace o zákazníkovi"
 
 #: account.php:66 include/class.client.php:407 include/class.user.php:1104
 msgid "New password is required"
@@ -51,11 +51,11 @@ msgstr "Interní chyba. Účet nelze vytvořit"
 
 #: account.php:93
 msgid "Errors configuring your profile. See messages below"
-msgstr "Chyby při konfiguraci tvého profilu. Více informací níže"
+msgstr "Při konfiguraci vašeho účtu nastaly chyby. Více informací níže"
 
 #: client.inc.php:86 scp/staff.inc.php:132
 msgid "Password change required to continue"
-msgstr "Pro pokračování je nutné změnit heslo"
+msgstr "Před pokračováním je nutné změnit heslo"
 
 #: file.php:26 file.php:44
 msgid "Unknown or invalid file"
@@ -63,7 +63,7 @@ msgstr "Neznámý nebo chybný soubor"
 
 #: index.php:41
 msgid "Welcome to the Support Center"
-msgstr "Vítejte v centru podpory"
+msgstr "Vítejte v zákaznickém centru podpory"
 
 #: login.php:42 pwreset.php:13 scp/login.php:39 scp/pwreset.php:37
 #: scp/staff.inc.php:99
@@ -72,7 +72,7 @@ msgstr "Je požadován platný CSRF token"
 
 #: login.php:50
 msgid "Valid username or email address is required"
-msgstr "Zadejte prosím platné uživatelské jméno nebo e-mailovou adresu"
+msgstr "Je vyžadováno platné uživatelské jméno nebo e-mailová adresa"
 
 #: login.php:64 login.php:125
 msgid "Access Denied. Contact your help desk administrator to have an account registered for you"
@@ -84,7 +84,7 @@ msgstr "Chybné jméno či heslo - zkuste to znovu!"
 
 #: login.php:79
 msgid "Valid email address and ticket number required"
-msgstr "Je požadována platná e-mailová adresa a číslo požadavku"
+msgstr "Je vyžadována platná e-mailová adresa a číslo požadavku"
 
 #: login.php:94
 #, php-format
@@ -101,7 +101,7 @@ msgstr "Nepodařila se načíst konfigurace z databáze. Kontaktujte podporu."
 
 #: offline.php:30
 msgid "Support Ticket System Offline"
-msgstr "Systém podpory je nedostupný"
+msgstr "Systém zákaznické podpory je nedostupný"
 
 #: open.php:27
 msgid "Enter text shown on the image"
@@ -151,11 +151,11 @@ msgstr "E-mail pro obnovu hesla se nepodařilo odeslat. Interní chyba"
 #: pwreset.php:29 scp/pwreset.php:51
 #, php-format
 msgid "Unable to verify username %s"
-msgstr "Nepodařilo se ověřit uživatele %s"
+msgstr "Nepodařilo se ověřit uživatelské jméno %s"
 
 #: pwreset.php:45
 msgid "Re-enter your username or email"
-msgstr "Zadejte znovu uživatelské jméno nebo e-mailovou adresu"
+msgstr "Zadejte znovu vaše uživatelské jméno nebo e-mailovou adresu"
 
 #: pwreset.php:76 scp/pwreset.php:79
 msgid "Enter your username or email address below"
@@ -175,7 +175,7 @@ msgstr "Přístup odepřen. Pravděpodobně neplatné číslo požadavku"
 
 #: tickets.php:76 scp/emailtest.php:35
 msgid "Message required"
-msgstr "Vyžadována zpráva"
+msgstr "Vyžadován text zprávy"
 
 #: tickets.php:90
 msgid "Message Posted Successfully"
@@ -304,7 +304,7 @@ msgstr "externí ID"
 #: setup/tips.php:26 setup/inc/install.inc.php:58
 #: setup/inc/subscribe.inc.php:18
 msgid "Email Address"
-msgstr "E-mail"
+msgstr "E-mailová adresa"
 
 #: include/ajax.content.php:58 include/class.client.php:50
 #: include/staff/ticket-open.inc.php:97 setup/inc/subscribe.inc.php:13
@@ -313,7 +313,7 @@ msgstr "Celé jméno"
 
 #: include/ajax.content.php:59
 msgid "see name expansion"
-msgstr "viz název rozšíření"
+msgstr "viz rozšíření jména"
 
 #: include/ajax.content.php:60 include/class.export.php:87
 #: include/class.filter_action.php:547 include/client/tickets.inc.php:210
@@ -429,7 +429,7 @@ msgstr "Jména všech příjemců"
 
 #: include/ajax.content.php:69
 msgid "Auth. token used for auto-login"
-msgstr "Auth. token pro automatické přihlášení"
+msgstr "Přihl. token pro automatické přihlášení"
 
 #: include/ajax.content.php:70
 msgid "Agent's ticket view link"
@@ -487,7 +487,7 @@ msgstr "Přiřazený/zavírající zaměstnanec"
 #: include/ajax.content.php:75 include/class.task.php:1059
 #: include/class.ticket.php:1929
 msgid "Assigned/closing team"
-msgstr "Přidělení/zavření týmu"
+msgstr "Přiřazený/zavírající tým"
 
 #: include/ajax.content.php:76 include/class.ticket.php:1932
 #: include/staff/ticket-view.inc.php:81
@@ -508,7 +508,7 @@ msgstr "Komentáře k přiřazení/předání"
 
 #: include/ajax.content.php:84
 msgid "Internal note <em>(expandable)</em>"
-msgstr "Interní poznámka <em>(rozšiřitelné)</em>"
+msgstr "Interní poznámka <em>(rozšiřitelná)</em>"
 
 #: include/ajax.content.php:86
 msgid "Agent assigning the ticket"
@@ -520,11 +520,11 @@ msgstr "Základní URL osTicket (FQDN)"
 
 #: include/ajax.content.php:89
 msgid "Reset link used by the password reset feature"
-msgstr "Byla použita funkce obnovy hesla pomocí odkazu na obnovení hesla"
+msgstr "Funkce obnovy hesla byla použita pomocí odkazu na obnovení hesla"
 
 #: include/ajax.content.php:92
 msgid "Name Expansion"
-msgstr "Název rozšíření"
+msgstr "Rozšíření jména"
 
 #: include/ajax.content.php:93 include/class.staff.php:897
 #: include/class.staff.php:1385 include/staff/profile.inc.php:55
@@ -574,7 +574,7 @@ msgstr "Poslední zpráva"
 
 #: include/ajax.content.php:102
 msgid "Thread Entry expansions"
-msgstr "Rozbalení vlákna požadavku"
+msgstr "Rozšíření zápisu vlákna"
 
 #: include/ajax.content.php:103
 msgid "Poster"
@@ -641,7 +641,7 @@ msgstr "Změnit"
 #: include/ajax.orgs.php:75 include/ajax.users.php:148
 #, php-format
 msgid "Update %s"
-msgstr "Změněno %s"
+msgstr "Změnit %s"
 
 #: include/ajax.orgs.php:143 include/staff/users.inc.php:90
 #: include/staff/templates/user-lookup.tmpl.php:96
@@ -663,7 +663,7 @@ msgstr "Není možné přidat uživatele do organizace - zkuste to znovu"
 
 #: include/ajax.orgs.php:181
 msgid "User already belongs to this organization!"
-msgstr "Uživatel již patří do organizace!"
+msgstr "Uživatel již patří do této organizace!"
 
 #: include/ajax.orgs.php:183 include/ajax.users.php:446
 msgid "Are you sure you want to change the user's organization?"
