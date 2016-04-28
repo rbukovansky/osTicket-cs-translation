@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 16:57+0200\n"
+"PO-Revision-Date: 2016-04-28 17:08+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -5413,7 +5413,7 @@ msgstr "Je potřeba vybrat téma podpory"
 
 #: include/class.ticket.php:2751
 msgid "Select a valid SLA"
-msgstr "Zvol platnou SLA"
+msgstr "Zvolte platný plán SLA"
 
 #: include/class.ticket.php:2752 include/class.ticket.php:3110
 msgid "Invalid date format - must be MM/DD/YY"
@@ -5434,15 +5434,15 @@ msgstr "Datum splnění nemůže být nastaveno na zavřeném požadavku"
 
 #: include/class.ticket.php:2767 include/class.ticket.php:3130
 msgid "Select a time from the list"
-msgstr "Zvolte čas z menu"
+msgstr "Zvolte čas ze seznamu"
 
 #: include/class.ticket.php:2769 include/class.ticket.php:3132
 msgid "Invalid due date"
-msgstr "Neplatné datum platnosti"
+msgstr "Neplatné datum splnění"
 
 #: include/class.ticket.php:2771 include/class.ticket.php:3134
 msgid "Due date must be in the future"
-msgstr "Datum splatnosti musí být v budoucnu"
+msgstr "Datum splnění musí být v budoucnosti"
 
 #: include/class.ticket.php:2776 include/class.ticket.php:3527
 #, php-format
@@ -5467,7 +5467,7 @@ msgstr "Označuje zdroj požadavku"
 
 #: include/class.ticket.php:3115
 msgid "Unknown system email"
-msgstr "Neznámý systémový mail"
+msgstr "Neznámá systémová e-mailová adresa"
 
 #: include/class.ticket.php:3119
 msgid "Invalid ticket origin given"
@@ -5508,11 +5508,11 @@ msgstr "Nemáte právo na vytvoření požadavku na toto oddělení"
 #: include/class.ticket.php:3534 include/staff/banrule.inc.php:35
 #: scp/banlist.php:37 scp/banlist.php:58
 msgid "Valid email address is required"
-msgstr "Je požadována platná mailová adresa"
+msgstr "Je požadována platná e-mailová adresa"
 
 #: include/class.ticket.php:3547
 msgid "Action Denied. You are not allowed to assign/reassign tickets."
-msgstr "Akce odmítnuta. Nemáte právo přiřazovat/přeřazovat požadavky."
+msgstr "Akce odmítnuta. Nemáte právo přiřazovat/předávat požadavky."
 
 #: include/class.topic.php:83
 msgid "Help topic full path"
@@ -5532,7 +5532,7 @@ msgstr "Je vyžadován název tématu podpory"
 
 #: include/class.topic.php:399
 msgid "Topic is too short. Five characters minimum"
-msgstr "Téma je příliš krátké, musí obsahovat minimálně pět znaků"
+msgstr "Název tématu je příliš krátké, musí obsahovat minimálně pět znaků"
 
 #: include/class.topic.php:402
 msgid "Topic already exists"
@@ -5545,11 +5545,11 @@ msgstr "toto téma podpory"
 
 #: include/class.upgrader.php:182
 msgid "Upgrader Error"
-msgstr "Error aktualizace"
+msgstr "Chyba aktualizace"
 
 #: include/class.upgrader.php:246
 msgid "(Latest)"
-msgstr "(Nejposlednější)"
+msgstr "(Poslední)"
 
 #: include/class.upgrader.php:286
 #, php-format
@@ -5559,17 +5559,17 @@ msgstr "Aktualizovat osTicket na %s"
 #: include/class.upgrader.php:290
 #, php-format
 msgid "Upgrade to %s"
-msgstr "Aktualizuj na %s"
+msgstr "Aktualizovat na %s"
 
 #: include/class.upgrader.php:330
 #, php-format
 msgid "Upgrader - %s (task pending)."
-msgstr "Aktualizátor - %s (čeká se na úlohu)."
+msgstr "Aktualizace - %s (čekající úloha)."
 
 #: include/class.upgrader.php:331
 #, php-format
 msgid "The %s task reports there is work to do"
-msgstr "%s požadavek hlásí, že je zde práce k vykonání"
+msgstr "%s úkol hlásí, že je zde práce k vykonání"
 
 #: include/class.upgrader.php:378
 #, php-format
@@ -5579,26 +5579,26 @@ msgstr "Záplata %s aplikována úspěšně"
 #: include/class.upgrader.php:382
 #, php-format
 msgid "Upgrader - %s applied"
-msgstr "Aktualizátor - %s aplikován"
+msgstr "Aktualizace - %s aplikován"
 
 #: include/class.upgrader.php:423
 #, php-format
 msgid "Upgrader - %s cleanup"
-msgstr "Aktualizárot - %s vyčištění"
+msgstr "Aktualizace - %s vyčištění"
 
 #: include/class.upgrader.php:424
 #, php-format
 msgid "Applied cleanup script %s"
-msgstr "Aplikováno vyčištění skriptem %s"
+msgstr "Aplikován skript vyčištění %s"
 
 #: include/class.upgrader.php:428 scp/upgrade.php:80 scp/upgrade.php:81
 msgid "Upgrader"
-msgstr "Aktualizátor"
+msgstr "Aktualizace"
 
 #: include/class.upgrader.php:428
 #, php-format
 msgid "%s: Unable to process cleanup file"
-msgstr "%s: Nemohu zprocesovat čistící soubor"
+msgstr "%s: Nemohu zpracovat čistící soubor"
 
 #: include/class.user.php:89
 msgid "Ability to add new users"
@@ -5647,7 +5647,7 @@ msgstr "Doména"
 
 #: include/class.user.php:639
 msgid "Mailbox"
-msgstr "Poštovní schránka"
+msgstr "E-mailová schránka"
 
 #: include/class.user.php:640
 msgid "Personal name"
@@ -5655,7 +5655,7 @@ msgstr "Vlastní jméno"
 
 #: include/class.user.php:652
 msgid "First"
-msgstr "Křestní"
+msgstr "Jméno"
 
 #: include/class.user.php:653
 msgid "Last"
@@ -5663,7 +5663,7 @@ msgstr "Příjmení"
 
 #: include/class.user.php:655
 msgid "First M. Last"
-msgstr "Jméno Prosřední Příjmení"
+msgstr "Jméno P. Příjmení"
 
 #: include/class.user.php:657
 msgid "Mr. Last"
@@ -5675,12 +5675,12 @@ msgstr "Pan Jméno P. Příjmení Sen."
 
 #: include/class.user.php:661
 msgid "-- As Entered --"
-msgstr "-- Jako Vepsáno --"
+msgstr "-- Jak je zadáno --"
 
 #: include/class.user.php:1047
 #, php-format
 msgid "%s: Unable to retrieve template"
-msgstr "%s: Nemohu obdržet šablonu"
+msgstr "%s: Nemohu načíst šablonu"
 
 #: include/class.user.php:1106
 msgid "Must be at least 6 characters"
@@ -5689,7 +5689,7 @@ msgstr "Musí být nejméně 6 znaků"
 #: include/class.user.php:1114 include/staff/templates/user-account.tmpl.php:99
 #, php-format
 msgid "Users can always sign in with their email address"
-msgstr "Uživatelé se mohou vždy přihlásit za pomoci jejich mailové adresy"
+msgstr "Uživatelé se mohou vždy přihlásit pomocí jejich mailové adresy"
 
 #: include/class.user.php:1237
 msgid "Locked (Administrative)"
@@ -5742,7 +5742,7 @@ msgstr "Uživatelské jméno obsahuje neplatný znak"
 #: include/class.variable.php:152
 #, php-format
 msgid "Unknown object for \"%s\" tag"
-msgstr "Neznámý objekt u \"%s\""
+msgstr "Neznámý objekt u štítku \"%s\""
 
 #: include/class.variable.php:266
 msgid "Type of recent activity"
@@ -5769,7 +5769,7 @@ msgstr "XML error: %1$s na řídku %2$d:%3$d"
 
 #: include/cli/modules/upgrade.php:38 scp/upgrade.php:28
 msgid "The upgrader does NOT support upgrading from the current vesion!"
-msgstr "Program pro aktualizaci NEPODPORUJE aktualizaci z aktuální verze!"
+msgstr "Program pro aktualizaci nepodporuje aktualizaci z aktuální verze!"
 
 #: include/cli/modules/upgrade.php:41 scp/upgrade.php:30
 msgid "Minimum requirements not met! Refer to Release Notes for more information"
@@ -5781,7 +5781,7 @@ msgstr "Pro pokračování je nutno přejmenovat konfigurační soubor!"
 
 #: include/client/accesslink.inc.php:8
 msgid "Email Access Link"
-msgstr "Vyžádat přístupový odkaz"
+msgstr "Odeslat přístupový odkaz e-mailem"
 
 #: include/client/accesslink.inc.php:10
 msgid "View Ticket"
@@ -5793,7 +5793,7 @@ msgstr "Prosím zadejte vaši e-mailovou adresu a číslo požadavku."
 
 #: include/client/accesslink.inc.php:16
 msgid "An access link will be emailed to you."
-msgstr "Přístupový odkaz vám bude poslán e-mailem."
+msgstr "Přístupový odkaz vám bude zaslán e-mailem."
 
 #: include/client/accesslink.inc.php:18
 msgid "This will sign you in to view your ticket."
@@ -5809,7 +5809,7 @@ msgstr "například 051243"
 
 #: include/client/accesslink.inc.php:41
 msgid "Have an account with us?"
-msgstr "Máte již uživatelský účet?"
+msgstr "Máte již u nás uživatelský účet?"
 
 #: include/client/accesslink.inc.php:42 include/client/header.inc.php:102
 #: include/client/login.inc.php:13 include/client/login.inc.php:32
