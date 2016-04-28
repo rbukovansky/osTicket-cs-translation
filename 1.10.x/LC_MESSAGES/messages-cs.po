@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 14:23+0200\n"
+"PO-Revision-Date: 2016-04-28 14:45+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -1208,7 +1208,7 @@ msgstr "Již nemáte přístup k č. %s."
 #: include/ajax.tickets.php:193 include/ajax.tickets.php:381
 #: include/ajax.tickets.php:424 include/ajax.tickets.php:482
 msgid "No such ticket"
-msgstr "Takový požadavek neexistuje"
+msgstr "Neexistující požadavek"
 
 #: include/ajax.tickets.php:212 include/ajax.tickets.php:241
 #: include/ajax.tickets.php:389 include/ajax.tickets.php:433
@@ -1352,7 +1352,7 @@ msgstr "Požadavek je již přepnutý do stavu %s"
 
 #: include/ajax.tickets.php:883 include/ajax.tickets.php:993
 msgid "to reopen tickets"
-msgstr "pro znovu otevření požadavků"
+msgstr "pro znovuotevření požadavků"
 
 #: include/ajax.tickets.php:888 include/ajax.tickets.php:998
 msgid "to resolve/close tickets"
@@ -1437,7 +1437,7 @@ msgstr "%1$d z %2$d %3$s stav změněn na %4$s"
 #: include/ajax.tickets.php:1100
 #, php-format
 msgid "Change Status &mdash; %1$d %2$s selected"
-msgstr "Změnit stav &mdash; %1$d %2$s vabráno"
+msgstr "Změnit stav &mdash; %1$d %2$s vybráno"
 
 #: include/ajax.tickets.php:1102 scp/tickets.php:32 scp/tickets.php:34
 #: scp/tickets.php:206
@@ -1531,7 +1531,7 @@ msgstr "Přidání nového uživatele"
 #. `remote` users are those in a remore directory such as LDAP
 #: include/ajax.users.php:320
 msgid "Import Remote User"
-msgstr "Importovat uživatele"
+msgstr "Importovat vzdáleného uživatele"
 
 #: include/ajax.users.php:359
 msgid "Select User"
@@ -1573,7 +1573,7 @@ msgstr "API klíč není autorizován"
 
 #: include/api.cron.php:21
 msgid "Cron Job"
-msgstr "Úloha Cron"
+msgstr "Úloha cron"
 
 #: include/api.cron.php:21
 msgid "Cron job executed"
@@ -1690,7 +1690,7 @@ msgstr "Přihlášení zaměstnance"
 #: include/class.auth.php:488
 #, php-format
 msgid "%s logged in [%s], via %s"
-msgstr "%s přihlášeno za %s, přes %s"
+msgstr "%s přihlášen v %s, přes %s"
 
 #: include/class.auth.php:526
 msgid "Agent logout"
@@ -1775,7 +1775,7 @@ msgstr "Časový limit"
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
-msgstr[1] "%d minut"
+msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
 
 #: include/class.auth.php:890
