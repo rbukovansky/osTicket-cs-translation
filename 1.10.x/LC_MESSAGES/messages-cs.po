@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 15:55+0200\n"
+"PO-Revision-Date: 2016-04-28 16:10+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -3683,17 +3683,17 @@ msgstr "Nelze zpracovat zaslaný CSV soubor: "
 
 #: include/class.import.php:59
 msgid "Whoops. Perhaps you meant to send some CSV records"
-msgstr "Ooops. Možná si chtěl odeslat nějaký CSV záznam"
+msgstr "Oops. Možná jste chtěl zaslat nějaké CSV záznamy"
 
 #: include/class.import.php:71
 #, php-format
 msgid "%s: Field must have `variable` set to be imported"
-msgstr "%s: Položka musí mít nastavenu proměnnou `variable` pro import"
+msgstr "%s: Položka musí mít nastavenu `proměnnou` pro import"
 
 #: include/class.import.php:88
 #, php-format
 msgid "%s: Unable to map header to the object field"
-msgstr "%s: Nelze mapovat hlavičku na pole objektu"
+msgstr "%s: Nelze mapovat hlavičku na položku objektu"
 
 #: include/class.import.php:170
 #, php-format
@@ -3712,7 +3712,7 @@ msgstr "Žádné chyby"
 
 #: include/class.json.php:47
 msgid "Maximum stack depth exceeded"
-msgstr "Maximální hloubka stohu překročena"
+msgstr "Překročena maximální hloubka zásobníku"
 
 #: include/class.json.php:48
 msgid "Underflow or the modes mismatch"
@@ -3720,15 +3720,15 @@ msgstr "Podtečení nebo neshodné módy"
 
 #: include/class.json.php:49
 msgid "Unexpected control character found"
-msgstr "Neočekávaný řídicí znak nalezen"
+msgstr "Nalezen neočekávaný řídicí znak"
 
 #: include/class.json.php:50
 msgid "Syntax error, malformed JSON"
-msgstr "Chyba syntaxe, znetvořený JSON"
+msgstr "Chyba syntaxe, nesprávně formátovaný JSON"
 
 #: include/class.json.php:51
 msgid "Malformed UTF-8 characters, possibly incorrectly encoded"
-msgstr "Znetvořený znak UTF-8, zřejmě chybně enkódovaný"
+msgstr "Nesprávné znaky UTF-8, zřejmě chybně zakódovaný"
 
 #: include/class.json.php:55
 msgid "Unknown error"
@@ -3740,7 +3740,7 @@ msgstr "Neznámá chyba parsování JSON"
 
 #: include/class.knowledgebase.php:71
 msgid "Title is required"
-msgstr "Název je zapotřebí"
+msgstr "Název je vyžadován"
 
 #: include/class.list.php:182
 msgid "Alphabetical"
@@ -3769,7 +3769,7 @@ msgstr "Zkratka"
 #: include/class.list.php:404 include/class.list.php:459 scp/forms.php:19
 #, php-format
 msgid "%s is required"
-msgstr "%s je povinné"
+msgstr "%s je vyžadováno"
 
 #: include/class.list.php:566
 #, php-format
@@ -3794,11 +3794,11 @@ msgstr "Povolit otevřít požadavky v tomto stavu koncovým uživatelům"
 
 #: include/class.list.php:982
 msgid "Reopen Status"
-msgstr "Znovu otevřený stav"
+msgstr "Stav znovuotevření"
 
 #: include/class.list.php:1245
 msgid "Status label"
-msgstr "Štítek stavu"
+msgstr "Popisek stavu"
 
 #: include/class.list.php:1246
 msgid "State name (e.g. open or closed)"
@@ -3849,7 +3849,7 @@ msgstr "Výjimka zpracování mailu"
 #: include/class.mailfetch.php:809
 #, php-format
 msgid "Mailbox: %s | Error(s): %s"
-msgstr "Poštovní schránka: %s | Chyba(y): %s"
+msgstr "E-mailová schránka: %s | Chyba(y): %s"
 
 #: include/class.mailfetch.php:862
 #, php-format
@@ -3858,7 +3858,7 @@ msgstr "Příliš mnoho chyb při zpracování mailů pro %1$s/%2$s. Zkontrolujt
 
 #: include/class.mailfetch.php:874
 msgid "Mail Fetcher"
-msgstr "Mail vyzvedávač"
+msgstr "Stahování e-mailů"
 
 #: include/class.mailfetch.php:891
 msgid "osTicket requires PHP IMAP extension enabled for IMAP/POP3 email fetch to work!"
@@ -3866,7 +3866,7 @@ msgstr "osTicket vyžaduje rozšíření PHP IMAP zapnuté pro správnou funkci 
 
 #: include/class.mailfetch.php:892
 msgid "Mail Fetch Error"
-msgstr "Chyba vyzvedávání e-mailů"
+msgstr "Chyba stahování e-mailů"
 
 #: include/class.mailfetch.php:930
 msgid "osTicket is having trouble fetching emails from the following mail account"
@@ -3874,21 +3874,21 @@ msgstr "osTicket nemůže stáhnout e-maily z tohoto e-mailového účtu"
 
 #: include/class.mailfetch.php:932
 msgid "Host"
-msgstr "Hostitel"
+msgstr "Název serveru"
 
 #: include/class.mailfetch.php:934
 #, php-format
 msgid "%1$d consecutive errors. Maximum of %2$d allowed"
-msgstr "%1$d opakující se chyby. Maximum povolených je %2$d"
+msgstr "%1$d po sobě jdoucí chyby. Maximum povolených je %2$d"
 
 #: include/class.mailfetch.php:935
 #, php-format
 msgid "This could be connection issues related to the mail server. Next delayed login attempt in aprox. %d minutes"
-msgstr "To by mohly být problémy s připojením k mail serveru. Další odložený pokus přihlášení bude za %d minut"
+msgstr "To by mohly být problémy s připojením k e+-mailovému serveru. Další odložený pokus přihlášení bude za %d minut"
 
 #: include/class.mailfetch.php:936
 msgid "Mail Fetch Failure Alert"
-msgstr "Chyba vyzvednutí mailu"
+msgstr "Chyba stažení e-mailu"
 
 #: include/class.nav.php:119 include/class.nav.php:167
 #: include/class.nav.php:222
@@ -3903,12 +3903,12 @@ msgstr "Dashboard zaměstnance"
 #: include/class.role.php:269 include/class.user.php:179
 #: include/staff/org-view.inc.php:80 include/staff/orgs.inc.php:125
 msgid "Users"
-msgstr "Uživatelé"
+msgstr "Zákazníci"
 
 #: include/class.nav.php:123 include/class.nav.php:172
 #: include/class.user.php:108 include/staff/users.inc.php:83
 msgid "User Directory"
-msgstr "Adresář uživatelů"
+msgstr "Adresář zákazníků"
 
 #: include/class.nav.php:126 include/class.nav.php:146
 #: include/class.nav.php:249 include/class.role.php:268
@@ -4101,7 +4101,7 @@ msgstr "Oddělení"
 
 #: include/class.nav.php:334
 msgid "Support Center Home"
-msgstr "Centrum podpory"
+msgstr "Domovská stránka centra podpory"
 
 #: include/class.nav.php:347
 #, php-format
