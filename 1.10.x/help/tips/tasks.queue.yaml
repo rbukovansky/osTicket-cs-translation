@@ -1,7 +1,7 @@
 ---
 advanced:
-  title: Advanced
-  content: 'Narrow down your search parameters. Once you have selected your advanced search criteria and run the search, you can <span class="doc-desc-title">Export </span> the data at the bottom of the page.'
+  title: Rozšířené hledání
+  content: 'Nastavte vaše parametry hledání. Jakmile toto provedete a spustíte hledání, můžete <span class="doc-desc-title">exportovat</span> výsledek odkazem ve spodní části stránky.'
 export:
   title: Export
-  content: Export your data currently in view in a CSV file. CSV files may be opened with any spreadsheet software (i.e., Microsoft Excel, Apple Pages, OpenOffice, etc.).
+  content: Export vašich aktuálně zobrazených záznamů do CSV souboru. CSV soubory mohou být otevřeny jakýmkoliv tabulkovým programem (např. Microsoft Excel, Apple Pages, OpenOffice atd.).

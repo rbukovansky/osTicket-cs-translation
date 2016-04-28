@@ -1,25 +1,25 @@
 ---
 agent_name_format:
-  title: Agent Name Formatting
-  content: Choose a format for Agents names throughout the system. Email templates will use it for names if no other format is specified.
+  title: Styl zobrazení jména zaměstnance
+  content: Vyberte styl zobrazení jmen zaměstnanců pro celý systém. Šablony e-mailů toto nastavení použijí, pokud není specifikován jiný formát.
 staff_identity_masking:
-  title: Staff Identity Masking
-  content: If enabled, this will hide the Agent’s name from the Client during any communication.
+  title: Skrytí identity zaměstnance
+  content: Tato volba skryje jméno zaměstnance pro zákazníka během celé komunikace.
 password_reset:
-  title: Password Expiration Policy
-  content: 'Sets how often (in months) Agents will be required to change their password. If disabled (set to "No expiration"), passwords will not expire.'
+  title: Zásady pro vypršení platnosti hesla
+  content: 'Nastavuje, jak často (v měsících) budou zaměstnanci povinni změnit své heslo. Pokud je toto vypnuto (nastaveno "Bez časového omezení"), tak hesla nikdy nevyprší.'
 password_expiration_policy:
-  title: Password Expiration Policy
-  content: 'Choose how often Agents will be required to change their password. If disabled (i.e., <span class="doc-desc-opt">No Expiration</span>), passwords will not expire.'
+  title: Zásady pro vypršení platnosti hesla
+  content: 'Nastavte, jak často budou zaměstnanci povinni změnit své heslo. Pokud je nastaveno na <span class="doc-desc-opt">Bez časového omezení</span>), tak hesla nikdy nevyprší.'
 allow_password_resets:
-  title: Allow Password Resets
-  content: 'Enable this feature if you would like to display the <span class="doc-desc-title">Forgot My Password</span> link on the <span class="doc-desc-title">Staff Log-In Page</span> after a failed log in attempt.'
+  title: Povolit obnovu hesla
+  content: 'Tato volba povolí zobrazení odkazu <span class="doc-desc-title">Obnova zapomenutého hesla</span> na <span class="doc-desc-title">přihlašovací stránce zaměstnanců</span> po tom, co selže přihlášení.'
 reset_token_expiration:
-  title: Password Reset Window
-  content: 'Choose the duration (in minutes) for which the <span class="doc-desc-title"> Password Reset Tokens</span> will be valid. When an Agent requests a <span class="doc-desc-title">Password Reset</span>, they are emailed a token that will permit the reset to take place.'
+  title: Lhůta obnovy hesla
+  content: 'Vyberte délku (v minutách), jak dlouho bude <span class="doc-desc-title">odkaz na obnovu hesla</span> funkční. Když zaměstnanec požádá o <span class="doc-desc-title">obnovu hesla</span>, je jim zaslán e-mail s odkazem, který jim umožní změnu hesla provést.'
 staff_session_timeout:
-  title: Agent Session Timeout
-  content: 'Choose the maximum idle time (in minutes) before an Agent is required to log in again. <br><br> If you would like to disable <span class="doc-desc-title">Agent Session Timeouts</span>, enter 0.'
+  title: Maximální doba nečinnosti zaměstnance
+  content: 'Vyberte maximální délku (v minutách) nečinnosti zaměstnance, než bude vyžadováno, aby se zaměstnanec znovu přihlásil.<br><br>Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti zaměstnance</span> vypnout, zadejte 0.'
 bind_staff_session_to_ip:
-  title: Bind Agent Session to IP
-  content: 'Enable this if you want Agent to be remembered by their current IP upon Log In. <br><br> This setting is not recommened for users assigned IP addresses dynamically.'
+  title: Spárovat zaměstnance s IP adresou
+  content: 'Tato volba zajistí, aby přihlášení zaměstnance bylo spárováno s IP adresou.<br><br>Toto nastavení není doporučováno pro uživatele s dynamicky přidělovanými IP adresami.'

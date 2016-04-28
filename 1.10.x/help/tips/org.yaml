@@ -1,7 +1,7 @@
 ---
 org_sharing:
-  title: Ticket Sharing
-  content: '<p> Organization ticket sharing allows members access to tickets owned by other members of the organization. </p> <p class="info-banner"> <i class="icon-info-sign"></i> Collaborators always have access to tickets. </p>'
+  title: Sdílení požadavků
+  content: '<p>Sdílení požadavků zákazníka umožňuje jeho zaměstnancům přístup k požadavkům vlastněným jinými zaměstnanci tohoto zákazníka.</p><p class="info-banner"><i class="icon-info-sign"></i> Spolupracovníci mají přístup k požadavkům vždy. </p>'
 email_domain:
-  title: Email Domain
-  content: 'Users can be automatically added to this organization based on their email domain(s). Use the box below to enter one or more domains separated by commas. For example, enter <code>mycompany.com</code> for users with email addresses ending in @mycompany.com'
+  title: Doména e-mailových adres
+  content: 'Zaměstnanci zákazníka mohou být automaticky přidáni k tomuto zákazníkovi na základě domény jejich e-mailové adresy. Do tohoto pole můžete zadat jednu nebo více domén oddělených čárkami. Například, zadejte <code>mycompany.com</code> pro zákazníka, jehož e-mailové adresy končí @mycompany.com'
