@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 16:10+0200\n"
+"PO-Revision-Date: 2016-04-28 16:21+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -4193,7 +4193,7 @@ msgstr "%s: Model nedefinuje meta.pk"
 #: include/class.orm.php:170
 #, php-format
 msgid "%s: Reverse does not specify any constraints"
-msgstr "%s: V opačném směru nejsou žádné vazby"
+msgstr "%s: V opačném směru nejsou žádné omezení"
 
 #: include/class.orm.php:371
 #, php-format
@@ -4221,7 +4221,7 @@ msgstr "Neplatný CSRF token [%1$s] na %2$s"
 
 #: include/class.osticket.php:125
 msgid "Invalid CSRF Token"
-msgstr "Neplatná CSRF Token"
+msgstr "Neplatný CSRF token"
 
 #: include/class.osticket.php:153
 msgid "Company Information"
@@ -4229,7 +4229,7 @@ msgstr "Firemní informace"
 
 #: include/class.osticket.php:240 include/class.upgrader.php:200
 msgid "osTicket Alerts"
-msgstr "Upozornění osTicket"
+msgstr "Upozornění od osTicket"
 
 #. `root` is a root folder
 #: include/class.osticket.php:271
@@ -4238,11 +4238,11 @@ msgstr "(root)"
 
 #: include/class.osticket.php:273
 msgid "Backtrace"
-msgstr "Backtrace"
+msgstr "Vzetí zpět"
 
 #: include/class.page.php:252
 msgid "A page currently in-use CANNOT be disabled!"
-msgstr "Stránka, která je momentálně používána, NEMŮŽE být zamčena!"
+msgstr "Stránka, která je momentálně používána, nemůže být vypnuta!"
 
 #: include/class.page.php:253
 msgid "Page is in-use!"
@@ -4279,7 +4279,7 @@ msgstr "Příjemce zprávy"
 
 #: include/class.pagenate.php:94
 msgid "Showing"
-msgstr "Zobrazuji"
+msgstr "Zobrazení"
 
 #. Used in pagination output
 #: include/class.pagenate.php:96
@@ -4294,7 +4294,7 @@ msgstr "(nefunkční — chybějící)"
 #: include/class.plugin.php:592
 #, php-format
 msgid "Verified by %s"
-msgstr "Ověřil %s"
+msgstr "Ověřeno %s"
 
 #: include/class.plugin.php:595
 msgid "Verified"
@@ -4306,7 +4306,7 @@ msgstr "Registrováno"
 
 #: include/class.plugin.php:600
 msgid "The originator of this extension cannot be verified"
-msgstr "Původce tohoto rozšíření nelze ověřit"
+msgstr "Autora tohoto rozšíření nelze ověřit"
 
 #: include/class.report.php:10
 msgid "Stats"
@@ -4314,7 +4314,7 @@ msgstr "Statistika"
 
 #: include/class.report.php:12
 msgid "Ability to view stats of other agents in allowed departments"
-msgstr "Umožnění prohlédnutí statistik ostatních zaměstnance v povolených odděleních"
+msgstr "Umožnění prohlédnutí statistik ostatních zaměstnanců v povolených odděleních"
 
 #: include/class.report.php:133
 msgid "Topics"
@@ -4348,7 +4348,7 @@ msgstr "Uzavřené"
 
 #: include/class.report.php:247
 msgid "Reopened"
-msgstr "Znovu otevřené"
+msgstr "Znovuotevřené"
 
 #: include/class.report.php:248
 msgid "Service Time"
@@ -4364,13 +4364,13 @@ msgstr "Je nutné zaškrtnout minimálně jedno oprávnění pro roli"
 
 #: include/class.role.php:362
 msgid "Clone an existing role"
-msgstr "Kopie existující role"
+msgstr "Zkopírovat existující roli"
 
 #: include/class.search.php:37 include/client/tickets.inc.php:138
 #: include/staff/templates/advanced-search.tmpl.php:182 scp/tasks.php:191
 #: scp/tickets.php:423
 msgid "Search"
-msgstr "Hledej"
+msgstr "Hledat"
 
 #: include/class.search.php:38
 msgid "See all tickets in search results, regardless of access"
@@ -4382,7 +4382,7 @@ msgstr "Klíčová slova - Volitelné"
 
 #: include/class.search.php:731
 msgid "No fields selected for searching"
-msgstr "Žádné položky pro hledání nebyly vybrány"
+msgstr "Pro hledání nebyly vybrány žádné položky"
 
 #: include/class.search.php:758 include/staff/dynamic-lists.inc.php:47
 #: include/staff/emails.inc.php:78 include/staff/org-view.inc.php:65
@@ -4412,7 +4412,7 @@ msgstr "Stav"
 
 #: include/class.search.php:821
 msgid "Flags"
-msgstr "Označení"
+msgstr "Značky"
 
 #: include/class.search.php:1038
 msgid "Me"
@@ -4465,7 +4465,7 @@ msgstr "Chyba přístupu k SQL souboru %s"
 
 #: include/class.setup.php:60
 msgid "Error parsing SQL schema"
-msgstr "Chyba při rozboru SQL schema"
+msgstr "Chyba při rozboru SQL schématu"
 
 #: include/class.signal.php:61
 #, php-format
@@ -4483,11 +4483,11 @@ msgstr "Smlouva SLA"
 
 #: include/class.sla.php:104 include/staff/slaplans.inc.php:89
 msgid "Grace Period (hrs)"
-msgstr "Povolená doba (v hodinách)"
+msgstr "Lhůta (v hodinách)"
 
 #: include/class.sla.php:111
 msgid "Grace period required"
-msgstr "Vyžadována ochranná lhůta"
+msgstr "Vyžadována lhůta"
 
 #: include/class.sla.php:113
 msgid "Numeric value required (in hours)"
@@ -4540,7 +4540,7 @@ msgstr "Autentizační server nepodporuje změny hesel"
 
 #: include/class.staff.php:620
 msgid "First name is required"
-msgstr "Vyžadováno křestní jméno"
+msgstr "Vyžadováno jméno"
 
 #: include/class.staff.php:623
 msgid "Last name is required"
