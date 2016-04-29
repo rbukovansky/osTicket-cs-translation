@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-29 12:18+0200\n"
+"PO-Revision-Date: 2016-04-29 16:58+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -6974,7 +6974,7 @@ msgstr[2] "vybraných oddělení"
 
 #: include/staff/directory.inc.php:92
 msgid "Filter"
-msgstr "Filtruj"
+msgstr "Filtrovat"
 
 #: include/staff/directory.inc.php:109 include/staff/directory.inc.php:144
 #: include/staff/staffmembers.inc.php:220
@@ -7019,7 +7019,7 @@ msgstr ""
 #: include/staff/dynamic-list.inc.php:125 include/staff/helptopic.inc.php:365
 #: include/staff/templates/dynamic-form-fields-view.tmpl.php:23
 msgid "Label"
-msgstr "Popis"
+msgstr "Popisek"
 
 #: include/staff/dynamic-form.inc.php:131
 #: include/staff/dynamic-form.inc.php:168
@@ -7057,7 +7057,7 @@ msgstr "Odstranit existujicí údaje?"
 #: include/staff/dynamic-form.inc.php:305
 #, php-format
 msgid "You are about to delete %s fields."
-msgstr "Chystáš se smazat %s položek."
+msgstr "Chystáte se smazat %s položek."
 
 #: include/staff/dynamic-form.inc.php:307
 msgid "Would you also like to remove data currently entered for this field? <em> If you opt not to remove the data now, you will have the option to delete the the data when editing it.</em>"
@@ -7070,7 +7070,7 @@ msgstr "Načítání ..."
 
 #: include/staff/dynamic-form.inc.php:346
 msgid "Remove all data entered for <u> %s </u>?"
-msgstr "Odstranit všechny údaje vloženy pro <u>%s</u>?"
+msgstr "Odstranit všechny údaje vloženy do <u>%s</u>?"
 
 #: include/staff/dynamic-forms.inc.php:10
 msgid "Add New Custom Form"
@@ -7081,7 +7081,7 @@ msgid "form"
 msgid_plural "forms"
 msgstr[0] "formulář"
 msgstr[1] "formuláře"
-msgstr[2] "formuláře"
+msgstr[2] "formulářů"
 
 #: include/staff/dynamic-forms.inc.php:49
 msgid "Built-in Forms"
@@ -7090,7 +7090,7 @@ msgstr "Vestavěné formuláře"
 #: include/staff/dynamic-forms.inc.php:109
 #, php-format
 msgid "No extra forms defined yet &mdash; %s add one! %s"
-msgstr "Žádné extra definované adresáře &mdash; %s Přidej jeden! %s"
+msgstr "Žádné extra definované adresáře &mdash; %s přidejte jeden! %s"
 
 #: include/staff/dynamic-forms.inc.php:130 scp/forms.php:92 scp/forms.php:95
 #: scp/forms.php:98
@@ -7110,7 +7110,7 @@ msgstr "Přidat nový uživatelský seznam"
 
 #: include/staff/dynamic-list.inc.php:15
 msgid "Add List"
-msgstr "Přidat do listu"
+msgstr "Přidat seznam"
 
 #: include/staff/dynamic-list.inc.php:34 include/staff/role.inc.php:32
 msgid "Definition"
@@ -7135,7 +7135,7 @@ msgstr "Množné číslo"
 
 #: include/staff/dynamic-list.inc.php:86
 msgid "Sort Order"
-msgstr "Pořadí řazení"
+msgstr "Řazení"
 
 #: include/staff/dynamic-list.inc.php:119
 #: include/staff/templates/list-item-properties.tmpl.php:18
@@ -7223,7 +7223,7 @@ msgstr "Název serveru"
 
 #: include/staff/email.inc.php:212 include/staff/email.inc.php:295
 msgid "Port Number"
-msgstr "Port"
+msgstr "Číslo portu"
 
 #: include/staff/email.inc.php:220
 msgid "Mail Box Protocol"
@@ -7231,7 +7231,7 @@ msgstr "Protokol poštovní schránky"
 
 #: include/staff/email.inc.php:238
 msgid "Fetch Frequency"
-msgstr "Frekvence vyzvednutí"
+msgstr "Frekvence stahování"
 
 #: include/staff/email.inc.php:241 include/staff/settings-agents.inc.php:105
 #: include/staff/settings-agents.inc.php:135
@@ -7241,11 +7241,11 @@ msgstr "minuty"
 
 #: include/staff/email.inc.php:247
 msgid "Emails Per Fetch"
-msgstr "Počet e-mailů při jednom vyzvednutí"
+msgstr "Počet e-mailů při jednom stažení"
 
 #: include/staff/email.inc.php:257
 msgid "Fetched Emails"
-msgstr "Vyzvednuté e-maily"
+msgstr "Stažené e-maily"
 
 #: include/staff/email.inc.php:260
 msgid "Move to folder"
@@ -7273,7 +7273,7 @@ msgstr "Falšování hlavičky"
 
 #: include/staff/email.inc.php:316
 msgid "Allow for this Email Address"
-msgstr "Povolit pro tento e-mail"
+msgstr "Povolit pro tuto e-mailovou adresu"
 
 #: include/staff/emails.inc.php:35 scp/emails.php:21 scp/emails.php:27
 msgid "email"
@@ -7322,7 +7322,7 @@ msgstr "Upravit kategorii"
 
 #: include/staff/faq-category.inc.php:26
 msgid "Delete Category"
-msgstr "Odstranit kategorii"
+msgstr "Smazat kategorii"
 
 #: include/staff/faq-category.inc.php:58 include/staff/faq-view.inc.php:84
 #, php-format
