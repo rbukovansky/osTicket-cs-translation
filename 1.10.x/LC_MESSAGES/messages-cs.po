@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-29 08:58+0200\n"
+"PO-Revision-Date: 2016-04-29 12:18+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -6471,7 +6471,7 @@ msgstr "Prosím potvrďte"
 #: include/staff/teams.inc.php:165 include/staff/templates.inc.php:156
 #, php-format
 msgid "Are you sure you want to <b>enable</b> %s?"
-msgstr "Určitě chceš <b>povolit</b> %s?"
+msgstr "Určitě chcete <b>povolit</b> %s?"
 
 #: include/staff/apikeys.inc.php:148 include/staff/apikeys.inc.php:152
 #: include/staff/apikeys.inc.php:156 scp/apikeys.php:58 scp/apikeys.php:61
@@ -6479,9 +6479,9 @@ msgstr "Určitě chceš <b>povolit</b> %s?"
 #: scp/apikeys.php:90 scp/apikeys.php:93 scp/apikeys.php:96
 msgid "selected API key"
 msgid_plural "selected API keys"
-msgstr[0] "zvolen klíč API"
-msgstr[1] "zvolen API klíč"
-msgstr[2] "zvolen API klíč"
+msgstr[0] "zvolený klíč API"
+msgstr[1] "zvolené klíče API"
+msgstr[2] "zvolených klíčů API"
 
 #: include/staff/apikeys.inc.php:151 include/staff/banlist.inc.php:172
 #: include/staff/cannedresponses.inc.php:165 include/staff/filters.inc.php:161
@@ -6490,7 +6490,7 @@ msgstr[2] "zvolen API klíč"
 #: include/staff/teams.inc.php:169 include/staff/templates.inc.php:160
 #, php-format
 msgid "Are you sure you want to <b>disable</b> %s?"
-msgstr "Určitě chceš <b>zakázat</b>%s?"
+msgstr "Určitě chcete <b>zakázat</b>%s?"
 
 #: include/staff/apikeys.inc.php:157 include/staff/departments.inc.php:176
 #: include/staff/dynamic-form.inc.php:309
@@ -6501,7 +6501,7 @@ msgstr "Určitě chceš <b>zakázat</b>%s?"
 #: include/staff/staffmembers.inc.php:249 include/staff/syslogs.inc.php:197
 #: include/staff/teams.inc.php:175 include/staff/templates.inc.php:166
 msgid "Deleted data CANNOT be recovered."
-msgstr "Smazané údaje NEBUDE možné obnovit."
+msgstr "Smazané údaje nebude možné obnovit."
 
 #: scp/js/scp.js:737
 msgid "Please confirm to continue."
@@ -6542,11 +6542,11 @@ msgstr "Výraz je příliš krátký!"
 
 #: include/staff/banlist.inc.php:69
 msgid "Banned Email Addresses"
-msgstr "Zakázané e-mailové adresy"
+msgstr "Blokované e-mailové adresy"
 
 #: include/staff/banlist.inc.php:75
 msgid "Ban New Email"
-msgstr "Zakázat nový e-mail"
+msgstr "Zablokovat e-mailovou adresu"
 
 #: include/staff/banlist.inc.php:88 include/staff/templates/users.tmpl.php:69
 msgid "Remove"
@@ -6554,15 +6554,15 @@ msgstr "Odstranit"
 
 #: include/staff/banlist.inc.php:100
 msgid "No banned emails matching the query found!"
-msgstr "Nenalezeny žádné blokované e-maily odpovídající dotazu!"
+msgstr "Nenalezeny žádné blokované e-mailové adresy odpovídající dotazu!"
 
 #: include/staff/banlist.inc.php:114 include/staff/banrule.inc.php:42
 msgid "Ban Status"
-msgstr "Stav zákazu"
+msgstr "Stav blokování"
 
 #: include/staff/banlist.inc.php:149
 msgid "No banned emails found!"
-msgstr "Nenalezeny žádné blokované e-maily!"
+msgstr "Nenalezeny žádné blokované e-mailové adresy!"
 
 #: include/staff/banlist.inc.php:169 include/staff/banlist.inc.php:173
 #: include/staff/banlist.inc.php:177 scp/banlist.php:83 scp/banlist.php:86
@@ -6571,9 +6571,9 @@ msgstr "Nenalezeny žádné blokované e-maily!"
 #: scp/banlist.php:122
 msgid "selected ban rule"
 msgid_plural "selected ban rules"
-msgstr[0] "vybrané zakazovací pravidlo"
-msgstr[1] "vybraná zakazovací pravidla"
-msgstr[2] "vybraných zakazovacích pravidel"
+msgstr[0] "vybrané blokující pravidlo"
+msgstr[1] "vybraná blokující pravidla"
+msgstr[2] "vybraných blokujících pravidel"
 
 #: include/staff/banrule.inc.php:6
 msgid "Update Ban Rule"
@@ -6581,7 +6581,7 @@ msgstr "Změnit pravidlo blokování"
 
 #: include/staff/banrule.inc.php:13
 msgid "Add New Email Address to Ban List"
-msgstr "Přidat nový mail na černou listinu"
+msgstr "Přidat e-mailovou adresu do seznamu blokování"
 
 #: scp/js/jquery.translatable.js:77
 msgid "Add"
@@ -6621,7 +6621,7 @@ msgstr "Předpřipravená odpověď"
 
 #: include/staff/cannedresponse.inc.php:73
 msgid "Make the title short and clear."
-msgstr "Nech název krátký a výstižný."
+msgstr "Vytvořte daný název krátký a výstižný."
 
 #: include/staff/cannedresponse.inc.php:83 include/staff/tpl.inc.php:96
 msgid "Supported Variables"
@@ -6647,7 +6647,7 @@ msgstr "Předpřipravená odpověď se používá filtrem (filtry) e-mailů"
 msgid "premade response"
 msgid_plural "premade responses"
 msgstr[0] "předpřipravená odpověď"
-msgstr[1] "předpřipravená odpověď"
+msgstr[1] "předpřipravené odpovědi"
 msgstr[2] "předpřipravených odpovědí"
 
 #: include/staff/cannedresponses.inc.php:50
@@ -6676,7 +6676,7 @@ msgstr[2] "vybraných předpřipravených odpovědí"
 #: include/staff/cannedresponses.inc.php:171
 #: include/staff/ticket-view.inc.php:901
 msgid "Deleted data CANNOT be recovered, including any associated attachments."
-msgstr "Smazané údaje NEBUDE možné obnovit, včetně přiřazených příloh."
+msgstr "Smazané údaje nebude možné obnovit, včetně přiřazených příloh."
 
 #: include/staff/categories.inc.php:39
 msgid "FAQ Categories"
@@ -6702,16 +6702,16 @@ msgstr "Nenalezeny žádné kategorie častých dotazů!"
 
 #: include/staff/categories.inc.php:124
 msgid "Make Public"
-msgstr "Zveřejnit"
+msgstr "Zveřejnit veřejně"
 
 #: include/staff/categories.inc.php:125
 msgid "Make Internal"
-msgstr "Jako Interní"
+msgstr "Zveřejnit interně"
 
 #: include/staff/categories.inc.php:137 include/staff/departments.inc.php:166
 #, php-format
 msgid "Are you sure you want to make %s <b>public</b>?"
-msgstr "Uřčitě chceš změnit %s na<b>veřejné</b>?"
+msgstr "Uřčitě chcete změnit %s na<b>veřejné</b>?"
 
 #: include/staff/categories.inc.php:138 include/staff/categories.inc.php:142
 #: include/staff/categories.inc.php:146 scp/categories.php:71
@@ -6727,11 +6727,11 @@ msgstr[2] "vybraných kategorií"
 #: include/staff/categories.inc.php:141 include/staff/departments.inc.php:170
 #, php-format
 msgid "Are you sure you want to make %s <b>private</b> (internal)?"
-msgstr "Určitě chceš změnit %s na<b>soukromé</b> (vnitřní)?"
+msgstr "Určitě chcete změnit %s na<b>soukromé</b> (interní)?"
 
 #: include/staff/categories.inc.php:147
 msgid "Deleted data CANNOT be recovered, including any associated FAQs."
-msgstr "Smazané údaje NEBUDE možné obnovit, včetně všech podřazených častých dotazů."
+msgstr "Smazané údaje nebude možné obnovit, včetně všech podřazených častých dotazů."
 
 #: include/staff/category.inc.php:9
 msgid "Update Category"
@@ -6791,7 +6791,7 @@ msgstr "Po dnešek"
 
 #: include/staff/dashboard.inc.php:34
 msgid "One Week"
-msgstr "Týden"
+msgstr "Jeden týden"
 
 #: include/staff/dashboard.inc.php:37
 msgid "Two Weeks"
@@ -6799,11 +6799,11 @@ msgstr "Dva týdny"
 
 #: include/staff/dashboard.inc.php:40
 msgid "One Month"
-msgstr "Měsíc"
+msgstr "Jeden měsíc"
 
 #: include/staff/dashboard.inc.php:43
 msgid "One Quarter"
-msgstr "Kvartál"
+msgstr "Jeden kvartál"
 
 #: include/staff/dashboard.inc.php:48 include/staff/tasks.inc.php:316
 #: include/staff/tickets.inc.php:438
@@ -6843,11 +6843,11 @@ msgstr "Přístup"
 
 #: include/staff/department.inc.php:50
 msgid "Department Information"
-msgstr "Informace oddelení"
+msgstr "Informace o oddělení"
 
 #: include/staff/department.inc.php:119 include/staff/departments.inc.php:76
 msgid "Manager"
-msgstr "Manažer"
+msgstr "Vedoucí"
 
 #: include/staff/department.inc.php:148
 msgid "Restrict ticket assignment to department members"
@@ -6873,7 +6873,7 @@ msgstr "Odchozí e-mail"
 
 #: include/staff/department.inc.php:198
 msgid "Template Set"
-msgstr "Nastavení šablony"
+msgstr "Sada šablon"
 
 #: include/staff/department.inc.php:218
 msgid "Autoresponder Settings"
@@ -6894,7 +6894,7 @@ msgstr "E-mail automatické odpovědi"
 
 #: include/staff/department.inc.php:254
 msgid "Department Email"
-msgstr "E-mail oddělení"
+msgstr "E-mailová adresa oddělení"
 
 #: include/staff/department.inc.php:276
 #: include/staff/settings-tickets.inc.php:17
@@ -6907,11 +6907,11 @@ msgstr "Nikdo (vypnuté upozornění a poznámky)"
 
 #: include/staff/department.inc.php:289
 msgid "Department members only"
-msgstr "Členové oddělení pouze"
+msgstr "Pouze členové oddělení"
 
 #: include/staff/department.inc.php:290
 msgid "Department and extended access members"
-msgstr "Oddělení a rozšířený přístup členů"
+msgstr "Pouze členové oddělení a jeho rozšířeného přístupu"
 
 #: include/staff/department.inc.php:303
 msgid "Department Signature"
