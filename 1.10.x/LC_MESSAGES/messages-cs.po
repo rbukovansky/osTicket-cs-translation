@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-28 17:08+0200\n"
+"PO-Revision-Date: 2016-04-29 08:58+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -5854,7 +5854,7 @@ msgstr "Zpět na index"
 #: include/client/faq-category.inc.php:48 include/client/faq.inc.php:35
 #: include/client/kb-search.inc.php:28
 msgid "Search our knowledge base"
-msgstr "Prohledat naši znalostní bázi"
+msgstr "Vyhledat v naší bázi znalostí"
 
 #: include/client/faq.inc.php:12 include/staff/faq-categories.inc.php:50
 #: include/staff/faq-view.inc.php:31
@@ -5875,7 +5875,7 @@ msgstr "Prosím čekejte... bude to trvat vteřinu!"
 
 #: include/client/header.inc.php:3
 msgid "Support Ticket System"
-msgstr "Systém technické podpory"
+msgstr "Systém zákaznické podpory"
 
 #: include/client/header.inc.php:90 include/staff/header.inc.php:68
 msgid "Profile"
@@ -5896,7 +5896,7 @@ msgstr "Nepřihlášený uživatel"
 
 #: include/client/header.inc.php:126
 msgid "Support Center"
-msgstr "Centrum podpory"
+msgstr "Centrum zákaznické podpory"
 
 #: include/client/kb-categories.inc.php:12
 msgid "Click on the category to browse FAQs."
@@ -5954,7 +5954,7 @@ msgstr "Obnova zapomenutého hesla"
 
 #: include/client/login.inc.php:54
 msgid "Not yet registered?"
-msgstr "Ještě nemám registraci?"
+msgstr "Ještě nemáte registraci?"
 
 #: include/client/login.inc.php:54
 msgid "Create an account"
@@ -5966,7 +5966,7 @@ msgstr "Jsem zaměstnanec"
 
 #: include/client/login.inc.php:59
 msgid "sign in here"
-msgstr "Přihlaste se zde"
+msgstr "Přihlašte se zde"
 
 #: include/client/open.inc.php:35
 msgid "Please fill in the form below to open a new ticket."
@@ -6045,7 +6045,7 @@ msgstr "Zrušit"
 
 #: include/client/profile.inc.php:1
 msgid "Manage Your Profile Information"
-msgstr "Spravovat své profilové informace"
+msgstr "Spravovat informace vašeho účtu"
 
 #: include/client/profile.inc.php:3
 msgid "Use the forms below to update the information we have on file for your account"
@@ -6089,7 +6089,7 @@ msgstr "Zadejte své uživatelské jméno nebo e-mailovou adresu do formuláře 
 
 #: include/client/pwreset.request.php:22 include/staff/pwreset.php:25
 msgid "Send Email"
-msgstr "Odeslat mail"
+msgstr "Odeslat e-mail"
 
 #: include/client/pwreset.sent.php:8
 msgid "We have sent you a reset email to the email address you have on file for your account. If you do not receive the email or cannot reset your password, please submit a ticket to have your account unlocked."
@@ -6108,7 +6108,7 @@ msgstr "Děkujeme za registraci účtu."
 
 #: include/client/register.confirm.inc.php:14
 msgid "We've just sent you an email to the address you entered. Please follow the link in the email to confirm your account and gain access to your tickets."
-msgstr "Právě jsme vám poslali e-mail na adresu, kterou jste zadali. Následujte prosím na odkaz v e-mailu a potvrďte tak svůj účet a získejte přístup k vašim požadavkům."
+msgstr "Právě jsme vám poslali e-mail na e-mailovou adresu, kterou jste zadali. Následujte prosím na odkaz v e-mailu a potvrďte tak svůj účet a získejte přístup k vašim požadavkům."
 
 #: include/client/register.confirmed.inc.php:14
 msgid "You've confirmed your email address and successfully activated your account.  You may proceed to check on previously opened tickets or open a new ticket."
@@ -6116,7 +6116,7 @@ msgstr "Potvrdili jste svoji e-mailovou adresu a úspěšně jste aktivovali vá
 
 #: include/client/register.confirmed.inc.php:17
 msgid "Your friendly support center"
-msgstr "Váš tým technické podpory"
+msgstr "Váše zákaznická podpora"
 
 #: include/client/register.inc.php:19
 msgid "Use the forms below to create or update the information we have on file for your account"
@@ -6156,7 +6156,7 @@ msgstr "Smazat všechny filtry a třízení"
 #: include/client/tickets.inc.php:178
 msgctxt "ticket-status"
 msgid "Open"
-msgstr "Otevřené"
+msgstr "Otevřené  [ticket-status]"
 
 #: include/client/tickets.inc.php:201
 msgid "Ticket #"
@@ -6168,11 +6168,11 @@ msgstr "Požadavek č. "
 #: include/staff/templates/task-print.tmpl.php:139
 #: include/staff/templates/ticket-print.tmpl.php:151
 msgid "Create Date"
-msgstr "Datum vytvoření od"
+msgstr "Datum vytvoření"
 
 #: include/client/tickets.inc.php:255
 msgid "Your query did not match any records"
-msgstr "Váš dotaz nesouhlasí s žádným záznamem"
+msgstr "Vašemu dotazu neodpovídají žádné záznamy"
 
 #: include/client/tickets.inc.php:262 include/staff/apikeys.inc.php:135
 #: include/staff/banlist.inc.php:157 include/staff/cannedresponses.inc.php:149
@@ -6199,12 +6199,12 @@ msgstr "Požadavek byl označen jako uzavřený a nemůže být znovu otevřen."
 
 #: include/client/view.inc.php:20
 msgid "Looking for your other tickets?"
-msgstr "Hledáte vaše zbývající požadavky?"
+msgstr "Hledáte vaše ostatní požadavky?"
 
 #: include/client/view.inc.php:24
 #, php-format
 msgid "or %s register for an account %s for the best experience on our help desk."
-msgstr "nebo %s se zaregistruj v našem systému uživatelské podpory %s pro získání více zkušeností."
+msgstr "nebo %s se zaregistrujte %s v našem systému zákaznické podpory pro více možností."
 
 #: include/client/view.inc.php:34 include/staff/ticket-view.inc.php:223
 msgid "Reload"
@@ -6244,7 +6244,7 @@ msgstr "Vystavené otázky"
 #: include/client/templates/thread-entries.tmpl.php:52
 #: include/staff/templates/thread-entries.tmpl.php:66
 msgid "No entries have been posted to this thread."
-msgstr "Do toho vlákna nebyly vloženy žádné zápisy."
+msgstr "Do toho vlákna nebyly zadány žádné záznamy."
 
 #: include/client/templates/thread-entry.tmpl.php:22
 #: include/staff/templates/thread-entry-view.tmpl.php:29
@@ -6266,7 +6266,7 @@ msgstr "<b>%s</b> napsal %s"
 
 #: include/staff/apikey.inc.php:6
 msgid "Update API Key"
-msgstr "Změnit API klíč"
+msgstr "Změnit klíč API"
 
 #: include/staff/apikey.inc.php:8 include/staff/cannedresponse.inc.php:7
 #: include/staff/category.inc.php:11 include/staff/department.inc.php:8
@@ -6295,20 +6295,20 @@ msgstr "Uložit změny"
 
 #: include/staff/apikey.inc.php:12 include/staff/apikeys.inc.php:50
 msgid "Add New API Key"
-msgstr "Přidat nový API klíč"
+msgstr "Přidat nový klíč API"
 
 #: include/staff/apikey.inc.php:14
 msgid "Add Key"
-msgstr "Přidat API klíč"
+msgstr "Přidat klíč API"
 
 #: include/staff/apikey.inc.php:35
 msgid "API Key is auto-generated. Delete and re-add to change the key."
-msgstr "API klíč je automaticky vygenerován. Pro změnu jej smažte a znovu přidejte."
+msgstr "Klíč API je automaticky vygenerován. Pro změnu jej smažte a znovu přidejte."
 
 #: include/staff/apikey.inc.php:64 include/staff/apikeys.inc.php:88
 #: scp/apikeys.php:21 scp/apikeys.php:27
 msgid "API Key"
-msgstr "API klíč"
+msgstr "Klíč API"
 
 #: include/staff/apikey.inc.php:85
 msgid "Services"
@@ -6316,11 +6316,11 @@ msgstr "Služby"
 
 #: include/staff/apikey.inc.php:85
 msgid "Check applicable API services enabled for the key."
-msgstr "Zkontrolujte, zda jsou služby API použitelné pro tento klíč."
+msgstr "Zkontrolujte, zda jsou služby API povoleny pro tento klíč."
 
 #: include/staff/apikey.inc.php:92
 msgid "Can Create Tickets <em>(XML/JSON/EMAIL)</em>"
-msgstr "Můžete vytvářet požadavky pomocí <em>(XML/JSON/EMAIL)</em>"
+msgstr "Může vytvářet požadavky pomocí <em>(XML/JSON/EMAIL)</em>"
 
 #: include/staff/apikey.inc.php:100
 msgid "Can Execute Cron"
@@ -6347,11 +6347,11 @@ msgstr "Interní poznámky"
 #: include/staff/slaplan.inc.php:94 include/staff/staff.inc.php:202
 #: include/staff/template.inc.php:159
 msgid "Be liberal, they're internal"
-msgstr "Buďte svobodný, jsou pouze interní"
+msgstr "Nebojte se, jsou pouze interní"
 
 #: include/staff/apikeys.inc.php:40 include/staff/apikeys.inc.php:127
 msgid "No API keys found"
-msgstr "Nenalezen žádný API klíč"
+msgstr "Nenalezen žádný klíč API"
 
 #: include/staff/apikeys.inc.php:53 include/staff/banlist.inc.php:78
 #: include/staff/cannedresponses.inc.php:65 include/staff/categories.inc.php:50
@@ -6426,7 +6426,7 @@ msgstr "Zakázat"
 #: include/staff/filters.inc.php:97 include/staff/pages.inc.php:90
 #: include/staff/slaplans.inc.php:90 include/staff/templates.inc.php:93
 msgid "Date Added"
-msgstr "datum přidání"
+msgstr "Datum přidání"
 
 #: include/staff/apikeys.inc.php:123 include/staff/banlist.inc.php:145
 #: include/staff/cannedresponses.inc.php:137
@@ -6442,7 +6442,7 @@ msgstr "datum přidání"
 #: include/staff/templates.inc.php:131 include/staff/tickets.inc.php:608
 #: include/staff/users.inc.php:212 include/staff/templates/users.tmpl.php:134
 msgid "All"
-msgstr "vše"
+msgstr "Vše"
 
 #: include/staff/apikeys.inc.php:125 include/staff/banlist.inc.php:147
 #: include/staff/cannedresponses.inc.php:139
@@ -6458,7 +6458,7 @@ msgstr "vše"
 #: include/staff/tickets.inc.php:610 include/staff/users.inc.php:214
 #: include/staff/templates/users.tmpl.php:136
 msgid "Toggle"
-msgstr "přepnout"
+msgstr "Přepnout"
 
 #: scp/js/scp.js:721
 msgid "Please Confirm"
