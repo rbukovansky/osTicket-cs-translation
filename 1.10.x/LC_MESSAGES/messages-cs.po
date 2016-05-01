@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 22:20+0200\n"
+"PO-Revision-Date: 2016-05-01 22:29+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -12312,7 +12312,7 @@ msgstr "Upravte přístupová práva k ost-cosfig.php odstraněním práva pro z
 
 #: setup/inc/install-done.inc.php:15
 msgid "Using WS_FTP this would be right hand clicking on the file, selecting chmod, and then remove write access"
-msgstr "Použití WS_FTP - klikněte na soubor pravým tlačítkem, vyberte chmod a odstraňte právo zápisu"
+msgstr "Při použití WS_FTP klikněte na soubor pravým tlačítkem myši, vyberte chmod a odstraňte právo zápisu"
 
 #: setup/inc/install-done.inc.php:16
 msgid "Click on the file, select change permission, and then remove write access."
@@ -12375,7 +12375,7 @@ msgstr "Tyto položky jsou nezbytné pro instalaci a použití osTicketu."
 #: setup/inc/install-prereq.inc.php:18
 #, php-format
 msgid "%s or greater"
-msgstr "%s nebo více"
+msgstr "%s nebo větší"
 
 #: setup/inc/install-prereq.inc.php:23
 msgid "Recommended"
@@ -12383,11 +12383,11 @@ msgstr "Doporučení"
 
 #: setup/inc/install-prereq.inc.php:24
 msgid "You can use osTicket without these, but you may not be able to use all features."
-msgstr "Je možné bez toho osTicket používat, ale ne všechny funkce nemusí být možné použít."
+msgstr "Je možné bez toho osTicket používat, ale nemusí být možné použít všechny funkce."
 
 #: setup/inc/install-prereq.inc.php:28
 msgid "Required for mail fetching"
-msgstr "Potřebné pro načtení pošty"
+msgstr "Potřebné pro stažení pošty"
 
 #: setup/inc/install-prereq.inc.php:30
 msgid "(for XML API)"
@@ -12408,11 +12408,11 @@ msgstr "doporučeno pro všechny instalace"
 
 #: setup/inc/install-prereq.inc.php:38
 msgid "recommended for plugins and language packs"
-msgstr "doporučené pluginy a jazykové balíčky"
+msgstr "doporučené pro pluginy a jazykové balíčky"
 
 #: setup/inc/install-prereq.inc.php:40
 msgid "recommended for improved localization"
-msgstr "doporučeno na zlepšení lokalizace"
+msgstr "doporučeno pro zlepšení lokalizace"
 
 #: setup/inc/install.inc.php:6
 msgid "osTicket Basic Installation"
@@ -12428,7 +12428,7 @@ msgstr "URL systému zákaznické podpory, jeho jméno a výchozí e-mailová ad
 
 #: setup/inc/install.inc.php:24
 msgid "Default Email"
-msgstr "Výchozí e-mail"
+msgstr "Výchozí e-mailová adresa"
 
 #: setup/inc/install.inc.php:43
 msgid "Admin User"
@@ -12460,11 +12460,11 @@ msgstr "Zajišťujeme <u>profesionální instalaci</u> a placenou podporu."
 
 #: setup/inc/install.inc.php:128
 msgid "Please wait... while we install your new support ticket system!"
-msgstr "Prosím počkejte ... dokud se nenainstaluje nový systém podpory!"
+msgstr "Prosím počkejte ... dokud se nenainstaluje nový systém zákaznické podpory!"
 
 #: setup/inc/subscribe.inc.php:5
 msgid "Basic Installation Completed"
-msgstr "Základní instalace je dokončená"
+msgstr "Základní instalace je dokončena"
 
 #: setup/inc/subscribe.inc.php:6
 msgid "osTicket installation has been completed successfully."
@@ -12476,7 +12476,7 @@ msgstr "Rád bych dostával následující oznámení"
 
 #: setup/inc/subscribe.inc.php:28
 msgid "News &amp; Announcements"
-msgstr "Novinky &amp; upozornění"
+msgstr "Novinky a oznámení"
 
 #: setup/inc/subscribe.inc.php:32
 msgid "Security Alerts"
@@ -12484,7 +12484,7 @@ msgstr "Bezpečnostní upozornění"
 
 #: setup/inc/subscribe.inc.php:35
 msgid "Keep me Updated"
-msgstr "Informujte mě"
+msgstr "Udržujte mne v obraze"
 
 #: setup/inc/subscribe.inc.php:36
 msgid "No thanks."
@@ -12544,7 +12544,7 @@ msgstr "Koncept uložen"
 
 #: js/redactor-osticket.js:66
 msgid "Delete Draft"
-msgstr "Odstranit pracovní verzi"
+msgstr "Odstranit koncept"
 
 #: js/redactor-osticket.js:119 js/redactor-osticket.js:377
 msgid "Unable to save draft."
@@ -12552,11 +12552,11 @@ msgstr "Nelze uložit koncept."
 
 #: js/redactor-osticket.js:120 js/redactor-osticket.js:378
 msgid "Refresh the current page to restore and continue your draft."
-msgstr "Znovunačtěte stávající stránku pro obnovu konceptu a pokračování v jeho úpravě."
+msgstr "Občerstvěte stávající stránku pro obnovu konceptu a pokračování v jeho úpravě."
 
 #: js/redactor-plugins.js:143
 msgid "Remove Font Family"
-msgstr "Odstranit rodinu písma"
+msgstr "Odstranit typ písma"
 
 #: js/redactor-plugins.js:145
 msgid "Change Font Family"
@@ -12624,7 +12624,7 @@ msgstr "Smazat objekt"
 
 #: js/redactor-plugins.js:1283
 msgid "Commit Annotations"
-msgstr "Zaslat přidané poznámky"
+msgstr "Zaslat přidané vysvětlivky"
 
 #: js/redactor-plugins.js:1504
 msgid "Text"
