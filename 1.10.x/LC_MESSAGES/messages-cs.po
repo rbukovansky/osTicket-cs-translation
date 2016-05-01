@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 20:02+0200\n"
+"PO-Revision-Date: 2016-05-01 20:12+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -9688,13 +9688,13 @@ msgstr "Spravovat organizaci"
 #: include/staff/templates/ticket-print.tmpl.php:162
 #, php-format
 msgid "Assigned To"
-msgstr "Přiřazeno zaměstnanci"
+msgstr "Přiřazeno"
 
 #: include/staff/ticket-view.inc.php:387 include/staff/tickets.inc.php:470
 #: include/staff/templates/task-print.tmpl.php:147
 #: include/staff/templates/task-view.tmpl.php:359
 msgid "Closed By"
-msgstr "Uzavřeno zaměstnancem"
+msgstr "Uzavřeno"
 
 #: include/staff/ticket-view.inc.php:393
 #: include/staff/templates/task-print.tmpl.php:153
@@ -9725,7 +9725,7 @@ msgstr "Neodesílat odpověď e-mailem"
 #: include/staff/templates/task-print.tmpl.php:170
 #: include/staff/templates/task-view.tmpl.php:372
 msgid "Collaborators"
-msgstr "Další příjemci"
+msgstr "Spolupracovníci"
 
 #: include/staff/ticket-view.inc.php:591
 msgid "Add Recipients"
@@ -9756,7 +9756,7 @@ msgstr "Předmět poznámky - stručný popis (nepovinné)"
 
 #: include/staff/ticket-view.inc.php:769
 msgid "Note details"
-msgstr "Text poznámky"
+msgstr "Informace o poznámce"
 
 #: include/staff/ticket-view.inc.php:816
 #: include/staff/templates/task-view.tmpl.php:614
@@ -9843,7 +9843,7 @@ msgstr "Prorita + termín splnění"
 
 #: include/staff/tickets.inc.php:29
 msgid "Most Recently Answered"
-msgstr "Nejčerstvěji zodpovězeny"
+msgstr "Naposledy zodpovězeny"
 
 #: include/staff/tickets.inc.php:94
 msgid "Overdue Tickets"
@@ -9863,7 +9863,7 @@ msgstr "rozšířené"
 
 #: include/staff/tickets.inc.php:600
 msgid "There are no tickets matching your criteria."
-msgstr "Nejsou zde žádné požadavky odpovídající zadaným podmínkám."
+msgstr "Požadavky odpovídající zadaným podmínkám nebyly nalezeny."
 
 #: include/staff/tickets.inc.php:641
 msgid "Are you sure you want to flag the selected tickets as <font color=\"red\"><b>overdue</b></font>?"
@@ -9921,12 +9921,12 @@ msgstr "Změněn"
 
 #: include/staff/user-view.inc.php:177
 msgid "New tickets from the email address will be auto-rejected."
-msgstr "Nové požadavky z této adresy budou automaticky odmítnuty."
+msgstr "Nové požadavky z této e-mailové adresy budou automaticky odmítnuty."
 
 #: include/staff/user-view.inc.php:181
 #, php-format
 msgid "Are you sure you want to send an <b>Account Activation Link</b> to <em> %s </em>?"
-msgstr "Opravdu si přejete odeslat<b>odkaz pro aktivaci účtu</b> uživateli <em>%s</em>?"
+msgstr "Opravdu si přejete odeslat <b>odkaz pro aktivaci účtu</b> uživateli <em>%s</em>?"
 
 #: include/staff/user-view.inc.php:186
 #, php-format
@@ -9951,7 +9951,7 @@ msgstr "Odemknout"
 
 #: include/staff/users.inc.php:144 include/staff/templates/users.tmpl.php:139
 msgid "No users found!"
-msgstr "Žádný uživatel nenalezen!"
+msgstr "Uživatelé nebyly nalezeni!"
 
 #: include/staff/templates/advanced-search.tmpl.php:2 scp/tickets.php:424
 msgid "Advanced Ticket Search"
@@ -10037,13 +10037,13 @@ msgstr "Viditelná"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:33
 msgid "Making fields <em>visible</em> allows agents and endusers to view and create information in this field."
-msgstr "<em>Zviditelnění</em> položek umožňuje zaměstnancům a uživatelům zobrazení a zadávání informací do těchto položek."
+msgstr "<em>Zviditelnění</em> položek umožňuje zaměstnancům a zákazníkům zobrazení a zadávání informací do těchto položek."
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:41
 #: include/staff/templates/dynamic-field-config.tmpl.php:66
 #: include/staff/templates/dynamic-field-config.tmpl.php:89
 msgid "For EndUsers"
-msgstr "Pro uživatele"
+msgstr "Pro zákazníky"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:48
 #: include/staff/templates/dynamic-field-config.tmpl.php:73
