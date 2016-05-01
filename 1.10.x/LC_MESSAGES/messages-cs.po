@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 19:48+0200\n"
+"PO-Revision-Date: 2016-05-01 20:02+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -9217,7 +9217,7 @@ msgstr "Nastavení PHP"
 
 #: include/staff/system.inc.php:124
 msgid "\"1\" is recommended if AJAX is not working"
-msgstr "\"1\" je doporučeno pokud nefunguje AJAX"
+msgstr "\"1\" je doporučeno, pokud nefunguje AJAX"
 
 #: include/staff/system.inc.php:133
 msgid "Setting default timezone is highly recommended"
@@ -9266,19 +9266,19 @@ msgstr "Naposledy změněny"
 
 #: include/staff/tasks.inc.php:22
 msgid "Most Recently Created"
-msgstr "Datum vytvoření"
+msgstr "Nejčerstvěji vytvořeny"
 
 #: include/staff/tasks.inc.php:23
 msgid "Due Soon"
-msgstr "Blížící se termín"
+msgstr "Blížící se lhůta"
 
 #: include/staff/tasks.inc.php:25 include/staff/tickets.inc.php:30
 msgid "Most Recently Closed"
-msgstr "Nejčerstvěji uzavřen"
+msgstr "Nejčerstvěji uzavřeny"
 
 #: include/staff/tasks.inc.php:26 include/staff/tickets.inc.php:31
 msgid "Longest Thread"
-msgstr "Největší aktivita"
+msgstr "Nejdelší vlákno"
 
 #: include/staff/tasks.inc.php:27 include/staff/tickets.inc.php:32
 msgid "Relevance"
@@ -9318,11 +9318,11 @@ msgstr "Smazat úkoly"
 
 #: include/staff/tasks.inc.php:433
 msgid "There are no tasks matching your criteria."
-msgstr "Nejsou zde žádné úkoly odpovídající zadaným podmínkám."
+msgstr "Úkoly odpovídající zadaným podmínkám nebyly nalezeny."
 
 #: include/staff/tasks.inc.php:471
 msgid "Are you sure want to flag the selected tasks as <font color=\"red\"><b>overdue</b></font>?"
-msgstr "Jste si jist, že chcete nastavit označení úkolu jako <font color=\"red\"><b>zpožděný</b></font>?"
+msgstr "Jste si jist, že chcete nastavit vybrané úkoly jako <font color=\"red\"><b>zpožděné</b></font>?"
 
 #: include/staff/team.inc.php:6
 msgid "Update Team"
@@ -9368,11 +9368,11 @@ msgid "team"
 msgid_plural "teams"
 msgstr[0] "tým"
 msgstr[1] "týmy"
-msgstr[2] "týmy"
+msgstr[2] "týmů"
 
 #: include/staff/teams.inc.php:145
 msgid "No teams found!"
-msgstr "Nenalezen žádný tým!"
+msgstr "Týmy nebyly nalezeny!"
 
 #: include/staff/teams.inc.php:166 include/staff/teams.inc.php:170
 #: include/staff/teams.inc.php:174 scp/teams.php:66 scp/teams.php:69
@@ -9386,7 +9386,7 @@ msgstr[2] "vybraných týmů"
 
 #: include/staff/template.inc.php:6
 msgid "Update Template"
-msgstr "Změna šablony"
+msgstr "Upravit šablonu"
 
 #: include/staff/template.inc.php:13
 msgid "Add New Template"
@@ -9437,7 +9437,7 @@ msgstr[2] "šablon"
 
 #: include/staff/templates.inc.php:42 include/staff/templates.inc.php:135
 msgid "No templates found!"
-msgstr "Nenalezena žádná šablona!"
+msgstr "Šablony nebyly nalezeny!"
 
 #: include/staff/templates.inc.php:49
 msgid "Email Template Sets"
@@ -9460,7 +9460,7 @@ msgid "selected template set"
 msgid_plural "selected template sets"
 msgstr[0] "vybraná sada šablon"
 msgstr[1] "vybrané sady šablon"
-msgstr[2] "vybrané sady šablon"
+msgstr[2] "vybraných sad šablon"
 
 #: include/staff/ticket-edit.inc.php:20
 #, php-format
@@ -9474,7 +9474,7 @@ msgstr "Aktuálně vybraný uživatel"
 #: include/staff/ticket-edit.inc.php:56 include/staff/ticket-open.inc.php:77
 #: include/staff/templates/org.tmpl.php:20
 msgid "Change"
-msgstr "Změna"
+msgstr "Změnit"
 
 #: include/staff/ticket-edit.inc.php:64
 msgid "Ticket Information"
@@ -9482,7 +9482,7 @@ msgstr "Informace o požadavku"
 
 #: include/staff/ticket-edit.inc.php:64
 msgid "Due date overrides SLA's grace period."
-msgstr "Termín ukončení má vyšší prioritu než čas z SLA."
+msgstr "Lhůta dokončení má vyšší prioritu než lhůta z plánu SLA."
 
 #: include/staff/ticket-edit.inc.php:69 include/staff/ticket-open.inc.php:128
 msgid "Ticket Source"
@@ -9546,19 +9546,19 @@ msgstr "Původní odpověď na požadavek"
 
 #: include/staff/ticket-open.inc.php:398
 msgid "Optional internal note (recommended on assignment)"
-msgstr "Volitelná interní Poznámka ( doporučená při přidělení )"
+msgstr "Volitelná interní poznámka (doporučená při přidělení)"
 
 #: include/staff/ticket-open.inc.php:408
 msgctxt "action-button"
 msgid "Open"
-msgstr "Otevřené"
+msgstr "Otevřít [ action-button ]"
 
 #: include/staff/ticket-tasks.inc.php:16 scp/tasks.php:22
 msgid "task"
 msgid_plural "tasks"
 msgstr[0] "úkol"
 msgstr[1] "úkoly"
-msgstr[2] "úkoly"
+msgstr[2] "úkolů"
 
 #: include/staff/ticket-tasks.inc.php:25
 #, php-format
@@ -9580,7 +9580,7 @@ msgstr "Náhled úkolu"
 #: include/staff/ticket-view.inc.php:27
 #, php-format
 msgid "Current ticket status (%s) does not allow the end user to reply."
-msgstr "Aktuální stav požadavku (%s) nedovoluje koncovému uživateli odpovědět."
+msgstr "Aktuální stav požadavku (%s) nedovoluje zákazníkovi odpovědět."
 
 #: include/staff/ticket-view.inc.php:34
 #, php-format
@@ -9598,7 +9598,7 @@ msgstr "E-mailová adresa je v seznamu blokovaných! Pokud chcete odpovedět, od
 
 #: include/staff/ticket-view.inc.php:46
 msgid "EndUser email address is not valid! Consider updating it before responding"
-msgstr "E-mail koncového uživatele není platný! Zvažte opravu před odesláním odpovědi"
+msgstr "E-mail zákazníka není platný! Zvažte opravu před odesláním odpovědi"
 
 #: include/staff/ticket-view.inc.php:52
 #: include/staff/templates/task-preview.tmpl.php:7
@@ -9634,12 +9634,12 @@ msgstr "Označit jako zodpovězený"
 #: include/staff/ticket-view.inc.php:185
 #, php-format
 msgid "Ban Email <%s>"
-msgstr "Zablokovat e-mail <%s>"
+msgstr "Zablokovat e-mailovou adresu <%s>"
 
 #: include/staff/ticket-view.inc.php:191
 #, php-format
 msgid "Unban Email <%s>"
-msgstr "Odblokovat e-mail <%s>"
+msgstr "Odblokovat e-mailovou adresu <%s>"
 
 #: include/staff/ticket-view.inc.php:201
 msgid "Delete Ticket"
