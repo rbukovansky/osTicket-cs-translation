@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 21:56+0200\n"
+"PO-Revision-Date: 2016-05-01 22:10+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -11459,7 +11459,7 @@ msgstr "Nelze spravovat žádnou z vybraných organizací"
 
 #: scp/orgs.php:87 scp/users.php:143
 msgid "Not all selected items were updated"
-msgstr "Ne všechny vybrané položky byly změněny"
+msgstr "Některé vybrané položky nebyly upraveny"
 
 #: scp/orgs.php:90
 msgid "Successfully managed selected organizations"
@@ -11489,7 +11489,7 @@ msgstr "jedna stránka portálu"
 #: scp/pages.php:56
 #, php-format
 msgid "One or more of the %s is in-use and CANNOT be disabled/deleted."
-msgstr "Jeden či více %s je používáno a NELZE je zakázat/smazat."
+msgstr "Jeden či více %s je používáno a nelze je zakázat/smazat."
 
 #: scp/plugins.php:19
 msgid "one plugin"
@@ -11510,12 +11510,12 @@ msgstr "Interní chyba. Přístup odmítnut"
 
 #: scp/profile.php:29
 msgid "Profile updated successfully"
-msgstr "Profil byl úspěšně změněn"
+msgstr "Profil byl úspěšně upraven"
 
 #: scp/profile.php:32
 #, php-format
 msgid "Profile update error."
-msgstr "Chyba změny profilu."
+msgstr "Chyba úpravy profilu."
 
 #: scp/profile.php:42
 #, php-format
@@ -11525,7 +11525,7 @@ msgstr "<b>Dobrý den, %s</b> - Musíte si <a>změnit heslo</a>, abyste mohl pok
 #: scp/profile.php:47
 #, php-format
 msgid "<b>Welcome back %s</b>! You are listed as 'on vacation' Please let your manager know that you are back."
-msgstr "<b>Vitejte zpět %s</b>! Stále jste evidován ve stavu 'na dovolené'. Oznamte prosím svému manažerovi, že již jste v práci."
+msgstr "<b>Vitejte zpět %s</b>! Stále jste evidován ve stavu 'na dovolené'. Oznamte prosím svému vedoucímu, že jste již v práci."
 
 #: scp/pwreset.php:44
 msgid "Unable to reset password. Contact your administrator"
@@ -11537,7 +11537,7 @@ msgstr "Prosím, zadejte své uživatelské jméno nebo e-mail"
 
 #: scp/roles.php:39
 msgid "Role updated successfully"
-msgstr "Role úspěšně změněna"
+msgstr "Role úspěšně upravena"
 
 #: scp/roles.php:42 scp/roles.php:46 scp/roles.php:58 scp/roles.php:61
 msgid "this role"
@@ -11585,7 +11585,7 @@ msgstr "Systém je nastaven do offline módu"
 
 #: scp/staff.inc.php:121
 msgid "Client interface is disabled and ONLY admins can access staff control panel."
-msgstr "Zákaznické rozhraní je zakázáno a přístup do řídícího panelu zaměstnanců mají pouze správci."
+msgstr "Zákaznický portál je zakázán a přístup do panelu zaměstnanců mají pouze správci."
 
 #: scp/staff.inc.php:137
 msgid "osTicket :: Staff Control Panel"
@@ -11612,7 +11612,7 @@ msgstr "Nelze aktivovat %s"
 #: scp/staff.php:128 scp/staff.php:153
 #, php-format
 msgid "%1$d of %2$d %3$s updated"
-msgstr "%1$d z %2$d %3$s změněny"
+msgstr "%1$d z %2$d %3$s upraveny"
 
 #: scp/tasks.php:24 scp/tickets.php:36
 msgid "Access denied. Contact admin if you believe this is in error"
@@ -11738,7 +11738,7 @@ msgstr "Váš zámek vypršel. Prosíme, zkuste to znovu"
 
 #: scp/tickets.php:111
 msgid "Email is in banlist. Must be removed to reply."
-msgstr "Adresa je v seznamu zablokovaných. Pro odpověď je nutno ji ze seznamu odstranit."
+msgstr "E-mailová adresa je v seznamu zablokovaných. Pro odpověď je nutno ji ze seznamu odstranit."
 
 #: scp/tickets.php:115
 #, php-format
@@ -11751,12 +11751,12 @@ msgstr "Přístup odepřen. Nemáte oprávnění upravovat požadavky"
 
 #: scp/tickets.php:197
 msgid "Ticket updated successfully"
-msgstr "Požadavek byl úspěšně změněn"
+msgstr "Požadavek byl úspěšně upraven"
 
 #: scp/tickets.php:205
 #, php-format
 msgid "Unable to update %s. Correct any errors below and try again."
-msgstr "Nelze změnit %s. Opravte níže uvedené chyby a zkuste to znovu."
+msgstr "Nelze upravit %s. Opravte níže uvedené chyby a zkuste to znovu."
 
 #: scp/tickets.php:213
 msgid "Ticket is not assigned!"
@@ -11766,7 +11766,7 @@ msgstr "Požadavek není přiřazen!"
 #: scp/tickets.php:217
 #, php-format
 msgid "Ticket released (unassigned) from %1$s by %2$s"
-msgstr "Požadavek byl uvolněn (zrušeno jeho přiřazení) od zaměstnance %1$s zaměstnancem %2$s"
+msgstr "Požadavku bylo zrušeno jeho přiřazení zaměstnanci %1$s zaměstnancem %2$s"
 
 #: scp/tickets.php:219
 msgid "Ticket unassigned"
@@ -11774,7 +11774,7 @@ msgstr "Požadavek není přiřazen"
 
 #: scp/tickets.php:221
 msgid "Problems releasing the ticket. Try again"
-msgstr "Problém s uvolněním požadavku. Zkuste to znovu"
+msgstr "Problém se zrušením přiřazení požadavku. Zkuste to znovu"
 
 #: scp/tickets.php:226
 msgid "Permission Denied. You are not allowed to assign/claim tickets."
