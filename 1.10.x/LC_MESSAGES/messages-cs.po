@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 21:26+0200\n"
+"PO-Revision-Date: 2016-05-01 21:41+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -10580,7 +10580,7 @@ msgstr "např. Jan Novák, jan.novak@firma.cz"
 #: include/staff/templates/user-import.tmpl.php:46
 #, php-format
 msgid "Use the columns shown in the table below. To add more fields, visit the Admin Panel -&gt; Manage -&gt; Forms -&gt; %s page to edit the available fields.  Only fields with `variable` defined can be imported."
-msgstr "Použijte sloupce v níže zobrazené tabulce. Pro přidání dalších sloupců navštivte Panel správce -&gt; Spravovat -&gt; Formuláře -&gt; %s a upravte dostupnost položek. Lze importovat pouze položky s nadefinovanou proměnnou."
+msgstr "Použijte sloupce v níže zobrazené tabulce. Pro přidání dalších sloupců navštivte Panel správce -&gt; Spravovat -&gt; Formuláře -&gt; %s a upravte dostupnost položek. Lze importovat pouze položky s nadefinovanou `proměnnou`."
 
 #: include/staff/templates/user-import.tmpl.php:54
 msgid "John Doe"
@@ -10592,7 +10592,7 @@ msgstr "jan.novak@firma.cz"
 
 #: include/staff/templates/user-lookup.tmpl.php:9
 msgid "Search existing users or add a new user."
-msgstr "Vyhledej stávajícího uživatele nebo přidej nového uživatele."
+msgstr "Vyhledat stávajícího uživatele nebo přidat nového uživatele."
 
 #: include/staff/templates/user-lookup.tmpl.php:10
 msgid "Search existing users."
@@ -10600,7 +10600,7 @@ msgstr "Hledat existující uživatele."
 
 #: include/staff/templates/user-lookup.tmpl.php:14
 msgid "Search by email, phone or name"
-msgstr "Hledat podle e-mailové adresy, telefonu, jména"
+msgstr "Hledat podle e-mailové adresy, telefonu či jména"
 
 #: include/staff/templates/user-lookup.tmpl.php:87
 msgid "Create New User"
@@ -10609,12 +10609,12 @@ msgstr "Vytvořit nového uživatele"
 #: include/staff/templates/user-register.tmpl.php:5
 #, php-format
 msgid "Register: %s"
-msgstr "Registruj: %s"
+msgstr "Registrovat: %s"
 
 #: include/staff/templates/user-register.tmpl.php:24
 #, php-format
 msgid "Complete the form below to create a user account for <b>%s</b>."
-msgstr "Vyplňte formulář níže pro založení uživatelského účtu pro <b>%s</b>."
+msgstr "Vyplňte níže zobrazený formulář na založení uživatelského účtu pro <b>%s</b>."
 
 #: include/staff/templates/user-register.tmpl.php:36
 msgid "User Account Login"
@@ -10627,7 +10627,7 @@ msgstr "Způsoby autentifikace"
 #: include/staff/templates/user-register.tmpl.php:85
 #, php-format
 msgid "Send account activation email to %s."
-msgstr "Odestat aktivační e-mail uživateli %s."
+msgstr "Odeslat aktivační e-mail uživateli %s."
 
 #: include/staff/templates/user-register.tmpl.php:113
 msgid "Password Change"
@@ -10643,11 +10643,11 @@ msgstr "Založit účet"
 
 #: include/staff/templates/user.tmpl.php:26
 msgid "Change User"
-msgstr "Změna uživatele"
+msgstr "Změnit uživatele"
 
 #: include/staff/templates/user.tmpl.php:148
 msgid "Update User"
-msgstr "Změna uživatele"
+msgstr "Změnit uživatele"
 
 #: include/staff/templates/users.tmpl.php:56
 msgid "This organization doesn't have any users yet"
@@ -10656,7 +10656,7 @@ msgstr "Tato organizace zatím nemá žádné uživatele"
 #: include/staff/templates/users.tmpl.php:165
 #, php-format
 msgid "Are you sure you want to <b>REMOVE</b> %1$s from <strong>%2$s</strong>?"
-msgstr "Opravdu si přejete <b>ODSTRANIT</b> %1$s z <strong>%2$s</strong>?"
+msgstr "Opravdu si přejete <b>smazat</b> %1$s z <strong>%2$s</strong>?"
 
 #: include/staff/templates/users.tmpl.php:166
 msgid "selected user"
@@ -10671,12 +10671,12 @@ msgstr "Aktualizace přerušena!"
 
 #: include/upgrader/aborted.inc.php:8
 msgid "Upgrade aborted due to errors. Any errors at this stage are fatal."
-msgstr "Aktualizace byla přerušena kvůli chybám. V tomto kroku je jakákoliv chyba fatální."
+msgstr "Aktualizace byla přerušena kvůli chybám. V této fázi je jakákoliv chyba fatální."
 
 #: include/upgrader/aborted.inc.php:9
 #, php-format
 msgid "Please note the error(s), if any, when %1$s seeking help %2$s."
-msgstr "Poznačte si prosím chybu (chyby), pokud nastaly, když %1$s vyhledával nápovědu %2$s."
+msgstr "Poznačte si prosím chybu (chyby), pokud nastaly, když %1$s hledáte pomoc %2$s."
 
 #: include/upgrader/aborted.inc.php:20
 msgid "Internal error occurred - get technical help."
@@ -10697,7 +10697,7 @@ msgstr "Prosím přečtěte si %1$s Příručky k aktualizaci %2$s pro další i
 #: setup/inc/file-unclean.inc.php:14 setup/inc/install-prereq.inc.php:54
 #: setup/inc/install.inc.php:123
 msgid "Need Help?"
-msgstr "Potřebujete pomoct?"
+msgstr "Potřebujete pomoci?"
 
 #: include/upgrader/aborted.inc.php:28
 #, php-format
@@ -10716,7 +10716,7 @@ msgstr "Co je potřeba udělat?"
 #: include/upgrader/aborted.inc.php:32
 #, php-format
 msgid "Restore your previous version from backup and try again or %1$s seek help %2$s."
-msgstr "Obnov svoji původní verzi ze zálohy a zkus to znova nebo %1$s vyhledej nápovědu %2$s."
+msgstr "Obnovte vaši původní verzi ze zálohy a zkuste to znova nebo %1$s vyhledejte nápovědu %2$s."
 
 #: include/upgrader/done.inc.php:8
 msgid "Upgrade Completed!"
@@ -10729,12 +10729,12 @@ msgstr "Gratulujeme! Aktualizace osTicket byla úspěšně ukončena."
 #: include/upgrader/done.inc.php:11
 #, php-format
 msgid "Please refer to %s for more information about changes and/or new features."
-msgstr "Prosím přečtěte %s pro další informace o změnách a nových funkcích."
+msgstr "Prosím přečtěte si %s pro další informace o změnách a nových funkcích."
 
 #: include/upgrader/done.inc.php:13
 #, php-format
 msgid "Release Notes"
-msgstr "Poznámky o vydání"
+msgstr "poznámky o vydání"
 
 #: include/upgrader/done.inc.php:16
 msgid "Once again, thank you for choosing osTicket."
@@ -10751,7 +10751,7 @@ msgstr "Zpětnou vazbu od uživatelů bereme velmi vážně a soustředíme se n
 
 #: include/upgrader/done.inc.php:19
 msgid "Good luck."
-msgstr "Hodbě štěstí."
+msgstr "Hodně štěstí."
 
 #: include/upgrader/done.inc.php:20
 msgid "osTicket Team."
@@ -10815,7 +10815,7 @@ msgstr "Děkujeme, že jste věrnými uživateli osTicket!"
 
 #: include/upgrader/prereq.inc.php:10
 msgid "The upgrade wizard will guide you every step of the way in the upgrade process. While we try to ensure that the upgrade process is straightforward and painless, we can't guarantee it will be the case for every user."
-msgstr "Průvodce aktualizací vás provede všemi kroky procesu aktualizace. Chceme vás ujistit, že tento proces je přímočarý a bezbolestný, nemůžeme však zaručit, že takový bude pro každého uživatele."
+msgstr "Průvodce aktualizací vás povede všemi kroky procesu aktualizace. Chceme vás ujistit, že tento proces je přímočarý a bezbolestný, nemůžeme však zaručit, že takový bude pro každého uživatele."
 
 #: include/upgrader/prereq.inc.php:12
 msgid "Getting ready!"
@@ -10864,7 +10864,7 @@ msgstr "Zazálohujte aktuální databázi, pokud jste to již neprovedli dříve
 
 #: include/upgrader/prereq.inc.php:29 include/upgrader/upgrade.inc.php:43
 msgid "Be patient. The upgrade process will take a couple of seconds."
-msgstr "Strpení. Proces aktualizace bude trvat pár vteřin."
+msgstr "Prosím o strpení. Proces aktualizace bude trvat pár vteřin."
 
 #: include/upgrader/prereq.inc.php:35
 msgid "Start Upgrade Now"
@@ -10890,7 +10890,7 @@ msgstr "V případě jakýchkoliv problémů vždy můžete obnovit své soubory
 #: include/upgrader/prereq.inc.php:44 include/upgrader/upgrade.inc.php:46
 #, php-format
 msgid "We can help. Feel free to %1$s contact us %2$s for professional help."
-msgstr "Můžeme pomoci. Neváhej  %1$s nás kontaktovat %2$s pro odbornou pomoc."
+msgstr "Můžeme pomoci. Neváhejte %1$s nás kontaktovat %2$s pro odbornou pomoc."
 
 #: include/upgrader/prereq.inc.php:52 setup/inc/install.inc.php:127
 msgid "Doing stuff!"
@@ -10906,7 +10906,7 @@ msgstr "Je nutno zadat název konfiguračního souboru!"
 
 #: include/upgrader/rename.inc.php:9
 msgid "To avoid possible conflicts, please take a minute to rename configuration file as shown below."
-msgstr "Pro předejití případným konfliktům, přejmenujte konfigurační soubor jak vidíte dole."
+msgstr "Pro předejití případným konfliktům přejmenujte konfigurační soubor, jak vidíte dole."
 
 #: include/upgrader/rename.inc.php:11 setup/inc/file-missing.inc.php:10
 #: setup/inc/file-perm.inc.php:13
@@ -10934,7 +10934,7 @@ msgstr "Cpanel"
 
 #: include/upgrader/rename.inc.php:30
 msgid "If you are looking for a greater level of support, we provide <u>professional upgrade</u> and commercial support with guaranteed response times and access to the core development team. We can also help customize osTicket or even add new features to the system to meet your unique needs. <a target=\"_blank\" href=\"http://osticket.com/support\">Learn More!</a>"
-msgstr "Hledáte-li vyšší úroveň technické podpory, poskytujeme <u>odbornou aktualizaci</u> a komerční podporu s garantovanými reakčními dobami a přístupem k vývojářskému týmu. Také můžeme pomoci s nastavením osTicket nebo dokonce přidávat nové vlastnosti do systému tak, abychom uspokojili vaše nároky.  <a target=\"_blank\" href=\"http://osticket.com/support\">Více zde!</a>"
+msgstr "Hledáte-li lepší úroveň technické podpory, poskytujeme <u>odbornou aktualizaci</u> a komerční podporu s garantovanými reakčními dobami a přístupem k vývojářskému týmu. Také můžeme pomoci s nastavením osTicket nebo dokonce přidávat nové vlastnosti do systému tak, abychom uspokojili vaše nároky.  <a target=\"_blank\" href=\"http://osticket.com/support\">Více zde!</a>"
 
 #: include/upgrader/upgrade.inc.php:16
 #, php-format
@@ -10947,7 +10947,7 @@ msgstr "Děkujeme za čas, který jste věnovali instalaci aktualizace systému 
 
 #: include/upgrader/upgrade.inc.php:21
 msgid "Please don't cancel or close the browser. Any errors at this stage will be fatal."
-msgstr "Prosím nezastavujte nebo nezavírejte prohližeč. Jakékoliv chyby v tomto kroku můžou být kritické."
+msgstr "Prosíme, nerušte ani nezavírejte prohližeč. Jakékoliv chyby v tomto kroku můžou být kritické."
 
 #: include/upgrader/upgrade.inc.php:23
 #, php-format
