@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 18:52+0200\n"
+"PO-Revision-Date: 2016-05-01 19:24+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -7978,7 +7978,7 @@ msgid "Every minute"
 msgid_plural "Every %d minutes"
 msgstr[0] "Každou minutu"
 msgstr[1] "každé %d minuty"
-msgstr[2] "Každé %d minuty"
+msgstr[2] "Každých %d minut"
 
 #: include/staff/profile.inc.php:201
 msgid "Default From Name"
@@ -8052,7 +8052,7 @@ msgstr "pokud nastaveno"
 
 #: include/staff/profile.inc.php:269
 msgid "Default Paper Size"
-msgstr "Výchozí velikost stránky"
+msgstr "Výchozí velikost papíru"
 
 #: include/staff/profile.inc.php:270
 msgid "Paper size used when printing tickets to PDF"
@@ -8092,7 +8092,7 @@ msgstr "Potvrzovací e-mail byl odeslán"
 
 #: include/staff/pwreset.sent.php:18
 msgid "A password reset email was sent to the email on file for your account.  Follow the link in the email to reset your password."
-msgstr "Byl vám zaslán e-mail s odkazem na obnovu hesla. Pro obnovu hesla pokračujte kliknutím na odkaz."
+msgstr "Byl vám zaslán e-mail s odkazem na obnovu hesla. Pro obnovu hesla pokračujte kliknutím na odkaz v daném e-mailu."
 
 #: include/staff/role.inc.php:5
 msgid "Update Role"
@@ -8115,11 +8115,11 @@ msgid "role"
 msgid_plural "roles"
 msgstr[0] "role"
 msgstr[1] "role"
-msgstr[2] "role"
+msgstr[2] "rolí"
 
 #: include/staff/roles.inc.php:47
 msgid "Created On"
-msgstr "Vytvořeno"
+msgstr "Vytvořeno dne"
 
 #: include/staff/roles.inc.php:91
 #, php-format
@@ -8139,7 +8139,7 @@ msgid "selected role"
 msgid_plural "selected roles"
 msgstr[0] "vybraná role"
 msgstr[1] "vybrané role"
-msgstr[2] "vybrané role"
+msgstr[2] "vybraných rolí"
 
 #: include/staff/roles.inc.php:113
 #, php-format
@@ -8148,7 +8148,7 @@ msgstr "Jste si jist, že chcete <b>zakázat</b> %s?"
 
 #: include/staff/roles.inc.php:120
 msgid "Deleted roles CANNOT be recovered."
-msgstr "Smazané role NEMOHOU být obnoveny."
+msgstr "Smazané role nemohou být obnoveny."
 
 #: include/staff/settings-agents.inc.php:5
 msgid "Agents Settings"
@@ -8219,7 +8219,7 @@ msgstr "povolený počet neúspěšných pokusů o přihlášení před zablokov
 #: include/staff/settings-agents.inc.php:128
 #: include/staff/settings-users.inc.php:110
 msgid "minutes locked out"
-msgstr "doba do uzamknutí účtu v minutách"
+msgstr "doba od uzamknutí účtu v minutách"
 
 #: include/staff/settings-agents.inc.php:132
 msgid "Agent Session Timeout"
@@ -8282,7 +8282,7 @@ msgstr "Vedoucí oddělení"
 #: include/staff/settings-alerts.inc.php:37
 #: include/staff/settings-alerts.inc.php:76
 msgid "Organization Account Manager"
-msgstr "Správce účtů organizace"
+msgstr "Správce účtu organizace"
 
 #: include/staff/settings-alerts.inc.php:56
 #: include/staff/settings-alerts.inc.php:95
@@ -8300,7 +8300,7 @@ msgstr "Přiřazený zaměstnanec"
 
 #: include/staff/settings-alerts.inc.php:202
 msgid "System Alerts"
-msgstr "Systemové upozornění"
+msgstr "Systémové upozornění"
 
 #: include/staff/settings-alerts.inc.php:206
 msgid "System Errors"
@@ -8308,7 +8308,7 @@ msgstr "Systémové chyby"
 
 #: include/staff/settings-alerts.inc.php:207
 msgid "(enabled by default)"
-msgstr "(standardně povolené)"
+msgstr "(povolené ve výchozím stavu)"
 
 #: include/staff/settings-alerts.inc.php:213
 msgid "SQL errors"
