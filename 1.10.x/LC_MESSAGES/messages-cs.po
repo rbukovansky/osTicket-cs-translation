@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 22:10+0200\n"
+"PO-Revision-Date: 2016-05-01 22:20+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -11884,7 +11884,7 @@ msgstr "Vlastník požadavku změněn na %s"
 
 #: scp/tickets.php:301
 msgid "Unable to change ticket ownership. Try again"
-msgstr "Nešlo změnit vlastníka požadavku. Zkuste to znovu"
+msgstr "Nelze změnit vlastníka požadavku. Zkuste to znovu"
 
 #: scp/tickets.php:305
 msgid "You must select action to perform"
@@ -11914,7 +11914,7 @@ msgstr "%d zpožděných požadavků!"
 
 #: scp/tickets.php:465
 msgid "Internal error: Unable to export the ticket to PDF for print."
-msgstr "Interní chzba: Nebylo možné exportovat požadavek do formátu PDF pro tisk."
+msgstr "Interní chyba: Nebylo možné exportovat požadavek do formátu PDF pro tisk."
 
 #: scp/upgrade.php:26
 msgid "Nothing to do! System already upgraded to the current version"
@@ -11932,7 +11932,7 @@ msgstr "Program pro aktualizaci nepodporuje aktualizaci z aktuální záplaty [%
 
 #: scp/users.php:35
 msgid "Unable to update user account information"
-msgstr "Nelze změnit informace o uživatelském účtu"
+msgstr "Nelze upravit informace o uživatelském účtu"
 
 #: scp/users.php:37 scp/users.php:41 scp/users.php:52
 msgid "this end user"
@@ -11949,7 +11949,7 @@ msgstr "Účet již byl potvrzen"
 #: scp/users.php:63
 #, php-format
 msgid "Account activation email sent to %s"
-msgstr "Aktivační e-mail byl odeslán na adresu %s"
+msgstr "Aktivační e-mail byl odeslán na e-mailovou adresu %s"
 
 #: scp/users.php:65
 msgid "Unable to send account activation email - try again!"
@@ -11966,11 +11966,11 @@ msgstr "Nelze odeslat e-mail pro obnovu hesla - zkuste to znovu!"
 
 #: scp/users.php:140
 msgid "Unable to manage any of the selected end users"
-msgstr "Nelze spravovat žádného z vybraných koncových uživatelů"
+msgstr "Nelze spravovat žádného z vybraných zákazníků"
 
 #: scp/users.php:146
 msgid "Successfully managed selected end users"
-msgstr "Vybraní koncoví uživatelé byli úspěšně aktualizováni"
+msgstr "Vybraní zákazníci byli úspěšně aktualizováni"
 
 #: scp/users.php:169
 msgid "users"
@@ -12003,7 +12003,7 @@ msgstr "Nebyly splněny minimální požadavky!"
 
 #: setup/install.php:45
 msgid "Configuration file does NOT exist. Follow steps below to add one."
-msgstr "Konfigura4n9 soubor neexistuje. Proveďte níže uvedené kroky pro jeho vytvoření."
+msgstr "Konfigurační soubor neexistuje. Proveďte níže uvedené kroky pro jeho vytvoření."
 
 #: setup/install.php:47
 msgid "Write access required to continue"
@@ -12052,7 +12052,7 @@ msgstr "Přihlašovací jméno správce. Nejméně tři (3) znaky."
 
 #: setup/tips.php:35
 msgid "Admin's password.  Must be five (5) characters or more."
-msgstr "Helo správce. Nejméně pět (5) znaků."
+msgstr "Heslo správce. Nejméně pět (5) znaků."
 
 #: setup/tips.php:39
 msgid "Retype admin's password. Must match."
@@ -12060,7 +12060,7 @@ msgstr "Zadejte znovu heslo správce. Musí se shodovat."
 
 #: setup/tips.php:42 setup/inc/install.inc.php:85
 msgid "MySQL Table Prefix"
-msgstr "MySQL předpona"
+msgstr "Prefix názvů tabulek v MySQL"
 
 #: setup/tips.php:43
 msgid "osTicket requires table prefix in order to avoid possible table conflicts in a shared database."
@@ -12068,11 +12068,11 @@ msgstr "osTicket vyžaduje prefix názvů tabulek, aby předešel potenciálním
 
 #: setup/tips.php:46 setup/inc/install.inc.php:91
 msgid "MySQL Hostname"
-msgstr "MySQL hostname"
+msgstr "Název serveru MySQL"
 
 #: setup/tips.php:47
 msgid "Most hosts use 'localhost' for local database hostname. Check with your host if localhost fails. Default port set in php.ini is assumed."
-msgstr "Většina serverů používá jako název místního databázového serveru 'localhost'. Zadejte název vašeho serveru, pokud 'localhost' nefunguje. Předpokládá nastavení výchozího portu v php.ini."
+msgstr "Většina serverů používá jako název místního databázového serveru 'localhost'. Zadejte název vašeho serveru, pokud 'localhost' nefunguje. Předpokládá se nastavení výchozího portu v php.ini."
 
 #: setup/tips.php:50 setup/inc/install.inc.php:97
 msgid "MySQL Database"
@@ -12221,19 +12221,19 @@ msgstr "Windows PowerShell"
 #: setup/inc/file-missing.inc.php:18
 #, php-format
 msgid "If sample config file is missing - please make sure you uploaded all files in 'upload' folder or refer to the %1$s Installation Guide %2$s"
-msgstr "Pokud vzorový konfiguračný súbor chybí -ujistěte se, že jste nahráli všechny soubory do adresáře 'upload' nebo prostudujte %1$s Příručku k instalaci %2$s"
+msgstr "Pokud vzorový konfiguračný súbor chybí - ujistěte se, že jste nahráli všechny soubory z adresáře 'upload' nebo prostudujte %1$s Příručku k instalaci %2$s"
 
 #: setup/inc/file-missing.inc.php:29 setup/inc/file-perm.inc.php:34
 #: setup/inc/install-prereq.inc.php:56
 msgid "If you are looking for a greater level of support, we provide <u>professional installation services</u> and commercial support with guaranteed response times, and access to the core development team. We can also help customize osTicket or even add new features to the system to meet your unique needs."
-msgstr "Hledáte-li vyšší úroveň technické podpory, poskytujeme <u>odbornou instalaci</u> a komerční podporu s garantovanými reakčními dobami a přístupem k vývojářskému týmu. Také můžeme pomoci s nastavením osTicket nebo dokonce přidávat nové vlastnosti do systému tak, abychom uspokojili vaše nároky."
+msgstr "Hledáte-li lepší úroveň technické podpory, poskytujeme <u>odbornou instalaci</u> a komerční podporu s garantovanými reakčními dobami a přístupem k vývojářskému týmu. Také můžeme pomoci s nastavením osTicket nebo dokonce přidávat nové vlastnosti do systému tak, abychom uspokojili vaše nároky."
 
 #: setup/inc/file-missing.inc.php:29 setup/inc/file-perm.inc.php:34
 #: setup/inc/file-unclean.inc.php:16 setup/inc/install-done.inc.php:48
 #: setup/inc/install-prereq.inc.php:56 setup/inc/install.inc.php:123
 #: setup/inc/subscribe.inc.php:46
 msgid "Learn More!"
-msgstr "Dozvědět se více!"
+msgstr "Více informací!"
 
 #: setup/inc/file-perm.inc.php:5
 msgid "Configuration file is not writable"
@@ -12254,7 +12254,7 @@ msgstr "Přidejte práva \"Úplný přístup\" pro skupinu uživatelů \"Everyon
 
 #: setup/inc/file-perm.inc.php:19
 msgid "Using WS_FTP this would be right hand clicking on the file, selecting chmod, and then giving all permissions to the file."
-msgstr "Při použití WS-FTP klikněte na soubor, zvolte chmod a přidejte všechna oprávnění k souboru."
+msgstr "Při použití WS-FTP klikněte pravým tlačítkem myši na soubor, zvolte chmod a přidejte všechna oprávnění k souboru."
 
 #: setup/inc/file-perm.inc.php:20
 msgid "Click on the file, select change permission, and then giving all permissions to the file."
@@ -12262,7 +12262,7 @@ msgstr "Klikněte na soubor, zvolte změnit oprávnění a přidejte všechna op
 
 #: setup/inc/file-perm.inc.php:23
 msgid "Don't worry! We'll remind you to take away the write access post-install"
-msgstr "Nebojte!  Po instalaci vám připomeneme, abyste práva k zápisu odebrali"
+msgstr "Nebojte se! Po instalaci vám připomeneme, abyste práva k zápisu odebrali"
 
 #: setup/inc/file-perm.inc.php:27
 msgid "Done? Continue"
@@ -12279,7 +12279,7 @@ msgstr "Konfigurační soubor již byl změněn - to může znamenat, že osTick
 
 #: setup/inc/file-unclean.inc.php:9
 msgid "If you believe this is in error, please try replacing the config file with a unchanged template copy and try again or get technical help."
-msgstr "Jestli věříte, že je toto chyba, prosím zkuste zaměnit konfigurační soubor s původním nezměněným ze šablony a zkuste to znova nebo kontaktujte technickou pomoc."
+msgstr "Jestli věříte, že je toto chyba, prosím zkuste zaměnit konfigurační soubor původním nezměněným ze šablony a zkuste to znova nebo kontaktujte technickou pomoc."
 
 #: setup/inc/file-unclean.inc.php:10
 #, php-format
