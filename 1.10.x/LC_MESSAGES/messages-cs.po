@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 19:24+0200\n"
+"PO-Revision-Date: 2016-05-01 19:35+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -8380,7 +8380,7 @@ msgstr "Načítání e-mailu"
 
 #: include/staff/settings-emails.inc.php:102
 msgid "Fetch on auto-cron"
-msgstr "Načti pomocí auto-cron"
+msgstr "Načítání pomocí auto-cron"
 
 #: include/staff/settings-emails.inc.php:107
 msgid "Strip Quoted Reply"
@@ -8420,11 +8420,11 @@ msgstr "Výchozí MTA"
 
 #: include/staff/settings-emails.inc.php:148
 msgid "None: Use PHP mail function"
-msgstr "Žádný: Použij e-mailovou funkci PHP"
+msgstr "Žádný: Použít e-mailovou funkci v PHP"
 
 #: include/staff/settings-emails.inc.php:168
 msgid "Email attachments to the user"
-msgstr "Odeslat přílohy uživateli"
+msgstr "Odeslat přílohy zákazníkovi"
 
 #: include/staff/settings-kb.inc.php:4
 msgid "Knowledge Base Settings and Options"
@@ -8432,19 +8432,19 @@ msgstr "Nastavení a možnosti báze znalostí"
 
 #: include/staff/settings-kb.inc.php:12
 msgid "Disabling knowledge base disables clients' interface."
-msgstr "Zakázání báze znalostí zakáže přístup zákazníkům."
+msgstr "Zakázání báze znalostí zakáže zákaznické rozhraní báze znalostí."
 
 #: include/staff/settings-kb.inc.php:18
 msgid "Knowledge Base Status"
-msgstr "Stav znalostní báze"
+msgstr "Stav báze znalostí"
 
 #: include/staff/settings-kb.inc.php:21
 msgid "Enable Knowledge Base"
-msgstr "Povolit bázi zbalostí"
+msgstr "Povolit bázi znalostí"
 
 #: include/staff/settings-kb.inc.php:25
 msgid "Require Client Login"
-msgstr "Vyřadovat přihlášení zákazníka"
+msgstr "Vyžadovat přihlášení zákazníka"
 
 #: include/staff/settings-kb.inc.php:34
 msgid "Enable Canned Responses"
@@ -8452,7 +8452,7 @@ msgstr "Zapnout předpřipravené odpovědi"
 
 #: include/staff/settings-pages.inc.php:5
 msgid "Company Profile"
-msgstr "Profil firmy/organizace"
+msgstr "Profil společnosti"
 
 #: include/staff/settings-pages.inc.php:16
 msgid "Basic Information"
@@ -8469,7 +8469,7 @@ msgstr "Pozadí přihlášení"
 #: include/staff/settings-pages.inc.php:42
 #, php-format
 msgid "To edit or add new pages go to %s Manage &gt; Site Pages %s"
-msgstr "Pro úpravu či přidání stránek běžte do %s Spravovat &gt; Stránky %s"
+msgstr "Pro úpravu či přidání stránek běžte na %s Spravovat &gt; stránky %s"
 
 #: include/staff/settings-pages.inc.php:53
 msgid "Select Landing Page"
@@ -8516,7 +8516,7 @@ msgid "selected image"
 msgid_plural "selected images"
 msgstr[0] "vybraný obrázek"
 msgstr[1] "vybrané obrázky"
-msgstr[2] "vybrané obrázky"
+msgstr[2] "vybraných obrázků"
 
 #: include/staff/settings-system.inc.php:6
 msgid "System Settings and Preferences"
@@ -8528,7 +8528,7 @@ msgstr "Stav systému zákaznické podpory"
 
 #: include/staff/settings-system.inc.php:24
 msgid "Online"
-msgstr "Online"
+msgstr "On-line"
 
 #: include/staff/settings-system.inc.php:25
 #: include/staff/settings-system.inc.php:26
@@ -8553,7 +8553,7 @@ msgstr "Vyberte výchozí oddělení"
 
 #: include/staff/settings-system.inc.php:65
 msgid "Collision Avoidance Duration"
-msgstr "Doba zamčení požadavků"
+msgstr "Doba vhynutí se kolize"
 
 #: include/staff/settings-system.inc.php:72
 msgid "Default Page Size"
@@ -8581,7 +8581,7 @@ msgstr "ERROR"
 
 #: include/staff/settings-system.inc.php:100
 msgid "Purge Logs"
-msgstr "Mazání logu"
+msgstr "Mazání logů"
 
 #: include/staff/settings-system.inc.php:103
 msgid "Never Purge Logs"
@@ -8617,7 +8617,7 @@ msgstr "Možnosti data a času"
 
 #: include/staff/settings-system.inc.php:142
 msgid "Default Locale"
-msgstr "Výchozí jazyk"
+msgstr "Výchozí oblast"
 
 #: include/staff/settings-system.inc.php:159
 msgid "Default Time Zone"
@@ -8630,11 +8630,11 @@ msgstr "Formát data a času"
 
 #: include/staff/settings-system.inc.php:175
 msgid "Locale Defaults"
-msgstr "Výchozí dle jazyka"
+msgstr "Výchozí pro oblast"
 
 #: include/staff/settings-system.inc.php:176
 msgid "Locale Defaults, 24-hour Time"
-msgstr "Výchozí dle jazyka, formát času 24 hodin"
+msgstr "Výchozí pro oblast, formát času 24 hodin"
 
 #: include/staff/settings-system.inc.php:177
 msgid "Advanced"
@@ -8646,7 +8646,7 @@ msgstr "Formát data"
 
 #: include/staff/settings-system.inc.php:220
 msgid "Day, Date and Time Format"
-msgstr "Den, formát data a času"
+msgstr "Formát dne, data a času"
 
 #: include/staff/settings-system.inc.php:233
 msgid "System Languages"
@@ -8670,7 +8670,7 @@ msgstr "Jste si jist?"
 
 #: include/staff/settings-system.inc.php:281
 msgid "Add a Language"
-msgstr "Přidejte jazyk"
+msgstr "Přidat jazyk"
 
 #: include/staff/settings-system.inc.php:297
 msgid "Attachments Storage and Settings"
@@ -8683,7 +8683,7 @@ msgstr "Ukládat přílohy"
 #: include/staff/settings-system.inc.php:313
 #, php-format
 msgid "Select Storage Backend"
-msgstr "Vyberte způsob ukládání souborů"
+msgstr "Vyberte službu ukládání souborů"
 
 #. Maximum size for agent-uploaded files (via SCP)
 #: include/staff/settings-system.inc.php:325
@@ -8700,7 +8700,7 @@ msgstr "Upozornění a oznámení"
 
 #: include/staff/settings-tasks.inc.php:23
 msgid "Global default task settings and options."
-msgstr "Výchozí systémové nastavení a volby úkolů."
+msgstr "Výchozí nastavení a volby úkolů v systému."
 
 #: include/staff/settings-tasks.inc.php:30
 msgid "Default Task Number Format"
