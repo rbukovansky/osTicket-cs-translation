@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 20:12+0200\n"
+"PO-Revision-Date: 2016-05-01 21:26+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -10175,7 +10175,7 @@ msgstr "Smazanou organizaci nelze obnovit"
 #: include/staff/templates/org-delete.tmpl.php:44
 #, php-format
 msgid "%s assigned to this organization will be orphaned."
-msgstr "%s přiřazení této organizaci se stanou sirotky."
+msgstr "%s přiřazených této organizaci se stanou sirotky."
 
 #: include/staff/templates/org-delete.tmpl.php:45
 #, php-format
@@ -10262,15 +10262,15 @@ msgstr "Řadit"
 
 #: include/staff/templates/sequence-manage.tmpl.php:1
 msgid "Manage Sequences"
-msgstr "Správa sekvencí"
+msgstr "Správa číselných řad"
 
 #: include/staff/templates/sequence-manage.tmpl.php:4
 msgid ""
 "Sequences are used to generate sequential numbers. Various sequences can be\n"
 "used to generate sequences for different purposes."
 msgstr ""
-"Sekvence jsou použity pro generování čísel. Různé sekvence\n"
-"mohou být použity pro různé účely."
+"Číselné řady jsou použity pro generování čísel. Různé číselné řady mohou být\n"
+"použity pro různé účely."
 
 #: include/staff/templates/sequence-manage.tmpl.php:23
 msgid "next"
@@ -10301,7 +10301,7 @@ msgid ""
 "    deleted sequences."
 msgstr ""
 "Kliknutím na <strong>Uložit změny</strong> trvale odstraníte\n"
-" smazané sekvence."
+" smazané číselné řady."
 
 #: include/staff/templates/status-options.tmpl.php:37
 #: include/staff/templates/task-view.tmpl.php:200
@@ -10312,7 +10312,7 @@ msgstr "Změnit stav"
 #: include/staff/templates/task-edit.tmpl.php:5
 #, php-format
 msgid "%s Tasks #%s"
-msgstr "%s úkol č. %s"
+msgstr "%s úkoly č. %s"
 
 #: include/staff/templates/task-edit.tmpl.php:34
 msgid "Task Information"
@@ -10341,7 +10341,7 @@ msgstr "Souhrn úkolu"
 #: include/staff/templates/ticket-preview.tmpl.php:42
 #, php-format
 msgid "Collaborators (%d)"
-msgstr "Další příjemci (%d)"
+msgstr "Spolupracovníci (%d)"
 
 #: include/staff/templates/task-preview.tmpl.php:112
 msgid "Task doesn't have any collaborators."
@@ -10382,12 +10382,12 @@ msgstr "Akce"
 #: include/staff/templates/task-view.tmpl.php:375
 #: include/staff/templates/task-view.tmpl.php:489
 msgid "Add Participants"
-msgstr "Přidat účastníka"
+msgstr "Přidat spolupracovníka"
 
 #: include/staff/templates/task-view.tmpl.php:377
 #, php-format
 msgid "Participants (%d)"
-msgstr "Účastníci (%d)"
+msgstr "Spolupracovníci (%d)"
 
 #: include/staff/templates/task-view.tmpl.php:465
 #: include/staff/templates/task-view.tmpl.php:554
@@ -10412,7 +10412,7 @@ msgstr "Viditelnost a přiřazení úkolu"
 
 #: include/staff/templates/task.tmpl.php:43
 msgid "Create Task"
-msgstr "Vytvoření úkolu"
+msgstr "Vytvořit úkol"
 
 #: include/staff/templates/thread-email-headers.tmpl.php:1
 msgid "Raw Email Headers"
@@ -10459,7 +10459,7 @@ msgstr "Spolupracovník"
 #: include/staff/templates/ticket-preview.tmpl.php:15
 #, php-format
 msgid "Ticket is locked by %s"
-msgstr "Požadavek je uzamčen uživatelem %s"
+msgstr "Požadavek je uzamčen zaměstnancem %s"
 
 #: include/staff/templates/ticket-preview.tmpl.php:37
 msgid "Ticket Summary"
@@ -10482,11 +10482,11 @@ msgstr "Vlákno (%d)"
 #: include/staff/templates/ticket-preview.tmpl.php:157
 #, php-format
 msgid "Notes (%d)"
-msgstr "Poznámek (%d)"
+msgstr "Poznámky (%d)"
 
 #: include/staff/templates/ticket-preview.tmpl.php:160
 msgid "Reply"
-msgstr "Odpověď"
+msgstr "Odpovědět"
 
 #: include/staff/templates/ticket-preview.tmpl.php:171
 msgid "Edit Ticket"
@@ -10546,7 +10546,7 @@ msgstr "Uživatel nemůže měnit heslo"
 
 #: include/staff/templates/user-delete.tmpl.php:6
 msgid "Deleted users and tickets CANNOT be recovered"
-msgstr "Smazané uživatele a požadavky NELZE obnovit"
+msgstr "Smazané uživatele a požadavky nelze obnovit"
 
 #: include/staff/templates/user-delete.tmpl.php:38
 msgid "Change Tickets Ownership"
