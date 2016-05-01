@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 19:35+0200\n"
+"PO-Revision-Date: 2016-05-01 19:48+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -8769,7 +8769,7 @@ msgstr "Maximální počet <b>otevřených</b> požadavků"
 
 #: include/staff/settings-tickets.inc.php:169
 msgid "per end user"
-msgstr "pro koncového uživatele"
+msgstr "pro zákazníka"
 
 #: include/staff/settings-tickets.inc.php:175
 msgid "Human Verification"
@@ -8854,7 +8854,7 @@ msgstr "Rychlý přístup pro zákazníky"
 
 #: include/staff/settings-users.inc.php:131
 msgid "Require email verification on \"Check Ticket Status\" page"
-msgstr "Vyžadovat ověření e-mailem na stránce \"Ověření stavu požadavku\""
+msgstr "Vyžadovat ověření e-mailovou adresou na stránce \"Ověření stavu požadavku\""
 
 #: include/staff/settings-users.inc.php:178
 msgid "Guest Ticket Access"
@@ -8870,7 +8870,7 @@ msgstr "Stránka pro potvrzení e-mailové adresy"
 
 #: include/staff/settings-users.inc.php:182
 msgid "Account Confirmation Email"
-msgstr "E-mail s potvrzením účtu"
+msgstr "E-mailová adresa pro potvrzení účtu"
 
 #: include/staff/settings-users.inc.php:183
 msgid "Account Confirmed Page"
@@ -8892,11 +8892,11 @@ msgstr "Přidat plán"
 
 #: include/staff/slaplan.inc.php:37
 msgid "Tickets are marked overdue on grace period violation."
-msgstr "Požadavky jsou označeny jako zpožděné po uplynutí nastavené doby."
+msgstr "Požadavky jsou označeny jako zpožděné po uplynutí lhůty."
 
 #: include/staff/slaplan.inc.php:54
 msgid "Grace Period"
-msgstr "Bezúročné období"
+msgstr "Lhůta"
 
 #: include/staff/slaplan.inc.php:58
 msgid "in hours"
@@ -8908,7 +8908,7 @@ msgstr "Přechodné"
 
 #: include/staff/slaplan.inc.php:78
 msgid "SLA can be overridden on ticket transfer or help topic change"
-msgstr "SLA může být přepsáno při předání požadavku nebo změně tématu podpory"
+msgstr "Plán SLA může být přepsán při předání požadavku nebo změně tématu podpory"
 
 #: include/staff/slaplan.inc.php:84
 msgid "Ticket Overdue Alerts"
@@ -8920,11 +8920,11 @@ msgstr "<strong>Zakázat</strong> upozornění na zpožděné požadavky."
 
 #: include/staff/slaplan.inc.php:89
 msgid "(Override global setting)"
-msgstr "(Přepíše globální nastavení)"
+msgstr "(Přepsat globální nastavení)"
 
 #: include/staff/slaplans.inc.php:46
 msgid "Service Level Agreements"
-msgstr "Smlovy SLA"
+msgstr "Plány SLA"
 
 #. SLA is abbreviation for Service Level Agreement
 #: include/staff/slaplans.inc.php:142
@@ -8937,9 +8937,9 @@ msgstr "Nenalezeny žádné plány SLA"
 #: scp/slas.php:108 scp/slas.php:111 scp/slas.php:114
 msgid "selected SLA plan"
 msgid_plural "selected SLA plans"
-msgstr[0] "Vybraný plán SLA"
-msgstr[1] "Vybrané plány SLA"
-msgstr[2] "Vybrané plány SLA"
+msgstr[0] "vybraný plán SLA"
+msgstr[1] "vybrané plány SLA"
+msgstr[2] "vybraných plánů SLA"
 
 #: include/staff/staff.inc.php:30
 msgid "Manage Agent"
@@ -8955,12 +8955,12 @@ msgstr "Nastavit heslo"
 
 #: include/staff/staff.inc.php:142
 msgid "Authentication Backend"
-msgstr "Způsob ověření"
+msgstr "Služba ověření"
 
 #: include/staff/staff.inc.php:151
 #: include/staff/templates/user-register.tmpl.php:55
 msgid "Use any available backend"
-msgstr "Použij jakýkoli dostupný způsob"
+msgstr "Použij jakýkoli dostupnou službu"
 
 #: include/staff/staff.inc.php:178 include/staff/staffmembers.inc.php:199
 msgid "Locked"
@@ -8985,7 +8985,7 @@ msgstr "Vyberte oddělení, ke kterým má zaměstnanec přístup, a volitelně 
 #: include/staff/staff.inc.php:228 include/staff/staff.inc.php:310
 #: include/staff/ticket-open.inc.php:191
 msgid "Select Department"
-msgstr "Vyber oddělení"
+msgstr "Vybrat oddělení"
 
 #: include/staff/staff.inc.php:259
 msgid "Fall back to primary role on assigned tickets"
@@ -9001,7 +9001,7 @@ msgstr "Přiřazené týmy"
 
 #: include/staff/staff.inc.php:387
 msgid "Agent will have access to tickets assigned to a team they belong to regardless of the ticket's department. Alerts can be enabled for each associated team."
-msgstr "Zaměstnanec bude mít přístup k požadavkům přiřazeným týmům, ke kterým je přiřazen, nezávisle na oddělení požadavku. Upozornění mohou být povolena pro každý přiřazený tým."
+msgstr "Zaměstnanec bude mít přístup k požadavkům přiřazeným týmům, jejichž je členem, nezávisle na oddělení požadavku. Upozornění mohou být povolena pro každý přiřazený tým."
 
 #: include/staff/staff.inc.php:402
 msgid "Select Team"
@@ -9077,27 +9077,27 @@ msgstr "Zamknutí zaměstnanci nebudou schopni se přihlásit do Ovládacího pa
 
 #: include/staff/syslogs.inc.php:11
 msgid "Errors"
-msgstr "Protokoly chyb"
+msgstr "Logy chyb"
 
 #: include/staff/syslogs.inc.php:15
 msgid "Warnings"
-msgstr "Protokoly varování"
+msgstr "Logy varování"
 
 #: include/staff/syslogs.inc.php:19
 msgid "Debug logs"
-msgstr "Protokoly lazení"
+msgstr "Logy lazení"
 
 #: include/staff/syslogs.inc.php:24
 msgid "All logs"
-msgstr "Všechny protokoly"
+msgstr "Všechny logy"
 
 #: include/staff/syslogs.inc.php:36
 msgid "Entered date span is invalid. Selection ignored."
-msgstr "Zadaný rozsah data není platný, ignorováno."
+msgstr "Zadaný rozsah data není platný, výběr byl ignorováno."
 
 #: include/staff/syslogs.inc.php:84 include/staff/syslogs.inc.php:174
 msgid "No logs found"
-msgstr "Nenalezen žádný protokol"
+msgstr "Nenalezen žádný log"
 
 #: include/staff/syslogs.inc.php:93
 msgid "Between"
@@ -9137,7 +9137,7 @@ msgstr "Použito pro manipulaci s obrázky a tisk do PDF"
 
 #: include/staff/system.inc.php:14
 msgid "Used for email fetching"
-msgstr "použito pro vyzvedávání e-mailů"
+msgstr "použito pro stahování e-mailů"
 
 #: include/staff/system.inc.php:18
 msgid "XML API"
@@ -9153,7 +9153,7 @@ msgstr "Vylepšuje výkon vytvářením a zpracováváním JSON"
 
 #: include/staff/system.inc.php:30 include/staff/system.inc.php:38
 msgid "Highly recommended for non western european language content"
-msgstr "Vysoce doporučeno pro obsah jazyků ne-západní evropy"
+msgstr "Vysoce doporučeno pro obsah mimoevropských jazyků"
 
 #: include/staff/system.inc.php:34
 msgid "Highly recommended for plugins and language packs"
@@ -9185,11 +9185,11 @@ msgstr "Aktuální"
 
 #: include/staff/system.inc.php:78
 msgid "Upgrade"
-msgstr "Povýšit"
+msgstr "Aktualizace"
 
 #: include/staff/system.inc.php:81
 msgid "%s is available"
-msgstr "%s je dostupný"
+msgstr "%s je dostupná"
 
 #: include/staff/system.inc.php:86
 msgid "This osTicket version is no longer supported. Please consider upgrading"
@@ -9197,7 +9197,7 @@ msgstr "Tato verze osTicket již není podporována. Prosíme zvažte aktualizac
 
 #: include/staff/system.inc.php:92
 msgid "Web Server Software"
-msgstr "Software Webserveru"
+msgstr "Software webserveru"
 
 #: include/staff/system.inc.php:94
 msgid "MySQL Version"
