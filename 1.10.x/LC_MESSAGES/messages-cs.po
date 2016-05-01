@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-04-29 16:58+0200\n"
+"PO-Revision-Date: 2016-05-01 18:52+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -7434,7 +7434,7 @@ msgstr "Přidat filtr"
 
 #: include/staff/filter.inc.php:40
 msgid "Filters are executed based on execution order. Filter can target specific ticket source."
-msgstr "Filtry jsou spouštěny dle pořadí spouštění. Filtr může cílit na určitý zdroj požadavku."
+msgstr "Filtry jsou spouštěny dle pořadí provádění. Filtr může cílit na určitý zdroj požadavku."
 
 #: include/staff/filter.inc.php:47
 msgid "Filter Name"
@@ -7454,11 +7454,11 @@ msgstr "Stav filtru"
 
 #: include/staff/filter.inc.php:85
 msgid "Target Channel"
-msgstr "Zdroj požadavku"
+msgstr "Cílový kanál"
 
 #: include/staff/filter.inc.php:89
 msgid "Select a Channel"
-msgstr "Vyberte zdroj"
+msgstr "Vyberte kanál"
 
 #: include/staff/filter.inc.php:97
 #, php-format
@@ -7505,7 +7505,7 @@ msgstr "Přidat pravidlo"
 
 #: include/staff/filter.inc.php:230
 msgid "Can be overwridden by other filters depending on processing order."
-msgstr "Může být přepsáno jinými filtry v závislosti na pořadí zpracování."
+msgstr "Může být přepsáno jinými filtry v závislosti na pořadí provádění."
 
 #: include/staff/filter.inc.php:232
 msgid "Actions are executed in the order declared below"
@@ -7519,8 +7519,8 @@ msgstr "Vybrat událost"
 msgid "filter"
 msgid_plural "filters"
 msgstr[0] "filtr"
-msgstr[1] "filtr"
-msgstr[2] "filtry"
+msgstr[1] "filtry"
+msgstr[2] "filtrů"
 
 #: include/staff/filters.inc.php:44 include/staff/filters.inc.php:136
 msgid "No filters found"
@@ -7543,12 +7543,12 @@ msgstr "Cíl"
 msgid "selected filter"
 msgid_plural "selected filters"
 msgstr[0] "vybraný filtr"
-msgstr[1] "vybraný filtr"
-msgstr[2] "vybrané filtry"
+msgstr[1] "vybrané filtry"
+msgstr[2] "vybraných filtrů"
 
 #: include/staff/filters.inc.php:167
 msgid "Deleted data CANNOT be recovered, including any associated rules."
-msgstr "Smazané údaje NENÍ možné obnovit, včetně všech přiřazených pravidel."
+msgstr "Smazané údaje není možné obnovit, včetně všech přiřazených pravidel."
 
 #: scp/js/scp.js:759 scp/js/scp.js:794
 msgid "OK"
@@ -7579,7 +7579,7 @@ msgstr "Odhlásit"
 
 #: include/staff/header.inc.php:73
 msgid "Customer Support System"
-msgstr "Systém klientské podpory"
+msgstr "Systém zákaznické podpory"
 
 #: include/staff/helptopic.inc.php:5
 msgid "Update Help Topic"
@@ -7648,7 +7648,7 @@ msgstr "Náhodně"
 #: include/staff/templates/ticket-print.tmpl.php:168 scp/slas.php:22
 #: scp/slas.php:29
 msgid "SLA Plan"
-msgstr "SLA Plán"
+msgstr "Plán SLA"
 
 #: include/staff/helptopic.inc.php:247
 msgid "Department's Default"
@@ -7679,7 +7679,7 @@ msgstr "Zaměstnanci (%d)"
 #: include/staff/templates/org-profile.tmpl.php:64
 #, php-format
 msgid "Teams (%d)"
-msgstr "Týmů (%d)"
+msgstr "Týmy (%d)"
 
 #: include/staff/helptopic.inc.php:387
 msgid "Add Custom Form"
@@ -7832,8 +7832,8 @@ msgstr "(používané)"
 msgid "selected site page"
 msgid_plural "selected site pages"
 msgstr[0] "vybraná webová stránka"
-msgstr[1] "vybraná webová stránka"
-msgstr[2] "vybrané webové stránky"
+msgstr[1] "vybrané webové stránky"
+msgstr[2] "vybraných webových stránek"
 
 #: include/staff/plugin-add.inc.php:2
 msgid "Install a new plugin"
@@ -7841,7 +7841,7 @@ msgstr "Instalace nového pluginu"
 
 #: include/staff/plugin-add.inc.php:4
 msgid "To add a plugin into the system, download and place the plugin into the <code>include/plugins</code> folder. Once in the plugin is in the <code>plugins/</code> folder, it will be shown in the list below."
-msgstr "Pro přidání nového pluginu ho nahrajte do adresáře <code>include/plugins</code>. Pokud je plugin v adresáři <code>plugins</code>, tak bude zobrazen níže uvedeném seznamu."
+msgstr "Pro přidání nového pluginu ho nahrajte do adresáře <code>include/plugins</code>. Jakmile bude plugin v adresáři <code>plugins</code>, tak bude zobrazen níže uvedeném seznamu."
 
 #: include/staff/plugin-add.inc.php:22
 msgid "Install"
@@ -7887,8 +7887,8 @@ msgstr "Přidat nový plugin"
 msgid "plugin"
 msgid_plural "plugins"
 msgstr[0] "plugin"
-msgstr[1] "plugin"
-msgstr[2] "pluginy"
+msgstr[1] "pluginy"
+msgstr[2] "pluginů"
 
 #: include/staff/plugins.inc.php:58
 msgid "Plugin Name"
@@ -7908,12 +7908,12 @@ msgstr "Žádný plugin nebyl zatím nainstalován &mdash; %s přidejte první %
 msgid "selected plugin"
 msgid_plural "selected plugins"
 msgstr[0] "vybraný plugin"
-msgstr[1] "vybraný plugin"
-msgstr[2] "vybrané pluginy"
+msgstr[1] "vybrané pluginy"
+msgstr[2] "vybraných pluginů"
 
 #: include/staff/plugins.inc.php:111
 msgid "Configuration for deleted plugins CANNOT be recovered."
-msgstr "Konfigurace pro smazaný plugin se NEDÁ obnovit."
+msgstr "Konfigurace pro smazaný plugin se nedá obnovit."
 
 #: include/staff/profile.inc.php:9
 msgid "My Account Profile"
@@ -7933,7 +7933,7 @@ msgstr "Oveření"
 
 #: include/staff/profile.inc.php:103
 msgid "Backend"
-msgstr "Služba"
+msgstr "Služba na pozadí"
 
 #: include/staff/profile.inc.php:129 include/staff/staff.inc.php:168
 msgid "Status and Settings"
