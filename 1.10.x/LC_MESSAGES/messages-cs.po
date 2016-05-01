@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 21:41+0200\n"
+"PO-Revision-Date: 2016-05-01 21:56+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -10996,7 +10996,7 @@ msgstr "Stránka nenalezena"
 
 #: scp/admin.inc.php:31 scp/staff.inc.php:117
 msgid "System upgrade is pending"
-msgstr "Aktualizace systému probíhá"
+msgstr "Probíhá aktualizace systému"
 
 #: scp/admin.inc.php:40
 #, php-format
@@ -11081,7 +11081,7 @@ msgstr "Úspěšně vypnut %s"
 #: scp/staff.php:93 scp/teams.php:90 scp/templates.php:123
 #, php-format
 msgid "%1$d of %2$d %3$s disabled"
-msgstr "%1$d of %2$d %3$s zakázáno"
+msgstr "%1$d of %2$d %3$s vypnuto"
 
 #: scp/apikeys.php:78 scp/banlist.php:104 scp/canned.php:132 scp/filters.php:84
 #: scp/helptopics.php:100 scp/pages.php:91 scp/roles.php:109 scp/slas.php:93
@@ -11107,7 +11107,7 @@ msgstr "%1$d z %2$d %3$s smazáno"
 #: scp/slas.php:117 scp/staff.php:161 scp/teams.php:113 scp/templates.php:149
 #: scp/users.php:129 scp/users.php:137
 msgid "Unknown action - get technical help."
-msgstr "Neznámá akce - požádej o technickou pomoc."
+msgstr "Neznámá akce - požádejte o technickou pomoc."
 
 #: scp/autocron.php:65
 msgid "Auto Cron"
@@ -11120,11 +11120,11 @@ msgstr "Cron volání modulu stahování pošty [%s]"
 
 #: scp/banlist.php:21
 msgid "System ban list is empty."
-msgstr "Seznam zablokovaných adres je prázdný."
+msgstr "Seznam zablokovaných e-mailových adres je prázdný."
 
 #: scp/banlist.php:25
 msgid "SYSTEM BAN LIST filter is <b>DISABLED</b>"
-msgstr "Filtr zablokovaných adres je <b>ZAKÁZÁN</b>"
+msgstr "Filtr zablokovaných adres je <b>zakázán</b>"
 
 #: scp/banlist.php:25
 msgid "enable here"
@@ -11132,7 +11132,7 @@ msgstr "povolte zde"
 
 #: scp/banlist.php:29 scp/banlist.php:56
 msgid "ban list"
-msgstr "seznam blokovaných"
+msgstr "seznam blokovaných e-mailových adres"
 
 #: scp/banlist.php:35 scp/banlist.php:66
 msgid "ban rule"
@@ -11140,15 +11140,15 @@ msgstr "pravidlo pro zablokování"
 
 #: scp/banlist.php:49
 msgid "this ban rule"
-msgstr "toto pravidlo"
+msgstr "toto pravidlo pro zablokování"
 
 #: scp/banlist.php:60
 msgid "Email already in the ban list"
-msgstr "E-mail již je v seznamu blokovaných"
+msgstr "E-mailová adresa na seznamu blokovaných již je"
 
 #: scp/banlist.php:62
 msgid "Email address added to ban list successfully"
-msgstr "Adrea úspěšně přidána do seznamu blokovaných"
+msgstr "E-mailová adresa byla úspěšně přidána do seznamu blokovaných"
 
 #: scp/banlist.php:66
 #, php-format
@@ -11162,7 +11162,7 @@ msgstr "Musíte vybrat nejméně %s pro pokračování."
 
 #: scp/banlist.php:72 scp/emails.php:52
 msgid "one email"
-msgstr "e-mail"
+msgstr "jeden e-mail"
 
 #: scp/canned.php:44
 msgid "canned response"
@@ -11178,45 +11178,45 @@ msgstr "tato kategorie"
 
 #: scp/categories.php:58
 msgid "one category"
-msgstr "kategorie"
+msgstr "jedna kategorie"
 
 #: scp/categories.php:70 scp/departments.php:61
 #, php-format
 msgid "Successfully made %s PUBLIC"
-msgstr "%s bylo úspešně označeno jako VEŘEJNÉ"
+msgstr "%s bylo úspešně označeno jako veřejné"
 
 #. Phrase will read:
 #. <a> of <b> <selected objects> made PUBLIC
 #: scp/categories.php:73 scp/departments.php:67
 #, php-format
 msgid "%1$d of %2$d %3$s made PUBLIC"
-msgstr "%1$d z %2$d %3$s bylo označeno jako VEŘEJNÉ"
+msgstr "%1$d z %2$d %3$s bylo označeno jako veřejné"
 
 #: scp/categories.php:76 scp/departments.php:70
 #, php-format
 msgid "Unable to make %s PUBLIC."
-msgstr "%s nelze změnit na VEŘEJNÉ."
+msgstr "%s nelze změnit na veřejné."
 
 #: scp/categories.php:88 scp/departments.php:80
 #, php-format
 msgid "Successfully made %s PRIVATE"
-msgstr "%s bylo označeno jako SOUKROMÉ"
+msgstr "%s bylo označeno jako soukromé"
 
 #. Phrase will read:
 #. <a> of <b> <selected objects> made PRIVATE
 #: scp/categories.php:91 scp/departments.php:86
 #, php-format
 msgid "%1$d of %2$d %3$s made PRIVATE"
-msgstr "%1$d z %2$d %3$s bylo označeno jako SOUKROMÉ"
+msgstr "%1$d z %2$d %3$s bylo označeno jako soukromé"
 
 #: scp/categories.php:94
 #, php-format
 msgid "Unable to make %s PRIVATE"
-msgstr "%s nelze změnit na SOUKROMÉ"
+msgstr "%s nelze změnit na soukromé"
 
 #: scp/departments.php:50
 msgid "one department"
-msgstr "oddělení"
+msgstr "jedno oddělení"
 
 #: scp/departments.php:52
 msgid "You cannot disable/delete a default department. Select a new default department and try again."
@@ -11246,7 +11246,7 @@ msgstr "Je vyžadována platná e-mailová adresa příjemce"
 
 #: scp/emailtest.php:32
 msgid "Subject required"
-msgstr "Předmět Je vyžadován"
+msgstr "Předmět je vyžadován"
 
 #: scp/emailtest.php:41
 #, php-format
@@ -11263,11 +11263,11 @@ msgstr "Test odchozího e-mailu"
 
 #: scp/emailtest.php:66
 msgid "Use the following form to test whether your <strong>Outgoing Email</strong> settings are properly established."
-msgstr "Použijte následující formulář k otestování, že je vaše nastavení <strong>Odchozích e-mailů</strong> správné."
+msgstr "Použijte následující formulář k otestování, že je vaše nastavení <strong>odchozích e-mailů</strong> správné."
 
 #: scp/emailtest.php:78
 msgid "Select FROM Email"
-msgstr "Vyberte e-mail Od"
+msgstr "Vyberte e-mailovou adresu Od"
 
 #: scp/emailtest.php:87
 msgid "SMTP"
@@ -11328,9 +11328,9 @@ msgstr "jeden filtr požadavků"
 #: scp/filters.php:103
 msgid "selected ticket filter"
 msgid_plural "selected ticket filters"
-msgstr[0] "zvolený filtr požadavků"
-msgstr[1] "zvolené filtry požadavků"
-msgstr[2] "zvolených filtrů požadavků"
+msgstr[0] "vybraný filtr požadavků"
+msgstr[1] "vybrané filtry požadavků"
+msgstr[2] "vybraných filtrů požadavků"
 
 #: scp/forms.php:7
 msgid "custom form"
@@ -11350,7 +11350,7 @@ msgstr "Chyba validace položky"
 
 #: scp/forms.php:80
 msgid "one custom form"
-msgstr "uživatelský formulář"
+msgstr "jeden uživatelský formulář"
 
 #: scp/forms.php:138
 #, php-format
@@ -11405,7 +11405,7 @@ msgid "list item"
 msgid_plural "list items"
 msgstr[0] "položka seznamu"
 msgstr[1] "položky seznamu"
-msgstr[2] "položky seznamu"
+msgstr[2] "položek seznamu"
 
 #: scp/login.php:54
 msgid "Invalid login"
@@ -11436,8 +11436,8 @@ msgstr "%s byl úspěšně odstraněn."
 msgid "selected end user"
 msgid_plural "selected end users"
 msgstr[0] "vybraný koncový uživatel"
-msgstr[1] "vybraný koncový uživatel"
-msgstr[2] "vybraní koncoví uživatelé"
+msgstr[1] "vybraní koncoví uživatelé"
+msgstr[2] "vybraných koncových uživatelů"
 
 #: scp/orgs.php:55
 #, php-format
