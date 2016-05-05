@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-05 10:10+0200\n"
+"PO-Revision-Date: 2016-05-05 10:19+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -1855,7 +1855,7 @@ msgstr "Předpřipravit"
 
 #: include/class.canned.php:43
 msgid "Ability to add/update/disable/delete canned responses"
-msgstr "Umožnění přidat/změnit/zakázat/smazat předpřipravené odpovědi"
+msgstr "Právo přidat/změnit/zakázat/smazat předpřipravené odpovědi"
 
 #: include/class.canned.php:263 include/class.page.php:257
 msgid "Internal error. Try again"
@@ -2388,7 +2388,7 @@ msgstr "Černá listina"
 
 #: include/class.email.php:45
 msgid "Ability to add/remove emails from banlist via ticket interface"
-msgstr "Umožnění přidávat/odebírat e-mailové adresy z černé listiny (banlist) skrz rozhraní požadavku"
+msgstr "Právo přidávat/odebírat e-mailové adresy z černé listiny (banlist) skrz rozhraní požadavku"
 
 #: include/class.email.php:248
 msgid "Internal error. Get technical help."
@@ -2619,7 +2619,7 @@ msgstr "Časté dotazy"
 
 #: include/class.faq.php:54
 msgid "Ability to add/update/disable/delete knowledgebase categories and FAQs"
-msgstr "Umožnění přidávat/změnit/mazat kategorie báze znalostí a častých dotazů"
+msgstr "Právo přidávat/změnit/mazat kategorie báze znalostí a častých dotazů"
 
 #: include/class.faq.php:391
 msgid "Question required"
@@ -4137,15 +4137,15 @@ msgstr "Vytvořit"
 
 #: include/class.organization.php:48
 msgid "Ability to create new organizations"
-msgstr "Umožnění vytvářet nové organizace"
+msgstr "Právo vytvářet nové organizace"
 
 #: include/class.organization.php:53
 msgid "Ability to manage organizations"
-msgstr "Umožnění správy organizací"
+msgstr "Právo správy organizací"
 
 #: include/class.organization.php:58
 msgid "Ability to delete organizations"
-msgstr "Umožnění smazat organizace"
+msgstr "Právo mazat organizace"
 
 #: include/class.organization.php:335
 #: include/staff/templates/org-profile.tmpl.php:87
@@ -4314,7 +4314,7 @@ msgstr "Statistika"
 
 #: include/class.report.php:12
 msgid "Ability to view stats of other agents in allowed departments"
-msgstr "Umožnění prohlédnutí statistik ostatních zaměstnanců v povolených odděleních"
+msgstr "Právo k prohlédnutí statistik ostatních zaměstnanců v povolených odděleních"
 
 #: include/class.report.php:133
 msgid "Topics"
@@ -4731,19 +4731,19 @@ msgstr "Dočasné heslo"
 
 #: include/class.task.php:83
 msgid "Ability to create tasks"
-msgstr "Umožnění vytvářet úkoly"
+msgstr "Právo vytvářet úkoly"
 
 #: include/class.task.php:88
 msgid "Ability to edit tasks"
-msgstr "Umožnění upravovat úkoly"
+msgstr "Právo upravovat úkoly"
 
 #: include/class.task.php:93
 msgid "Ability to assign tasks to agents or teams"
-msgstr "Umožnění přiřadit úkoly zaměstnanci nebo týmu"
+msgstr "Právo přiřadit úkoly zaměstnanci nebo týmu"
 
 #: include/class.task.php:98
 msgid "Ability to transfer tasks between departments"
-msgstr "Umožnění předávat úkoly mezi odděleními"
+msgstr "Právo předávat úkoly mezi odděleními"
 
 #: include/class.task.php:101 include/class.ticket.php:127
 #: include/client/view.inc.php:183 include/staff/ticket-view.inc.php:211
@@ -4753,15 +4753,15 @@ msgstr "Odeslat odpověď"
 
 #: include/class.task.php:103
 msgid "Ability to post task update"
-msgstr "Umožnění přidat změnu úkolu"
+msgstr "Právo přidat změnu úkolu"
 
 #: include/class.task.php:108
 msgid "Ability to close tasks"
-msgstr "Umožnění zavírat úkoly"
+msgstr "Právo zavírat úkoly"
 
 #: include/class.task.php:113
 msgid "Ability to delete tasks"
-msgstr "Umožnění mazat úkoly"
+msgstr "Právo mazat úkoly"
 
 #: include/class.task.php:192 include/class.ticket.php:315
 #, php-format
@@ -5084,7 +5084,7 @@ msgstr "Změnit vlákno"
 
 #: include/class.thread.php:613
 msgid "Ability to edit thread items of other agents"
-msgstr "Umožnění položky vlákna od jiných zaměstnanců"
+msgstr "Právo položky vlákna od jiných zaměstnanců"
 
 #: include/class.thread.php:637
 msgid "Email loop detected"
@@ -5294,31 +5294,31 @@ msgstr "Popis události"
 
 #: include/class.ticket.php:109
 msgid "Ability to open tickets on behalf of users"
-msgstr "Umožnění vytvářet požadavky za zákazníky"
+msgstr "Právo vytvářet požadavky za zákazníky"
 
 #: include/class.ticket.php:114
 msgid "Ability to edit tickets"
-msgstr "Umožnění upravit požadavky"
+msgstr "Právo upravit požadavky"
 
 #: include/class.ticket.php:119
 msgid "Ability to assign tickets to agents or teams"
-msgstr "Umožnění přiřazovat požadavky zaměstnancům nebo týmům"
+msgstr "Právo přiřazovat požadavky zaměstnancům nebo týmům"
 
 #: include/class.ticket.php:124
 msgid "Ability to transfer tickets between departments"
-msgstr "Umožnění předávat požadavky mezi odděleními"
+msgstr "Právo předávat požadavky mezi odděleními"
 
 #: include/class.ticket.php:129
 msgid "Ability to post a ticket reply"
-msgstr "Umožnění odpovídat na požadavky"
+msgstr "Právo odpovídat na požadavky"
 
 #: include/class.ticket.php:134
 msgid "Ability to close tickets"
-msgstr "Umožnění zavřít požadavky"
+msgstr "Právo zavřít požadavky"
 
 #: include/class.ticket.php:139
 msgid "Ability to delete tickets"
-msgstr "Umožnění smazat požadavky"
+msgstr "Právo smazat požadavky"
 
 #: include/class.ticket.php:319
 #, php-format
@@ -5602,15 +5602,15 @@ msgstr "%s: Nemohu zpracovat čistící soubor"
 
 #: include/class.user.php:89
 msgid "Ability to add new users"
-msgstr "Umožnění vytvářet nové uživatele"
+msgstr "Právo vytvářet nové uživatele"
 
 #: include/class.user.php:94
 msgid "Ability to manage user information"
-msgstr "Umožnění spravovat informace o uživateli"
+msgstr "Právo spravovat informace o uživateli"
 
 #: include/class.user.php:99
 msgid "Ability to delete users"
-msgstr "Umožnění smazat uživatele"
+msgstr "Právo smazat uživatele"
 
 #: include/class.user.php:103 include/staff/user-view.inc.php:33
 msgid "Manage Account"
@@ -5618,11 +5618,11 @@ msgstr "Spravovat účet"
 
 #: include/class.user.php:104
 msgid "Ability to manage active user accounts"
-msgstr "Umožnění spravovat účty aktivních uživatelů"
+msgstr "Právo spravovat účty aktivních uživatelů"
 
 #: include/class.user.php:109
 msgid "Ability to access the user directory"
-msgstr "Umožnění přístupu k adresáři uživatelů"
+msgstr "Právo k přístupu k adresáři uživatelů"
 
 #: include/class.user.php:260 include/class.user.php:491
 msgid "Email is assigned to another user"
