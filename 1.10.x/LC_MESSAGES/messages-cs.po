@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-05 10:19+0200\n"
+"PO-Revision-Date: 2016-05-05 12:10+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -2206,7 +2206,7 @@ msgstr "Údaje požadavku"
 #: include/staff/team.inc.php:73 include/staff/teams.inc.php:119
 #: include/staff/template.inc.php:58 include/staff/templates.inc.php:118
 msgid "Disabled"
-msgstr "Zakázaný"
+msgstr "Zakázáno"
 
 #: include/class.dynamic_forms.php:703
 msgid "Hidden"
@@ -3605,7 +3605,7 @@ msgstr "Klapka"
 #: include/staff/tickets.inc.php:607 include/staff/users.inc.php:211
 #: include/staff/templates/users.tmpl.php:133
 msgid "Select"
-msgstr "Označit"
+msgstr "Vyberte"
 
 #: include/class.forms.php:3694
 #, php-format
@@ -4141,7 +4141,7 @@ msgstr "Právo vytvářet nové organizace"
 
 #: include/class.organization.php:53
 msgid "Ability to manage organizations"
-msgstr "Právo správy organizací"
+msgstr "Právo spravovat organizace"
 
 #: include/class.organization.php:58
 msgid "Ability to delete organizations"
@@ -7929,7 +7929,7 @@ msgstr "např. ja@mojefirma.cz"
 
 #: include/staff/profile.inc.php:98 include/staff/staff.inc.php:113
 msgid "Authentication"
-msgstr "Oveření"
+msgstr "Přihlašovací údaje"
 
 #: include/staff/profile.inc.php:103
 msgid "Backend"
@@ -7982,11 +7982,11 @@ msgstr[2] "Každých %d minut"
 
 #: include/staff/profile.inc.php:201
 msgid "Default From Name"
-msgstr "Výchozí ze jména"
+msgstr "Výchozí název v položce Od"
 
 #: include/staff/profile.inc.php:202
 msgid "From name to use when replying to a thread"
-msgstr "Při odpovědi do vlákna použít jméno z položky od"
+msgstr "Při odpovědi do vlákna použít jméno pro položku Od"
 
 #: include/staff/profile.inc.php:208
 msgid "Email Address Name"
@@ -8000,7 +8000,7 @@ msgstr "Název oddělení (%s)"
 #. This is used in 'Department's Name (>if public<)'
 #: include/staff/profile.inc.php:210
 msgid "if public"
-msgstr "pokud je veřejný"
+msgstr "pokud je veřejné"
 
 #: include/staff/profile.inc.php:211
 msgid "My Name"
@@ -8008,7 +8008,7 @@ msgstr "Mé jméno"
 
 #: include/staff/profile.inc.php:227
 msgid "Thread View Order"
-msgstr "Pořadí pohledu vlákna"
+msgstr "Pořadí zobrazených záznamů vlákna"
 
 #: include/staff/profile.inc.php:228
 msgid "The order of thread entries"
@@ -8024,11 +8024,11 @@ msgstr "Vzestupný"
 
 #: include/staff/profile.inc.php:250
 msgid "Default Signature"
-msgstr "Výchozí podpis"
+msgstr "Výchozí podpis odpovědi"
 
 #: include/staff/profile.inc.php:251
 msgid "This can be selected when replying to a thread"
-msgstr "Toto může být označeno při odpovědi do vlákna"
+msgstr "Toto může být změněno při odpovídání na požadavek"
 
 #: include/staff/profile.inc.php:257 include/staff/ticket-open.inc.php:374
 #: include/staff/ticket-view.inc.php:678
@@ -8048,7 +8048,7 @@ msgstr "Podpis oddělení (%s)"
 #. This is used in 'Department Signature (>if set<)'
 #: include/staff/profile.inc.php:258 include/staff/ticket-open.inc.php:378
 msgid "if set"
-msgstr "pokud nastaveno"
+msgstr "pokud je nastaveno"
 
 #: include/staff/profile.inc.php:269
 msgid "Default Paper Size"
@@ -8056,7 +8056,7 @@ msgstr "Výchozí velikost papíru"
 
 #: include/staff/profile.inc.php:270
 msgid "Paper size used when printing tickets to PDF"
-msgstr "Velikost papíru se použije pro tisk požadavku do formátu PDF"
+msgstr "Velikost papíru se použije při tisku požadavku do formátu PDF"
 
 #: include/staff/profile.inc.php:290
 msgid "Localization"
@@ -8064,7 +8064,7 @@ msgstr "Lokalizace"
 
 #: include/staff/profile.inc.php:303 include/staff/settings-system.inc.php:192
 msgid "Time Format"
-msgstr "Formát času"
+msgstr "Zobrazení času"
 
 #: include/staff/profile.inc.php:309
 msgid "Relative Time"
@@ -8163,7 +8163,7 @@ msgstr "Obecná nastavení"
 #: include/staff/settings-agents.inc.php:25
 #: include/staff/settings-users.inc.php:26
 msgid "Name Formatting"
-msgstr "Formátování jména"
+msgstr "Styl zobrazení jména"
 
 #: include/staff/settings-agents.inc.php:39
 msgid "Agent Identity Masking"
@@ -8189,7 +8189,7 @@ msgstr "Zásada pro vypršení platnosti hesla"
 
 #: include/staff/settings-agents.inc.php:80
 msgid "No expiration"
-msgstr "Bez vypršení platnosti"
+msgstr "Bez časového omezení"
 
 #: include/staff/settings-agents.inc.php:85
 #, php-format
@@ -9490,7 +9490,7 @@ msgstr "Zdroj požadavku"
 
 #: include/staff/ticket-edit.inc.php:74
 msgid "Select Source"
-msgstr "Zvolte zdroj"
+msgstr "Vyberte zdroj"
 
 #: include/staff/ticket-edit.inc.php:94 include/staff/ticket-open.inc.php:168
 msgid "Select Help Topic"
