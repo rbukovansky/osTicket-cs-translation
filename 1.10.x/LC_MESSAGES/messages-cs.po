@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 22:29+0200\n"
+"PO-Revision-Date: 2016-05-05 10:10+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -3484,42 +3484,42 @@ msgstr "Přiřazený zaměstnanec"
 #: include/class.forms.php:2367
 msgctxt "ticket state name"
 msgid "Open"
-msgstr "Otevřený [název stavu požadavku]"
+msgstr "Otevřený"
 
 #: include/class.forms.php:2368
 msgctxt "ticket state action"
 msgid "Open"
-msgstr "Otevřít [událost se stavem požadavku]"
+msgstr "Otevřít"
 
 #: include/class.forms.php:2371
 msgctxt "ticket state name"
 msgid "Closed"
-msgstr "Uzavřený [název stavu požadavku]"
+msgstr "Uzavřený"
 
 #: include/class.forms.php:2372
 msgctxt "ticket state action"
 msgid "Close"
-msgstr "Zavřít [událost se stavem požadavku]"
+msgstr "Zavřít"
 
 #: include/class.forms.php:2378 include/class.search.php:1135
 msgctxt "ticket state name"
 msgid "Archived"
-msgstr "Archivovaný [název stavu požadavku]"
+msgstr "Archivovaný"
 
 #: include/class.forms.php:2379
 msgctxt "ticket state action"
 msgid "Archive"
-msgstr "Archivovat [událost se stavem požadavku]"
+msgstr "Archivovat"
 
 #: include/class.forms.php:2382 include/class.search.php:1136
 msgctxt "ticket state name"
 msgid "Deleted"
-msgstr "Smazáný [název stavu požadavku]"
+msgstr "Smazáný"
 
 #: include/class.forms.php:2383
 msgctxt "ticket state action"
 msgid "Delete"
-msgstr "Smazat [událost se stavem požadavku]"
+msgstr "Smazat"
 
 #: include/class.forms.php:2534 include/staff/settings-system.inc.php:328
 msgid "Small"
@@ -6156,7 +6156,7 @@ msgstr "Smazat všechny filtry a třízení"
 #: include/client/tickets.inc.php:178
 msgctxt "ticket-status"
 msgid "Open"
-msgstr "Otevřené  [ticket-status]"
+msgstr "Otevřené"
 
 #: include/client/tickets.inc.php:201
 msgid "Ticket #"
@@ -9551,7 +9551,7 @@ msgstr "Volitelná interní poznámka (doporučená při přidělení)"
 #: include/staff/ticket-open.inc.php:408
 msgctxt "action-button"
 msgid "Open"
-msgstr "Otevřít [ action-button ]"
+msgstr "Otevřít"
 
 #: include/staff/ticket-tasks.inc.php:16 scp/tasks.php:22
 msgid "task"
