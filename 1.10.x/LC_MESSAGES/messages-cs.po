@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-01 22:29+0200\n"
+"PO-Revision-Date: 2016-05-05 14:27+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -80,7 +80,7 @@ msgstr "Přístup odepřen. Kontaktujte správce systému zákaznické podpory, 
 
 #: login.php:73
 msgid "Invalid username or password - try again!"
-msgstr "Chybné jméno či heslo - zkuste to znovu!"
+msgstr "Chybné uživatelské jméno či heslo - zkuste to znovu!"
 
 #: login.php:79
 msgid "Valid email address and ticket number required"
@@ -1520,9 +1520,9 @@ msgstr "Nelze odstranit uživatele - zkuste znovu!"
 #: scp/users.php:156
 msgid "end user"
 msgid_plural "end users"
-msgstr[0] "konečný uživatel"
-msgstr[1] "koneční uživatelé"
-msgstr[2] "koneční uživatelé"
+msgstr[0] "uživatel"
+msgstr[1] "uživatelé"
+msgstr[2] "uživatelů"
 
 #: include/ajax.users.php:293 include/staff/templates/user-lookup.tmpl.php:44
 msgid "Add New User"
@@ -1855,7 +1855,7 @@ msgstr "Předpřipravit"
 
 #: include/class.canned.php:43
 msgid "Ability to add/update/disable/delete canned responses"
-msgstr "Umožnění přidat/změnit/zakázat/smazat předpřipravené odpovědi"
+msgstr "Právo přidat/změnit/zakázat/smazat předpřipravené odpovědi"
 
 #: include/class.canned.php:263 include/class.page.php:257
 msgid "Internal error. Try again"
@@ -2077,7 +2077,7 @@ msgstr "Nelze nahrát obrázek pozadí: %s"
 
 #: include/class.config.php:1483
 msgid "The knowledge base cannot be restricted unless client registration is enabled"
-msgstr "Databáze znalostí nemůže být omezena, pokud není povolena registrace zákazníků"
+msgstr "Databáze znalostí nemůže být omezena, pokud není povolena registrace uživatelů"
 
 #: include/class.dept.php:585
 msgid "Missing or invalid Dept ID (internal error)."
@@ -2178,7 +2178,7 @@ msgstr "%s: Volání neexistující funkce"
 
 #: include/class.dynamic_forms.php:445
 msgid "User Data"
-msgstr "Údaje uživatele"
+msgstr "Uživatelovi údaje"
 
 #: include/class.dynamic_forms.php:450 include/class.dynamic_forms.php:454
 #: include/class.mailfetch.php:931 include/class.note.php:30
@@ -2206,7 +2206,7 @@ msgstr "Údaje požadavku"
 #: include/staff/team.inc.php:73 include/staff/teams.inc.php:119
 #: include/staff/template.inc.php:58 include/staff/templates.inc.php:118
 msgid "Disabled"
-msgstr "Zakázaný"
+msgstr "Zakázáno"
 
 #: include/class.dynamic_forms.php:703
 msgid "Hidden"
@@ -2221,7 +2221,7 @@ msgstr "Interní"
 
 #: include/class.dynamic_forms.php:709 include/class.dynamic_forms.php:765
 msgid "For EndUsers Only"
-msgstr "Pouze pro koncové uživatele"
+msgstr "Pouze pro uživatele"
 
 #: include/class.dynamic_forms.php:713 include/class.dynamic_forms.php:748
 #: include/staff/templates/dynamic-field-config.tmpl.php:55
@@ -2241,7 +2241,7 @@ msgstr "Neměnné"
 
 #: include/class.dynamic_forms.php:752
 msgid "Required for EndUsers"
-msgstr "Vyžadováno pro koncové uživatele"
+msgstr "Vyžadováno pro uživatele"
 
 #: include/class.dynamic_forms.php:756
 msgid "Required for Agents"
@@ -2388,7 +2388,7 @@ msgstr "Černá listina"
 
 #: include/class.email.php:45
 msgid "Ability to add/remove emails from banlist via ticket interface"
-msgstr "Umožnění přidávat/odebírat e-mailové adresy z černé listiny (banlist) skrz rozhraní požadavku"
+msgstr "Právo přidávat/odebírat e-mailové adresy z černé listiny (banlist) skrz rozhraní požadavku"
 
 #: include/class.email.php:248
 msgid "Internal error. Get technical help."
@@ -2606,7 +2606,7 @@ msgstr "Organizace"
 #: include/staff/templates/user-account.tmpl.php:47
 #: include/staff/templates/users.tmpl.php:84
 msgid "Email"
-msgstr "E-mail"
+msgstr "E-mailová adresa"
 
 #: include/class.export.php:444
 #, php-format
@@ -2619,7 +2619,7 @@ msgstr "Časté dotazy"
 
 #: include/class.faq.php:54
 msgid "Ability to add/update/disable/delete knowledgebase categories and FAQs"
-msgstr "Umožnění přidávat/změnit/mazat kategorie báze znalostí a častých dotazů"
+msgstr "Právo přidávat/změnit/mazat kategorie báze znalostí a častých dotazů"
 
 #: include/class.faq.php:391
 msgid "Question required"
@@ -2845,7 +2845,7 @@ msgstr "Připojit předpřipravenou odpověď"
 #: include/staff/templates/users.tmpl.php:135
 #, php-format
 msgid "None"
-msgstr "žádný"
+msgstr "Nic"
 
 #: include/class.filter_action.php:255 include/class.filter_action.php:443
 #: include/class.team.php:285 include/class.topic.php:351
@@ -2937,7 +2937,7 @@ msgstr "Zpráva"
 
 #: include/class.filter_action.php:571
 msgid "Message from the EndUser"
-msgstr "Zpráva od koncového uživatele"
+msgstr "Zpráva od uživatele"
 
 #: scp/js/scp.js:1214
 msgid "just now"
@@ -3484,42 +3484,42 @@ msgstr "Přiřazený zaměstnanec"
 #: include/class.forms.php:2367
 msgctxt "ticket state name"
 msgid "Open"
-msgstr "Otevřený [název stavu požadavku]"
+msgstr "Otevřený"
 
 #: include/class.forms.php:2368
 msgctxt "ticket state action"
 msgid "Open"
-msgstr "Otevřít [událost se stavem požadavku]"
+msgstr "Otevřít"
 
 #: include/class.forms.php:2371
 msgctxt "ticket state name"
 msgid "Closed"
-msgstr "Uzavřený [název stavu požadavku]"
+msgstr "Uzavřený"
 
 #: include/class.forms.php:2372
 msgctxt "ticket state action"
 msgid "Close"
-msgstr "Zavřít [událost se stavem požadavku]"
+msgstr "Zavřít"
 
 #: include/class.forms.php:2378 include/class.search.php:1135
 msgctxt "ticket state name"
 msgid "Archived"
-msgstr "Archivovaný [název stavu požadavku]"
+msgstr "Archivovaný"
 
 #: include/class.forms.php:2379
 msgctxt "ticket state action"
 msgid "Archive"
-msgstr "Archivovat [událost se stavem požadavku]"
+msgstr "Archivovat"
 
 #: include/class.forms.php:2382 include/class.search.php:1136
 msgctxt "ticket state name"
 msgid "Deleted"
-msgstr "Smazáný [název stavu požadavku]"
+msgstr "Smazáný"
 
 #: include/class.forms.php:2383
 msgctxt "ticket state action"
 msgid "Delete"
-msgstr "Smazat [událost se stavem požadavku]"
+msgstr "Smazat"
 
 #: include/class.forms.php:2534 include/staff/settings-system.inc.php:328
 msgid "Small"
@@ -3605,7 +3605,7 @@ msgstr "Klapka"
 #: include/staff/tickets.inc.php:607 include/staff/users.inc.php:211
 #: include/staff/templates/users.tmpl.php:133
 msgid "Select"
-msgstr "Označit"
+msgstr "Vyberte"
 
 #: include/class.forms.php:3694
 #, php-format
@@ -3790,7 +3790,7 @@ msgstr "Povolit znovuotevření"
 
 #: include/class.list.php:974
 msgid "Allow tickets on this status to be reopened by end users"
-msgstr "Povolit otevřít požadavky v tomto stavu koncovým uživatelům"
+msgstr "Povolit otevřít požadavky v tomto stavu uživatelům"
 
 #: include/class.list.php:982
 msgid "Reopen Status"
@@ -3903,12 +3903,12 @@ msgstr "Dashboard zaměstnance"
 #: include/class.role.php:269 include/class.user.php:179
 #: include/staff/org-view.inc.php:80 include/staff/orgs.inc.php:125
 msgid "Users"
-msgstr "Zákazníci"
+msgstr "Uživatelé"
 
 #: include/class.nav.php:123 include/class.nav.php:172
 #: include/class.user.php:108 include/staff/users.inc.php:83
 msgid "User Directory"
-msgstr "Adresář zákazníků"
+msgstr "Adresář uživatelů"
 
 #: include/class.nav.php:126 include/class.nav.php:146
 #: include/class.nav.php:249 include/class.role.php:268
@@ -4137,15 +4137,15 @@ msgstr "Vytvořit"
 
 #: include/class.organization.php:48
 msgid "Ability to create new organizations"
-msgstr "Umožnění vytvářet nové organizace"
+msgstr "Právo vytvářet nové organizace"
 
 #: include/class.organization.php:53
 msgid "Ability to manage organizations"
-msgstr "Umožnění správy organizací"
+msgstr "Právo spravovat organizace"
 
 #: include/class.organization.php:58
 msgid "Ability to delete organizations"
-msgstr "Umožnění smazat organizace"
+msgstr "Právo mazat organizace"
 
 #: include/class.organization.php:335
 #: include/staff/templates/org-profile.tmpl.php:87
@@ -4314,7 +4314,7 @@ msgstr "Statistika"
 
 #: include/class.report.php:12
 msgid "Ability to view stats of other agents in allowed departments"
-msgstr "Umožnění prohlédnutí statistik ostatních zaměstnanců v povolených odděleních"
+msgstr "Právo k prohlédnutí statistik ostatních zaměstnanců v povolených odděleních"
 
 #: include/class.report.php:133
 msgid "Topics"
@@ -4731,19 +4731,19 @@ msgstr "Dočasné heslo"
 
 #: include/class.task.php:83
 msgid "Ability to create tasks"
-msgstr "Umožnění vytvářet úkoly"
+msgstr "Právo vytvářet úkoly"
 
 #: include/class.task.php:88
 msgid "Ability to edit tasks"
-msgstr "Umožnění upravovat úkoly"
+msgstr "Právo upravovat úkoly"
 
 #: include/class.task.php:93
 msgid "Ability to assign tasks to agents or teams"
-msgstr "Umožnění přiřadit úkoly zaměstnanci nebo týmu"
+msgstr "Právo přiřadit úkoly zaměstnanci nebo týmu"
 
 #: include/class.task.php:98
 msgid "Ability to transfer tasks between departments"
-msgstr "Umožnění předávat úkoly mezi odděleními"
+msgstr "Právo předávat úkoly mezi odděleními"
 
 #: include/class.task.php:101 include/class.ticket.php:127
 #: include/client/view.inc.php:183 include/staff/ticket-view.inc.php:211
@@ -4753,15 +4753,15 @@ msgstr "Odeslat odpověď"
 
 #: include/class.task.php:103
 msgid "Ability to post task update"
-msgstr "Umožnění přidat změnu úkolu"
+msgstr "Právo přidat změnu úkolu"
 
 #: include/class.task.php:108
 msgid "Ability to close tasks"
-msgstr "Umožnění zavírat úkoly"
+msgstr "Právo zavírat úkoly"
 
 #: include/class.task.php:113
 msgid "Ability to delete tasks"
-msgstr "Umožnění mazat úkoly"
+msgstr "Právo mazat úkoly"
 
 #: include/class.task.php:192 include/class.ticket.php:315
 #, php-format
@@ -4885,7 +4885,7 @@ msgstr "Šablony systému řízení"
 
 #: include/class.template.php:26
 msgid "Ticket End-User Email Templates"
-msgstr "Šablony e-mailů požadavků pro koncové uživatele"
+msgstr "Šablony e-mailů požadavků pro uživatele"
 
 #: include/class.template.php:27
 msgid "Ticket Agent Email Templates"
@@ -4901,7 +4901,7 @@ msgstr "Automatická odpověď na nový požadavek"
 
 #: include/class.template.php:34
 msgid "Autoresponse sent to user, if enabled, on new ticket."
-msgstr "Automatická odpověď, pokud je zapnuta, která je odeslána zákazníkovi na základě nového požadavku."
+msgstr "Automatická odpověď, pokud je zapnuta, která je odeslána uživateli na základě nového požadavku."
 
 #: include/class.template.php:41
 msgid "New Ticket Auto-reply"
@@ -4909,7 +4909,7 @@ msgstr "Automatická odpověď na nový požadavek"
 
 #: include/class.template.php:42
 msgid "Canned Auto-reply sent to user on new ticket, based on filter matches. Overwrites \"normal\" auto-response."
-msgstr "Předpřipravená automatická odpověď zaslaná zákazníkovi na základě nového požadavku a filtru. Přepíše \"běžnou\" automatickou odpověď."
+msgstr "Předpřipravená automatická odpověď zaslaná uživateli na základě nového požadavku a filtru. Přepíše \"běžnou\" automatickou odpověď."
 
 #: include/class.template.php:49
 msgid "New Message Auto-response"
@@ -4917,7 +4917,7 @@ msgstr "Automatická odpověď na novou zprávu"
 
 #: include/class.template.php:50
 msgid "Confirmation sent to user when a new message is appended to an existing ticket."
-msgstr "Potvrzení odesláno zákazníkovi v případě, že je k požadavku přidána nová zpráva."
+msgstr "Potvrzení odesláno uživateli v případě, že je k požadavku přidána nová zpráva."
 
 #: include/class.template.php:57
 msgid "New Ticket Notice"
@@ -4925,7 +4925,7 @@ msgstr "Upozornění na nový požadavek"
 
 #: include/class.template.php:58
 msgid "Notice sent to user, if enabled, on new ticket created by an agent on their behalf (e.g phone calls)."
-msgstr "Oznámení, pokud je povoleno, odeslané zákazníkovi, že byl zaměstnancem vytvořen jejich jménem nový požadavek (např. při telefonickém rozhovoru)."
+msgstr "Oznámení, pokud je povoleno, odeslané uživateli, že byl zaměstnancem vytvořen jejich jménem nový požadavek (např. při telefonickém rozhovoru)."
 
 #: include/class.template.php:65 include/class.ticket.php:1457
 #: include/staff/settings-autoresp.inc.php:48
@@ -4934,7 +4934,7 @@ msgstr "Upozornění na překročení limitu"
 
 #: include/class.template.php:66
 msgid "A one-time notice sent, if enabled, when user has reached the maximum allowed open tickets."
-msgstr "Pokud je povoleno, jednorázově odešle upozornění v momentě, kdy zákazník dosáhne maxima povolených otevřených požadavků."
+msgstr "Pokud je povoleno, jednorázově odešle upozornění v momentě, kdy uživatel dosáhne maxima povolených otevřených požadavků."
 
 #: include/class.template.php:73
 msgid "Response/Reply Template"
@@ -4966,7 +4966,7 @@ msgstr "Upozornění na novou zprávu"
 
 #: include/class.template.php:98
 msgid "Alert sent to agents, if enabled, when user replies to an existing ticket."
-msgstr "Upozornění, pokud je povoleno, zaslané zaměstnancům, pokud zákazník zadá odpověď k požadavku."
+msgstr "Upozornění, pokud je povoleno, zaslané zaměstnancům, pokud uživatel odpoví na požadavek."
 
 #: include/class.template.php:105
 msgid "Internal Activity Alert"
@@ -5084,7 +5084,7 @@ msgstr "Změnit vlákno"
 
 #: include/class.thread.php:613
 msgid "Ability to edit thread items of other agents"
-msgstr "Umožnění položky vlákna od jiných zaměstnanců"
+msgstr "Právo položky vlákna od jiných zaměstnanců"
 
 #: include/class.thread.php:637
 msgid "Email loop detected"
@@ -5294,31 +5294,31 @@ msgstr "Popis události"
 
 #: include/class.ticket.php:109
 msgid "Ability to open tickets on behalf of users"
-msgstr "Umožnění vytvářet požadavky za zákazníky"
+msgstr "Právo vytvářet požadavky za uživatele"
 
 #: include/class.ticket.php:114
 msgid "Ability to edit tickets"
-msgstr "Umožnění upravit požadavky"
+msgstr "Právo upravit požadavky"
 
 #: include/class.ticket.php:119
 msgid "Ability to assign tickets to agents or teams"
-msgstr "Umožnění přiřazovat požadavky zaměstnancům nebo týmům"
+msgstr "Právo přiřazovat požadavky zaměstnancům nebo týmům"
 
 #: include/class.ticket.php:124
 msgid "Ability to transfer tickets between departments"
-msgstr "Umožnění předávat požadavky mezi odděleními"
+msgstr "Právo předávat požadavky mezi odděleními"
 
 #: include/class.ticket.php:129
 msgid "Ability to post a ticket reply"
-msgstr "Umožnění odpovídat na požadavky"
+msgstr "Právo odpovídat na požadavky"
 
 #: include/class.ticket.php:134
 msgid "Ability to close tickets"
-msgstr "Umožnění zavřít požadavky"
+msgstr "Právo zavřít požadavky"
 
 #: include/class.ticket.php:139
 msgid "Ability to delete tickets"
-msgstr "Umožnění smazat požadavky"
+msgstr "Právo smazat požadavky"
 
 #: include/class.ticket.php:319
 #, php-format
@@ -5342,7 +5342,7 @@ msgstr "Limit maximálního počtu otevřených požadavků (%s)"
 #: include/class.ticket.php:1452
 #, php-format
 msgid "Maximum open tickets reached for %s."
-msgstr "Zákazník %s dosáhl maximálního počtu požadavků."
+msgstr "Uživatel %s dosáhl maximálního počtu požadavků."
 
 #: include/class.ticket.php:1453
 #, php-format
@@ -5490,12 +5490,12 @@ msgstr "Požadavek zamítnut - %s"
 #: include/class.ticket.php:3193
 #, php-format
 msgid "Max open tickets (%1$d) reached for %2$s"
-msgstr "Zákazník %2$s dosáhl maxima otevřených požadavků (%1$d)"
+msgstr "Uživatel %2$s dosáhl maxima otevřených požadavků (%1$d)"
 
 #: include/class.ticket.php:3215
 #, php-format
 msgid "Ticket rejected (%s) (unregistered client)"
-msgstr "Požadavek zamítnut (%s) (neregistrovaný zákazník)"
+msgstr "Požadavek zamítnut (%s) (neregistrovaný uživatel)"
 
 #: include/class.ticket.php:3227
 msgid "You do not have permission to create users."
@@ -5602,15 +5602,15 @@ msgstr "%s: Nemohu zpracovat čistící soubor"
 
 #: include/class.user.php:89
 msgid "Ability to add new users"
-msgstr "Umožnění vytvářet nové uživatele"
+msgstr "Právo vytvářet nové uživatele"
 
 #: include/class.user.php:94
 msgid "Ability to manage user information"
-msgstr "Umožnění spravovat informace o uživateli"
+msgstr "Právo spravovat informace o uživateli"
 
 #: include/class.user.php:99
 msgid "Ability to delete users"
-msgstr "Umožnění smazat uživatele"
+msgstr "Právo smazat uživatele"
 
 #: include/class.user.php:103 include/staff/user-view.inc.php:33
 msgid "Manage Account"
@@ -5618,11 +5618,11 @@ msgstr "Spravovat účet"
 
 #: include/class.user.php:104
 msgid "Ability to manage active user accounts"
-msgstr "Umožnění spravovat účty aktivních uživatelů"
+msgstr "Právo spravovat účty aktivních uživatelů"
 
 #: include/class.user.php:109
 msgid "Ability to access the user directory"
-msgstr "Umožnění přístupu k adresáři uživatelů"
+msgstr "Právo k přístupu k adresáři uživatelů"
 
 #: include/class.user.php:260 include/class.user.php:491
 msgid "Email is assigned to another user"
@@ -5733,11 +5733,11 @@ msgstr "(není nastaven typ)"
 
 #: include/class.validator.php:209
 msgid "Username must have at least two (2) characters"
-msgstr "Uživatel musí mít alespoň dva (2) znaky"
+msgstr "Uživatelské jméno musí mít alespoň dva (2) znaky"
 
 #: include/class.validator.php:211
 msgid "Username contains invalid characters"
-msgstr "Uživatelské jméno obsahuje neplatný znak"
+msgstr "Uživatelské jméno obsahuje neplatné znaky"
 
 #: include/class.variable.php:152
 #, php-format
@@ -5938,7 +5938,7 @@ msgstr "Abychom mohli lépe spolupracovat, doporučujeme našim zákazníkům se
 #: include/client/login.inc.php:26 include/staff/login.tpl.php:21
 #: include/staff/pwreset.login.php:24 include/staff/pwreset.php:22
 msgid "Email or Username"
-msgstr "Uživatelské jméno nebo e-mail"
+msgstr "Uživatelské jméno nebo e-mailová adresa"
 
 #: include/client/login.inc.php:29 include/staff/email.inc.php:178
 #: include/staff/login.tpl.php:23 setup/tips.php:34
@@ -6116,7 +6116,7 @@ msgstr "Potvrdili jste svoji e-mailovou adresu a úspěšně jste aktivovali vá
 
 #: include/client/register.confirmed.inc.php:17
 msgid "Your friendly support center"
-msgstr "Váše zákaznická podpora"
+msgstr "Vaše zákaznická podpora"
 
 #: include/client/register.inc.php:19
 msgid "Use the forms below to create or update the information we have on file for your account"
@@ -6156,7 +6156,7 @@ msgstr "Smazat všechny filtry a třízení"
 #: include/client/tickets.inc.php:178
 msgctxt "ticket-status"
 msgid "Open"
-msgstr "Otevřené  [ticket-status]"
+msgstr "Otevřené"
 
 #: include/client/tickets.inc.php:201
 msgid "Ticket #"
@@ -7003,7 +7003,7 @@ msgstr "Instrukce"
 
 #: include/staff/dynamic-form.inc.php:121
 msgid "User Information Fields"
-msgstr "Uživatelské informační položky"
+msgstr "Položky s informacemi o uživateli"
 
 #: include/staff/dynamic-form.inc.php:122
 #, php-format
@@ -7929,7 +7929,7 @@ msgstr "např. ja@mojefirma.cz"
 
 #: include/staff/profile.inc.php:98 include/staff/staff.inc.php:113
 msgid "Authentication"
-msgstr "Oveření"
+msgstr "Přihlašovací údaje"
 
 #: include/staff/profile.inc.php:103
 msgid "Backend"
@@ -7982,11 +7982,11 @@ msgstr[2] "Každých %d minut"
 
 #: include/staff/profile.inc.php:201
 msgid "Default From Name"
-msgstr "Výchozí ze jména"
+msgstr "Výchozí název v položce Od"
 
 #: include/staff/profile.inc.php:202
 msgid "From name to use when replying to a thread"
-msgstr "Při odpovědi do vlákna použít jméno z položky od"
+msgstr "Při odpovědi do vlákna použít jméno pro položku Od"
 
 #: include/staff/profile.inc.php:208
 msgid "Email Address Name"
@@ -8000,7 +8000,7 @@ msgstr "Název oddělení (%s)"
 #. This is used in 'Department's Name (>if public<)'
 #: include/staff/profile.inc.php:210
 msgid "if public"
-msgstr "pokud je veřejný"
+msgstr "pokud je veřejné"
 
 #: include/staff/profile.inc.php:211
 msgid "My Name"
@@ -8008,7 +8008,7 @@ msgstr "Mé jméno"
 
 #: include/staff/profile.inc.php:227
 msgid "Thread View Order"
-msgstr "Pořadí pohledu vlákna"
+msgstr "Pořadí zobrazených záznamů vlákna"
 
 #: include/staff/profile.inc.php:228
 msgid "The order of thread entries"
@@ -8024,11 +8024,11 @@ msgstr "Vzestupný"
 
 #: include/staff/profile.inc.php:250
 msgid "Default Signature"
-msgstr "Výchozí podpis"
+msgstr "Výchozí podpis odpovědi"
 
 #: include/staff/profile.inc.php:251
 msgid "This can be selected when replying to a thread"
-msgstr "Toto může být označeno při odpovědi do vlákna"
+msgstr "Toto může být změněno při odpovídání na požadavek"
 
 #: include/staff/profile.inc.php:257 include/staff/ticket-open.inc.php:374
 #: include/staff/ticket-view.inc.php:678
@@ -8048,7 +8048,7 @@ msgstr "Podpis oddělení (%s)"
 #. This is used in 'Department Signature (>if set<)'
 #: include/staff/profile.inc.php:258 include/staff/ticket-open.inc.php:378
 msgid "if set"
-msgstr "pokud nastaveno"
+msgstr "pokud je nastaveno"
 
 #: include/staff/profile.inc.php:269
 msgid "Default Paper Size"
@@ -8056,7 +8056,7 @@ msgstr "Výchozí velikost papíru"
 
 #: include/staff/profile.inc.php:270
 msgid "Paper size used when printing tickets to PDF"
-msgstr "Velikost papíru se použije pro tisk požadavku do formátu PDF"
+msgstr "Velikost papíru se použije při tisku požadavku do formátu PDF"
 
 #: include/staff/profile.inc.php:290
 msgid "Localization"
@@ -8064,7 +8064,7 @@ msgstr "Lokalizace"
 
 #: include/staff/profile.inc.php:303 include/staff/settings-system.inc.php:192
 msgid "Time Format"
-msgstr "Formát času"
+msgstr "Zobrazení času"
 
 #: include/staff/profile.inc.php:309
 msgid "Relative Time"
@@ -8163,7 +8163,7 @@ msgstr "Obecná nastavení"
 #: include/staff/settings-agents.inc.php:25
 #: include/staff/settings-users.inc.php:26
 msgid "Name Formatting"
-msgstr "Formátování jména"
+msgstr "Styl zobrazení jména"
 
 #: include/staff/settings-agents.inc.php:39
 msgid "Agent Identity Masking"
@@ -8189,7 +8189,7 @@ msgstr "Zásada pro vypršení platnosti hesla"
 
 #: include/staff/settings-agents.inc.php:80
 msgid "No expiration"
-msgstr "Bez vypršení platnosti"
+msgstr "Bez časového omezení"
 
 #: include/staff/settings-agents.inc.php:85
 #, php-format
@@ -8424,7 +8424,7 @@ msgstr "Žádný: Použít e-mailovou funkci v PHP"
 
 #: include/staff/settings-emails.inc.php:168
 msgid "Email attachments to the user"
-msgstr "Odeslat přílohy zákazníkovi"
+msgstr "Odeslat přílohy uživateli"
 
 #: include/staff/settings-kb.inc.php:4
 msgid "Knowledge Base Settings and Options"
@@ -8444,7 +8444,7 @@ msgstr "Povolit bázi znalostí"
 
 #: include/staff/settings-kb.inc.php:25
 msgid "Require Client Login"
-msgstr "Vyžadovat přihlášení zákazníka"
+msgstr "Vyžadovat přihlášení uživatele"
 
 #: include/staff/settings-kb.inc.php:34
 msgid "Enable Canned Responses"
@@ -8769,7 +8769,7 @@ msgstr "Maximální počet <b>otevřených</b> požadavků"
 
 #: include/staff/settings-tickets.inc.php:169
 msgid "per end user"
-msgstr "pro zákazníka"
+msgstr "podle uživatele"
 
 #: include/staff/settings-tickets.inc.php:175
 msgid "Human Verification"
@@ -8822,7 +8822,7 @@ msgstr "Metoda registrace"
 
 #: include/staff/settings-users.inc.php:79
 msgid "Disabled — All users are guests"
-msgstr "Zakázáno - všichni jsou návštěvníci"
+msgstr "Zakázáno - všichni uživatelé jsou návštěvníci"
 
 #: include/staff/settings-users.inc.php:80
 msgid "Public — Anyone can register"
@@ -8834,11 +8834,11 @@ msgstr "Privátní - registrovat uživatele mohou jen zaměstnanci"
 
 #: include/staff/settings-users.inc.php:92
 msgid "User Excessive Logins"
-msgstr "Nadměrné přihlašování"
+msgstr "Nadměrné přihlašování uživatele"
 
 #: include/staff/settings-users.inc.php:113
 msgid "User Session Timeout"
-msgstr "Maximální doba nečinnosti zákazníka"
+msgstr "Maximální doba nečinnosti uživatele"
 
 #: include/staff/settings-users.inc.php:119
 msgid "Authentication Token"
@@ -8850,7 +8850,7 @@ msgstr "Povolit užití přihlašovacích tokenů pro uživatele s automatickým
 
 #: include/staff/settings-users.inc.php:127
 msgid "Client Quick Access"
-msgstr "Rychlý přístup pro zákazníky"
+msgstr "Rychlý přístup pro uživatele"
 
 #: include/staff/settings-users.inc.php:131
 msgid "Require email verification on \"Check Ticket Status\" page"
@@ -9490,7 +9490,7 @@ msgstr "Zdroj požadavku"
 
 #: include/staff/ticket-edit.inc.php:74
 msgid "Select Source"
-msgstr "Zvolte zdroj"
+msgstr "Vyberte zdroj"
 
 #: include/staff/ticket-edit.inc.php:94 include/staff/ticket-open.inc.php:168
 msgid "Select Help Topic"
@@ -9551,7 +9551,7 @@ msgstr "Volitelná interní poznámka (doporučená při přidělení)"
 #: include/staff/ticket-open.inc.php:408
 msgctxt "action-button"
 msgid "Open"
-msgstr "Otevřít [ action-button ]"
+msgstr "Otevřít"
 
 #: include/staff/ticket-tasks.inc.php:16 scp/tasks.php:22
 msgid "task"
@@ -9580,7 +9580,7 @@ msgstr "Náhled úkolu"
 #: include/staff/ticket-view.inc.php:27
 #, php-format
 msgid "Current ticket status (%s) does not allow the end user to reply."
-msgstr "Aktuální stav požadavku (%s) nedovoluje zákazníkovi odpovědět."
+msgstr "Aktuální stav požadavku (%s) nedovoluje uživateli  odpovědět."
 
 #: include/staff/ticket-view.inc.php:34
 #, php-format
@@ -9598,7 +9598,7 @@ msgstr "E-mailová adresa je v seznamu blokovaných! Pokud chcete odpovedět, od
 
 #: include/staff/ticket-view.inc.php:46
 msgid "EndUser email address is not valid! Consider updating it before responding"
-msgstr "E-mail zákazníka není platný! Zvažte opravu před odesláním odpovědi"
+msgstr "E-mailová adresa uživatele není platná! Zvažte opravu před odesláním odpovědi"
 
 #: include/staff/ticket-view.inc.php:52
 #: include/staff/templates/task-preview.tmpl.php:7
@@ -10037,13 +10037,13 @@ msgstr "Viditelná"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:33
 msgid "Making fields <em>visible</em> allows agents and endusers to view and create information in this field."
-msgstr "<em>Zviditelnění</em> položek umožňuje zaměstnancům a zákazníkům zobrazení a zadávání informací do těchto položek."
+msgstr "<em>Zviditelnění</em> položek umožňuje zaměstnancům a uživatelům zobrazení a zadávání informací do těchto položek."
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:41
 #: include/staff/templates/dynamic-field-config.tmpl.php:66
 #: include/staff/templates/dynamic-field-config.tmpl.php:89
 msgid "For EndUsers"
-msgstr "Pro zákazníky"
+msgstr "Pro uživatele"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:48
 #: include/staff/templates/dynamic-field-config.tmpl.php:73
@@ -11425,7 +11425,7 @@ msgstr "Pokoušíte se odstranit uživatele z neznámé organizace"
 
 #: scp/orgs.php:43 scp/users.php:78
 msgid "one end user"
-msgstr "jeden koncový uživatel"
+msgstr "jeden uživatel"
 
 #: scp/orgs.php:52
 #, php-format
@@ -11435,9 +11435,9 @@ msgstr "%s byl úspěšně odstraněn."
 #: scp/orgs.php:53 scp/orgs.php:56 scp/orgs.php:59
 msgid "selected end user"
 msgid_plural "selected end users"
-msgstr[0] "vybraný koncový uživatel"
-msgstr[1] "vybraní koncoví uživatelé"
-msgstr[2] "vybraných koncových uživatelů"
+msgstr[0] "vybraný uživatel"
+msgstr[1] "vybraní uživatelé"
+msgstr[2] "vybraných uživatelů"
 
 #: scp/orgs.php:55
 #, php-format
@@ -11940,7 +11940,7 @@ msgstr "tento koncový uživatel"
 
 #: scp/users.php:59 scp/users.php:69
 msgid "end user account"
-msgstr "účet koncového uživatele"
+msgstr "uživatelův účet"
 
 #: scp/users.php:61
 msgid "Account is already confirmed"
@@ -11966,11 +11966,11 @@ msgstr "Nelze odeslat e-mail pro obnovu hesla - zkuste to znovu!"
 
 #: scp/users.php:140
 msgid "Unable to manage any of the selected end users"
-msgstr "Nelze spravovat žádného z vybraných zákazníků"
+msgstr "Nelze spravovat žádného z vybraných uživatelů"
 
 #: scp/users.php:146
 msgid "Successfully managed selected end users"
-msgstr "Vybraní zákazníci byli úspěšně aktualizováni"
+msgstr "Vybraní uživatelé byli úspěšně aktualizováni"
 
 #: scp/users.php:169
 msgid "users"
@@ -12345,7 +12345,7 @@ msgstr "Po-instalační nastavení"
 #: setup/inc/install-done.inc.php:46
 #, php-format
 msgid "You can now log in to %1$s Admin Panel %2$s with the username and password you created during the install process. After a successful log in, you can proceed with post-install setup."
-msgstr "Nyní se můžete přihlásit do %1$s panelu sprváce %2$s se jménem a heslem, které jste vytvořili při instalaci. Po úspěšném přihlášení můžete pokračovat konfigurací."
+msgstr "Nyní se můžete přihlásit do %1$s panelu sprváce %2$s s uživatelským jménem a heslem, které jste vytvořili při instalaci. Po úspěšném přihlášení můžete pokračovat konfigurací."
 
 #: setup/inc/install-done.inc.php:46
 #, php-format
