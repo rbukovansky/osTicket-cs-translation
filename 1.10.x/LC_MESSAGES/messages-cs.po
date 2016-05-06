@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-06 08:31+0200\n"
+"PO-Revision-Date: 2016-05-06 13:05+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -7977,7 +7977,7 @@ msgstr "Rychlost obnovování stránky požadavků v minutách."
 msgid "Every minute"
 msgid_plural "Every %d minutes"
 msgstr[0] "Každou minutu"
-msgstr[1] "každé %d minuty"
+msgstr[1] "Každé %d minuty"
 msgstr[2] "Každých %d minut"
 
 #: include/staff/profile.inc.php:201
