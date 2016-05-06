@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-05 14:27+0200\n"
+"PO-Revision-Date: 2016-05-06 08:31+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -3893,11 +3893,11 @@ msgstr "Chyba stažení e-mailu"
 #: include/class.nav.php:119 include/class.nav.php:167
 #: include/class.nav.php:222
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Přehled"
 
 #: include/class.nav.php:119
 msgid "Agent Dashboard"
-msgstr "Dashboard zaměstnance"
+msgstr "Přehled pro zaměstnance"
 
 #: include/class.nav.php:123 include/class.nav.php:251
 #: include/class.role.php:269 include/class.user.php:179
@@ -3980,7 +3980,7 @@ msgstr "Předpřipravené odpovědi"
 
 #: include/class.nav.php:222
 msgid "Admin Dashboard"
-msgstr "Dashboard správce"
+msgstr "Přehled pro správce"
 
 #: include/class.nav.php:223 include/class.nav.php:267
 #: include/staff/department.inc.php:41 include/staff/settings-agents.inc.php:11
