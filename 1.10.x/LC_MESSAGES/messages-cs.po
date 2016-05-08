@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-06 08:31+0200\n"
+"PO-Revision-Date: 2016-05-08 22:16+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -6147,7 +6147,7 @@ msgstr "Všechny požadavky"
 
 #: include/client/tickets.inc.php:142
 msgid "All Help Topics"
-msgstr "Všechny témata podpory"
+msgstr "Všechna témata podpory"
 
 #: include/client/tickets.inc.php:160
 msgid "Clear all filters and sort"
@@ -6239,7 +6239,7 @@ msgstr "Požadavek bude znovu otevřen, když pošlete zprávu"
 
 #: include/client/templates/sidebar.tmpl.php:24
 msgid "Featured Questions"
-msgstr "Vystavené otázky"
+msgstr "Důležité otázky"
 
 #: include/client/templates/thread-entries.tmpl.php:52
 #: include/staff/templates/thread-entries.tmpl.php:66
@@ -7305,7 +7305,7 @@ msgstr "Kategorie"
 
 #: include/staff/faq-categories.inc.php:79
 msgid "All Topics"
-msgstr "Všechny témata"
+msgstr "Všechna témata"
 
 #: include/staff/faq-categories.inc.php:148
 msgid "Click on the category to browse FAQs or manage its existing FAQs."
@@ -7977,7 +7977,7 @@ msgstr "Rychlost obnovování stránky požadavků v minutách."
 msgid "Every minute"
 msgid_plural "Every %d minutes"
 msgstr[0] "Každou minutu"
-msgstr[1] "každé %d minuty"
+msgstr[1] "Každé %d minuty"
 msgstr[2] "Každých %d minut"
 
 #: include/staff/profile.inc.php:201
@@ -8553,7 +8553,7 @@ msgstr "Vyberte výchozí oddělení"
 
 #: include/staff/settings-system.inc.php:65
 msgid "Collision Avoidance Duration"
-msgstr "Doba vhynutí se kolize"
+msgstr "Doba vyhnutí se kolize"
 
 #: include/staff/settings-system.inc.php:72
 msgid "Default Page Size"
