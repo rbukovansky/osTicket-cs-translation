@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-08 22:16+0200\n"
+"PO-Revision-Date: 2016-05-10 13:24+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -68,7 +68,7 @@ msgstr "Vítejte v zákaznickém centru podpory"
 #: login.php:42 pwreset.php:13 scp/login.php:39 scp/pwreset.php:37
 #: scp/staff.inc.php:99
 msgid "Valid CSRF Token Required"
-msgstr "Je požadován platný CSRF token"
+msgstr "Je požadována platná CSRF poukázka"
 
 #: login.php:50
 msgid "Valid username or email address is required"
@@ -429,7 +429,7 @@ msgstr "Jména všech příjemců"
 
 #: include/ajax.content.php:69
 msgid "Auth. token used for auto-login"
-msgstr "Přihl. token pro automatické přihlášení"
+msgstr "Poukázka ověření pro automatické přihlášení"
 
 #: include/ajax.content.php:70
 msgid "Agent's ticket view link"
@@ -714,7 +714,7 @@ msgstr "Nastavit"
 #: include/ajax.staff.php:88 include/ajax.staff.php:92
 #: include/class.client.php:417 include/class.client.php:421
 msgid "Invalid reset token. Logout and try again"
-msgstr "Neplatný token pro obnovu hesla. Odhlašte se a zkuste to znovu"
+msgstr "Neplatná poukázka pro obnovu hesla. Odhlašte se a zkuste to znovu"
 
 #: include/ajax.staff.php:117 include/staff/profile.inc.php:117
 msgid "Change Password"
@@ -903,12 +903,12 @@ msgstr "Jste si jist, že chcete %s?"
 #: include/ajax.tasks.php:340
 #, php-format
 msgid "REOPEN %s"
-msgstr "ZNOVU OTEVŘÍT %s"
+msgstr "znovu otevřít %s"
 
 #: include/ajax.tasks.php:350
 #, php-format
 msgid "CLOSE %s"
-msgstr "ZAVŘÍT %s"
+msgstr "zavřít %s"
 
 #. %s will be an action verb
 #: include/ajax.tasks.php:361 include/ajax.tasks.php:702
@@ -1815,7 +1815,7 @@ msgstr "Uvedená neplatná identifikace uživatele"
 #: include/class.auth.php:1015 include/class.auth.php:1018
 #: include/class.auth.php:1237 include/class.auth.php:1240
 msgid "Invalid reset token"
-msgstr "Neplatná žádost obnovy hesla"
+msgstr "Neplatná poukázka na obnovu hesla"
 
 #: include/class.auth.php:1020 include/class.auth.php:1242
 msgid "Unable to reset password"
@@ -3479,7 +3479,7 @@ msgstr "Týmy"
 #: include/staff/ticket-tasks.inc.php:73
 #: include/staff/templates/tickets.tmpl.php:125
 msgid "Assignee"
-msgstr "Přiřazený zaměstnanec"
+msgstr "Zpracovatel"
 
 #: include/class.forms.php:2367
 msgctxt "ticket state name"
@@ -4217,11 +4217,11 @@ msgstr "Počet parametrů neodpovídá dotazu"
 #: include/class.osticket.php:123
 #, php-format
 msgid "Invalid CSRF token [%1$s] on %2$s"
-msgstr "Neplatný CSRF token [%1$s] na %2$s"
+msgstr "Neplatná CSRF poukázka [%1$s] na %2$s"
 
 #: include/class.osticket.php:125
 msgid "Invalid CSRF Token"
-msgstr "Neplatný CSRF token"
+msgstr "Neplatná CSRF poukázka"
 
 #: include/class.osticket.php:153
 msgid "Company Information"
@@ -5084,7 +5084,7 @@ msgstr "Změnit vlákno"
 
 #: include/class.thread.php:613
 msgid "Ability to edit thread items of other agents"
-msgstr "Právo položky vlákna od jiných zaměstnanců"
+msgstr "Právo upravit položky vlákna od jiných zaměstnanců"
 
 #: include/class.thread.php:637
 msgid "Email loop detected"
@@ -8205,7 +8205,7 @@ msgstr "Povolit obnovení hesla"
 
 #: include/staff/settings-agents.inc.php:101
 msgid "Reset Token Expiration"
-msgstr "Lhůta možnosti obnovy hesla"
+msgstr "Lhůta vypršení poukázky na obnovu hesla"
 
 #: include/staff/settings-agents.inc.php:111
 msgid "Agent Excessive Logins"
@@ -8842,11 +8842,11 @@ msgstr "Maximální doba nečinnosti uživatele"
 
 #: include/staff/settings-users.inc.php:119
 msgid "Authentication Token"
-msgstr "Přihlašovací token"
+msgstr "Poukázka ověření pravosti"
 
 #: include/staff/settings-users.inc.php:123
 msgid "Enable use of authentication tokens to auto-login users"
-msgstr "Povolit užití přihlašovacích tokenů pro uživatele s automatickým přihlášením"
+msgstr "Povolit užití přihlašovacích poukázek pro uživatele s automatickým přihlášením"
 
 #: include/staff/settings-users.inc.php:127
 msgid "Client Quick Access"
@@ -11467,7 +11467,7 @@ msgstr "Vybrané organizace byly úspěšně upraveny"
 
 #: scp/orgs.php:102 scp/tasks.php:237 scp/tickets.php:474 scp/users.php:168
 msgid "Query token not found"
-msgstr "Token dotazu nenalezen"
+msgstr "Poukázka dotazu nenalezena"
 
 #: scp/orgs.php:103
 msgid "organizations"
