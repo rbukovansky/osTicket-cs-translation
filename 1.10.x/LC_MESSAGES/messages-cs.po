@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-19 08:42+0200\n"
+"PO-Revision-Date: 2016-05-19 09:23+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -12652,7 +12652,7 @@ msgstr "Jste omezeni na {0} výběrů.\n"
 
 #: scp/js/scp.js:17
 msgid "You have made {0} selections.\n"
-msgstr "Provedli jste {0} výběrů.\n"
+msgstr "Provedl jste {0} výběrů.\n"
 
 #: scp/js/scp.js:18
 msgid "Please remove {0} selection(s)."
@@ -12696,7 +12696,7 @@ msgstr "Někdo jiný pracuje na stejném požadavku."
 
 #: scp/js/upgrader.js:41
 msgid "Still busy... smile #"
-msgstr "Stále pracuji... úsměv #"
+msgstr "Stále pracuji... úsměv, prosím #"
 
 #: scp/js/upgrader.js:49
 msgid "Cleaning up!..."
