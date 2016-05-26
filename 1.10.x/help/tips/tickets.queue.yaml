@@ -1,40 +1,78 @@
+#
+# This is popup help messages for the Staff Panel -> Tickets -> Open
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
 search_field:
-  title: Vyhledávání
-  content: ""
+    title: Vyhledávací pole
+    content: >
+
 advanced:
-  title: Rozšířené
-  content: 'Zde můžete zúžit parametry hledání. Jakmile máte vybrány pokročilá kritéria hledání a spustíte vyhledání, získaná data můžete <span class="doc-desc-title">exportovat</span> pomocí odkazu ve spodní části stránky požadavků.'
+    title: Rozšířené hledání
+    content: >
+        Nastavte vaše parametry hledání. Jakmile toto nastavíte a provede se 
+        hledání, můžete výsledek hledání <span class="doc-desc-title">exportovat</span> 
+        pomocí odkazu ve spodní části stránky požadavků.
+
 open_tickets_table:
-  title: Seznam otevřených požadavků
-  content: Všechny otevřené požadavky, kterým je potřeba se věnovat
+    title: Seznam otevřených požadavků
+    content: >
+        Všechny aktuálně otevřené požadavky, kterým je potřeba se věnovat.
+
 ticket:
-  title: Požadavek
-  content: ""
+    title: Požadavek
+    content: >
+
 date:
-  title: Datum
-  content: ""
+    title: Datum
+    content: >
+
 subject:
-  title: Předmět
-  content: ""
+    title: Předmět
+    content: >
+
 from:
-  title: Od
-  content: ""
+    title: Od
+    content: >
+
 priority:
-  title: Priorita
-  content: ""
+    title: Priorita
+    content: >
+
 assigned_to:
-  title: Přiděleno
-  content: ""
+    title: Přiděleno
+    content: >
+
 export:
   title: Export
-  content: Exportovat právě zobrazená data do CSV souboru. CSV soubory lze otevřít v jakémkoliv tabulkovém procesoru (např. Microsoft Excel, Apple Pages, OpenOffice a další).
+    content: >
+        Export vašich aktuálně zobrazených záznamů do CSV souboru. 
+        CSV soubory mohou být otevřeny jakýmkoliv tabulkovým programem 
+        (např. Microsoft Excel, Apple Pages, OpenOffice atd.).
+
 advanced_search_dialog:
-  title: Rozšířené hledání
-  content: ""
+    title: Rozšířené hledání
+    content: >
+
+
 adv_keyword:
-  title: Klíčové slovo
-  content: Najít shody v předmětu a těle zprávy vlákna požadavku stejně jako ve veškerém textovém obsahu v uživatelských položek.
+    title: Hledání podle klíčových slov
+    content: >
+        Umožňuje najít shody v předmětech a tělech zpráv vlákna 
+        požadavku stejně jako ve veškerém textovém obsahu uživatelských 
+        položek.
+
 adv_date_range:
-  title: Hledat dle období
-  content: Definice zde
+    title: Hledat dle období
+    content: >
+        

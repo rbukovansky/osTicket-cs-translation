@@ -1,29 +1,74 @@
+#
+# This is popup help messages for the Admin Panel -> Dashboard  -> System Logs page
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
 system_logs:
-  title: Systémové logy
-  content: Tady najdete veškeré logy (např. chyby, varování nebo bugy) potřebné při odstraňování problémů.
+    title: Systémové logy
+    content: >
+        Zde najdete veškeré logy (např. chyby, varování atp.) potřebné při 
+        odstraňování problémů.
   links:
-    - 
-      title: 'Nastavte jaký typ aktivit bude logován změnou položky <br /><span class="doc-desc-title">Výchozí úroveň logování</span>.'
+      - title: Nastavte jaký typ aktivit bude logován změnou položky <br /><span class="doc-desc-title">Výchozí úroveň logování</span>.
       href: /scp/settings.php?t=system
+
 date_span:
-  title: Rozpětí dat
-  content: 'Vyberte počáteční a koncové data, kterými chcete omezit zobrazení <span class="doc-desc-title">systémového logu</span>.'
+    title: Období
+    content: >
+        Vyberte počáteční a koncové data, kterými chcete omezit zobrazení 
+        <span class="doc-desc-title">systémových logů</span>.
+
 type:
-  title: Typ
-  content: 'Zvolte možnost zúžit zaměření na konkrétní typ činnosti. <span class="doc-desc-opt">Debug</span> představuje nejmenší závažnost, a <span class="doc-desc-opt">Error</span> představuje největší závažnost.'
+    title: Typ
+    content: >
+        Zde můžete zúžit zaměření na konkrétní typ události. 
+        <span class="doc-desc-opt">Debug</span> představuje nejnižší závažnost 
+        a <span class="doc-desc-opt">Error</span> představuje nejvyšší závažnost.
+
 showing_logs:
-  title: 'Zobrazení logů'
-  content: 'Nezapomeňte zkontrolovat sekci <span class="doc-desc-title">stránkování</span>, aby jste se ujistili, že není zobrazeno více stránek se systémovými logy.'
+    title: Zobrazení logů
+    content: >
+        Nezapomeňte zkontrolovat sekci <span class="doc-desc-title">stránkování</span>, 
+        abyste se ujistil, že zde není více stránek pro zobrazení systémovými 
+        logů.
+
 log_title:
-  title: Název logu
-  content: 'Klikněte na <span class="doc-desc-title">název logu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">názvu logu</span>.'
+    title: Název logu
+    content: >
+        Klikněte v hlavičce tabulky na <span class="doc-desc-title">název 
+        logu</span> pro seřazení výsledků dle <span class="doc-desc-title">
+        názvu logu</span>.
+
 log_type:
-  title: Typ logu
-  content: 'Klikněte na <span class="doc-desc-title">typ logu</span> v hlavičce tabulky pro seřazení výsledků dle <span class="doc-desc-title">typu logu</span>.'
+    title: Typ logu
+    content: >
+        Klikněte na <span class="doc-desc-title">typ logu</span> v hlavičce tabulky 
+        pro seřazení výsledků dle <span class="doc-desc-title">typu 
+        logu</span>.
+
 log_date:
-  title: Datum logu
-  content: 'Toto datum bylo vygenerováno programem. Klikněte na <span class="doc-desc-title">data logu</span> v hlavičce tabulky pro seřazení výsledků <span class="doc-desc-title">data logu</span>. (Použijte formulář <span class="doc-desc-title">rozpětí dat</span> pro žúžení rozsahu logu.)'
+    title: Datum logu
+    content: >
+        Toto je datum, kdy byl log vygenerován programem a událostí v něm. 
+        Pokud chcete setřídit výsledky podle <span class="doc-desc-title">data 
+        logu</span>, jednoduše klikněte na <span class="doc-desc-title">datum 
+        logu</span> v hlavičce tabulky. (Použijte 
+        formulář pro <span class="doc-desc-title">období</span> pro omezení rozsahu 
+        logu.)
+
 ip_address:
-  title: IP adresa
-  content: 'Toto ukazuje na <span class="doc-desc-title">IP adresu</span> zaměstnance nebo zákazníka, který používal osTicket v době vygenerování záznamu.'
+    title: IP adresa
+    content: >
+        Toto odkazuje na <span class="doc-desc-title">IP adresu</span> 
+        pracovníka nebo uživatele, který používal systém zákaznické podpory v 
+        době vygenerování záznamu.
