@@ -1,10 +1,18 @@
+#
+# Email template: task.activity.notice.yaml
+#
+# Notice sent to collaborators on task activity e.g reply or message
+#
 ---
-notes: Notice sent to collaborators on task activity e.g reply or message.
-subject: 'Re: %{task.title} [#%{task.number}]'
+notes: |
+    Oznámení o události úkolu, např. odpověď či zpráva, zaslané spolupracovníkům.
+
+subject: |
+    Re: %{task.title} [č. %{task.number}]
 body: |
-  <h3><strong>Dear %{recipient.name.first},</strong></h3>
+  <h3><strong>Vážený/á %{recipient.name.first},</strong></h3>
   <div>
-  <em>%{poster.name}</em> just logged a message to a task in which you participate.
+  <em>uživatel %{poster.name}</em> právě zapsal zprávu k úkolu, na kterém se podílíte.
   </div>
   <br>
   %{message}
@@ -12,6 +20,6 @@ body: |
   <br>
   <hr>
   <div style="color: rgb(127, 127, 127); font-size: small; text-align: center;">
-  <em>You're getting this email because you are a collaborator on task
-  #%{task.number}. To participate, simply reply to this email.</em>
+  <em>Tento e-mail dostáváte, protože jste nastaven jako spolupracovník na úkolu
+  č. %{task.number}. Stačí odpovědět, abyste se na úkolu podílel.</em>
   </div>

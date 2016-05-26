@@ -1,4 +1,12 @@
+#
+# banner-client.yaml
+#
+# This forms the header on the staff login page. It can be useful to inform
+# your clients about your login and registration policies.
 ---
-notes: Toto sestavuje záhlaví na stránce Přihlášení klienta. Může být užitečné k informování Vašich klientů o Vašich politikách přihlašování a registrace.
-name: 'Přihlaste se k %{company.name}'
-body: Pro naše lepší služby, doporučujeme našim klientů zaregistrovat si účet.
+notes: >
+    Toto se zobrazuje v hlavičce stránky s přihlášením uživatele. Je vhodné 
+    zde informovat vašeho zákazníka o pravidlech přihlášení a registrace.
+name: "Přihlásit k %{company.name}"
+body: >
+    Abychom mohli vaše požadavky lépe zpracovat, doporučujeme se zaregistrovat.

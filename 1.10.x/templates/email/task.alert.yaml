@@ -1,16 +1,25 @@
+#
+# Email template: task.alert.yaml
+#
+# Sent to an agent when a new task is created in the system.
+#
+#
 ---
-notes: Sent to an agent when a new task is created in the system.
-subject: New Task Alert
+notes: |
+    Zasláno pracovníkům, když je v systému vytvořen nový úkol.
+
+subject: |
+    Upozornění na nový úkol
 body: |
-  <h2>Hi %{recipient.name},</h2>
-  New task <a href="%{task.staff_link}">#%{task.number}</a> created
+  <h2>Vážený/á %{recipient.name},</h2>
+  byl vytvořen nový úkol č. <a href="%{task.staff_link}">%{task.number}</a>.
   <br>
   <br>
   <table>
   <tbody>
   <tr>
   <td>
-  <strong>Department</strong>:
+  <strong>Oddělení</strong>:
   </td>
   <td>
   %{task.dept.name}
@@ -23,10 +32,10 @@ body: |
   <br>
   <br>
   <hr>
-  <div>To view or respond to the ticket, please <a
-  href="%{task.staff_link}">login</a> to the support system</div>
-  <em style="font-size: small">Your friendly Customer Support System</em>
+  <div>Pro zobrazení či odpověď na tento požadavek, prosím, <a
+  href="%{ticket.staff_link}">přihlašte se</a> do systému zákazn. podpory</div>
+  <em style="color: rgb(127,127,127); font-size: small; ">Zákaznická podpora</em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
-  style="width: 126px; " alt="Powered By osTicket"
-  src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>
+      style="width: 126px; " alt="Powered By osTicket"
+      src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"/></a>
