@@ -1,14 +1,24 @@
+#
+# Page template: thank-you.yaml
+#
+# The thank-you page is served to the customer portal when a user submites a
+# new ticket via the customer portal.
+#
 ---
-notes: 'Stránka "Děkujeme" se zobrazuje v případě, že uživatel zadal prostřednictvím Helpdesku nový zákaznický požadavek.'
-name: Děkujeme
+notes: |
+    Tato šablona definuje obsah zobrazený na stránce s poděkováním po tom, co 
+    uživatel zadá nový požadavek pomocí zákaznického portálu.
+
+name: Thank You
 body: |
-  <div>%{ticket.name},
+  <div>Vážený/á %{ticket.name},
   <br>
   <br>
-  Děkujeme Vám za Váš kontakt.
+  děkujeme, že jste se s námi spojil(a).
   <br>
   <br>
-  Zákaznický požadavek byl vytvořen a zástupce Helpdesku Vás bude v případě nutnosti v krátké době kontaktovat zpět.</p>
+  Požadavek na podporu byl vytvořen a pracovník zákaznické podpory vás bude 
+  brzy kontaktovat, bude-li potřeba.</p>
   <br>
   <br>
   Tým zákaznické podpory

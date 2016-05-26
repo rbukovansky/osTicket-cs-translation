@@ -1,39 +1,61 @@
+#
+# This is popup help messages for the Admin Panel -> Settings -> Autoresponder
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
 new_ticket:
-  title: Nový požadavek
-  content: Povolte tuto možnost, pokud chcete odeslat automatickou odpověď zákazníkovi při zadání nového požadavku.
+    title: Nový požadavek
+    content: >
+        Povolte tuto možnost, pokud chcete odeslat automatickou odpověď zákazníkovi při zadání nového požadavku.
   links:
-    - 
-      title: Šablona automatické odpovědi při zadání nového požadavku
+      - title: Šablona automatické odpovědi při zadání nového požadavku
       href: /scp/templates.php?default_for=ticket.autoresp
+
 new_ticket_by_staff:
-  title: Nový požadavek vytvořený zaměstnancem
-  content: 'Oznámení odeslané v případě, že zaměstnanec vytvoří požadavek za zákazníka. <em>Agent toto nastavení může při zakládání požadavku přepsat.</em>'
+    title: Nový požadavek vytvořený pracovníkem
+    content: >
+        Oznámení uživateli, že za něj byl pracovníkem zadán požadavek. <em> Pracovník
+        může toto nastavení přepsat při zadání požadavku.</em>
   links:
-    - 
-      title: Šablona upozornění na nový požadavek
+      - title: Šablona upozornění na nový požadavek
       href: /scp/templates.php?default_for=ticket.notice
+
 new_message_for_submitter:
-  title: Potvrzení nové zprávy
-  content: 'Oznémení odeslané v případě, že je k existujícímu zákaznickému požadavku přidána nová zpráva.'
+    title: Potvrzení nové zprávy
+    content: >
+        Potvrzovací oznámení, že k existujícímu požadavku byla zaslána nová 
+        zpráva.
   links:
-    - 
-      title: Šablona potvrzení nové zprávy
+      - title: Šablona potvrzení nové zprávy
       href: /scp/templates.php?default_for=message.autoresp
+
 new_message_for_participants:
-  title: Upozornění na novou zprávu
-  content: Rozešle uporoznění na novou zprávu přijatou od jejího odesílatele všem ostatním účastníkum požadavku.
+    title: Upozornění na novou zprávu
+    content: >
+        Oznámení uživateli a ostatním pracovníkům, že byla pracovníkem zadána 
+        nová zpráva k existujíc požadavku.
   links:
-    - 
-      title: Šablona pro zprávu o nové aktivitě
+      - title: Šablona pro zprávu o nové události
       href: /scp/templates.php?default_for=ticket.activity.notice
+
 overlimit_notice:
-  title: Oznámení o překročení limitu
-  content: 'Oznámení zaslané zákazníkovi při odmítnutí požadavku z důvodu  překročení<span class="doc-desc-title">maximálního počtu otevřených požadavků</span>.'
+    title: Oznámení o překročení limitu
+    content: >
+        Oznámení zaslané uživateli při odmítnutí požadavku z důvodu překročení 
+        <span class="doc-desc-title">maxima otevřených požadavků</span>.
   links:
-    - 
-      title: Šablona upozornění na překročení limitu
+      - title: Šablona oznámení na překročení limitu
       href: /scp/templates.php?default_for=ticket.overlimit
-    - 
-      title: '<em>Max. počet otevřených požadavků</em>'
-      href: /scp/settings?t=tickets
+
+      - title: Nastavení <em>maxima otevřených požadavků</em>
+        href: /scp/settings.php?t=tickets

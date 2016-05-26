@@ -1,190 +1,206 @@
+#
+# Default (dynamic) form configuration. This data is used as the initial,
+# minimal data for dynamic forms that ships with the system.
+#
+# Fields:
+# id:       Used only if associated with a help topic
+# title:    Bold section title of the form
+# instructions: Title deck, detailed instructions on entering form data
+# notes:    Notes for the form, shown under the fields
+# flags:
+#   0x0001  If the form can be removed from the system
+# fields:   List of fields for the form
+#   type:       Field type (short name) (eg. 'text', 'memo', 'phone', ...)
+#   label:      Field label shown to the user
+#   name:       Name used with the data internally. This is especially
+#               useful for page and email templates, where %{ ticket.<name> }
+#               will be used to retrieve the data from the field.
+#   hint:       Help text shown with the field
+#   flags:      Bit mask for settings & options
+#     # From class DynamicFormField
+#     const FLAG_MASK_CHANGE      = 0x0010;     # Type cannot change
+#     const FLAG_MASK_DELETE      = 0x0020;     # Cannot be deleted
+#     const FLAG_MASK_EDIT        = 0x0040;     # Data cannot be edited
+#     const FLAG_MASK_DISABLE     = 0x0080;     # Field cannot be disabled
+#     const FLAG_MASK_REQUIRE     = 0x10000;    # Requirement cannot be changed
+#     const FLAG_MASK_VIEW        = 0x20000;    # View settings cannot be changed
+#     const FLAG_MASK_NAME        = 0x40000;    # Name cannot be changed
+#
+#   configuration: Field-specific configuration
+#     size:     (text) width of the field
+#     length:   (text) maximum size of the data in the field
+#     cols:     (memo) width of the textarea
+#     rows:     (memo) height of the textarea
+#
 ---
-- 
-  id: 1
-  type: U
+- id: 1
+  type: U #notrans
   title: Kontaktní informace
   flags: 0
   fields:
-    - 
-      type: text
-      name: email
+    - type: text #notrans
+      name: email #notrans
       label: E-mailová adresa
       sort: 1
-      flags: 489379
+      flags: 0x777A3
       configuration:
         size: 40
         length: 64
-        validator: email
-    - 
-      type: text
-      name: name
+        validator: email # notrans
+    - type: text # notrans
+      name: name # notrans
       label: Celé jméno
       sort: 2
-      flags: 489379
+      flags: 0x777A3
       configuration:
         size: 40
         length: 64
-    - 
-      type: phone
-      name: phone
+    - type: phone # notrans
+      name: phone # notrans
       label: Telefonní číslo
       sort: 3
-      flags: 13057
-    - 
-      type: memo
+      flags: 0x3301
+    - type: memo # notrans
       name: notes
       label: Interní poznámky
       sort: 4
-      flags: 12289
+      flags: 0x3001
       configuration:
         rows: 4
         cols: 40
-- 
-  id: 2
-  type: T
+- id: 2
+  type: T # notrans
   title: Podrobnosti požadavku
   instructions: Popište prosím Váš problém
-  notes: Tento formulář bude připojen ke každému požadavku bez ohledu na jeho zdroj. Do formuláře můžete přidat jakékoli pole, které bude dostupné pro všechny požadavky a bude ho možné prohledávat pomocí pokročilého vyhledávání a filtrování.
+  notes: |
+      Tento formulář bude připojen ke každému požadavku bez ohledu na jeho zdroj
+      . Do formuláře můžete přidat jakékoli pole, které bude dostupné pro 
+      všechny požadavky a bude ho možné prohledávat pomocí pokročilého 
+      vyhledávání a filtrování.
   flags: 0
   fields:
-    - 
-      id: 20
-      type: text
-      name: subject
+    - id: 20
+      type: text # notrans
+      name: subject # notrans
       label: Předmět požadavku
       sort: 1
-      flags: 489249
+      flags: 0x77721
       configuration:
         size: 40
         length: 50
-    - 
-      id: 21
-      type: thread
-      name: message
+    - id: 21
+      type: thread # notrans
+      name: message # notrans
       label: Podrobnosti o problému
       hint: Podrobnosti o důvodech pro otevření požadavku.
       sort: 2
-      flags: 480547
-    - 
-      id: 22
-      type: priority
-      name: priority
+      flags: 0x75523
+    - id: 22
+      type: priority # notrans
+      name: priority # notrans
       label: Stupeň priority
-      flags: 274609
+      flags: 0x430B1
       sort: 3
-- 
-  type: C
+- type: C # notrans
   title: Informace o zákazníkovi
-  instructions: Podrobnosti dostupné v šabloně e-mailu
+  instructions: Podrobnosti dostupné v šablonách e-mailů
   flags: 0
   fields:
-    - 
-      type: text
-      name: name
+    - type: text # notrans
+      name: name # notrans
       label: Název firmy
       sort: 1
-      flags: 291233
+      flags: 0x471A1
       configuration:
         size: 40
         length: 64
-    - 
-      type: text
-      name: website
+    - type: text # notrans
+      name: website # notrans
       label: Webová stránka
       sort: 2
-      flags: 12545
+      flags: 0x3101
       configuration:
         size: 40
         length: 64
-    - 
-      type: phone
-      name: phone
+    - type: phone # notrans
+      name: phone # notrans
       label: Telefonní číslo
       sort: 3
-      flags: 12545
+      flags: 0x3101
       configuration:
         ext: false
-    - 
-      type: memo
+    - type: memo # notrans
       name: address
       label: Adresa
       sort: 4
-      flags: 12545
+      flags: 0x3101
       configuration:
         rows: 2
         cols: 40
         html: false
         length: 100
-- 
-  type: O
+- type: O # notrans
   title: Informace o organizaci
   instructions: Podrobnosti o organizaci
   flags: 0
   fields:
-    - 
-      type: text
-      name: name
-      label: Jméno
+    - type: text # notrans
+      name: name # notrans
+      label: Název
       sort: 1
-      flags: 489379
+      flags: 0x777A3
       configuration:
         size: 40
         length: 64
-    - 
-      type: memo
+    - type: memo
       name: address
       label: Adresa
       sort: 2
-      flags: 13057
+      flags: 0x3301
       configuration:
         rows: 2
         cols: 40
         length: 100
         html: false
-    - 
-      type: phone
+    - type: phone
       name: phone
       label: Telefon
       sort: 3
-      flags: 13057
-    - 
-      type: text
+      flags: 0x3301
+    - type: text
       name: website
       label: Webová stránka
       sort: 4
-      flags: 13057
+      flags: 0x3301
       configuration:
         size: 40
         length: 0
-    - 
-      type: memo
+    - type: memo # notrans
       name: notes
       label: Interní poznámky
       sort: 5
-      flags: 12289
+      flags: 0x3001
       configuration:
         rows: 4
         cols: 40
-- 
-  type: A
+- type: A # notrans
   title: Podrobnosti úkolu 
   instructions: Popište prosím úkol, který zadávate
-  notes: Tento formulář je používán k vytvoření úkolu.
+  notes: |
+      Tento formulář je používán k vytvoření úkolu.
   flags: 0
   fields:
-    - 
-      type: text
-      name: title
-      flags: 290977
+    - type: text # notrans
+      name: title # notrans
+      flags: 0x470A1
       sort: 1
       label: Název
       configuration:
         size: 40
         length: 50
-    - 
-      type: thread
-      name: description
-      flags: 282867
+    - type: thread # notrans
+      name: description # notrans
+      flags: 0x450F3
       sort: 2
       label: Popis
       hint: Podrobnosti o důvodech pro otevření tohoto úkolu.

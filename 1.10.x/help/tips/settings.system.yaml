@@ -1,68 +1,168 @@
+#
+# This is popup help messages for the Admin Panel -> Settings -> System
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
 helpdesk_status:
-  title: Stav systému zákaznické podpory
-  content: 'Pokud změníte stav na <span class = "doc-desc-opt">Off-line</ span>, zákaznické rozhraní bude zakázáno. Nemá však vliv na běžnou činnost panelu zaměstnance.'
+    title: Stav systému zákaznické podpory
+    content: >
+        Pokud změníte stav na <span 
+        class = "doc-desc-opt">mimo provoz</ span>, zákaznické rozhraní bude 
+        zakázáno. Nemá však vliv na běžnou činnost panelu 
+        pracovníka.
+
 helpdesk_url:
-  title: URL systému zákaznické podpory
-  content: Tento URL odkaz je základní pro instalaci systému. Používá se v e-mailové komunikaci pro směrování uživatelů zpět na systém zákaznické podpory.
+    title: URL systému zákaznické podpory
+    content: >
+        Tato URL adresa je zásadní pro instalaci systému. Používá se v 
+        e-mailové komunikaci pro směrování uživatelů zpět do systému.
+
 helpdesk_name_title:
-  title: Název systému zákaznické podpory
-  content: Název systému, který bude zobrazován v kartě prohlížeče. Pokud bude váš systém zákaznické podpory uložen do záložek, tento název se bude zobrazovat jako jméno webu.
+    title: Název systému zákaznické podpory
+    content: >
+        Název systému, který bude zobrazován v kartě prohlížeče. Pokud bude 
+        uložen do záložek, tento název se bude zobrazovat jako název webu.
+
 default_department:
-  title: Výchozí oddělení
-  content: 'Vyberte výchozí <span class="doc-desc-title">oddělení</span> pro požadavky, které nejsou automaticky směrovány na oddělení.<br/><br/>Požadavky mohou být směrovány podle nastavení tématu podpory, příchozího e-mailu a filtru požadavků.'
+    title: Výchozí oddělení
+    content: >
+        Vyberte výchozí <span class="doc-desc-title">oddělení</span> pro 
+        požadavky, které nejsou automaticky směrovány na oddělení.
+        <br/><br/>
+        Požadavky mohou být směrovány podle nastavení tématu podpory, 
+        příchozího e-mailu a filtru požadavků.
+
 default_page_size:
-  title: Výchozí počet záznamů na stránce
-  content: 'Zvolte počet záznamů zobrazených na stránce ve frontách požadavků na panelu zaměstnance. Každý zaměstnanec si může tento počet nastavit na stránce <span class="doc-desc-title">uživatelských předvoleb</span>.'
+    title: Výchozí počet záznamů na stránce
+    content: >
+        Zvolte počet záznamů zobrazených na stránce v seznamech požadavků na 
+        panelu pracovníka. Každý pracovník si může tento počet nastavit na 
+        stránce <span class="doc-desc-title">uživatelských předvoleb</span>.
+
 default_log_level:
-  title: Výchozí úroveň logu
-  content: 'Určuje nejnižší úroveň problémů, které budou zaznamenávány do <span class="doc-desc-title">systémového logu</span>. <span class="doc-desc-opt">Debug</span> znamená nejnižší závažnost a <span class="doc-desc-opt">Error</span> znamená nejvyšší. Pokud například chcete vidět všechny problémy v <span class="doc-desc-title">systémovém logu</span>, zvolte <span class="doc-desc-opt">Debug</span>.'
+    title: Výchozí úroveň logu
+    content: >
+        Určuje nejnižší úroveň problémů, které budou zaznamenávány do 
+        <span class="doc-desc-title">systémového logu</span>. <span 
+        class="doc-desc-opt">Debug</span> zaznamenává nejnižší závažnost a <span 
+        class="doc-desc-opt">Error</span> znamená nejvyšší závažnosti. 
+        Pokud například chcete vidět všechny problémy v <span 
+        class="doc-desc-title">systémovém logu</span>, zvolte <span 
+        class="doc-desc-opt">Debug</span>.
+
 purge_logs:
-  title: Mazání logu
-  content: 'Určuje dobu, po kterou budou uchovávány <span class="doc-desc-title">systémové logy</span>, než budou smazány.'
+    title: Čištění logu
+    content: >
+        Určuje dobu, po kterou budou uchovávány <span 
+        class="doc-desc-title">systémové logy</span>, než budou smazány.
+
 enable_richtext:
-  title: Povolit formátování textu
-  content: Tato volba umožní použití formátování textu v odpovědích zákazníků a zaměstnanců.
+    title: Povolit formátování textu
+    content: >
+        Tato volba umožní použití formátování textu v odpovědích uživatelů a 
+        pracovníků.
+
 enable_avatars:
-  title: Zobrazit ikony uživatelů ve vlákně požadavku.
-  content: |-
-    Tato volba umožní zobrazení <span class="doc-desc-title">ikon uživatelů</span> ve vlákně požadavku.<br><br>The <span class="doc-desc-title">zdroj ikon uživatelů</span> může být nastaven na stránce nastavení zaměstnanců.
+    title: Zobrazit ikony uživatelů ve vlákně požadavku
+    content: >
+        Tato volba umožní zobrazení <span class="doc-desc-title">ikon uživatelů</span> ve vlákně požadavku.
+        <br><br>
+        <span class="doc-desc-title">Zdroj ikon uživatelů</span> může být nastaven na stránce nastavení pracovníků.
   links:
-    - 
-      title: Nastavení zaměstnanců
+      - title: Nastavení pracovníků
       href: /scp/settings.php?t=agents
-    - 
-      title: Nastavení uživatelů
+
+      - title: Nastavení uživatelů
       href: /scp/settings.php?t=users
+
 collision_avoidance:
-  title: Doba zamčení požadavků
-  content: 'Zadejte maximální dobu, po kterou je zaměstnanci držet zámek na požadaveku nebo úkolu bez jeho aktivity.<br><br>Zadejte <span class="doc-desc-opt">0</span> pro vypnutí funkce zamykání.'
+    title: Doba zamčení požadavků
+    content: >
+        Zadejte maximální dobu, po kterou pracovníci mohou držet zámek na 
+        požadavku nebo úkolu, aniž by na něm pracovali.
+        <br><br>
+        Zadejte <span class="doc-desc-opt">0</span> pro vypnutí funkce zamykání.
+
+# Date and time options
 date_time_options:
-  title: Možnosti data a času
-  content: 'Následující nastavení definuje výchozí nastavení formátu pro datum a čas vašeho systému zákaznické podpory. Můžete vybrat použítí výchozího nastavení pro vybranou oblast nebo použít vlastní nastavení, která vám bude více vyhovovat. Podívejte se na formátovací řetězce ICU jako vzor formátování. Data zobrazená níže ilustrují výledek daného nastavení.'
+    title: Možnosti data a času
+    content: >
+        Následující nastavení definuje výchozí nastavení formátu pro datum a 
+        čas vašeho systému zákaznické podpory. Můžete vybrat použití výchozího 
+        nastavení pro vybranou oblast nebo použít vlastní nastavení, 
+        která vám bude více vyhovovat. Podívejte se na formátovací řetězce ICU 
+        jako vzor formátování. Data zobrazená níže ilustrují výledek daného 
+        nastavení.
   links:
-    - 
-      title: Tabulka formátovaní data ICU
+      - title: Tabulka formátovaní data ICU
       href: http://userguide.icu-project.org/formatparse/datetime
+
 languages:
-  title: Systémové jazyky
-  content: Vyberte hlavní jazyk systému a případně další jazyky pro vaše zákazníky a zaměstnance.
+    title: Systémové jazyky
+    content: >
+        Vyberte hlavní jazyk systému a případně další jazyky pro vaše 
+        uživatele a pracovníky.
+
 primary_language:
-  title: Hlavní jazyk
-  content: 'Texty v tomto jazyce jsou zobrazen zákazníkům a zaměstnancům, pokud nemají vybrán vlastní jazyk. To zahrnuje jak prostředí systému, tak vlastní obsah jako jsou například stránky s poděkováním a e-mailové zprávy.<br/><br/>Toto je jazyk ve kterém se budou zobrazovat veškeré jazykové verze napřeloženého obsahu.'
+    title: Hlavní jazyk
+    content: >
+        Texty v tomto jazyce jsou zobrazeny uživatelům a pracovníkům, pokud 
+        jejich vlastní jazyk není dostupný. To zahrnuje jak prostředí systému, 
+        tak vlastní obsah jako jsou například stránky s poděkováním a 
+        e-mailové zprávy.
+        <br/><br/>
+        Toto je jazyk ve kterém se budou zobrazovat veškeré jazykové verze 
+        napřeloženého obsahu.
+
 secondary_language:
-  title: Další jazyky
-  content: Vyberte jazyky pro vašeho zákazníky a zaměstnance. V těchto jazycích bude zobrazeno prostředí systému, stejně tak vlastní obsah jako jsou například stránky s poděkováním, názvy témat podpory.
+    title: Další jazyky
+    content: >
+        Vyberte jazyky pro vašeho zákazníky a pracovníky. V těchto jazycích 
+        bude zobrazeno prostředí systému a vlastní obsah jako jsou 
+        například stránky s poděkováním, názvy témat podpory budou přeloženy 
+        do těchto jazyků
+
+# Attachments
 attachments:
-  title: Nastavení možností příloh
-  content: Nastavení, jak jsou přílohy ukládány v systému.
+    title: Nastavení možností příloh a jejich ukládání
+    content: >
+        Nastavení, jak jsou přílohy ukládány v systému.
+
 default_storage_bk:
-  title: Způsob ukládání souborů
-  content: 'Vyberte, jak budou přílohy ukládány.<br<br> Dodatečné služby ukládání mohou být přidány instalací modulů ukládání souborů'
+    title: Způsob ukládání souborů
+    content: >
+        Vyberte, jakým způsobem budou přílohy ukládány.
+        <br><br>
+        Dodatečné služby ukládání mohou být přidány zásuvnými moduly ukládání.
+
 max_file_size:
-  title: Maximální povolená velikost souboru
-  content: "Vyberte maximální velikost příloh nahraných zaměstnanci. Toto zahrnuje předpřipravené přílohy, články báze znalostí a přílohy k odpovědím na požadavky a úkoly. Horní limit je řízen volbou <code>upload_max_filesize</code> v nastavení PHP."
+    title: Maximální velikost souboru
+    content: >
+        Vyberte maximální velikost příloh nahraných pracovníky. Toto zahrnuje 
+        předpřipravené přílohy, články báze znalostí a přílohy k odpovědím na 
+        požadavky a úkoly. Horní limit je řízen volbou 
+        <code>upload_max_filesize</code> v nastavení PHP.
   links:
-    - 
-      title: Nastavení PHP
-      href: 'http://php.net/manual/en/ini.core.php#ini.upload-max-filesize'
+      - title: Nastavení PHP
+        href: "http://php.net/manual/en/ini.core.php#ini.upload-max-filesize"
+
+files_req_auth:
+    title: Vyžadovat přihlášení
+    content: >
+        Tato volba umožňuje zakázat stahování příloh nepřihlášeným uživatelům. 
+        To znamená, že jak uživatel tak pracovník musí být přihlášen pro 
+        zobrazení příloh.
+        <br><br>
+        Z bezpečnostního hlediska nezapomeňte, že uživatelův prohlížeč může
+        držet již jednou zobrazené přílohy v jeho vyrovnávací paměti. Nicméně, 
+        všechny odkazy na soubory vyprší automaticky po 24 hodinách.

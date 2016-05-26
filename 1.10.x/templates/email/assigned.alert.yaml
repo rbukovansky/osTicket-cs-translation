@@ -1,17 +1,28 @@
+#
+# Email template: assigned.alert.yaml
+#
+# Sent to staff members when a ticket is assigned to them. Tickets can be
+# assigned automatically by the system or manually by another staff member.
+# Use %{assigner} to distinguish who made the assignment.
+#
 ---
-notes: 'Bude odesláno zaměstnanci v okamžiku přiřazení požadavku. Zákaznický požadavek může být přiřazen systémem automaticky nebo ručně jiným zaměstnancem. Použijte %{assigner} pro rozlišení, kdo požadavek přidělil.'
-subject: Přiřazený zákaznický požadavek
+notes: |
+    Zasláno pracovníkům v momentě, kdy je jim přiřazen nějaký požadavek. 
+    Požadavky mohou být automaticky přiřazeny systémem nebo ručně jiný 
+    pracovníkem. Použijte %{assigner} pro informování, kdo přiřazení provedl.
+
+subject: |
+    Byl vám přiřazen požadavek
 body: |
-  <h3><strong>Hi %{assignee.name.first},</strong></h3>
-  Ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> has been
-  assigned to you by %{assigner.name.short}
+  <h3><strong>Vážený/á %{assignee.name.first},</strong></h3>
+  byl vám pracovníkem %{assigner.name.short} přiřazen požadavek č. <a href="%{ticket.staff_link}">%{ticket.number}</a>
   <br>
   <br>
   <table>
   <tbody>
   <tr>
   <td>
-  <strong>From</strong>:
+  <strong>Od</strong>:
   </td>
   <td>
   %{ticket.name} &lt;%{ticket.email}&gt;
@@ -19,7 +30,7 @@ body: |
   </tr>
   <tr>
   <td>
-  <strong>Subject</strong>:
+  <strong>Předmět</strong>:
   </td>
   <td>
   %{ticket.subject}
@@ -32,11 +43,11 @@ body: |
   <br>
   <br>
   <hr>
-  <div>To view/respond to the ticket, please <a
+  <div>Pro zobrazení či odpověď na tento požadavek, prosím, <a
   href="%{ticket.staff_link}"><span style="color: rgb(84, 141, 212);"
-  >login</span></a> to the support ticket system</div>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  >přihlašte se</span></a> do systému zákaznické podpory</div>
+  <em style="font-size: small; ">Zákaznická 
+  podpora</em>
   <br>
   <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
   alt="Powered by osTicket" width="126" height="19" style="width: 126px;">

@@ -1,12 +1,18 @@
+#
+# Email template: task.transfer.alert.yaml
+#
+# Sent to agents when a task is transfered to their department.
+#
 ---
 notes: |
-  Sent to agents when a task is transfered to a department to which
-  they are a member.
-subject: 'Task #%{task.number} transfer - %{task.dept.name}'
+  Zasláno pracovníkům v momentě, kdy je nějaký úkol předán oddělení, jehož jsou 
+  členem.
+subject: |
+    Úkol č. %{task.number} předán na oddělení %{task.dept.name}
 body: |
-  <h3>Hi %{recipient.name},</h3>
-  Task <a href="%{task.staff_link}">#%{task.number}</a> has been
-  transferred to the %{task.dept.name} department by
+  <h3>Vážený/á %{recipient.name},</h3>
+  úkol č. <a href="%{task.staff_link}">%{task.number}</a> byl předán
+  na oddělení %{task.dept.name} pracovníkem 
   <strong>%{staff.name.short}</strong>
   <br>
   <br>
@@ -15,10 +21,10 @@ body: |
   </blockquote>
   <hr>
   <div>To view or respond to the task, please <a
-  href="%{task.staff_link}">login</a> to the support system.
+  href="%{task.staff_link}">přihlašte se</a> do systému zákaznické. podpory.
   </div>
-  <em style="font-size: small; ">Your friendly Customer Support
-  System</em>
+  <em style="font-size: small; ">Zákaznická
+  podpora</em>
   <br>
   <a href="http://osticket.com/"><img width="126" height="19"
   alt="Powered By osTicket" style="width: 126px;"

@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-23 16:38+0200\n"
+"PO-Revision-Date: 2016-05-26 15:38+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -47,11 +47,11 @@ msgstr "Nelze vytvořit místní účet. Více informací níže"
 
 #: account.php:91
 msgid "Internal error. Unable to create new account"
-msgstr "Interní chyba. Nelze vytvořit nový účet"
+msgstr "Vnitřní chyba. Nelze vytvořit nový účet"
 
 #: account.php:93
 msgid "Errors configuring your profile. See messages below"
-msgstr "Při konfiguraci vašeho účtu nastaly chyby. Více informací níže"
+msgstr "Při konfiguraci vašeho profilu nastaly chyby. Více informací níže"
 
 #: client.inc.php:86 scp/staff.inc.php:132
 msgid "Password change required to continue"
@@ -89,7 +89,7 @@ msgstr "Je vyžadována platná e-mailová adresa a číslo požadavku"
 #: login.php:94
 #, php-format
 msgid "%s - access link sent to your email!"
-msgstr "%s - přístupový odkaz odeslán na vaši e-mailovou adresu!"
+msgstr "Vážený/á %s, odkaz s přístupem byl odeslán na vaši e-mailovou adresu!"
 
 #: login.php:98
 msgid "Invalid email or ticket number - try again!"
@@ -101,7 +101,7 @@ msgstr "Nelze načíst konfiguraci z databáze. Kontaktujte podporu."
 
 #: offline.php:30
 msgid "Support Ticket System Offline"
-msgstr "Systém zákaznické podpory je nedostupný"
+msgstr "Systém zákaznické podpory je mimo provoz"
 
 #: open.php:27
 msgid "Enter text shown on the image"
@@ -146,7 +146,7 @@ msgstr "Obnova hesla není na vašem účtu povolena. Kontaktujte vašeho správ
 
 #: pwreset.php:26
 msgid "Unable to send reset email. Internal error"
-msgstr "Nelze odeslat e-mail pro obnovu hesla. Interní chyba"
+msgstr "Nelze odeslat e-mail pro obnovu hesla. Vnitřní chyba"
 
 #: pwreset.php:29 scp/pwreset.php:51
 #, php-format
@@ -201,7 +201,7 @@ msgstr "Naznámá akce"
 
 #: tickets.php:115 scp/tasks.php:228
 msgid "Internal error: Unable to print to PDF"
-msgstr "Interní chyba: Nelze tisknout do PDF"
+msgstr "Vnitřní chyba: Nelze tisknout do PDF"
 
 #: api/cron.php:20
 msgid "cron.php only supports local cron calls - use http -> api/tasks/cron"
@@ -1768,7 +1768,7 @@ msgstr "Pokusy"
 
 #: include/class.auth.php:889
 msgid "Timeout"
-msgstr "Časový limit"
+msgstr "Doba nečinnosti"
 
 #: include/class.auth.php:889
 #, php-format
@@ -1899,7 +1899,7 @@ msgstr "Báze znalostí"
 #: include/staff/department.inc.php:93 include/staff/departments.inc.php:120
 #: include/staff/faq.inc.php:67 include/staff/helptopics.inc.php:145
 msgid "Private"
-msgstr "Privátní"
+msgstr "Soukromé"
 
 #: include/class.category.php:54 include/class.faq.php:98
 #: include/class.faq.php:494 include/staff/category.inc.php:56
@@ -1909,7 +1909,7 @@ msgstr "Privátní"
 #: include/staff/helptopic.inc.php:73 include/staff/helptopics.inc.php:145
 #, php-format
 msgid "Public"
-msgstr "Veřejná"
+msgstr "Veřejné"
 
 #: include/class.category.php:56 include/class.faq.php:100
 #: include/class.faq.php:495 include/staff/category.inc.php:54
@@ -2229,11 +2229,11 @@ msgstr "Pouze pro uživatele"
 #: setup/install.php:66 setup/install.php:69
 #: setup/inc/install-prereq.inc.php:14
 msgid "Required"
-msgstr "Vyžadován"
+msgstr "Vyžadována"
 
 #: include/class.dynamic_forms.php:716 include/class.dynamic_forms.php:745
 msgid "Optional"
-msgstr "Volitelný"
+msgstr "Volitelná"
 
 #: include/class.dynamic_forms.php:719
 msgid "Immutable"
@@ -2241,19 +2241,19 @@ msgstr "Neměnné"
 
 #: include/class.dynamic_forms.php:752
 msgid "Required for EndUsers"
-msgstr "Vyžadován pro uživatele"
+msgstr "Vyžadována pro uživatele"
 
 #: include/class.dynamic_forms.php:756
 msgid "Required for Agents"
-msgstr "Vyžadován pro pracovníky"
+msgstr "Vyžadována pro pracovníky"
 
 #: include/class.dynamic_forms.php:760
 msgid "Internal, Optional"
-msgstr "Interní, volitelný"
+msgstr "Interní, volitelná"
 
 #: include/class.dynamic_forms.php:762
 msgid "Internal, Required"
-msgstr "Interní, vyžadováno"
+msgstr "Interní, vyžadována"
 
 #: include/class.dynamic_forms.php:849
 msgid "Label is required for custom form fields"
@@ -2639,7 +2639,7 @@ msgstr "Vyžadována odpověď na častý dotaz"
 
 #: include/class.faq.php:491 include/staff/faq.inc.php:98
 msgid "Listing Type"
-msgstr "Typ seznamu"
+msgstr "Typ vystavení"
 
 #: include/class.file.php:325 include/class.file.php:346
 msgid "Invalid image file type"
@@ -3467,7 +3467,7 @@ msgstr "Úroveň priority"
 #: include/staff/departments.inc.php:74 include/staff/directory.inc.php:100
 #: include/staff/staffmembers.inc.php:109
 msgid "Agents"
-msgstr "Zaměstnanci"
+msgstr "Pracovníci"
 
 #: include/class.forms.php:2279 include/class.nav.php:275
 #: include/staff/staff.inc.php:54 include/staff/teams.inc.php:50
@@ -4101,7 +4101,7 @@ msgstr "Oddělení"
 
 #: include/class.nav.php:334
 msgid "Support Center Home"
-msgstr "Domovská stránka centra podpory"
+msgstr "Centrum podpory"
 
 #: include/class.nav.php:347
 #, php-format
@@ -4225,7 +4225,7 @@ msgstr "Neplatná CSRF poukázka"
 
 #: include/class.osticket.php:153
 msgid "Company Information"
-msgstr "Firemní informace"
+msgstr "Informace o společnosti"
 
 #: include/class.osticket.php:240 include/class.upgrader.php:200
 msgid "osTicket Alerts"
@@ -4669,7 +4669,7 @@ msgstr "Vyžadovat změnu hesla při příštím přihlášení"
 
 #: include/class.staff.php:1239 include/client/profile.inc.php:64
 msgid "Current Password"
-msgstr "Aktuální heslo"
+msgstr "Současné heslo"
 
 #: include/class.staff.php:1246
 msgid "Enter a new password"
@@ -4677,7 +4677,7 @@ msgstr "Zadejte nové heslo"
 
 #: include/class.staff.php:1271
 msgid "Confirm your current password and enter a new password to continue"
-msgstr "Potvrďte stávající heslo a zadejte nové heslo pro pokračování"
+msgstr "Potvrďte současné heslo a zadejte nové heslo pro pokračování"
 
 #: include/class.staff.php:1295
 msgid "Clone an existing agent"
@@ -4982,15 +4982,15 @@ msgstr "Upozornění na přiřazení požadavku"
 
 #: include/class.template.php:114
 msgid "Alert sent to agents on ticket assignment."
-msgstr "Upozornění zasláné pracovníkům při přiřazení požadavku."
+msgstr "Upozornění zaslané pracovníkům při přiřazení požadavku."
 
 #: include/class.template.php:121 include/staff/settings-alerts.inc.php:141
 msgid "Ticket Transfer Alert"
-msgstr "Upozornění o předání požadavku"
+msgstr "Upozornění na předání požadavku"
 
 #: include/class.template.php:122
 msgid "Alert sent to agents on ticket transfer."
-msgstr "Upozornění zasláné pracovníkům při předání požadavku."
+msgstr "Upozornění zaslané pracovníkům při předání požadavku."
 
 #: include/class.template.php:129 include/staff/settings-alerts.inc.php:171
 msgid "Overdue Ticket Alert"
@@ -5365,7 +5365,7 @@ msgstr "Přiřazení požadavku"
 #: include/class.ticket.php:1721
 #, php-format
 msgid "Ticket claimed by %s"
-msgstr "%s si přiřadil požadavek"
+msgstr "Pracovník %s si přiřadil požadavek"
 
 #: include/class.ticket.php:1724
 #, php-format
@@ -6045,7 +6045,7 @@ msgstr "Zrušit"
 
 #: include/client/profile.inc.php:1
 msgid "Manage Your Profile Information"
-msgstr "Spravovat informace vašeho účtu"
+msgstr "Spravovat informace vašeho profilu"
 
 #: include/client/profile.inc.php:3
 msgid "Use the forms below to update the information we have on file for your account"
@@ -6054,7 +6054,7 @@ msgstr "Pomocí níže zobrazeného formuláře změňte informace, které máme
 #: include/client/profile.inc.php:19 include/client/register.inc.php:34
 #: include/staff/profile.inc.php:12 include/staff/profile.inc.php:159
 msgid "Preferences"
-msgstr "Předvolby"
+msgstr "Možnosti"
 
 #: include/client/profile.inc.php:25 include/client/register.inc.php:40
 #: include/staff/profile.inc.php:294
@@ -6458,7 +6458,7 @@ msgstr "Vše"
 #: include/staff/tickets.inc.php:610 include/staff/users.inc.php:214
 #: include/staff/templates/users.tmpl.php:136
 msgid "Toggle"
-msgstr "Přepnout"
+msgstr "Zaměnit"
 
 #: scp/js/scp.js:721
 msgid "Please Confirm"
@@ -6702,7 +6702,7 @@ msgstr "Kategorie častých dotazů nebyly nalezeny!"
 
 #: include/staff/categories.inc.php:124
 msgid "Make Public"
-msgstr "Zveřejnit veřejně"
+msgstr "Zveřejnit"
 
 #: include/staff/categories.inc.php:125
 msgid "Make Internal"
@@ -6711,7 +6711,7 @@ msgstr "Zveřejnit interně"
 #: include/staff/categories.inc.php:137 include/staff/departments.inc.php:166
 #, php-format
 msgid "Are you sure you want to make %s <b>public</b>?"
-msgstr "Uřčitě chcete změnit %s na<b>veřejné</b>?"
+msgstr "Určitě chcete <b>zvěřejnit</b> %s?"
 
 #: include/staff/categories.inc.php:138 include/staff/categories.inc.php:142
 #: include/staff/categories.inc.php:146 scp/categories.php:71
@@ -6860,7 +6860,7 @@ msgstr "Při odpovědi si přiřadit požadavek"
 
 #: include/staff/department.inc.php:162
 msgid "auto claim"
-msgstr "autopřiřazení si"
+msgstr "přiřazení si"
 
 #: include/staff/department.inc.php:171
 msgid "Outgoing Email Settings"
@@ -6890,7 +6890,7 @@ msgstr "Nová zpráva"
 
 #: include/staff/department.inc.php:249
 msgid "Auto-Response Email"
-msgstr "E-mail automatické odpovědi"
+msgstr "E-mailová adresa automatické odpovědi"
 
 #: include/staff/department.inc.php:254
 msgid "Department Email"
@@ -6903,7 +6903,7 @@ msgstr "Upozornění a oznámení"
 
 #: include/staff/department.inc.php:288
 msgid "No one (disable Alerts and Notices)"
-msgstr "Nikdo (vypnuté upozornění a oznámení)"
+msgstr "Nikdo (vypnout upozornění a oznámení)"
 
 #: include/staff/department.inc.php:289
 msgid "Department members only"
@@ -6929,7 +6929,7 @@ msgstr "Členové oddělení"
 
 #: include/staff/department.inc.php:325
 msgid "Agents who are primary members of this department"
-msgstr "Zaměstnanci, kteří jsou hlavními členy tohoto oddělení"
+msgstr "Pracovníci, kteří jsou hlavními členy tohoto oddělení"
 
 #: include/staff/department.inc.php:338 include/staff/team.inc.php:147
 msgid "Select Agent"
@@ -7131,7 +7131,7 @@ msgstr "Uživatelské seznamy se používají pro volby v rozbalovacích menu u�
 
 #: include/staff/dynamic-list.inc.php:72
 msgid "Plural Name"
-msgstr "Množné číslo"
+msgstr "Jméno v množném čísle"
 
 #: include/staff/dynamic-list.inc.php:86
 msgid "Sort Order"
@@ -7211,7 +7211,7 @@ msgstr "<strong>Zakázat</strong> pro tuto e-mailovou adresu"
 
 #: include/staff/email.inc.php:162
 msgid "Email Login Information"
-msgstr "Přihlašovací informace e-mailu"
+msgstr "Přihlašovací údaje e-mailé schránky"
 
 #: include/staff/email.inc.php:189
 msgid "Fetching Email via IMAP or POP"
@@ -7446,7 +7446,7 @@ msgstr "Pořadí provádění"
 
 #: include/staff/filter.inc.php:66
 msgid "<strong>Stop</strong> processing further on match!"
-msgstr "<strong>Zastavit</strong> další provádění při shodě!"
+msgstr "<strong>Zastavit</strong>zpracování při shodě!"
 
 #: include/staff/filter.inc.php:73
 msgid "Filter Status"
@@ -7505,7 +7505,7 @@ msgstr "Přidat pravidlo"
 
 #: include/staff/filter.inc.php:230
 msgid "Can be overwridden by other filters depending on processing order."
-msgstr "Může být přepsáno jinými filtry v závislosti na pořadí provádění."
+msgstr "Může být přepsáno jinými filtry v závislosti na pořadí zpracování."
 
 #: include/staff/filter.inc.php:232
 msgid "Actions are executed in the order declared below"
@@ -7673,7 +7673,7 @@ msgstr "Nepřiřazeno"
 #: include/staff/templates/org-profile.tmpl.php:54
 #, php-format
 msgid "Agents (%d)"
-msgstr "Zaměstnanci (%d)"
+msgstr "Pracovníci (%d)"
 
 #: include/staff/helptopic.inc.php:304 include/staff/ticket-open.inc.php:269
 #: include/staff/templates/org-profile.tmpl.php:64
@@ -7771,7 +7771,7 @@ msgstr "Úvodní stránka"
 
 #: include/staff/page.inc.php:5 include/staff/settings-pages.inc.php:68
 msgid "Offline Page"
-msgstr "Offline stránka"
+msgstr "Stránka mimo provoz"
 
 #: include/staff/page.inc.php:11
 msgid "Update Page"
@@ -7803,7 +7803,7 @@ msgstr "Obsah stránky"
 
 #: include/staff/page.inc.php:175
 msgid "Ticket variables are only supported in thank-you pages."
-msgstr "Proměnné požadavku jsou podporovány pouze na stránce s poděkování."
+msgstr "Proměnné požadavku jsou podporovány pouze na stránce s poděkováním."
 
 #: include/staff/pages.inc.php:34 scp/pages.php:21 scp/pages.php:40
 msgid "site page"
@@ -7941,7 +7941,7 @@ msgstr "Stav a nastavení"
 
 #: include/staff/profile.inc.php:138
 msgid "Show assigned tickets on open queue."
-msgstr "Ukáže přiřazené požadavky v seznamu otevřených."
+msgstr "Ukázat přiřazené požadavky v seznamu otevřených."
 
 #: include/staff/profile.inc.php:144 include/staff/staff.inc.php:193
 msgid "Vacation Mode"
@@ -7949,7 +7949,7 @@ msgstr "Na dovolené"
 
 #: include/staff/profile.inc.php:161
 msgid "Profile preferences and settings"
-msgstr "Volby a nastavení profilu"
+msgstr "Možnosti a nastavení profilu"
 
 #: include/staff/profile.inc.php:167
 msgid "Maximum Page size"
@@ -8176,7 +8176,7 @@ msgstr "Neuvádět jméno pracovníka v odpovědích."
 #: include/staff/settings-agents.inc.php:47
 #: include/staff/settings-users.inc.php:40
 msgid "Avatar Source"
-msgstr "Zdroj ikony uživatele"
+msgstr "Zdroj ikon uživatelů"
 
 #: include/staff/settings-agents.inc.php:73
 #: include/staff/settings-users.inc.php:66
@@ -8223,7 +8223,7 @@ msgstr "doba od uzamknutí účtu v minutách"
 
 #: include/staff/settings-agents.inc.php:132
 msgid "Agent Session Timeout"
-msgstr "Maximální doba nečinnosti pracovníka"
+msgstr "Maximální délka nečinnosti pracovníka"
 
 #: include/staff/settings-agents.inc.php:135
 msgid "(0 to disable)"
@@ -8404,7 +8404,7 @@ msgstr "Akceptovat e-maily od neznámých uživatelů"
 
 #: include/staff/settings-emails.inc.php:138
 msgid "Accept Email Collaborators"
-msgstr "Přidat spolupracovníky podle e-mailu"
+msgstr "Přidat spolupracovníky z e-mailu"
 
 #: include/staff/settings-emails.inc.php:141
 msgid "Automatically add collaborators from email fields"
@@ -8469,7 +8469,7 @@ msgstr "Pozadí přihlášení"
 #: include/staff/settings-pages.inc.php:42
 #, php-format
 msgid "To edit or add new pages go to %s Manage &gt; Site Pages %s"
-msgstr "Pro úpravu či přidání stránek běžte na %s Spravovat &gt; stránky %s"
+msgstr "Pro úpravu či přidání stránek běžte na %s Spravovat &gt; Stránky %s"
 
 #: include/staff/settings-pages.inc.php:53
 msgid "Select Landing Page"
@@ -8477,7 +8477,7 @@ msgstr "Vyberte úvodní stránku"
 
 #: include/staff/settings-pages.inc.php:72
 msgid "Select Offline Page"
-msgstr "Vyberte offline stránku"
+msgstr "Vyberte stránku mimo provoz"
 
 #: include/staff/settings-pages.inc.php:89
 msgid "Default Thank-You Page"
@@ -8561,7 +8561,7 @@ msgstr "Výchozí počet záznamů na stránce"
 
 #: include/staff/settings-system.inc.php:87
 msgid "Default Log Level"
-msgstr "Výchozí úroveň logu"
+msgstr "Výchozí úroveň logování"
 
 #: include/staff/settings-system.inc.php:90
 msgid "None (Disable Logger)"
@@ -8581,11 +8581,11 @@ msgstr "ERROR"
 
 #: include/staff/settings-system.inc.php:100
 msgid "Purge Logs"
-msgstr "Mazání logů"
+msgstr "Čištění logů"
 
 #: include/staff/settings-system.inc.php:103
 msgid "Never Purge Logs"
-msgstr "Nikdy nemazat logy"
+msgstr "Nikdy nečistit logy"
 
 #: include/staff/settings-system.inc.php:108
 #, php-format
@@ -8674,7 +8674,7 @@ msgstr "Přidat jazyk"
 
 #: include/staff/settings-system.inc.php:297
 msgid "Attachments Storage and Settings"
-msgstr "Nastavení možností příloh"
+msgstr "Nastavení možností příloh a jejich ukládání"
 
 #: include/staff/settings-system.inc.php:302
 msgid "Store Attachments"
@@ -8765,7 +8765,7 @@ msgstr "Zamknout při události"
 
 #: include/staff/settings-tickets.inc.php:166
 msgid "Maximum <b>Open</b> Tickets"
-msgstr "Maximální počet <b>otevřených</b> požadavků"
+msgstr "Maximum <b>otevřených</b> požadavků"
 
 #: include/staff/settings-tickets.inc.php:169
 msgid "per end user"
@@ -8810,11 +8810,11 @@ msgstr "Nastavení uživatelů"
 
 #: include/staff/settings-users.inc.php:69
 msgid "Registration Required"
-msgstr "Vyžadovana registrace"
+msgstr "Registrace vyžadována"
 
 #: include/staff/settings-users.inc.php:73
 msgid "Require registration and login to create tickets"
-msgstr "Vyžadovat registrace a přihlášení k vytvoření požadavku"
+msgstr "Vyžadovat registraci a přihlášení k vytvoření požadavku"
 
 #: include/staff/settings-users.inc.php:76
 msgid "Registration Method"
@@ -8830,7 +8830,7 @@ msgstr "Veřejné - každý se může registrovat"
 
 #: include/staff/settings-users.inc.php:81
 msgid "Private — Only agents can register users"
-msgstr "Privátní - registrovat uživatele mohou jen pracovníci"
+msgstr "Soukromé - registrovat uživatele mohou jen pracovníci"
 
 #: include/staff/settings-users.inc.php:92
 msgid "User Excessive Logins"
@@ -8908,7 +8908,7 @@ msgstr "Přechodné"
 
 #: include/staff/slaplan.inc.php:78
 msgid "SLA can be overridden on ticket transfer or help topic change"
-msgstr "Plán SLA může být přepsán při předání požadavku nebo změně tématu podpory"
+msgstr "Plán SLA může být potlačen při předání požadavku nebo změně tématu podpory"
 
 #: include/staff/slaplan.inc.php:84
 msgid "Ticket Overdue Alerts"
@@ -8920,7 +8920,7 @@ msgstr "<strong>Zakázat</strong> upozornění na zpožděné požadavky."
 
 #: include/staff/slaplan.inc.php:89
 msgid "(Override global setting)"
-msgstr "(Přepsat globální nastavení)"
+msgstr "(Potlačit globální nastavení)"
 
 #: include/staff/slaplans.inc.php:46
 msgid "Service Level Agreements"
@@ -9093,7 +9093,7 @@ msgstr "Všechny logy"
 
 #: include/staff/syslogs.inc.php:36
 msgid "Entered date span is invalid. Selection ignored."
-msgstr "Zadaný rozsah data není platný, výběr byl ignorováno."
+msgstr "Zadané období není platné, výběr byl ignorován."
 
 #: include/staff/syslogs.inc.php:84 include/staff/syslogs.inc.php:174
 msgid "No logs found"
@@ -9117,7 +9117,7 @@ msgstr "Smazat vybrané záznamy"
 
 #: include/staff/syslogs.inc.php:136
 msgid "Log Title"
-msgstr "Titulek logu"
+msgstr "Název logu"
 
 #: include/staff/syslogs.inc.php:137
 msgid "Log Type"
@@ -9361,7 +9361,7 @@ msgstr "Interní poznámky zobrazitelné všemi správci."
 
 #: include/staff/team.inc.php:138
 msgid "Agents who are members of this team"
-msgstr "Zaměstnanci, kteří jsou členy tohoto týmu"
+msgstr "Pracovníci, kteří jsou členy tohoto týmu"
 
 #: include/staff/teams.inc.php:41 scp/teams.php:20 scp/teams.php:26
 msgid "team"
@@ -9413,7 +9413,7 @@ msgstr "Jazyk"
 
 #: include/staff/template.inc.php:90
 msgid "Click on the title to edit."
-msgstr "Pro úpravu klikněte na název."
+msgstr "Pro úpravu klikněte na název šablony."
 
 #: include/staff/template.inc.php:97
 #, php-format
@@ -9482,7 +9482,7 @@ msgstr "Informace o požadavku"
 
 #: include/staff/ticket-edit.inc.php:64
 msgid "Due date overrides SLA's grace period."
-msgstr "Lhůta dokončení má vyšší prioritu než lhůta z plánu SLA."
+msgstr "Lhůta dokončení potlačí lhůtu z plánu SLA."
 
 #: include/staff/ticket-edit.inc.php:69 include/staff/ticket-open.inc.php:128
 msgid "Ticket Source"
@@ -10240,7 +10240,7 @@ msgstr "Přidat do všech požadavků z této organizace"
 
 #: include/staff/templates/org-profile.tmpl.php:142
 msgid "Email Domain"
-msgstr "Doména e-mailové adresy"
+msgstr "Doména e-mailových adres"
 
 #: include/staff/templates/org-profile.tmpl.php:148
 msgid "Auto Add Members From"
@@ -10516,7 +10516,7 @@ msgstr "Automaticky detekovat"
 #: include/staff/templates/user-account.tmpl.php:63
 #: include/staff/templates/user-register.tmpl.php:129
 msgid "User Preferences"
-msgstr "Uživatelské předvolby"
+msgstr "Uživatelské možnosti"
 
 #: include/staff/templates/user-account.tmpl.php:84
 msgid "Account Access"
@@ -11225,7 +11225,7 @@ msgstr "Nemůžete smazat či zakázat výchozí oddělení. Vyberte nové vých
 #: scp/departments.php:89
 #, php-format
 msgid "Unable to make %s private. Possibly already private!"
-msgstr "%s nelze označit jako privátní. Pravděpodobně již privátní je!"
+msgstr "%s nelze označit jako soukromou. Pravděpodobně již soukromá je!"
 
 #: scp/departments.php:99
 msgid "Departments with agents can not be deleted. Move the agents first."
@@ -11577,11 +11577,11 @@ msgstr "Přístup zamítnut. Kontaktujte správce"
 
 #: scp/staff.inc.php:88
 msgid "System Offline"
-msgstr "Systém je offline"
+msgstr "Systém je mimo provoz"
 
 #: scp/staff.inc.php:121
 msgid "System is set to offline mode"
-msgstr "Systém je nastaven do offline módu"
+msgstr "Systém je mimo provoz"
 
 #: scp/staff.inc.php:121
 msgid "Client interface is disabled and ONLY admins can access staff control panel."
@@ -12060,7 +12060,7 @@ msgstr "Zadejte znovu heslo správce. Musí se shodovat."
 
 #: setup/tips.php:42 setup/inc/install.inc.php:85
 msgid "MySQL Table Prefix"
-msgstr "Prefix názvů tabulek v MySQL"
+msgstr "Předpona názvů tabulek v MySQL"
 
 #: setup/tips.php:43
 msgid "osTicket requires table prefix in order to avoid possible table conflicts in a shared database."
@@ -12076,7 +12076,7 @@ msgstr "Většina serverů používá jako název místního databázového serv
 
 #: setup/tips.php:50 setup/inc/install.inc.php:97
 msgid "MySQL Database"
-msgstr "MySQL databáze"
+msgstr "Název MySQL databáze"
 
 #: setup/tips.php:51
 msgid "Name of the database osTicket will use."

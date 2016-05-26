@@ -1,16 +1,78 @@
+#
+# This is popup help messages for the Admin Panel -> Settings -> Users
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
+# General Settings
 client_name_format:
-  title: Styl zobrazení jména zákazníka
-  content: Vyberte styl zobrazení zákazníků pro celý systém. Šablony e-mailů toto nastavení použijí, pokud není specifikován jiný formát.
+    title: Styl zobrazení jména
+    content: >
+        Vyberte styl zobrazení jmen pro celý systém. Šablony e-mailů toto 
+        nastavení použijí, pokud není specifikován jiný formát.
+
+# Authentication settings
 client_session_timeout:
-  title: Maximální doba nečinnosti zákazníka
-  content: 'Vyberte maximální délku (v minutách) nečinnosti zákazníka, než bude vyžadováno, aby se zákazník znovu přihlásil.<br><br>Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti zákazníka</span> vypnout, zadejte 0.'
+    title: Maximální doba nečinnosti uživatele
+    content: >
+        Vyberte maximální délku (v minutách) nečinnosti uživatele, než bude 
+        vyžadováno, aby se uživatel znovu přihlásil.
+        <br><br>
+        Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti 
+        uživatele</span> vypnout, zadejte 0.
+
 registration_method:
-  title: Metoda registrace
-  content: 'Volby <span class="doc-desc-title">Metoda registrace</span> a <span class="doc-desc-title">Vyžadována registrace</span> jsou společně použity k nastavení, jak se zákazníci registrují a přistupují k zákaznickému portálu vašeho systému zákaznické podpory. Tabulka níže zobrazuje, jak tyto dvě volby jsou ovlivňují systém. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Vyžadována registrace</th> <th>Metoda registrace</th> <th>Výsledek</th></tr> <tr><td>Ne</td><td>Veřejné</td> <td>Registrace je doporučena, ale není vyžadována pro nové požadavky.</td></tr> <tr><td>Ano</td><td>Veřejné</td> <td>Registrace a přihlášení je vyžadováno pro zadávání nových požadavků.</td></tr> <tr><td>Ne</td><td>Soukromé</td> <td>Kdokoliv může vytvořit nový požadavek, ale je zaměstnanci mohou vytvářet účty.</td></tr> <tr><td>Ano</td><td>Soukromé</td> <td>Zákazníkům je přístup umožněn pouze na pozvánku</td></tr> <tr><td>Ne</td><td>Vypnuté</td> <td>Nikdo se nemůže zaregistrovat, ale kdokoliv může vytvořit požadavek<em>Takto fungoval osTicket před verzí 1.9</em></td></tr> <tr><td>Ano</td><td>Vypnuté</td> <td>Zadávání nových požadavků přes zákaznický portál je vypnuto</td></tr> </tbody></table>'
+    title: Registration Options
+    content: >
+        Volby <span class="doc-desc-title">Metoda registrace</span> a <span 
+        class="doc-desc-title">Vyžadována registrace</span> jsou společně 
+        použity k nastavení, jak se zákazníci registrují a přistupují k 
+        zákaznickému portálu vašeho systému zákaznické podpory. Tabulka níže 
+        zobrazuje, jak tyto dvě volby jsou systémem vyhodnoceny.
+        <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px"
+            ><tbody style="vertical-align:top;">
+            <tr><th>Registrace vyžadována</th>
+                <th>Metoda registrace</th>
+                <th>Výsledek</th></tr>
+            <tr><td>No</td><td>Veřejná</td>
+                <td>Registrace je doporučena, ale není vyžadována pro 
+                    nové požadavky.</td></tr>
+            <tr><td>Ano</td><td>Veřejná</td>
+                <td>Registrace a přihlášení jsou vyžadovány pro zadání požadavků.</td></tr>
+            <tr><td>Ne</td><td>Soukromá</td>
+                <td>Kdokoliv může vytvořit nový požadavek, ale jen pracovníci 
+                    mohou vytvářet účty.</td></tr>
+            <tr><td>Ano</td><td>Soukromá</td>
+                <td>Zákazníkům je přístup umožněn pouze na pozvánku.</td></tr>
+            <tr><td>Ne</td><td>Vypnuta</td>
+                <td>Nikdo se nemůže zaregistrovat, ale kdokoliv může vytvořit 
+                    požadavek.<em>Takto fungoval osTicket před verzí 
+                    1.9.</em></td></tr>
+            <tr><td>Ano</td><td>Vypnuta</td>
+                <td>Zadávání požadavků přes web je vypnuté.</td></tr>
+        </tbody></table>
+
 client_verify_email:
-  title: Vyžadovat oveření e-mailové adresy
-  content: 'Pokud je tato volba vypnuta, zákazníci dostanou okamžitý přístup k požadavkům skrz přihlašovací stránku pro kontrolu stavu požadavku na zákaznickém portálu. Pokud je tato volba zapnuta, což je výchozí stav, tak je pak nutné, aby byl zákazníkovi nejdříve doručen e-mail s odkazem na zobrazení požadavku.<br><br>Vypnutí této volby může dovolit ostatním vydávat se za zadavatele požadavku.'
+    title: Vyžadovat oveření e-mailové adresy
+    content: >
+        Pokud je tato volba vypnuta, uživatelé dostanou okamžitý přístup k 
+        požadavkům skrze stránku pro kontrolu stavu požadavku na zákaznickém 
+        portále. Pokud je tato volba zapnuta (výchozí stav), pak je nutné, aby 
+        byl uživateli nejdříve doručen e-mail s odkazem na zobrazení požadavku.
+        <br><br>
+        Vypnutím této volby umožníte ostatním (např. spolupracovníkům) vydávat 
+        se za zadavatele požadavku.
+
 allow_auth_tokens:
-  title: Povolit přihlašovací tokeny
-  content: Tato volba umožní použití autopřihlašovacích tokenů pro odkazy zaslané uživatelům.
+    title: Povolit přihlašovací poukázky
+    content: >
+        Tato volba umožní použití autopřihlašovacích poukázek při kliknutí na odkazy zaslané uživatelům.

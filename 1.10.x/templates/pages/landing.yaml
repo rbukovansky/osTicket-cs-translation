@@ -1,8 +1,23 @@
+#
+# Page template: landing.yaml
+#
+# The landing page is served on the front page of the customer portal above
+# the two links for creating new tickets and viewing ticket status.
+#
 ---
-notes: 'Landing Page odkazuje na obsah počátečního zobrazení Zákaznického Portálu. Šablona mění obsah zobrazený nad dvěma odkazy <strong>Otevřít nový tiket</strong> a <strong>Zkontrolovat stav tiketu</strong>.'
-name: Vstupní
-body: |
+notes: >
+    Úvodní stránka odkazuje na obsah výchozího vzhledu zákaznického portálu. 
+    Tato šablona mění obsah, který je možno vidět na dvěmi odkazy
+    <strong>Vytvořit nový požadavek</strong> a <strong>Zkontrolovat stav požadavku</strong>.'
+
+name: Úvodní
+body: >
   <h1>Vítejte v centru zákaznické podpory</h1>
   <p>
-  S cílem zefektivnit podporu pro řešení zákaznických požadavků a naše lepší služby, používáme systém zákaznické podpory. Každému požadavku je přiřazeno jedinečné identifikační číslo požadavku, které můžete použít k online sledování stavu vyřizování Vašeho požadavku. Pro Vaše informování máme k dispozici kompletní archivy a historii všech zákaznických požadavků. Platná e-mailová adresa je nezbytná pro založení zákaznického požadavku.
+  S cílem zefektivnit řešení zákaznických požadavků a naše lepší služby, 
+  používáme systém zákaznické podpory. Každému požadavku je přiřazeno jedinečné 
+  identifikační číslo, které můžete použít k online sledování stavu řešení 
+  vašeho požadavku. Uchováváme všechny vaše požadavky a jejich historii, pokud 
+  byste se do nich chtěli ještě někdy nahlédnout. Platná e-mailová adresa je 
+  nezbytná pro založení požadavku.
   </p>

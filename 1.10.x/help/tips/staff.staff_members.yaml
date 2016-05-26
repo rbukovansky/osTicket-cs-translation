@@ -1,7 +1,29 @@
+#
+# This is popup help messages for the Admin Panel -> Staff -> Staff Members
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
 staff_members:
-  title: Zaměstnanci
-  content: 'Následující tabulka zobrazuje výsledky dle filtru výše. Není-li vybrán filtr, pak jsou zobrazeni všichni<span class="doc-desc-title">zaměstnanci</span>. <span class="doc-desc-title">Členové</span> jsou rozděleni a rozděleni po stránkách. Pro navigaci v dalších výsledcích použijte sekci stránkování níže.'
+    title: Staff Members
+    content: >
+        Následující tabulka zobrazuje výsledky hledání dle filtru výše. Není-li vybrán 
+        filtr, pak jsou zobrazeni všichni <span 
+        class="doc-desc-title">pracovníci</span>. <span 
+        class="doc-desc-title">Členové</span> jsou rozděleni po stránkách. 
+        Sekce stránkování je zobrazena níže.
+
 status:
-  title: Stav
-  content: 'Zde se zobrazí, zda-li je <span class="doc-desc-title">zaměstnanec</span> je uzamčen, aktivní či aktivní (na dovolená).'
+    title: Stav
+    content: >
+        Zde se zobrazí, zda-li je <span class="doc-desc-title">pracovník</span> je 
+        uzamčen, aktivní či na dovolené.
