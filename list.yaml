@@ -19,7 +19,7 @@
         sort: 1
         edit_mask: 63
         configuration:
-          prompt: Stav ticketu
+          prompt: Stav požadavku
       - 
         type: memo
         name: description
