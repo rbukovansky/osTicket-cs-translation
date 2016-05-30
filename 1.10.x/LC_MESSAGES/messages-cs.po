@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-26 15:38+0200\n"
+"PO-Revision-Date: 2016-05-30 08:56+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -234,7 +234,7 @@ msgstr "Přidat nového pracovníka"
 #: include/ajax.content.php:31 include/staff/syslogs.inc.php:138
 #, php-format
 msgid "Log Date"
-msgstr "Datum logu"
+msgstr "Datum záznamu"
 
 #: include/ajax.content.php:33 include/class.forms.php:1254
 #: include/staff/apikey.inc.php:53 include/staff/apikey.inc.php:71
@@ -258,7 +258,7 @@ msgstr "%s: neznámé nebo neplatné ID."
 
 #: include/ajax.content.php:37
 msgid "log entry"
-msgstr "Položka logu"
+msgstr "Položka záznamu"
 
 #: include/ajax.content.php:47
 msgid "Ticket Variables"
@@ -512,7 +512,7 @@ msgstr "Interní poznámka <em>(rozšiřitelná)</em>"
 
 #: include/ajax.content.php:86
 msgid "Agent assigning the ticket"
-msgstr "Zaměstnanec přiřazující požadavek"
+msgstr "Pracovník přiřazující požadavek"
 
 #: include/ajax.content.php:87 include/class.osticket.php:152
 msgid "osTicket's base url (FQDN)"
@@ -2113,7 +2113,7 @@ msgstr "Zvolte platnou roli"
 
 #: include/class.dept.php:661 include/class.team.php:203
 msgid "No such agent"
-msgstr "Zaměstnanec neexistuje"
+msgstr "Pracovník neexistuje"
 
 #: include/class.dept.php:695 include/staff/department.inc.php:61
 msgid "Top-Level Department"
@@ -2559,7 +2559,7 @@ msgstr "Zodpovězené"
 
 #: include/class.export.php:99 include/class.export.php:153
 msgid "Agent Assigned"
-msgstr "Zaměstnanec přiřazen"
+msgstr "Pracovník přiřazen"
 
 #: include/class.export.php:100 include/class.export.php:154
 msgid "Team Assigned"
@@ -2651,7 +2651,7 @@ msgstr "Obrázek je příliš čtvercový. Nahrajte širší obrázek"
 
 #: include/class.file.php:857
 msgid "In the database"
-msgstr "V databázi"
+msgstr "v databázi"
 
 #: include/class.filter.php:25 include/client/view.inc.php:79
 #: include/staff/ticket-edit.inc.php:27 include/staff/ticket-open.inc.php:48
@@ -3650,7 +3650,7 @@ msgstr "Neznámý zpracovatel"
 #: include/class.task.php:682 include/class.ticket.php:2126
 #: include/class.ticket.php:2191
 msgid "Agent is unavailable for assignment"
-msgstr "Zaměstnanec je nedostupný pro přiřazení"
+msgstr "Pracovník je nedostupný pro přiřazení"
 
 #: include/class.forms.php:4115
 msgid "Team is disabled"
@@ -4019,7 +4019,7 @@ msgstr "Správa pracovníků"
 #: include/upgrader/aborted.inc.php:24
 #, php-format
 msgid "System Logs"
-msgstr "Systémové logy"
+msgstr "Systémové záznamy"
 
 #: include/class.nav.php:246
 msgid "Company"
@@ -4327,7 +4327,7 @@ msgstr "Témata"
 #: include/staff/templates/tasks-actions.tmpl.php:153
 #: include/staff/templates/tickets-actions.tmpl.php:26
 msgid "Agent"
-msgstr "Zaměstnanec"
+msgstr "Pracovník"
 
 #: include/class.report.php:247
 msgid "Opened"
@@ -4643,7 +4643,7 @@ msgstr "Vyberte platné oddělení"
 
 #: include/class.staff.php:1093
 msgid "Agent already has access to this department"
-msgstr "Zaměstnanec již přístup do tohoto oddělení má"
+msgstr "Pracovník již přístup do tohoto oddělení má"
 
 #: include/class.staff.php:1189
 msgid "Send the agent a password reset email"
@@ -4718,7 +4718,7 @@ msgstr "Typ účtu"
 
 #: include/class.staff.php:1423
 msgid "Agent has access to the admin panel"
-msgstr "Zaměstnanec má přístup ke správcovskému panelu"
+msgstr "Pracovník má přístup k panelu správce"
 
 #: include/class.staff.php:1429
 msgid "Send a welcome email with login information"
@@ -5131,7 +5131,7 @@ msgstr "Zadavatel položky ve vláknu"
 
 #: include/class.thread.php:1114
 msgid "Agent posting the note or response"
-msgstr "Zaměstnanec zadávající poznámku či odpověď"
+msgstr "Pracovník zadávající poznámku či odpověď"
 
 #: include/class.thread.php:1116
 msgid "Subject, if any"
@@ -5750,7 +5750,7 @@ msgstr "Typ poslední události"
 
 #: include/class.variable.php:268
 msgid "Agent performing the assignment"
-msgstr "Zaměstnanec provádějící přiřazení"
+msgstr "Pracovník provádějící přiřazení"
 
 #: include/class.variable.php:270
 msgid "Access link"
@@ -6808,11 +6808,11 @@ msgstr "Jeden kvartál"
 #: include/staff/dashboard.inc.php:48 include/staff/tasks.inc.php:316
 #: include/staff/tickets.inc.php:438
 msgid "Refresh"
-msgstr "Občerstvit"
+msgstr "Obnovit"
 
 #: include/staff/dashboard.inc.php:56
 msgid "Ticket Activity"
-msgstr "Událost požadavku"
+msgstr "Události požadavků"
 
 #: include/staff/dashboard.inc.php:68
 msgid "Statistics"
@@ -7567,7 +7567,7 @@ msgstr "Vítejte %s."
 #: include/staff/header.inc.php:64 include/upgrader/done.inc.php:28
 #, php-format
 msgid "Admin Panel"
-msgstr "Správcovský panel"
+msgstr "Panel správce"
 
 #: include/staff/header.inc.php:66
 msgid "Agent Panel"
@@ -8561,11 +8561,11 @@ msgstr "Výchozí počet záznamů na stránce"
 
 #: include/staff/settings-system.inc.php:87
 msgid "Default Log Level"
-msgstr "Výchozí úroveň logování"
+msgstr "Výchozí úroveň systémových záznamů"
 
 #: include/staff/settings-system.inc.php:90
 msgid "None (Disable Logger)"
-msgstr "Žádné (Vypnout Logování)"
+msgstr "Žádné (Vypnout systémové záznamy)"
 
 #: include/staff/settings-system.inc.php:91 include/staff/syslogs.inc.php:102
 msgid "DEBUG"
@@ -8581,11 +8581,11 @@ msgstr "ERROR"
 
 #: include/staff/settings-system.inc.php:100
 msgid "Purge Logs"
-msgstr "Čištění logů"
+msgstr "Smazat systémové záznamy"
 
 #: include/staff/settings-system.inc.php:103
 msgid "Never Purge Logs"
-msgstr "Nikdy nečistit logy"
+msgstr "Nikdy nemazat systémové záznamy"
 
 #: include/staff/settings-system.inc.php:108
 #, php-format
@@ -9001,7 +9001,7 @@ msgstr "Přiřazené týmy"
 
 #: include/staff/staff.inc.php:387
 msgid "Agent will have access to tickets assigned to a team they belong to regardless of the ticket's department. Alerts can be enabled for each associated team."
-msgstr "Zaměstnanec bude mít přístup k požadavkům přiřazeným týmům, jejichž je členem, nezávisle na oddělení požadavku. Upozornění mohou být povolena pro každý přiřazený tým."
+msgstr "Pracovník bude mít přístup k požadavkům přiřazeným týmům, jejichž je členem, nezávisle na oddělení požadavku. Upozornění mohou být povolena pro každý přiřazený tým."
 
 #: include/staff/staff.inc.php:402
 msgid "Select Team"
@@ -9077,19 +9077,19 @@ msgstr "Zamknutí pracovníci nebudou schopni se přihlásit do Ovládacího pan
 
 #: include/staff/syslogs.inc.php:11
 msgid "Errors"
-msgstr "Logy chyb"
+msgstr "Chyby"
 
 #: include/staff/syslogs.inc.php:15
 msgid "Warnings"
-msgstr "Logy varování"
+msgstr "Varování"
 
 #: include/staff/syslogs.inc.php:19
 msgid "Debug logs"
-msgstr "Logy lazení"
+msgstr "Lazení"
 
 #: include/staff/syslogs.inc.php:24
 msgid "All logs"
-msgstr "Všechny logy"
+msgstr "Všechny záznamy"
 
 #: include/staff/syslogs.inc.php:36
 msgid "Entered date span is invalid. Selection ignored."
@@ -9097,7 +9097,7 @@ msgstr "Zadané období není platné, výběr byl ignorován."
 
 #: include/staff/syslogs.inc.php:84 include/staff/syslogs.inc.php:174
 msgid "No logs found"
-msgstr "Logy nebyly nalezeny"
+msgstr "Systémové záznamy nebyly nalezeny"
 
 #: include/staff/syslogs.inc.php:93
 msgid "Between"
@@ -9105,7 +9105,7 @@ msgstr "Mezi"
 
 #: include/staff/syslogs.inc.php:97
 msgid "Log Level"
-msgstr "Úroveň logu"
+msgstr "Úroveň systémových záznamů"
 
 #: include/staff/syslogs.inc.php:105
 msgid "Go!"
@@ -9117,19 +9117,19 @@ msgstr "Smazat vybrané záznamy"
 
 #: include/staff/syslogs.inc.php:136
 msgid "Log Title"
-msgstr "Název logu"
+msgstr "Název záznamu"
 
 #: include/staff/syslogs.inc.php:137
 msgid "Log Type"
-msgstr "Typ logu"
+msgstr "Typ záznamu"
 
 #: include/staff/syslogs.inc.php:196 scp/logs.php:33 scp/logs.php:36
 #: scp/logs.php:39
 msgid "selected log entry"
 msgid_plural "selected log entries"
-msgstr[0] "vybraný zápis logu"
-msgstr[1] "vybrané zápisy logu"
-msgstr[2] "vybraných zápisů logu"
+msgstr[0] "vybraný systémový záznam"
+msgstr[1] "vybrané systémové záznamy"
+msgstr[2] "vybraných systémových záznamů"
 
 #: include/staff/system.inc.php:10
 msgid "Used for image manipulation and PDF printing"
@@ -10392,7 +10392,7 @@ msgstr "Spolupracovníci (%d)"
 #: include/staff/templates/task-view.tmpl.php:465
 #: include/staff/templates/task-view.tmpl.php:554
 msgid "Post Update"
-msgstr "Uložit změnu"
+msgstr "Vložit odpověď"
 
 #: include/staff/templates/task-view.tmpl.php:513
 msgid "Start writing your update here."
@@ -11413,7 +11413,7 @@ msgstr "Neplatné příhlášení"
 
 #: scp/logs.php:23
 msgid "one log entry"
-msgstr "jeden záznam v logu"
+msgstr "jeden systémový záznam"
 
 #: scp/orgs.php:27
 msgid "Organization ID must be specified for import"
