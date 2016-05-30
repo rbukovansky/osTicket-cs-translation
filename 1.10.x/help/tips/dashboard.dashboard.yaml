@@ -14,7 +14,7 @@
 #
 ---
 ticket_activity:
-    title: Aktivita požadavků
+    title: Události požadavků
     content: >
         Vyberte období dat pro omezení níže zobrazeného grafu a tabulky 
         (viz <span class="doc-desc-title">Statistiky</span>) na veškerá 
@@ -54,7 +54,7 @@ assigned:
         přiřazení požadavku konkrétnímu oddělení či pracovníkovi. Automatické
         přiřazování bude záviset na provedeném nastavení <span 
         class="doc-desc-title">témat podpory</span> a <span class="doc-desc-title">
-        e-mailových filtrů</span> ve správcovském panelu.
+        e-mailových filtrů</span> v panelu správce.
 
 overdue:
     title: Zpožděné
