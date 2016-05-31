@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-05-31 13:48+0200\n"
+"PO-Revision-Date: 2016-05-31 13:58+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -5205,7 +5205,7 @@ msgstr "Nelze naimportovat přílohu - %s"
 #: include/class.thread.php:914
 #, php-format
 msgid "Error #%1$d: %2$s"
-msgstr ""
+msgstr "Chyba č. %1$d: %2$s"
 
 #: include/class.thread.php:920
 msgid "File Import Error"
@@ -7127,11 +7127,11 @@ msgstr "Pracovníci, kteří jsou hlavními členy tohoto oddělení"
 
 #: include/staff/department.inc.php:332
 msgid "Department does not have primary members"
-msgstr ""
+msgstr "Oddělení nemá primární členy"
 
 #: include/staff/department.inc.php:342
 msgid "Agents who have extended access to this department"
-msgstr ""
+msgstr "Pracovníci s rozšířeným přístupem do tohoto oddělení"
 
 #: include/staff/department.inc.php:355 include/staff/team.inc.php:147
 msgid "Select Agent"
@@ -8387,15 +8387,15 @@ msgstr "Smazané role nemohou být obnoveny."
 
 #: include/staff/settings-access.inc.php:5
 msgid "Access Control Settings"
-msgstr ""
+msgstr "Nastavení přístupových práv"
 
 #: include/staff/settings-access.inc.php:13
 msgid "Configure Access to this Help Desk"
-msgstr ""
+msgstr "Nastavení přístupu k tomuto systému zákaznické podpory"
 
 #: include/staff/settings-access.inc.php:20
 msgid "Agent Authentication Settings"
-msgstr ""
+msgstr "Nastavení přihlášení pracovníků"
 
 #: include/staff/settings-access.inc.php:23
 #: include/staff/settings-agents.inc.php:77
@@ -8462,7 +8462,7 @@ msgstr "Spárovat relaci pracovníka s IP adresou"
 
 #: include/staff/settings-access.inc.php:88
 msgid "End User Authentication Settings"
-msgstr ""
+msgstr "Nastavení přihlášení uživatelů"
 
 #: include/staff/settings-access.inc.php:91
 #: include/staff/settings-users.inc.php:69
@@ -8518,11 +8518,11 @@ msgstr ""
 #: include/staff/settings-access.inc.php:153
 #: include/staff/settings-access.inc.php:192
 msgid "Authentication and Registration Templates"
-msgstr ""
+msgstr "Šablony přihlášení a registrace"
 
 #: include/staff/settings-access.inc.php:196
 msgid "Clients"
-msgstr ""
+msgstr "Zákazníci"
 
 #: include/staff/settings-access.inc.php:197
 #: include/staff/settings-users.inc.php:178
@@ -8531,19 +8531,19 @@ msgstr "Přístup návštěvníků k požadavkům"
 
 #: include/staff/settings-access.inc.php:200
 msgid "Sign In Pages"
-msgstr ""
+msgstr "Stránky přihlášení"
 
 #: include/staff/settings-access.inc.php:203
 msgid "Agent Login Banner"
-msgstr ""
+msgstr "Hlášení systému při přihlášení pracovníka"
 
 #: include/staff/settings-access.inc.php:204
 msgid "Client Sign-In Page"
-msgstr ""
+msgstr "Stránka přihlášení uživatele"
 
 #: include/staff/settings-access.inc.php:207
 msgid "User Account Registration"
-msgstr ""
+msgstr "Registrace uživatelského účtu"
 
 #: include/staff/settings-access.inc.php:210
 #: include/staff/settings-users.inc.php:181
@@ -8552,7 +8552,7 @@ msgstr "Stránka pro potvrzení e-mailové adresy"
 
 #: include/staff/settings-access.inc.php:211
 msgid "Confirmation Email"
-msgstr ""
+msgstr "Potvrzovací e-mail"
 
 #: include/staff/settings-access.inc.php:212
 #: include/staff/settings-users.inc.php:183
@@ -8561,7 +8561,7 @@ msgstr "Stránka s potvrzením registrace"
 
 #: include/staff/settings-access.inc.php:215
 msgid "Agent Account Registration"
-msgstr ""
+msgstr "Registrace pracovníka"
 
 #: include/staff/settings-access.inc.php:218
 #: include/staff/settings-agents.inc.php:198
@@ -9061,11 +9061,11 @@ msgstr "Maximální velikost souboru pro pracovníky"
 
 #: include/staff/settings-system.inc.php:363
 msgid "Login required"
-msgstr ""
+msgstr "Přihlášení je vyžadováno"
 
 #: include/staff/settings-system.inc.php:368
 msgid "Require login to view any attachments"
-msgstr ""
+msgstr "Přihlášení je vyžadováno pro zobrazení příloh"
 
 #: include/staff/settings-tasks.inc.php:6 scp/settings.php:25
 msgid "Task Settings and Options"
@@ -9307,7 +9307,7 @@ msgstr "Omezit přístup pouze na přiřazené požadavky"
 msgid ""
 "Select the departments the agent is allowed to access and the corresponding "
 "effective role."
-msgstr ""
+msgstr "Vyberte oddělení, ke kterým má pracovník přístup a jeho roli."
 
 #: include/staff/staff.inc.php:229 include/staff/staff.inc.php:311
 #: include/staff/ticket-open.inc.php:191
@@ -9316,7 +9316,7 @@ msgstr "Vybrat oddělení"
 
 #: include/staff/staff.inc.php:260
 msgid "Fall back to primary role on assignments"
-msgstr ""
+msgstr "Ústup na hlavní roli u přiřazení"
 
 #: include/staff/staff.inc.php:298
 msgid "Extended Access"
