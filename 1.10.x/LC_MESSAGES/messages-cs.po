@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-05-31 13:33+0200\n"
+"PO-Revision-Date: 2016-05-31 14:24+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -2113,7 +2113,7 @@ msgstr ""
 #: include/staff/templates/user-account.tmpl.php:41
 #: include/staff/templates/users.tmpl.php:83
 msgid "Name"
-msgstr "Jméno"
+msgstr "Název"
 
 #: include/class.dept.php:108 include/staff/department.inc.php:119
 #: include/staff/departments.inc.php:76
@@ -2127,7 +2127,7 @@ msgstr "Chybějící nebo špatné ID oddělení (vnitřní chyba)."
 #: include/class.dept.php:635 include/class.filter.php:463
 #: include/class.role.php:150 setup/inc/class.installer.php:50
 msgid "Name required"
-msgstr "Vyžadováno jméno"
+msgstr "Vyžadován název"
 
 #: include/class.dept.php:638
 msgid "Department already exists"
@@ -2786,7 +2786,7 @@ msgstr "Musí být číselná hodnota"
 
 #: include/class.filter.php:465 include/class.role.php:153
 msgid "Name already in use"
-msgstr "Jméno je již použito"
+msgstr "Název je již použit"
 
 #: include/class.filter.php:468
 msgid "Unable to validate rules as entered"
