@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-File: /1.10.x/LC_MESSAGES/messages.pot\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
-"PO-Revision-Date: 2016-05-30 08:56+0200\n"
+"PO-Revision-Date: 2016-05-30 17:04+0200\n"
 "POT-Creation-Date: \n"
 
 #: account.php:64 include/class.ticket.php:3226
@@ -7048,7 +7048,7 @@ msgstr "položky jsou dostupné tam, kde je tento formulář použit"
 #: include/staff/settings-tasks.inc.php:99
 #: include/staff/settings-tickets.inc.php:226
 msgid "Config"
-msgstr "Konfigurace"
+msgstr "Nastavení"
 
 #: include/staff/dynamic-form.inc.php:301
 msgid "Remove Existing Data?"
@@ -7865,7 +7865,7 @@ msgstr "Nastavení pluginu"
 
 #: include/staff/plugin.inc.php:28
 msgid "Configuration"
-msgstr "Konfigurace"
+msgstr "Nastavení"
 
 #: include/staff/plugin.inc.php:36
 msgid "This plugin has no configurable settings"
@@ -10020,7 +10020,7 @@ msgstr "Volitelný důvod pro smazání"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:1
 msgid "Field Configuration"
-msgstr "Konfigurace položek"
+msgstr "Nastavení položek"
 
 #: include/staff/templates/dynamic-field-config.tmpl.php:7
 msgid "Field Setup"
@@ -12552,7 +12552,7 @@ msgstr "Nelze uložit koncept."
 
 #: js/redactor-osticket.js:120 js/redactor-osticket.js:378
 msgid "Refresh the current page to restore and continue your draft."
-msgstr "Občerstvěte stávající stránku pro obnovu konceptu a pokračování v jeho úpravě."
+msgstr "Načtěte znovu stávající stránku pro obnovu konceptu a pokračování v jeho úpravě."
 
 #: js/redactor-plugins.js:143
 msgid "Remove Font Family"
