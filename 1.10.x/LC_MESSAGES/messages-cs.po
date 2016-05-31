@@ -608,6 +608,7 @@ msgid "Import Items"
 msgstr "Importovat položky"
 
 #: include/ajax.kbase.php:48 include/client/faq.inc.php:20
+#: include/staff/settings-access.inc.php:185
 #: include/staff/settings-agents.inc.php:184
 #: include/staff/settings-users.inc.php:168
 #, php-format
@@ -3336,14 +3337,6 @@ msgstr "Text zobrazený v řádku s widgetem"
 msgid "No"
 msgstr "Ne"
 
-#: include/class.forms.php:1548
-msgid "checked"
-msgstr "zaškrtnuto"
-
-#: include/class.forms.php:1549
-msgid "unchecked"
-msgstr "nezaškrtnuto"
-
 #: include/class.forms.php:1578
 msgid "Checked"
 msgstr "Zaškrtnuto"
@@ -3504,6 +3497,7 @@ msgstr "Úroveň priority"
 #: include/class.forms.php:2363 include/class.nav.php:238
 #: include/class.nav.php:262 include/class.nav.php:286
 #: include/staff/departments.inc.php:74 include/staff/directory.inc.php:100
+#: include/staff/settings-access.inc.php:195
 #: include/staff/staffmembers.inc.php:109
 msgid "Agents"
 msgstr "Pracovníci"
@@ -7577,7 +7571,9 @@ msgstr "Protokol poštovní schránky"
 msgid "Fetch Frequency"
 msgstr "Frekvence stahování"
 
-#: include/staff/email.inc.php:241 include/staff/settings-agents.inc.php:105
+#: include/staff/email.inc.php:241 include/staff/settings-access.inc.php:49
+#: include/staff/settings-access.inc.php:77
+#: include/staff/settings-agents.inc.php:105
 #: include/staff/settings-agents.inc.php:135
 #: include/staff/settings-system.inc.php:68
 msgid "minutes"
@@ -8632,6 +8628,201 @@ msgstr "Jste si jist, že chcete <b>zakázat</b> %s?"
 msgid "Deleted roles CANNOT be recovered."
 msgstr "Smazané role nemohou být obnoveny."
 
+#: include/staff/settings-access.inc.php:5
+msgid "Access Control Settings"
+msgstr "Nastavení přístupových práv"
+
+#: include/staff/settings-access.inc.php:13
+msgid "Configure Access to this Help Desk"
+msgstr "Nastavení přístupu k tomuto systému zákaznické podpory"
+
+#: include/staff/settings-access.inc.php:20
+msgid "Agent Authentication Settings"
+msgstr "Nastavení přihlášení pracovníků"
+
+#: include/staff/settings-access.inc.php:23
+#: include/staff/settings-agents.inc.php:77
+msgid "Password Expiration Policy"
+msgstr "Zásada pro vypršení platnosti hesla"
+
+#: include/staff/settings-access.inc.php:26
+#: include/staff/settings-agents.inc.php:80
+msgid "No expiration"
+msgstr "Bez časového omezení"
+
+#: include/staff/settings-access.inc.php:31
+#: include/staff/settings-agents.inc.php:85
+#, php-format
+msgid "Monthly"
+msgid_plural "Every %d months"
+msgstr[0] "Měsíčně"
+msgstr[1] "Každý %d. měsíc"
+msgstr[2] "Každý %d. měsíc"
+
+#: include/staff/settings-access.inc.php:39
+#: include/staff/settings-agents.inc.php:94
+msgid "Allow Password Resets"
+msgstr "Povolit obnovení hesla"
+
+#: include/staff/settings-access.inc.php:45
+#: include/staff/settings-agents.inc.php:101
+msgid "Reset Token Expiration"
+msgstr "Lhůta vypršení poukázky na obnovu hesla"
+
+#: include/staff/settings-access.inc.php:54
+#: include/staff/settings-agents.inc.php:111
+msgid "Agent Excessive Logins"
+msgstr "Nadměrné přihlašování pracovníka"
+
+#: include/staff/settings-access.inc.php:63
+#: include/staff/settings-access.inc.php:124
+#: include/staff/settings-agents.inc.php:120
+#: include/staff/settings-users.inc.php:102
+msgid "failed login attempt(s) allowed before a lock-out is enforced"
+msgstr "povolený počet neúspěšných pokusů o přihlášení před zablokováním účtu"
+
+#: include/staff/settings-access.inc.php:71
+#: include/staff/settings-access.inc.php:132
+#: include/staff/settings-agents.inc.php:128
+#: include/staff/settings-users.inc.php:110
+msgid "minutes locked out"
+msgstr "doba od uzamknutí účtu v minutách"
+
+#: include/staff/settings-access.inc.php:74
+#: include/staff/settings-agents.inc.php:132
+msgid "Agent Session Timeout"
+msgstr "Maximální délka nečinnosti pracovníka"
+
+#: include/staff/settings-access.inc.php:77
+#: include/staff/settings-agents.inc.php:135
+msgid "(0 to disable)"
+msgstr "(pro deaktivaci použít 0)"
+
+#: include/staff/settings-access.inc.php:80
+#: include/staff/settings-agents.inc.php:139
+msgid "Bind Agent Session to IP"
+msgstr "Spárovat relaci pracovníka s IP adresou"
+
+#: include/staff/settings-access.inc.php:88
+msgid "End User Authentication Settings"
+msgstr "Nastavení přihlášení uživatelů"
+
+#: include/staff/settings-access.inc.php:91
+#: include/staff/settings-users.inc.php:69
+msgid "Registration Required"
+msgstr "Registrace vyžadována"
+
+#: include/staff/settings-access.inc.php:95
+#: include/staff/settings-users.inc.php:73
+msgid "Require registration and login to create tickets"
+msgstr "Vyžadovat registraci a přihlášení k vytvoření požadavku"
+
+#: include/staff/settings-access.inc.php:98
+#: include/staff/settings-users.inc.php:76
+msgid "Registration Method"
+msgstr "Metoda registrace"
+
+#: include/staff/settings-access.inc.php:101
+#: include/staff/settings-users.inc.php:79
+msgid "Disabled — All users are guests"
+msgstr "Zakázáno - všichni uživatelé jsou návštěvníci"
+
+#: include/staff/settings-access.inc.php:102
+#: include/staff/settings-users.inc.php:80
+msgid "Public — Anyone can register"
+msgstr "Veřejné - každý se může registrovat"
+
+#: include/staff/settings-access.inc.php:103
+#: include/staff/settings-users.inc.php:81
+msgid "Private — Only agents can register users"
+msgstr "Soukromé - registrovat uživatele mohou jen pracovníci"
+
+#: include/staff/settings-access.inc.php:114
+#: include/staff/settings-users.inc.php:92
+msgid "User Excessive Logins"
+msgstr "Nadměrné přihlašování uživatele"
+
+#: include/staff/settings-access.inc.php:135
+#: include/staff/settings-users.inc.php:113
+msgid "User Session Timeout"
+msgstr "Maximální doba nečinnosti uživatele"
+
+#: include/staff/settings-access.inc.php:141
+#: include/staff/settings-users.inc.php:127
+msgid "Client Quick Access"
+msgstr "Rychlý přístup pro uživatele"
+
+#: include/staff/settings-access.inc.php:145
+#: include/staff/settings-users.inc.php:131
+msgid "Require email verification on \"Check Ticket Status\" page"
+msgstr ""
+"Vyžadovat ověření e-mailovou adresou na stránce \"Ověření stavu požadavku\""
+
+#: include/staff/settings-access.inc.php:153
+#: include/staff/settings-access.inc.php:192
+msgid "Authentication and Registration Templates"
+msgstr "Šablony přihlášení a registrace"
+
+#: include/staff/settings-access.inc.php:196
+msgid "Clients"
+msgstr "Zákazníci"
+
+#: include/staff/settings-access.inc.php:197
+#: include/staff/settings-users.inc.php:178
+msgid "Guest Ticket Access"
+msgstr "Přístup návštěvníků k požadavkům"
+
+#: include/staff/settings-access.inc.php:200
+msgid "Sign In Pages"
+msgstr "Stránky přihlášení"
+
+#: include/staff/settings-access.inc.php:203
+msgid "Agent Login Banner"
+msgstr "Hlášení systému při přihlášení pracovníka"
+
+#: include/staff/settings-access.inc.php:204
+msgid "Client Sign-In Page"
+msgstr "Stránka přihlášení uživatele"
+
+#: include/staff/settings-access.inc.php:207
+msgid "User Account Registration"
+msgstr "Registrace uživatelského účtu"
+
+#: include/staff/settings-access.inc.php:210
+#: include/staff/settings-users.inc.php:181
+msgid "Please Confirm Email Address Page"
+msgstr "Stránka pro potvrzení e-mailové adresy"
+
+#: include/staff/settings-access.inc.php:211
+msgid "Confirmation Email"
+msgstr "Potvrzovací e-mail"
+
+#: include/staff/settings-access.inc.php:212
+#: include/staff/settings-users.inc.php:183
+msgid "Account Confirmed Page"
+msgstr "Stránka s potvrzením registrace"
+
+#: include/staff/settings-access.inc.php:215
+msgid "Agent Account Registration"
+msgstr "Registrace pracovníka"
+
+#: include/staff/settings-access.inc.php:218
+#: include/staff/settings-agents.inc.php:198
+msgid "Agent Welcome Email"
+msgstr "Uvítací e-mail pracovníka"
+
+#: include/staff/settings-access.inc.php:223
+#: include/staff/settings-agents.inc.php:206
+#: include/staff/settings-emails.inc.php:176
+#: include/staff/settings-kb.inc.php:43
+#: include/staff/settings-pages.inc.php:291
+#: include/staff/settings-system.inc.php:376
+#: include/staff/settings-tasks.inc.php:291
+#: include/staff/settings-tickets.inc.php:249
+#: include/staff/settings-users.inc.php:189 include/staff/tpl.inc.php:134
+msgid "Reset Changes"
+msgstr "Vymazat změny"
+
 #: include/staff/settings-agents.inc.php:5
 msgid "Agents Settings"
 msgstr "Nastavení pracovníků"
@@ -8665,64 +8856,10 @@ msgstr "Zdroj ikon uživatelů"
 msgid "Authentication Settings"
 msgstr "Nastavení přihlášení"
 
-#: include/staff/settings-agents.inc.php:77
-msgid "Password Expiration Policy"
-msgstr "Zásada pro vypršení platnosti hesla"
-
-#: include/staff/settings-agents.inc.php:80
-msgid "No expiration"
-msgstr "Bez časového omezení"
-
-#: include/staff/settings-agents.inc.php:85
-#, php-format
-msgid "Monthly"
-msgid_plural "Every %d months"
-msgstr[0] "Měsíčně"
-msgstr[1] "Každý %d. měsíc"
-msgstr[2] "Každý %d. měsíc"
-
-#: include/staff/settings-agents.inc.php:94
-msgid "Allow Password Resets"
-msgstr "Povolit obnovení hesla"
-
-#: include/staff/settings-agents.inc.php:101
-msgid "Reset Token Expiration"
-msgstr "Lhůta vypršení poukázky na obnovu hesla"
-
-#: include/staff/settings-agents.inc.php:111
-msgid "Agent Excessive Logins"
-msgstr "Nadměrné přihlašování pracovníka"
-
-#: include/staff/settings-agents.inc.php:120
-#: include/staff/settings-users.inc.php:102
-msgid "failed login attempt(s) allowed before a lock-out is enforced"
-msgstr "povolený počet neúspěšných pokusů o přihlášení před zablokováním účtu"
-
-#: include/staff/settings-agents.inc.php:128
-#: include/staff/settings-users.inc.php:110
-msgid "minutes locked out"
-msgstr "doba od uzamknutí účtu v minutách"
-
-#: include/staff/settings-agents.inc.php:132
-msgid "Agent Session Timeout"
-msgstr "Maximální délka nečinnosti pracovníka"
-
-#: include/staff/settings-agents.inc.php:135
-msgid "(0 to disable)"
-msgstr "(pro deaktivaci použít 0)"
-
-#: include/staff/settings-agents.inc.php:139
-msgid "Bind Agent Session to IP"
-msgstr "Spárovat relaci pracovníka s IP adresou"
-
 #: include/staff/settings-agents.inc.php:195
 #: include/staff/settings-users.inc.php:175
 msgid "Authentication and Registration Templates &amp; Pages"
 msgstr "Šablony a stránky přihlášení a registrace"
-
-#: include/staff/settings-agents.inc.php:198
-msgid "Agent Welcome Email"
-msgstr "Uvítací e-mail pracovníka"
 
 #: include/staff/settings-agents.inc.php:199
 msgid "Sign-in Login Banner"
@@ -8732,17 +8869,6 @@ msgstr "Hlášení systému při přihlášení a registraci"
 #: include/staff/settings-users.inc.php:180
 msgid "Password Reset Email"
 msgstr "E-mail pro obnovení hesla"
-
-#: include/staff/settings-agents.inc.php:206
-#: include/staff/settings-emails.inc.php:176
-#: include/staff/settings-kb.inc.php:43
-#: include/staff/settings-pages.inc.php:291
-#: include/staff/settings-system.inc.php:376
-#: include/staff/settings-tasks.inc.php:291
-#: include/staff/settings-tickets.inc.php:249
-#: include/staff/settings-users.inc.php:189 include/staff/tpl.inc.php:134
-msgid "Reset Changes"
-msgstr "Vymazat změny"
 
 #: include/staff/settings-alerts.inc.php:19
 #: include/staff/settings-tasks.inc.php:127

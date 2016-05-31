@@ -34,7 +34,7 @@ offline_page:
     title: Stránka mimo provoz
     content: >
         <span class="doc-desc-title">Offline stránka</span> se zobrazí na 
-        zákaznického portálu, pokud je  mimo provoz, viz Správcovsky panel 
+        zákaznického portálu, pokud je  mimo provoz, viz Panel správce
         -&gt; Nastavení -&gt; Systém -&gt; Stav systému zákaznické podpory.
 
 default_thank_you_page:

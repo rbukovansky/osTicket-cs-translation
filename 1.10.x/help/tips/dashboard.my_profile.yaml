@@ -21,7 +21,7 @@ username:
     title: Uživatelské jméno
     content: >
         Uživatelské jméno mohou změnit pouze pracovníci označení jako Správci. 
-        Pokud jste pracovník se správcovským oprávněním, změny uživatelského jména 
+        Pokud jste pracovník se oprávněním správce, změny uživatelského jména 
         dosáhnete vybráním pracovníka a jeho následou úpravou v tabulce <span class="doc-desc-title">Pracovníci</span>.
   links:
       - title: Změnit uživatelské jméno jako správce
@@ -89,5 +89,5 @@ signature:
         na <span class="doc-desc-title">šabloně e-mailu</span>, která bude 
         použita pro odpověď na požadavek.
   links:
-      - title: Správa e-mailových šablon ve správcovském panelu
+      - title: Správa e-mailových šablon
       href: /scp/templates.php
