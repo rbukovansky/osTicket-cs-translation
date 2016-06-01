@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-01 08:51+0200\n"
+"PO-Revision-Date: 2016-06-01 09:11+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -13389,7 +13389,7 @@ msgstr ""
 #: setup/inc/install.inc.php:12
 msgid ""
 "The URL of your helpdesk, its name, and the default system email address"
-msgstr "URL systému zákaznické podpory, jeho název a výchozí e-mailová adresu"
+msgstr "URL systému zákaznické podpory, jeho název a výchozí e-mailová adresa"
 
 #: setup/inc/install.inc.php:24
 msgid "Default Email"
