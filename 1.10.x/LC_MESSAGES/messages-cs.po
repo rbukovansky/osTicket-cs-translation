@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-01 09:11+0200\n"
+"PO-Revision-Date: 2016-06-01 10:21+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -1604,7 +1604,7 @@ msgstr "Požadavek zamítnut"
 
 #: include/api.tickets.php:140
 msgid "Unable to create new ticket: validation errors"
-msgstr "Nelze vytvořit nový požadavek: chyba ověření"
+msgstr "Nelze vytvořit nový požadavek: chyby ověření správnosti"
 
 #: include/api.tickets.php:225
 msgid "Request failed - retry again!"
@@ -2352,7 +2352,7 @@ msgstr "Dopředné bude pracovat lépe pro dlouhé seznamy"
 
 #: include/class.dynamic_forms.php:1642 include/class.forms.php:1331
 msgid "Validation Error"
-msgstr "Chyba zadání"
+msgstr "Chyba ověření správnosti"
 
 #: include/class.dynamic_forms.php:1650
 msgid "Message shown to user if the item entered is not in the list"
@@ -2791,7 +2791,7 @@ msgstr "Název je již použit"
 
 #: include/class.filter.php:468
 msgid "Unable to validate rules as entered"
-msgstr "Nelze ověřit pravidla v této podobě"
+msgstr "Nelze ověřit pravidla v této podobě na správnost"
 
 #: include/class.filter.php:472
 msgid "Target required"
@@ -3210,7 +3210,7 @@ msgstr "Maximální délka"
 
 #: include/class.forms.php:1304
 msgid "Validator"
-msgstr "Validátor"
+msgstr "Systém ověření správnosti"
 
 #: include/class.forms.php:1306 include/staff/tasks.inc.php:35
 #: include/staff/ticket-tasks.inc.php:68
@@ -3228,7 +3228,8 @@ msgstr "Regularní výraz"
 #: include/class.forms.php:1335
 msgid "Message shown to user if the input does not match the validator"
 msgstr ""
-"Zpráva, která se zobrazí uživateli, pokud hodnota neodpovídá validátoru"
+"Zpráva, která se zobrazí uživateli, pokud hodnota neodpovídá systému ověření "
+"správnosti"
 
 #: include/class.forms.php:1337 include/class.forms.php:1421
 msgid "Placeholder"
@@ -12151,7 +12152,7 @@ msgstr ""
 
 #: scp/forms.php:62
 msgid "Field has validation errors"
-msgstr "Chyba validace položky"
+msgstr "Chyba ověření správnosti položky"
 
 #: scp/forms.php:80
 msgid "one custom form"
@@ -12160,7 +12161,7 @@ msgstr "jeden uživatelský formulář"
 #: scp/forms.php:138
 #, php-format
 msgid "Unable to commit %s. Check validation errors"
-msgstr "Nelze uložit %s. Zkontrolujte chyby validace"
+msgstr "Nelze uložit %s. Zkontrolujte chyby ověření správnosti"
 
 #: scp/forms.php:138 scp/forms.php:141
 msgid "this custom form"
