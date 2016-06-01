@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-05-31 13:58+0200\n"
+"PO-Revision-Date: 2016-06-01 09:11+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -4924,7 +4924,7 @@ msgstr "Vyžadován název týmu"
 
 #: include/class.team.php:152
 msgid "Team name already exists"
-msgstr "Jméno týmu již existuje"
+msgstr "Název týmu již existuje"
 
 #: include/class.team.php:185 include/class.team.php:188 scp/teams.php:29
 #: scp/teams.php:32 scp/teams.php:43
@@ -5147,7 +5147,7 @@ msgstr "Šablona, jenž je stále používána, nemůže být vypnuta!"
 
 #: include/class.template.php:451
 msgid "Template name already exists"
-msgstr "Jméno šablony již existuje"
+msgstr "Název šablony již existuje"
 
 #: include/class.template.php:454
 msgid "Invalid template set specified"
@@ -6238,7 +6238,7 @@ msgid ""
 "Enter your username or email address again in the form below and press the "
 "<strong>Login</strong> to access your account and reset your password."
 msgstr ""
-"Zadejte své uživatelské jméno nebo e-mailovou adresu opět do níže "
+"Zadejte opět své uživatelské jméno nebo e-mailovou adresu do níže "
 "zobrazeného formuláře a stiskněte tlačítko <strong>Přihlásit se</strong> pro "
 "přístup k účtu a obnově hesla."
 
@@ -13081,7 +13081,7 @@ msgstr ""
 #: setup/inc/install.inc.php:12
 msgid ""
 "The URL of your helpdesk, its name, and the default system email address"
-msgstr "URL systému zákaznické podpory, jeho jméno a výchozí e-mailová adresu"
+msgstr "URL systému zákaznické podpory, jeho název a výchozí e-mailová adresa"
 
 #: setup/inc/install.inc.php:24
 msgid "Default Email"
