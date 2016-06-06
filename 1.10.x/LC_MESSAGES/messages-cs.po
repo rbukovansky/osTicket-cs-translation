@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-01 10:21+0200\n"
+"PO-Revision-Date: 2016-06-06 13:31+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Osticket-Major-Version: 1.10\n"
 "POT-Create-Date: 2016-03-29 02:36 +0000\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Crowdin-Project: osticket-official\n"
 "X-Crowdin-Language: cs\n"
@@ -4588,7 +4588,7 @@ msgstr "Podpis"
 
 #: include/class.staff.php:234
 msgid "Authentication backend does not support password updates"
-msgstr "Autentizační server nepodporuje změny hesel"
+msgstr "Ověřovací server nepodporuje změny hesel"
 
 #: include/class.staff.php:620
 msgid "First name is required"
@@ -6001,7 +6001,7 @@ msgstr "Zpět na index"
 #: include/client/faq-category.inc.php:48 include/client/faq.inc.php:35
 #: include/client/kb-search.inc.php:28
 msgid "Search our knowledge base"
-msgstr "Vyhledat v naší bázi znalostí"
+msgstr "Hledání v naší bázi znalostí"
 
 #: include/client/faq.inc.php:12 include/staff/faq-categories.inc.php:50
 #: include/staff/faq-view.inc.php:31
@@ -6113,7 +6113,7 @@ msgstr "Založit účet"
 
 #: include/client/login.inc.php:58
 msgid "I'm an agent"
-msgstr "Jsem pracovník"
+msgstr "Jsem pracovník podpory"
 
 #: include/client/login.inc.php:59
 msgid "sign in here"
@@ -8161,7 +8161,7 @@ msgstr "např. ja@mojefirma.cz"
 
 #: include/staff/profile.inc.php:98 include/staff/staff.inc.php:113
 msgid "Authentication"
-msgstr "Přihlašovací údaje"
+msgstr "Ověření"
 
 #: include/staff/profile.inc.php:103
 msgid "Backend"
@@ -9099,7 +9099,7 @@ msgstr "Nastavení příloh úkolů"
 
 #: include/staff/settings-tickets.inc.php:6 scp/settings.php:23
 msgid "Ticket Settings and Options"
-msgstr "Nastavení a možnosti požadavku"
+msgstr "Nastavení a možnosti požadavků"
 
 #: include/staff/settings-tickets.inc.php:15
 msgid "Autoresponder"
@@ -9194,8 +9194,7 @@ msgstr "Poukázka ověření pravosti"
 #: include/staff/settings-users.inc.php:123
 msgid "Enable use of authentication tokens to auto-login users"
 msgstr ""
-"Povolit užití přihlašovacích poukázek pro uživatele s automatickým "
-"přihlášením"
+"Povolit užití ověřovacích poukázek pro uživatele s automatickým přihlášením"
 
 #: include/staff/settings-users.inc.php:179
 msgid "Sign-In Page"
@@ -11031,7 +11030,7 @@ msgstr "Přihlašovací jméno uživatele"
 
 #: include/staff/templates/user-register.tmpl.php:40
 msgid "Authentication Sources"
-msgstr "Způsoby autentifikace"
+msgstr "Způsoby ověření"
 
 #: include/staff/templates/user-register.tmpl.php:85
 #, php-format
