@@ -72,7 +72,7 @@ overdue_alert:
       - title: Výchozí šablona pro upozornění na zpoždění požadavku
       href: /scp/templates.php?default_for=ticket.overdue
 
-      - title: Spravovat plány SLA
+      - title: Správa plánů SLA
       href: /scp/slas.php
 
 system_alerts:
@@ -83,7 +83,7 @@ system_alerts:
         class="doc-desc-title">úrovně logu</span>, jsou události takté 
         zaznamenány v <span class="doc-desc-title">systémém logu</span>.
   links:
-      - title: Zobrazit systémové logy
+      - title: Zobrazit systémové záznamy
       href: /scp/logs.php
 
       - title: Změna e-mailové adresy správce

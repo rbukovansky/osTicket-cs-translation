@@ -23,7 +23,7 @@ new_ticket_help_topic:
         Formuláře přiřazené tomuto tématu podpory budou přidány k požadavku, 
         ale nebudou obsahovat údaje.
   links:
-      - title: Spravovat témata podpory
+      - title: Správa témat podpory
       href: /scp/helptopics.php
 
 new_ticket_priority:
@@ -38,7 +38,7 @@ new_ticket_department:
         Vyberte <span class="doc-desc-title">oddělení</span>, do kteréhé budou 
         nové požadavky odeslané na tuto e-mailovou adresu zařazeny.
   links:
-      - title: Spravovat oddělení
+      - title: Správa oddělení
       href: /scp/departments.php
 
 auto_response:

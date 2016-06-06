@@ -22,7 +22,7 @@ default_email_templates:
         <br><br>
         Jednotlivým oddělením může být přiřazena specifická sada šablon emailu.
   links:
-      - title: Spravovat sady šablon e-mailů
+      - title: Správa sad šablon e-mailů
       href: /scp/templates.php
 
 default_system_email:
@@ -33,7 +33,7 @@ default_system_email:
         <span class="doc-desc-title">Oddělení</span> si mohou nastavit <span 
         class="doc-desc-title">e-mailovou adresu</span>, která přepíše toto nastavení.
   links:
-      - title: Spravovat e-mailové adresy
+      - title: Správa e-mailových adres
       href: /scp/emails.php
 
 default_alert_email:
@@ -42,7 +42,7 @@ default_alert_email:
         Vyberte e-mailovou adresu, ze které budou pracovníkům rozesílána <span class="doc-desc-title">
         upozornění a oznámení</span>.
   links:
-      - title: Spravovat e-mailové adresy
+      - title: Správa e-mailových adres
       href: /scp/emails.php
 
 admins_email_address:
@@ -60,7 +60,7 @@ email_fetching:
     content: >
         Tato volba umožní stahování e-mailů pomocí IMAP/POP protokolů pro nastavené a povolené <span class="doc-desc-title">e-mailové schránky</span>.
   links:
-      - title: Spravovat e-mailové adresy
+      - title: Správa e-mailových adres
       href: /scp/emails.php
 
 enable_autocron_fetch:
@@ -99,7 +99,7 @@ emailed_tickets_priority:
         Toto nastavení může být přepsáno pomocí <span 
         class="doc-desc-title">filtrů požadavků</span>.
   links:
-      - title: Spravovat filtry požadavků
+      - title: Správa filtrů požadavků
       href: /scp/filters.php
 
 accept_all_emails:

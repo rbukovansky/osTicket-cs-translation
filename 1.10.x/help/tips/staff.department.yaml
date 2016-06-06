@@ -38,7 +38,7 @@ template:
         automatické odpovědi, upozornění a oznámení požadavků přiřazených 
         tomuto oddělení.
   links:
-      - title: Spravovat šablony
+      - title: Správa šablon e-mailů
       href: /scp/templates.php
 
 sla:
@@ -46,7 +46,7 @@ sla:
     content: >
         Plán SLA pro požadavky přiřazených tomuto oddělení.
   links:
-      - title: Spravovat plány SLA
+      - title: Správa plánů SLA
       href: /scp/slas.php
 
 manager:
@@ -56,7 +56,7 @@ manager:
         <br/><br/>
         Vedoucí oddělení může dostávat zvláštní upozornění a taky má právo zrušit přiřazení požadavků.
   links:
-      - title: Spravovat upozornění a oznámení
+      - title: Správa upozornění a oznámení
       href: /scp/settings.php?t=alerts
 
 group_membership:

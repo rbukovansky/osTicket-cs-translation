@@ -22,7 +22,7 @@ staff_members:
         na stránky. Použijte navigaci níže k procházení záznamů.
 
 apply_filtering_criteria:
-    title: Nastavit filtrovací kritéria
+    title: Nastavit podmínky filtru
     content: >
         Vyberte <span class="doc-desc-title">oddělení</span>, kterým se aktuálně chcete zabývat. 
         Můžete též provést hledání specifického pracovníka.
