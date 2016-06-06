@@ -1,6 +1,18 @@
+#
+# Initial teams defined for the system.
+#
+# Fields:
+# flags - (int)
+#   - isenabled - (0x01) true or false if the team should be initially
+#       enabled
+#   - noalerts - (0x02)
+# name - Descriptive name for the team
+# notes - Administrative notes (viewable internal only)
+#
 ---
 - 
   isenabled: 1
   noalerts: 0
   name: Úroveň podpory 1
-  notes: Úroveň podpory 1, má zodpovědnost za úvodní kontakt se zákazníky
+  notes: |
+    Úroveň podpory 1, má zodpovědnost za úvodní kontakt se zákazníky

@@ -1,15 +1,28 @@
+#
+# Default system data for ticket statuses
+#
+# Fields:
+#  id - (int:optional) id number in the database
+#  name - (string) descriptive name of the status
+#  state - (string) Main status of a ticket
+#  (open, closed, archived, deleted)
+#  mode - (bit) access mask (1 - enabled, 2 - internal)
+#  flags - (bit) flags that can be set on a ticket
+#  properties:
+#   description - (string) Description of the status
+#
 ---
-- 
-  id: 1
+- id: 1
   name: Otevřené
   state: open
   mode: 3
   sort: 1
   flags: 0
   properties:
-    description: Otevřené požadavky.
-- 
-  id: 2
+    description: >
+        Otevřené požadavky.
+
+- id: 2
   name: Vyřešené
   state: resolved
   mode: 3
@@ -19,7 +32,7 @@
     description: Vyřešené požadavky jsou uzavřené požadavky, které mohou být znovu otevřeny zákazníkem. To může být užitečné, pokud jsou požadavky uzavírány spouštěčem a je odesláno oznámení zákazníkovi.
 - 
   id: 3
-  name: Uzavřené
+  name: Zavřené
   state: closed
   mode: 3
   sort: 3
@@ -34,13 +47,16 @@
   sort: 4
   flags: 0
   properties:
-    description: Požadavky dostupné pouze správcům, ale již nedostupné ve frontě požadavků.
-- 
-  id: 5
+    description: >
+        Požadavky dostupné pouze správcům, ale již nedostupné v seznamech 
+        požadavků.
+
+- id: 5
   name: Smazané
   state: deleted
   mode: 3
   sort: 5
   flags: 0
   properties:
-    description: Požadavky čekající na smazání. Nedostupné ve frontě požadavků.
+    description: >
+        Tickets queued for deletion. Not accessible on ticket queues.
