@@ -1,25 +1,49 @@
+#
+# Welcome ticket template
+#
+# When the system if first installed and the installer finishes setting up
+# the database, it creates a first ticket with a welcome message to the
+# administrator
+#
 ---
-deptId: 1
-topicId: 1
-name: osTicket podpora
+deptId: 1 # support
+topicId: 1 # support
+name: Podpora osTicket
 email: support@osticket.com
-source: Web
+source: Web # notrans
 subject: osTicket byl nainstalován!
 message: |
   <p>
   Děkujeme, že jste si vybrali osTicket.
   </p><p>
-  Nezapomeňte se připojit k <a href="http://osticket.com/forums">osTicket fóru</a> a přidat Váš e-mail do <a href="http://osticket.com/updates">seznamu</a> pro získání aktuálních oznámení, bezpečnostních aktualizací a upozornění. osTicket fórum je výborné místo pro získání asistence, poradenství, tipů a pomoci od ostatních členů komunity. osTicket Wiki poskytuje užitečné výukové materiály, dokumentaci a shromažďuje všechny příspěvky členů komunity. Přivítáme Vaši aktivní účast na budování osTicket komunity!
+  Nezapomeňte se připojit k <a 
+  href="http://osticket.com/forums">osTicket fóru</a> a přidat se do <a 
+  href="http://osticket.com/updates">e-mailovému seznamu</a> pro získání 
+  informací o posledních novinkách, bezpečnostních výstrahách a aktualizacích. 
+  osTicket fórum je výborné místo jak získání pomoc, rady a tipy od ostatních 
+  uživatelů. Navíc k tomu, osTicket Wiki poskytuje užitečné výukové materiály, 
+  dokumentaci a poznámky z komunity. Uvítáme i vaše příspěvky pro osTicket 
+  komunitu!
   </p><p>
-  Jestliže hledáte vysokou úroveň podpory, poskytujeme profesionální služby, komerční podporu s garantovanou dobou odezvy a přístupem k týmu vývojářů osTicket. Můžeme upravit osTicket a dokonce přidat nové funkce do systému pro splnění Vašich individuálních požadavků.
+  Pokud hledáte vyšši stupeň podpory, můžeme vám nabídnout komerční služby 
+  profesionální podpory s garantovanou dobou odezvy a přístupem k hlavnímu 
+  vývojářskému týmu. Pomůžeme vám také přizpůsobit osTicket vašim potřebám 
+  i můžeme zajistit přidání nový funkcí a vlastností přesně podle vašich 
+  požadavků a potřeb.
   </p><p>
-  Pokud si nejste jisti instalací a správou skriptu, můžete využít pronájem osTicket systému na <a
-  href="http://www.supportsystem.com">http://www.supportsystem.com/</a> -- žádné aktualizace, můžeme importovat Vaše data! Na základní infrastrutuře SupportSystem získáte všechny funkce osTicket systému a budete se moci zaměřit pouze na Vaše zákazníky, protože aplikace je stabilní, udržovaná a bezpečná.
+  Pokud vám představa správy a aktualizace vaší instalace osTicket přivádí 
+  chmury, můžete zkusit osTicket provozovat v pronájmu u společnosti <a
+  href="http://www.supportsystem.com">SupportSystem</a> -- není potřeba žádné 
+  instalace a můžeme naimportovat i vaše stávající data! Provoz osTicket na 
+  prvotřídní infrastruktuře společnosti SupportSystem vám umožní se zaměřit na 
+  vaše zákazníky, aniž byste se museli zabývat, zda-li je vaše aplikace stabilní,
+  udržovaná a bezpečná.
   </p><p>
-  Pěkný den,
+  Přejeme pěkný den,
   </p><p>
   -<br/>
-  osTicket tým http://osticket.com/
+  Tým osTicket http://osticket.com/
   </p><p>
-  <strong>PS:</strong> Nedělejte Vaše zákazníky spokojenými, mějte spokojené zákazníky!
+  <strong>PS:</strong> Nemějte jen spokojené zákazníky, mějte štastné 
+  zákazníky!
   </p>
