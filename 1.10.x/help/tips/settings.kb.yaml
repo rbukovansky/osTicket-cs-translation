@@ -25,7 +25,7 @@ knowledge_base_status:
         <br><br>
         Kategorie báze znalostí a častých dotazů mohou označeny jako interní (viditelné pouze pro pracovníky).
   links:
-      - title: Spravovat bázi znalostí
+      - title: Správa báze znalostí
       href: /scp/kb.php
 
 restrict_kb:
@@ -44,5 +44,5 @@ canned_responses:
         class="doc-desc-title">předpřipravených odpovědí</span> při odpovídání 
         na požadavky.
   links:
-      - title: Spravovat předpřipravených odpovědí
+      - title: Správa předpřipravených odpovědí
       href: /scp/canned.php

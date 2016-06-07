@@ -39,7 +39,7 @@ default_ticket_status:
         být definován zvlášť pro každé téma podpory. Taktéž může být přepsán 
         filtrem požadavků.
   links:
-      - title: Spravovat stavy požadavků
+      - title: Správa stavů požadavků
       href: /scp/lists.php?type=ticket-status
 
 default_sla:
@@ -48,7 +48,7 @@ default_sla:
         Zvolte výchozí plán SLA určující lhůtu, jak dlouho zůstane požadavek 
         otevřen, než bude označen jako zpožděný.
   links:
-      - title: Spravovat plány SLA
+      - title: Správa plánů SLA
       href: /scp/slas.php
 
 default_priority:

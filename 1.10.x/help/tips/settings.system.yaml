@@ -61,10 +61,10 @@ default_log_level:
         class="doc-desc-opt">Debug</span>.
 
 purge_logs:
-    title: Čištění logu
+    title: Mazání systémových záznamů logu
     content: >
         Určuje dobu, po kterou budou uchovávány <span 
-        class="doc-desc-title">systémové logy</span>, než budou smazány.
+        class="doc-desc-title">systémové záznamy</span>, než budou smazány.
 
 enable_richtext:
     title: Povolit formátování textu

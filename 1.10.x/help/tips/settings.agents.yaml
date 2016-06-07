@@ -32,8 +32,8 @@ password_reset:
     title: Zásady pro vypršení platnosti hesla
     content: >
         Nastavuje, jak často (v měsících) budou pracovníci povinni změnit své 
-        heslo. Pokud je toto vypnuto (nastaveno "Bez časového omezení"), tak 
-        hesla nikdy nevyprší.
+        heslo. Pokud je toto vypnuto (nastaveno "Bez časového omezení"), tak hesla 
+        nikdy nevyprší.
 
 password_expiration_policy:
     title: Zásady pro vypršení platnosti hesla
