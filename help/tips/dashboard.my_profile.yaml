@@ -1,51 +1,93 @@
+#
+# This is popup help messages for the Staff Panel -> Dashboard -> My Profile
+#
+# Fields:
+# title - Shown in bold at the top of the popover window
+# content - The body of the help popover
+# links - List of links shows below the content
+#   title - Link title
+#   href - href of link (links starting with / are translated to the
+#       helpdesk installation path)
+#
+# The key names such as 'helpdesk_name' should not be translated as they
+# must match the HTML #ids put into the page template.
+#
 ---
 contact_information:
   title: Kontaktní informace
-  content: ""
+    content: >
+
 username:
   title: Uživatelské jméno
-  content: 'Pouze správci mohou změnit uživatelské jméno. Pokud jste zaměstnanec se správcovským oprávněním, změny uživatelského jména dosáhnete jeho vybráním a následou úpravou v tabulce<span class="doc-desc-title">Zaměstnanci</span>.'
+    content: >
+        Uživatelské jméno mohou změnit pouze pracovníci označení jako Správci. 
+        Pokud jste pracovník se oprávněním správce, změny uživatelského jména 
+        dosáhnete vybráním pracovníka a jeho následou úpravou v tabulce <span class="doc-desc-title">Pracovníci</span>.
   links:
-    - 
-      title: Změňte uživatelské jméno jako správce
+      - title: Změnit uživatelské jméno jako správce
       href: /scp/staff.php
+
 time_zone:
   title: Časové pásmo
-  content: ""
+    content: >
+
 daylight_saving:
   title: Letní čas
-  content: ""
+    content: >
+
 maximum_page_size:
-  title: Maximální velikost stránky
-  content: ""
+    title: Maximální počet záznamů na stránce
+    content: >
+
 auto_refresh_rate:
   title: Rychlost automatického obnovování
-  content: ""
+    content: >
+
 default_signature:
-  title: Výchozí podpis
-  content: ""
+    title: Výchozí podpis odpovědi
+    content: >
+
 default_paper_size:
   title: Výchozí velikost papíru
-  content: ""
+    content: >
+
 show_assigned_tickets:
-  title: Ukázat přiřazené požadavky
-  content: 'Povolením schováte vaše jméno z fronty <span class="doc-desc-title">Otevřené</span> požadavky, které vám byli přiřazeny. Po skrytí vašeho jména dojde k jeho nahrazení jménem <span class="doc-desc-title">oddělení</span>, ke kterému náležíte.'
+    title: Ukázat přiřazené požadavky v seznamu otevřených.
+    content: >
+        <p>
+        Pokud tuto volbu nastavíte, tak přepíšete systémové nastavení pro 
+        schování přiřazených požadavků ze seznamu otevřených požadavků.
+        </p>
+        <p class="info-banner">
+        <i class="icon-info-sign"></i>
+        Toto nastavení je pouze dostupné v případě, že zobrazení přiřazených 
+        požadavků je vypnuto systémově.
+        </p>
+
 password:
   title: Heslo
-  content: ""
+    content: >
+
 current_password:
-  title: Aktuální heslo
-  content: ""
+    title: Současné heslo
+    content: >
+
 new_password:
   title: Nové heslo
-  content: ""
+    content: >
+
 confirm_new_password:
   title: Potvrďte nové heslo
-  content: ""
+    content: >
+
 signature:
   title: Podpis
-  content: 'Vytvořte volitelný <span class="doc-desc-title">podpis</span>, který může být přidán na konec odpovědi na požadavek. Zda-li se tento <span class="doc-desc-title">podpis</span> objeví nebo ne, závisí na <span class="doc-desc-title">šabloně emailu</span>, která bude použita pro odpověď na požadavek.'
+    content: >
+        Vytvořte si volitený <span class="doc-desc-title">podpis</span> 
+        který může být přidán na konec odpovědi na požadavek. Zda-li se tento 
+        <span class="doc-desc-title">podpis</span> zobrazí či ne, závisí 
+        na <span class="doc-desc-title">šabloně e-mailu</span>, která bude 
+        použita pro odpověď na požadavek.
   links:
-    - 
-      title: Vytvořte šablony emailů ve správcovském panelu
+      - title: Správa e-mailových šablon
       href: /scp/templates.php
