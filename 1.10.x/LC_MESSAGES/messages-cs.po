@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-07 18:40+0200\n"
+"PO-Revision-Date: 2016-06-07 18:48+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -8532,7 +8532,7 @@ msgstr "Název seznamu"
 
 #: include/staff/queue.inc.php:60
 msgid "Queue Search Criteria"
-msgstr "Nastavení hledání v seznamu"
+msgstr "Nastavení podmínek seznamu"
 
 #: include/staff/queue.inc.php:65
 msgid "Include parent search criteria"
