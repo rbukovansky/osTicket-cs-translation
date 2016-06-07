@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-01 10:21+0200\n"
+"PO-Revision-Date: 2016-06-07 18:40+0200\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Osticket-Major-Version: 1.10\n"
 "POT-Create-Date: 2016-03-29 02:36 +0000\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Crowdin-Project: osticket-official\n"
 "X-Crowdin-Language: cs\n"
@@ -62,9 +62,25 @@ msgstr "Před pokračováním je vyžadována změna hesla"
 msgid "Unknown or invalid file"
 msgstr "Neznámý nebo chybný soubor"
 
+#: index.php:31 include/client/faq-category.inc.php:48
+#: include/client/faq.inc.php:35 include/client/kb-search.inc.php:28
+msgid "Search our knowledge base"
+msgstr "Hledání v naší bázi znalostí"
+
+#: index.php:32 include/class.search.php:40 include/client/tickets.inc.php:138
+#: include/staff/templates/advanced-search.tmpl.php:74
+#: include/staff/templates/queue-savedsearches-nav.tmpl.php:14
+#: scp/tasks.php:191
+msgid "Search"
+msgstr "Hledat"
+
 #: index.php:41
 msgid "Welcome to the Support Center"
 msgstr "Vítejte v zákaznickém centru podpory"
+
+#: index.php:56
+msgid "Featured Knowledge Base Articles"
+msgstr "Důležité články báze znalostí"
 
 #: login.php:42 pwreset.php:13 scp/login.php:39 scp/pwreset.php:37
 #: scp/staff.inc.php:99
@@ -327,7 +343,7 @@ msgstr "Celé jméno"
 
 #: include/ajax.content.php:59
 msgid "see name expansion"
-msgstr "viz rozšíření jména"
+msgstr "viz vlastnosti proměnné Name"
 
 #: include/ajax.content.php:60 include/class.export.php:87
 #: include/class.filter_action.php:547 include/client/tickets.inc.php:210
@@ -446,7 +462,7 @@ msgstr "Odkaz pro pracovníka na zobrazení požadavku"
 
 #: include/ajax.content.php:71
 msgid "Expandable Variables"
-msgstr "Rozšiřující proměnné"
+msgstr "Proměnné s dalšími vlastnostmi"
 
 #: include/ajax.content.php:72 include/class.export.php:92
 #: include/class.report.php:201 include/class.thread.php:1956
@@ -512,7 +528,7 @@ msgstr "Odchozí odpověď"
 
 #: include/ajax.content.php:83 include/class.variable.php:269
 msgid "Assign/transfer comments"
-msgstr "Komentáře k přiřazení/předání"
+msgstr "Komentáře o přiřazení/předání"
 
 #: include/ajax.content.php:84
 msgid "Internal note <em>(expandable)</em>"
@@ -532,7 +548,7 @@ msgstr "Funkce obnovy hesla byla použita pomocí odkazu na obnovení hesla"
 
 #: include/ajax.content.php:92
 msgid "Name Expansion"
-msgstr "Rozšíření jména"
+msgstr "Vlastnosti proměnné Name"
 
 #: include/ajax.content.php:93 include/class.staff.php:917
 #: include/class.staff.php:1401 include/staff/profile.inc.php:55
@@ -566,7 +582,7 @@ msgstr "Příjmení, Jméno"
 
 #: include/ajax.content.php:99
 msgid "Ticket Thread expansions"
-msgstr "Rozšíření vlákna požadavku"
+msgstr "Vlastnosti proměnné Thread"
 
 #: include/ajax.content.php:100 include/class.thread.php:2557
 #: include/staff/ticket-view.inc.php:622
@@ -582,11 +598,11 @@ msgstr "Poslední zpráva"
 
 #: include/ajax.content.php:102
 msgid "Thread Entry expansions"
-msgstr "Rozšíření zápisu vlákna"
+msgstr "Vlastnosti proměnné Message a Response"
 
 #: include/ajax.content.php:103
 msgid "Poster"
-msgstr "Plakát"
+msgstr "Autor události"
 
 #: include/ajax.draft.php:12
 msgid "Draft body not found in request"
@@ -608,7 +624,6 @@ msgid "Import Items"
 msgstr "Importovat položky"
 
 #: include/ajax.kbase.php:48 include/client/faq.inc.php:20
-#: include/staff/settings-access.inc.php:185
 #: include/staff/settings-agents.inc.php:184
 #: include/staff/settings-users.inc.php:168
 #, php-format
@@ -2114,7 +2129,7 @@ msgstr ""
 #: include/staff/templates/user-account.tmpl.php:41
 #: include/staff/templates/users.tmpl.php:83
 msgid "Name"
-msgstr "Název"
+msgstr "Jméno"
 
 #: include/class.dept.php:108 include/staff/department.inc.php:119
 #: include/staff/departments.inc.php:76
@@ -2787,7 +2802,7 @@ msgstr "Musí být číselná hodnota"
 
 #: include/class.filter.php:465 include/class.role.php:153
 msgid "Name already in use"
-msgstr "Název je již použit"
+msgstr "Jméno je již použito"
 
 #: include/class.filter.php:468
 msgid "Unable to validate rules as entered"
@@ -3338,6 +3353,14 @@ msgstr "Text zobrazený v řádku s widgetem"
 msgid "No"
 msgstr "Ne"
 
+#: include/class.forms.php:1548
+msgid "checked"
+msgstr "zaškrtnuto"
+
+#: include/class.forms.php:1549
+msgid "unchecked"
+msgstr "nezaškrtnuto"
+
 #: include/class.forms.php:1578
 msgid "Checked"
 msgstr "Zaškrtnuto"
@@ -3498,7 +3521,6 @@ msgstr "Úroveň priority"
 #: include/class.forms.php:2363 include/class.nav.php:238
 #: include/class.nav.php:262 include/class.nav.php:286
 #: include/staff/departments.inc.php:74 include/staff/directory.inc.php:100
-#: include/staff/settings-access.inc.php:195
 #: include/staff/staffmembers.inc.php:109
 msgid "Agents"
 msgstr "Pracovníci"
@@ -4479,7 +4501,7 @@ msgstr "Hlavní zdroj dat"
 
 #: include/class.queue.php:2193
 msgid "Secondary Data Source"
-msgstr "Druhotný zdroj dat"
+msgstr "Vedlejší zdroj dat"
 
 #: include/class.queue.php:2205 include/staff/directory.inc.php:92
 msgid "Filter"
@@ -4495,7 +4517,7 @@ msgstr "Zalomit řádky"
 
 #: include/class.queue.php:2214
 msgid "Add Ellipsis"
-msgstr "Přidat elipsu"
+msgstr "Přidat výpustku"
 
 #: include/class.queue.php:2215
 msgid "Clip Text"
@@ -4575,13 +4597,6 @@ msgstr "Je nutné zaškrtnout minimálně jedno oprávnění pro roli"
 #: include/class.role.php:363
 msgid "Clone an existing role"
 msgstr "Zkopírovat existující roli"
-
-#: include/class.search.php:40 include/client/tickets.inc.php:138
-#: include/staff/templates/advanced-search.tmpl.php:74
-#: include/staff/templates/queue-savedsearches-nav.tmpl.php:14
-#: scp/tasks.php:191
-msgid "Search"
-msgstr "Hledat"
 
 #: include/class.search.php:41
 msgid "See all tickets in search results, regardless of access"
@@ -4678,7 +4693,7 @@ msgstr "Podpis"
 
 #: include/class.staff.php:246
 msgid "Authentication backend does not support password updates"
-msgstr "Autentizační server nepodporuje změny hesel"
+msgstr "Ověřovací server nepodporuje změny hesel"
 
 #: include/class.staff.php:632
 msgid "First name is required"
@@ -5720,7 +5735,7 @@ msgstr "Zvolte čas ze seznamu"
 
 #: include/class.ticket.php:2751 include/class.ticket.php:3114
 msgid "Invalid due date"
-msgstr "Neplatné datum splnění"
+msgstr "Neplatný termín"
 
 #: include/class.ticket.php:2753 include/class.ticket.php:3116
 msgid "Due date must be in the future"
@@ -5908,7 +5923,7 @@ msgstr "Právo k přístupu k adresáři uživatelů"
 
 #: include/class.user.php:261 include/class.user.php:511
 msgid "Email is assigned to another user"
-msgstr "E-mailová adresa je již použita jiným uživatelem"
+msgstr "E-mailová adresa je již přiřazezna jinému uživateli"
 
 #: include/class.user.php:355
 msgid "Default email address"
@@ -6049,6 +6064,21 @@ msgstr "Interní poznámka"
 msgid "XML error: %1$s at line %2$d:%3$d"
 msgstr "XML error: %1$s na řídku %2$d:%3$d"
 
+#: include/cli/modules/upgrade.php:38 scp/upgrade.php:28
+msgid "The upgrader does NOT support upgrading from the current vesion!"
+msgstr "Program pro aktualizaci nepodporuje aktualizaci z aktuální verze!"
+
+#: include/cli/modules/upgrade.php:41 scp/upgrade.php:30
+msgid ""
+"Minimum requirements not met! Refer to Release Notes for more information"
+msgstr ""
+"Nebyly splněny minimální požadavky! Pro bližší informace prostudujte "
+"poznámky k vydání"
+
+#: include/cli/modules/upgrade.php:44 scp/upgrade.php:32
+msgid "Config file rename required to continue!"
+msgstr "Pro pokračování je nutno přejmenovat konfigurační soubor!"
+
 #: include/client/accesslink.inc.php:8
 msgid "Email Access Link"
 msgstr "Odeslat přístupový odkaz e-mailem"
@@ -6126,11 +6156,6 @@ msgstr "Tato kategorie nemá žádné časté dotazy."
 msgid "Back To Index"
 msgstr "Zpět na index"
 
-#: include/client/faq-category.inc.php:48 include/client/faq.inc.php:35
-#: include/client/kb-search.inc.php:28
-msgid "Search our knowledge base"
-msgstr "Vyhledat v naší bázi znalostí"
-
 #: include/client/faq.inc.php:12 include/staff/faq-categories.inc.php:50
 #: include/staff/faq-view.inc.php:31
 msgid "All Categories"
@@ -6181,6 +6206,10 @@ msgstr "Klikněte na kategorii pro procházení častých dotazů."
 #: include/staff/faq-categories.inc.php:165
 msgid "NO FAQs found"
 msgstr "Časté dotazy nebyly nalezeny"
+
+#: include/client/kb-categories.inc.php:48
+msgid "Browse by Topic"
+msgstr "Prohlížed podle tématu podpory"
 
 #: include/client/kb-categories.inc.php:63
 #: include/client/templates/sidebar.tmpl.php:35
@@ -6238,7 +6267,7 @@ msgstr "Založit účet"
 
 #: include/client/login.inc.php:58
 msgid "I'm an agent"
-msgstr "Jsem pracovník"
+msgstr "Jsem pracovník podpory"
 
 #: include/client/login.inc.php:59
 msgid "sign in here"
@@ -6262,7 +6291,7 @@ msgstr "Prosím zadejte text znovu"
 
 #: include/client/open.inc.php:103
 msgid "CAPTCHA Text"
-msgstr "CAPTCHA Text"
+msgstr "Text CAPTCHA"
 
 #: include/client/open.inc.php:108
 msgid "Enter the text shown on the image."
@@ -7326,7 +7355,7 @@ msgid ""
 "                via the %s form)"
 msgstr ""
 "(Tyto položky jsou vyžadovány pro nové požadavky\n"
-")                pro formulář %s)"
+"            pomocí formuláře %s)"
 
 #: include/staff/dynamic-form.inc.php:131
 #: include/staff/dynamic-form.inc.php:165
@@ -7415,7 +7444,7 @@ msgstr "Vestavěné formuláře"
 #, php-format
 msgid "No extra forms defined yet &mdash; %s add one! %s"
 msgstr ""
-"Uživatelské formuláře není zatím definován &mdash; %s přidejte jeden! %s"
+"Uživatelský formulář není zatím definován &mdash; %s přidejte jeden! %s"
 
 #: include/staff/dynamic-forms.inc.php:130 scp/forms.php:92 scp/forms.php:95
 #: scp/forms.php:98
@@ -7572,9 +7601,7 @@ msgstr "Protokol poštovní schránky"
 msgid "Fetch Frequency"
 msgstr "Frekvence stahování"
 
-#: include/staff/email.inc.php:241 include/staff/settings-access.inc.php:49
-#: include/staff/settings-access.inc.php:77
-#: include/staff/settings-agents.inc.php:105
+#: include/staff/email.inc.php:241 include/staff/settings-agents.inc.php:105
 #: include/staff/settings-agents.inc.php:135
 #: include/staff/settings-system.inc.php:68
 msgid "minutes"
@@ -8295,7 +8322,7 @@ msgstr "např. ja@mojefirma.cz"
 
 #: include/staff/profile.inc.php:98 include/staff/staff.inc.php:113
 msgid "Authentication"
-msgstr "Přihlašovací údaje"
+msgstr "Ověření"
 
 #: include/staff/profile.inc.php:103
 msgid "Backend"
@@ -8490,6 +8517,8 @@ msgstr "Sloupce"
 
 #: include/staff/queue.inc.php:45
 #: include/staff/templates/queue-sort.tmpl.php:21
+#: include/staff/templates/task-queue-sort.tmpl.php:4
+#: include/staff/templates/tasks-queue-sort.tmpl.php:4
 msgid "Sort"
 msgstr "Řadit"
 
@@ -8559,7 +8588,7 @@ msgstr "Zdědit třízení z rodičovského seznamu"
 
 #: include/staff/queue.inc.php:187
 msgid "Details"
-msgstr "Informace"
+msgstr "Podrobnosti"
 
 #: include/staff/queue.inc.php:228
 msgid "Add Sort Criteria"
@@ -8629,201 +8658,6 @@ msgstr "Jste si jist, že chcete <b>zakázat</b> %s?"
 msgid "Deleted roles CANNOT be recovered."
 msgstr "Smazané role nemohou být obnoveny."
 
-#: include/staff/settings-access.inc.php:5
-msgid "Access Control Settings"
-msgstr "Nastavení přístupových práv"
-
-#: include/staff/settings-access.inc.php:13
-msgid "Configure Access to this Help Desk"
-msgstr "Nastavení přístupu k tomuto systému zákaznické podpory"
-
-#: include/staff/settings-access.inc.php:20
-msgid "Agent Authentication Settings"
-msgstr "Nastavení přihlášení pracovníků"
-
-#: include/staff/settings-access.inc.php:23
-#: include/staff/settings-agents.inc.php:77
-msgid "Password Expiration Policy"
-msgstr "Zásada pro vypršení platnosti hesla"
-
-#: include/staff/settings-access.inc.php:26
-#: include/staff/settings-agents.inc.php:80
-msgid "No expiration"
-msgstr "Bez časového omezení"
-
-#: include/staff/settings-access.inc.php:31
-#: include/staff/settings-agents.inc.php:85
-#, php-format
-msgid "Monthly"
-msgid_plural "Every %d months"
-msgstr[0] "Měsíčně"
-msgstr[1] "Každý %d. měsíc"
-msgstr[2] "Každý %d. měsíc"
-
-#: include/staff/settings-access.inc.php:39
-#: include/staff/settings-agents.inc.php:94
-msgid "Allow Password Resets"
-msgstr "Povolit obnovení hesla"
-
-#: include/staff/settings-access.inc.php:45
-#: include/staff/settings-agents.inc.php:101
-msgid "Reset Token Expiration"
-msgstr "Lhůta vypršení poukázky na obnovu hesla"
-
-#: include/staff/settings-access.inc.php:54
-#: include/staff/settings-agents.inc.php:111
-msgid "Agent Excessive Logins"
-msgstr "Nadměrné přihlašování pracovníka"
-
-#: include/staff/settings-access.inc.php:63
-#: include/staff/settings-access.inc.php:124
-#: include/staff/settings-agents.inc.php:120
-#: include/staff/settings-users.inc.php:102
-msgid "failed login attempt(s) allowed before a lock-out is enforced"
-msgstr "povolený počet neúspěšných pokusů o přihlášení před zablokováním účtu"
-
-#: include/staff/settings-access.inc.php:71
-#: include/staff/settings-access.inc.php:132
-#: include/staff/settings-agents.inc.php:128
-#: include/staff/settings-users.inc.php:110
-msgid "minutes locked out"
-msgstr "doba od uzamknutí účtu v minutách"
-
-#: include/staff/settings-access.inc.php:74
-#: include/staff/settings-agents.inc.php:132
-msgid "Agent Session Timeout"
-msgstr "Maximální délka nečinnosti pracovníka"
-
-#: include/staff/settings-access.inc.php:77
-#: include/staff/settings-agents.inc.php:135
-msgid "(0 to disable)"
-msgstr "(pro deaktivaci použít 0)"
-
-#: include/staff/settings-access.inc.php:80
-#: include/staff/settings-agents.inc.php:139
-msgid "Bind Agent Session to IP"
-msgstr "Spárovat relaci pracovníka s IP adresou"
-
-#: include/staff/settings-access.inc.php:88
-msgid "End User Authentication Settings"
-msgstr "Nastavení přihlášení uživatelů"
-
-#: include/staff/settings-access.inc.php:91
-#: include/staff/settings-users.inc.php:69
-msgid "Registration Required"
-msgstr "Registrace vyžadována"
-
-#: include/staff/settings-access.inc.php:95
-#: include/staff/settings-users.inc.php:73
-msgid "Require registration and login to create tickets"
-msgstr "Vyžadovat registraci a přihlášení k vytvoření požadavku"
-
-#: include/staff/settings-access.inc.php:98
-#: include/staff/settings-users.inc.php:76
-msgid "Registration Method"
-msgstr "Metoda registrace"
-
-#: include/staff/settings-access.inc.php:101
-#: include/staff/settings-users.inc.php:79
-msgid "Disabled — All users are guests"
-msgstr "Zakázáno - všichni uživatelé jsou návštěvníci"
-
-#: include/staff/settings-access.inc.php:102
-#: include/staff/settings-users.inc.php:80
-msgid "Public — Anyone can register"
-msgstr "Veřejné - každý se může registrovat"
-
-#: include/staff/settings-access.inc.php:103
-#: include/staff/settings-users.inc.php:81
-msgid "Private — Only agents can register users"
-msgstr "Soukromé - registrovat uživatele mohou jen pracovníci"
-
-#: include/staff/settings-access.inc.php:114
-#: include/staff/settings-users.inc.php:92
-msgid "User Excessive Logins"
-msgstr "Nadměrné přihlašování uživatele"
-
-#: include/staff/settings-access.inc.php:135
-#: include/staff/settings-users.inc.php:113
-msgid "User Session Timeout"
-msgstr "Maximální doba nečinnosti uživatele"
-
-#: include/staff/settings-access.inc.php:141
-#: include/staff/settings-users.inc.php:127
-msgid "Client Quick Access"
-msgstr "Rychlý přístup pro uživatele"
-
-#: include/staff/settings-access.inc.php:145
-#: include/staff/settings-users.inc.php:131
-msgid "Require email verification on \"Check Ticket Status\" page"
-msgstr ""
-"Vyžadovat ověření e-mailovou adresou na stránce \"Ověření stavu požadavku\""
-
-#: include/staff/settings-access.inc.php:153
-#: include/staff/settings-access.inc.php:192
-msgid "Authentication and Registration Templates"
-msgstr "Šablony přihlášení a registrace"
-
-#: include/staff/settings-access.inc.php:196
-msgid "Clients"
-msgstr "Zákazníci"
-
-#: include/staff/settings-access.inc.php:197
-#: include/staff/settings-users.inc.php:178
-msgid "Guest Ticket Access"
-msgstr "Přístup návštěvníků k požadavkům"
-
-#: include/staff/settings-access.inc.php:200
-msgid "Sign In Pages"
-msgstr "Stránky přihlášení"
-
-#: include/staff/settings-access.inc.php:203
-msgid "Agent Login Banner"
-msgstr "Hlášení systému při přihlášení pracovníka"
-
-#: include/staff/settings-access.inc.php:204
-msgid "Client Sign-In Page"
-msgstr "Stránka přihlášení uživatele"
-
-#: include/staff/settings-access.inc.php:207
-msgid "User Account Registration"
-msgstr "Registrace uživatelského účtu"
-
-#: include/staff/settings-access.inc.php:210
-#: include/staff/settings-users.inc.php:181
-msgid "Please Confirm Email Address Page"
-msgstr "Stránka pro potvrzení e-mailové adresy"
-
-#: include/staff/settings-access.inc.php:211
-msgid "Confirmation Email"
-msgstr "Potvrzovací e-mail"
-
-#: include/staff/settings-access.inc.php:212
-#: include/staff/settings-users.inc.php:183
-msgid "Account Confirmed Page"
-msgstr "Stránka s potvrzením registrace"
-
-#: include/staff/settings-access.inc.php:215
-msgid "Agent Account Registration"
-msgstr "Registrace pracovníka"
-
-#: include/staff/settings-access.inc.php:218
-#: include/staff/settings-agents.inc.php:198
-msgid "Agent Welcome Email"
-msgstr "Uvítací e-mail pracovníka"
-
-#: include/staff/settings-access.inc.php:223
-#: include/staff/settings-agents.inc.php:206
-#: include/staff/settings-emails.inc.php:176
-#: include/staff/settings-kb.inc.php:43
-#: include/staff/settings-pages.inc.php:291
-#: include/staff/settings-system.inc.php:376
-#: include/staff/settings-tasks.inc.php:291
-#: include/staff/settings-tickets.inc.php:249
-#: include/staff/settings-users.inc.php:189 include/staff/tpl.inc.php:134
-msgid "Reset Changes"
-msgstr "Vymazat změny"
-
 #: include/staff/settings-agents.inc.php:5
 msgid "Agents Settings"
 msgstr "Nastavení pracovníků"
@@ -8857,10 +8691,64 @@ msgstr "Zdroj ikon uživatelů"
 msgid "Authentication Settings"
 msgstr "Nastavení přihlášení"
 
+#: include/staff/settings-agents.inc.php:77
+msgid "Password Expiration Policy"
+msgstr "Zásada pro vypršení platnosti hesla"
+
+#: include/staff/settings-agents.inc.php:80
+msgid "No expiration"
+msgstr "Bez časového omezení"
+
+#: include/staff/settings-agents.inc.php:85
+#, php-format
+msgid "Monthly"
+msgid_plural "Every %d months"
+msgstr[0] "Měsíčně"
+msgstr[1] "Každý %d. měsíc"
+msgstr[2] "Každý %d. měsíc"
+
+#: include/staff/settings-agents.inc.php:94
+msgid "Allow Password Resets"
+msgstr "Povolit obnovení hesla"
+
+#: include/staff/settings-agents.inc.php:101
+msgid "Reset Token Expiration"
+msgstr "Lhůta vypršení poukázky na obnovu hesla"
+
+#: include/staff/settings-agents.inc.php:111
+msgid "Agent Excessive Logins"
+msgstr "Nadměrné přihlašování pracovníka"
+
+#: include/staff/settings-agents.inc.php:120
+#: include/staff/settings-users.inc.php:102
+msgid "failed login attempt(s) allowed before a lock-out is enforced"
+msgstr "povolený počet neúspěšných pokusů o přihlášení před zablokováním účtu"
+
+#: include/staff/settings-agents.inc.php:128
+#: include/staff/settings-users.inc.php:110
+msgid "minutes locked out"
+msgstr "doba od uzamknutí účtu v minutách"
+
+#: include/staff/settings-agents.inc.php:132
+msgid "Agent Session Timeout"
+msgstr "Maximální délka nečinnosti pracovníka"
+
+#: include/staff/settings-agents.inc.php:135
+msgid "(0 to disable)"
+msgstr "(pro deaktivaci použít 0)"
+
+#: include/staff/settings-agents.inc.php:139
+msgid "Bind Agent Session to IP"
+msgstr "Spárovat relaci pracovníka s IP adresou"
+
 #: include/staff/settings-agents.inc.php:195
 #: include/staff/settings-users.inc.php:175
 msgid "Authentication and Registration Templates &amp; Pages"
 msgstr "Šablony a stránky přihlášení a registrace"
+
+#: include/staff/settings-agents.inc.php:198
+msgid "Agent Welcome Email"
+msgstr "Uvítací e-mail pracovníka"
 
 #: include/staff/settings-agents.inc.php:199
 msgid "Sign-in Login Banner"
@@ -8870,6 +8758,17 @@ msgstr "Hlášení systému při přihlášení a registraci"
 #: include/staff/settings-users.inc.php:180
 msgid "Password Reset Email"
 msgstr "E-mail pro obnovení hesla"
+
+#: include/staff/settings-agents.inc.php:206
+#: include/staff/settings-emails.inc.php:176
+#: include/staff/settings-kb.inc.php:43
+#: include/staff/settings-pages.inc.php:291
+#: include/staff/settings-system.inc.php:376
+#: include/staff/settings-tasks.inc.php:291
+#: include/staff/settings-tickets.inc.php:249
+#: include/staff/settings-users.inc.php:189 include/staff/tpl.inc.php:134
+msgid "Reset Changes"
+msgstr "Vymazat změny"
 
 #: include/staff/settings-alerts.inc.php:19
 #: include/staff/settings-tasks.inc.php:127
@@ -8934,7 +8833,7 @@ msgstr ""
 
 #: include/staff/settings-autoresp.inc.php:21
 msgid "New Ticket by Agent"
-msgstr "Nový požadavek od pracovníka"
+msgstr "Nový požadavek zadaný pracovníkem"
 
 #: include/staff/settings-autoresp.inc.php:34
 msgid "Submitter: Send receipt confirmation"
@@ -9305,11 +9204,11 @@ msgstr "Přihlášení je vyžadováno"
 
 #: include/staff/settings-system.inc.php:368
 msgid "Require login to view any attachments"
-msgstr "Pro zobrazení jakýchkoliv příloh je nutné být přihlášený"
+msgstr "Přihlášení je vyžadováno pro zobrazení příloh"
 
 #: include/staff/settings-tasks.inc.php:6 scp/settings.php:25
 msgid "Task Settings and Options"
-msgstr "Nastavení a volby úkolů"
+msgstr "Nastavení a možnosti úkolů"
 
 #: include/staff/settings-tasks.inc.php:15
 msgid "Alerts &amp; Notices"
@@ -9317,7 +9216,7 @@ msgstr "Upozornění a oznámení"
 
 #: include/staff/settings-tasks.inc.php:23
 msgid "Global default task settings and options."
-msgstr "Výchozí nastavení a volby úkolů v systému."
+msgstr "Výchozí nastavení a možnosti úkolů v systému."
 
 #: include/staff/settings-tasks.inc.php:30
 msgid "Default Task Number Format"
@@ -9338,7 +9237,7 @@ msgstr "Nastavení příloh úkolů"
 
 #: include/staff/settings-tickets.inc.php:6 scp/settings.php:23
 msgid "Ticket Settings and Options"
-msgstr "Nastavení a možnosti požadavku"
+msgstr "Nastavení a možnosti požadavků"
 
 #: include/staff/settings-tickets.inc.php:15
 msgid "Autoresponder"
@@ -9398,7 +9297,7 @@ msgstr "podle uživatele"
 
 #: include/staff/settings-tickets.inc.php:194
 msgid "Human Verification"
-msgstr "Ověření člověka"
+msgstr "Ověření člověkem"
 
 #: include/staff/settings-tickets.inc.php:197
 msgid "Enable CAPTCHA on new web tickets."
@@ -9417,6 +9316,38 @@ msgstr "Nastavení příloh požadavků"
 msgid "Users Settings"
 msgstr "Nastavení uživatelů"
 
+#: include/staff/settings-users.inc.php:69
+msgid "Registration Required"
+msgstr "Registrace vyžadována"
+
+#: include/staff/settings-users.inc.php:73
+msgid "Require registration and login to create tickets"
+msgstr "Vyžadovat registraci a přihlášení k vytvoření požadavku"
+
+#: include/staff/settings-users.inc.php:76
+msgid "Registration Method"
+msgstr "Metoda registrace"
+
+#: include/staff/settings-users.inc.php:79
+msgid "Disabled — All users are guests"
+msgstr "Zakázáno - všichni uživatelé jsou návštěvníci"
+
+#: include/staff/settings-users.inc.php:80
+msgid "Public — Anyone can register"
+msgstr "Veřejné - každý se může registrovat"
+
+#: include/staff/settings-users.inc.php:81
+msgid "Private — Only agents can register users"
+msgstr "Soukromé - registrovat uživatele mohou jen pracovníci"
+
+#: include/staff/settings-users.inc.php:92
+msgid "User Excessive Logins"
+msgstr "Nadměrné přihlašování uživatele"
+
+#: include/staff/settings-users.inc.php:113
+msgid "User Session Timeout"
+msgstr "Maximální doba nečinnosti uživatele"
+
 #: include/staff/settings-users.inc.php:119
 msgid "Authentication Token"
 msgstr "Poukázka ověření pravosti"
@@ -9424,16 +9355,36 @@ msgstr "Poukázka ověření pravosti"
 #: include/staff/settings-users.inc.php:123
 msgid "Enable use of authentication tokens to auto-login users"
 msgstr ""
-"Povolit užití přihlašovacích poukázek pro uživatele s automatickým "
-"přihlášením"
+"Povolit užití ověřovacích poukázek pro uživatele s automatickým přihlášením"
+
+#: include/staff/settings-users.inc.php:127
+msgid "Client Quick Access"
+msgstr "Rychlý přístup pro uživatele"
+
+#: include/staff/settings-users.inc.php:131
+msgid "Require email verification on \"Check Ticket Status\" page"
+msgstr ""
+"Vyžadovat ověření e-mailovou adresou na stránce \"Ověření stavu požadavku\""
+
+#: include/staff/settings-users.inc.php:178
+msgid "Guest Ticket Access"
+msgstr "Přístup návštěvníků k požadavkům"
 
 #: include/staff/settings-users.inc.php:179
 msgid "Sign-In Page"
 msgstr "Registrační stránka"
 
+#: include/staff/settings-users.inc.php:181
+msgid "Please Confirm Email Address Page"
+msgstr "Stránka pro potvrzení e-mailové adresy"
+
 #: include/staff/settings-users.inc.php:182
 msgid "Account Confirmation Email"
 msgstr "E-mailová adresa pro potvrzení účtu"
+
+#: include/staff/settings-users.inc.php:183
+msgid "Account Confirmed Page"
+msgstr "Stránka s potvrzením registrace"
 
 #. SLA is abbreviation for Service Level Agreement
 #: include/staff/slaplan.inc.php:5
@@ -9534,7 +9485,7 @@ msgstr "Omezit přístup pouze na přiřazené požadavky"
 msgid ""
 "Select the departments the agent is allowed to access and the corresponding "
 "effective role."
-msgstr "Vybrat oddělení, ke kterým má agent přístup a odpovídající role."
+msgstr "Vyberte oddělení, ke kterým má pracovník přístup a jeho roli."
 
 #: include/staff/staff.inc.php:229 include/staff/staff.inc.php:311
 #: include/staff/ticket-open.inc.php:191
@@ -9543,7 +9494,7 @@ msgstr "Vybrat oddělení"
 
 #: include/staff/staff.inc.php:260
 msgid "Fall back to primary role on assignments"
-msgstr "Při přiřazení ustoupit na hlavní roli"
+msgstr "Ústup na hlavní roli u přiřazení"
 
 #: include/staff/staff.inc.php:298
 msgid "Extended Access"
@@ -10886,11 +10837,11 @@ msgstr "Použít standardní sloupce"
 
 #: include/staff/templates/queue-columns.tmpl.php:36
 msgid "Heading and Width"
-msgstr "Hlavička a šířka"
+msgstr "Záhlaví a šířka"
 
 #: include/staff/templates/queue-columns.tmpl.php:37
 msgid "Column Details"
-msgstr "Detaily sloupců"
+msgstr "Detaily sloupce"
 
 #: include/staff/templates/queue-columns.tmpl.php:38
 msgid "Sortable"
@@ -10914,11 +10865,11 @@ msgstr "Přidat vlastní hledání"
 
 #: include/staff/templates/queue-sorting-add.tmpl.php:9
 msgid "Add Sort Option"
-msgstr "Přidat podmínku hledání"
+msgstr "Přidat možnost hledání"
 
 #: include/staff/templates/queue-sorting-edit.tmpl.php:9
 msgid "Manage Sort Options"
-msgstr "Spravovat podmínky hledání"
+msgstr "Spravovat možnosti třízení"
 
 #: include/staff/templates/queue-sorting.tmpl.php:33
 msgid "Add Field"
@@ -11302,7 +11253,7 @@ msgstr "Přihlašovací jméno uživatele"
 
 #: include/staff/templates/user-register.tmpl.php:40
 msgid "Authentication Sources"
-msgstr "Způsoby autentifikace"
+msgstr "Způsoby ověření"
 
 #: include/staff/templates/user-register.tmpl.php:85
 #, php-format
@@ -11344,21 +11295,6 @@ msgid_plural "selected users"
 msgstr[0] "vybraný uživatel"
 msgstr[1] "%d vybraní uživatelé"
 msgstr[2] "%d vybraných uživatelů"
-
-#: include/cli/modules/upgrade.php:38 scp/upgrade.php:28
-msgid "The upgrader does NOT support upgrading from the current vesion!"
-msgstr "Program pro aktualizaci nepodporuje aktualizaci z aktuální verze!"
-
-#: include/cli/modules/upgrade.php:41 scp/upgrade.php:30
-msgid ""
-"Minimum requirements not met! Refer to Release Notes for more information"
-msgstr ""
-"Nebyly splněny minimální požadavky! Pro bližší informace prostudujte "
-"poznámky k vydání"
-
-#: include/cli/modules/upgrade.php:44 scp/upgrade.php:32
-msgid "Config file rename required to continue!"
-msgstr "Pro pokračování je nutno přejmenovat konfigurační soubor!"
 
 #: include/upgrader/aborted.inc.php:6
 msgid "Upgrade Aborted!"
@@ -11442,7 +11378,7 @@ msgstr "Prosím přečtěte si %s pro další informace o změnách a nových fu
 #: include/upgrader/done.inc.php:13
 #, php-format
 msgid "Release Notes"
-msgstr "poznámky o vydání"
+msgstr "Poznámky o vydání"
 
 #: include/upgrader/done.inc.php:16
 msgid "Once again, thank you for choosing osTicket."
@@ -11881,7 +11817,7 @@ msgstr "%1$d of %2$d %3$s vypnuto"
 #: scp/staff.php:96 scp/teams.php:93 scp/templates.php:127
 #, php-format
 msgid "Unable to disable %s"
-msgstr "Nemohu vypnout %s"
+msgstr "Nelze vypnout %s"
 
 #. Phrase will read:
 #. <a> of <b> <selected objects> deleted
@@ -12022,7 +11958,7 @@ msgstr ""
 #: scp/departments.php:89
 #, php-format
 msgid "Unable to make %s private. Possibly already private!"
-msgstr "%s nelze označit jako soukromou. Pravděpodobně již soukromá je!"
+msgstr "%s nelze označit jako soukromé. Pravděpodobně již soukromé je!"
 
 #: scp/departments.php:99
 msgid "Departments with agents can not be deleted. Move the agents first."
@@ -12204,7 +12140,7 @@ msgstr "Nelze smazat %s. Je možné, že jsou právě používáni."
 #: scp/lists.php:152 scp/orgs.php:33 scp/users.php:155
 #, php-format
 msgid "Successfully imported %1$d %2$s"
-msgstr "Úspěšne importováno %1$d %2$s"
+msgstr "Úspěšne naimportováno %1$d %2$s"
 
 #: scp/lists.php:153
 msgid "list item"
@@ -12236,7 +12172,7 @@ msgstr "jeden uživatel"
 #: scp/orgs.php:52
 #, php-format
 msgid "Successfully removed %s."
-msgstr "%s byl úspěšně odstraněn."
+msgstr "%s byl úspěšně odstraněna."
 
 #: scp/orgs.php:53 scp/orgs.php:56 scp/orgs.php:59
 msgid "selected end user"
@@ -13708,11 +13644,41 @@ msgstr "Něco je špatně"
 #~ msgid "Flags"
 #~ msgstr "Značky"
 
-#~ msgid "Unable to upload file - %s"
-#~ msgstr "Nemohu nahrát soubor -%s"
+#~ msgid "Access Control Settings"
+#~ msgstr "Nastavení přístupových práv"
 
-#~ msgid "Primary"
-#~ msgstr "Hlavní"
+#~ msgid "Configure Access to this Help Desk"
+#~ msgstr "Nastavení přístupu k tomuto systému zákaznické podpory"
+
+#~ msgid "Agent Authentication Settings"
+#~ msgstr "Nastavení přihlášení pracovníků"
+
+#~ msgid "End User Authentication Settings"
+#~ msgstr "Nastavení přihlášení uživatelů"
+
+#~ msgid "Authentication and Registration Templates"
+#~ msgstr "Šablony přihlášení a registrace"
+
+#~ msgid "Clients"
+#~ msgstr "Zákazníci"
+
+#~ msgid "Sign In Pages"
+#~ msgstr "Stránky přihlášení"
+
+#~ msgid "Agent Login Banner"
+#~ msgstr "Hlášení systému při přihlášení pracovníka"
+
+#~ msgid "Client Sign-In Page"
+#~ msgstr "Stránka přihlášení uživatele"
+
+#~ msgid "User Account Registration"
+#~ msgstr "Registrace uživatelského účtu"
+
+#~ msgid "Confirmation Email"
+#~ msgstr "Potvrzovací e-mail"
+
+#~ msgid "Agent Account Registration"
+#~ msgstr "Registrace pracovníka"
 
 #~ msgid "Assigned Tickets"
 #~ msgstr "Přiřazené požadavky"
@@ -13725,19 +13691,6 @@ msgstr "Něco je špatně"
 
 #~ msgid "Exclude answered tickets from open queue."
 #~ msgstr "Nezobrazovat zodpovězené požadavky v seznamu otevřených."
-
-#~ msgid "Primary Department and Role"
-#~ msgstr "Hlavní oddělení a role"
-
-#~ msgid ""
-#~ "Select the departments the agent is allowed to access and optionally "
-#~ "select an effective role."
-#~ msgstr ""
-#~ "Vyberte oddělení, ke kterým má pracovník přístup, a volitelně vyberte "
-#~ "skutečnou roli."
-
-#~ msgid "Fall back to primary role on assigned tickets"
-#~ msgstr "Ústup na hlavní roli u přiřazených požadavků"
 
 #~ msgid "Priority + Most Recently Updated"
 #~ msgstr "Prorita + naposledy změněny"
@@ -13784,3 +13737,22 @@ msgstr "Něco je špatně"
 
 #~ msgid "%d overdue tickets!"
 #~ msgstr "%d zpožděných požadavků!"
+
+#~ msgid "Unable to upload file - %s"
+#~ msgstr "Nelze nahrát soubor -%s"
+
+#~ msgid "Primary"
+#~ msgstr "Hlavní"
+
+#~ msgid "Primary Department and Role"
+#~ msgstr "Hlavní oddělení a role"
+
+#~ msgid ""
+#~ "Select the departments the agent is allowed to access and optionally "
+#~ "select an effective role."
+#~ msgstr ""
+#~ "Vyberte oddělení, ke kterým má pracovník přístup, a volitelně vyberte "
+#~ "skutečnou roli."
+
+#~ msgid "Fall back to primary role on assigned tickets"
+#~ msgstr "Ústup na hlavní roli u přiřazených požadavků"

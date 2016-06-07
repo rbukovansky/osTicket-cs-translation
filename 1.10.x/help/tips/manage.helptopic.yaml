@@ -52,7 +52,7 @@ custom_form:
         které mají vazbu k tomuto <span class="doc-desc-title">tématu 
         podpory</span>.
   links:
-      - title: Spravovat uživatelské formuláře
+      - title: Správa uživatelských formulářů
       href: /scp/forms.php
 
 priority:
@@ -68,7 +68,7 @@ department:
     content: >
         Vyberte oddělení, kterému požadavky pod tímto tématem podpory budou směřovány.
   links:
-      - title: Spravovat oddělení
+      - title: Správa oddělení
       href: /scp/departments.php
 sla_plan:
   title: Plán SLA
@@ -77,7 +77,7 @@ sla_plan:
         <br><br>
         Tato volba přepíše jakýkoliv vybraný plán SLA oddělení.
   links:
-      - title: Spravovat plány SLA
+      - title: Správa plánů SLA
       href: /scp/slas.php
 
 thank_you_page:
@@ -86,7 +86,7 @@ thank_you_page:
         Vyberte stránku s poděkováním, která se zobrazí uživateli po založení 
         požadavku v tomto <span class="doc-desc-title">tématu podpory</span>.
   links:
-      - title: Spravovat stránky s poděkováním
+      - title: Správa stránek s poděkováním
       href: /scp/pages.php
 
 auto_assign_to:
@@ -97,7 +97,7 @@ auto_assign_to:
         <br><br>
         Filtry požadavku mohou toto přiřazení přepsat.
   links:
-      - title: Spravovat pracovníky a týmy
+      - title: Správa pracovníků a týmů
       href: /scp/staff.php
 
 ticket_auto_response:

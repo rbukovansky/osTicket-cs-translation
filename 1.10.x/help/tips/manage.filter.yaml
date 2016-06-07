@@ -25,7 +25,7 @@ execution_order:
         <span class="doc-desc-title">Zastavit zpracování při shodě.</span>.
 
 target_channel:
-    title: Channel
+    title: Kanál
     content: >
         Vyberte jeden cílový <span class="doc-desc-title">kanál</span> pro váš <span 
         class="doc-desc-title">filtr požadavků</span>. <span 
@@ -80,9 +80,9 @@ canned_response:
         </span> nebo na <span class="doc-desc-title">oddělěních</span> 
         požadavků.
   links:
-      - title: Spravovat předpřipravené odpovědi
+      - title: Správa předpřipravených odpovědí
       href: /scp/canned.php
-      - title: Spravovat sady šablon
+      - title: Správa sad šablon
       href: /scp/templates.php
       - title: Nová šablona automatické odpovědi na požadavek
         href: /scp/templates.php?id=2&a=manage
@@ -94,7 +94,7 @@ department:
         přiřadit požadavkům shodným s <span class="doc-desc-title">filtrem 
         požadavků</span>.
   links:
-      - title: Spravovat oddělení
+      - title: Správa oddělení
       href: /scp/departments.php
 
 priority:
@@ -114,7 +114,7 @@ sla_plan:
         nastavit požadavkům shodujícím se s <span class="doc-desc-title">
         filtrem požadavků</span>.
   links:
-      - title: Spravovat plány SLA
+      - title: Správa plány SLA
       href: /scp/slas.php
 
 auto_assign:
@@ -125,7 +125,7 @@ auto_assign:
   links:
       - title: Správa pracovníků
       href: /scp/staff.php
-      - title: Spravovat týmy
+      - title: Správa týmů
       href: /scp/teams.php
 
 help_topic:
@@ -135,11 +135,11 @@ help_topic:
         přiřadit požadavkům shodujícím se s <span class="doc-desc-title">
         filtrem požadavků</span>.
   links:
-      - title: Spravovat témat podpory
+      - title: Správa témat podpory
       href: /scp/helptopics.php
 
 admin_notes:
     title: Poznámky administrátora
     content: >
         Tyto poznámky jsou viditelné pouze to ty pracovníky, kteří mají 
-        nasten příznak ‘<span class="doc-desc-title">správce</span>.’
+        nastaven příznak ‘<span class="doc-desc-title">správce</span>.’

@@ -67,7 +67,7 @@ assigned_group:
         zařadíte, bude určovat oprávnění pracovníka v <span 
         class="doc-desc-title">systému zákaznické podpory</span>.
   links:
-      - title: Spravovat skupiny
+      - title: Správa skupin
       href: /scp/groups.php
 
 primary_department:
@@ -77,7 +77,7 @@ primary_department:
         pracovník patří a jeho skutečnou <span class="doc-desc-title">roli</span>.
 
   links:
-      - title: Spravovat oddělení
+      - title: Správa oddělení
       href: /scp/departments.php
 
 primary_role:

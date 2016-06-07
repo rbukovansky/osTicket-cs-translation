@@ -34,7 +34,7 @@ lead:
         pracovníka, který bude dostávat <span class="doc-desc-title">upozornění 
         na přiřazení</span> odděleně od členů týmu.
   links:
-      - title: Spravovat upozornění a oznámení
+      - title: Správa upozornění a oznámení
       href: /scp/settings.php?t=alerts
 
 assignment_alert:
@@ -43,7 +43,7 @@ assignment_alert:
         Můžete vypnout <span class="doc-desc-title">upozornění na přiřazení 
         požadavku</span> pro požadavky přiřazené tomuto týmu.
   links:
-      - title: Spravovat upozornění a oznámení
+      - title: Správa upozornění a oznámení
       href: /scp/settings.php?t=alerts
 
 members:
@@ -51,5 +51,5 @@ members:
     content: >
         Členství v týmu je nastaveno v profilu pracovníka.
   links:
-      - title: Spravovat pracovníky
+      - title: Správa pracovníků
       href: /scp/staff.php

@@ -1,18 +1,38 @@
+#
+# Upgrade completed ticket
+#
+# This ticket is added to the system after the completion of an upgrade. It
+# might include information specific to the release, perhaps with some new
+# feature highlights, etc.
+#
 ---
-source: Web
-name: osTicket podpora
+source: Web # notrans
+name: Podpora osTicket
 email: support@osticket.com
-subject: osTicket byl aktualizován!
+subject: Aktualizace osTicket byla dokončena!
 message: |
   <p>
-  osTicket byl úspěšně aktualizován! Další informace o změnách a nových funkcích naleznete v poznámkách (http://osticket.com/wiki/Release_Notes).
+  Vaše instalace osTicket byl úspěšně aktualizována! Další informace o změnách 
+  a nových funkcích naleznete v poznámkách o vydání 
+  (http://osticket.com/wiki/Release_Notes).
   </p><p>
-  Nezapomeňte se připojit k <a href="http://osticket.com/forums">osTicket
-  fóru</a> a přidat Váš e-mail do <a href="http://osticket.com/updates">seznamu</a> pro získání aktuálních oznámení, bezpečnostních aktualizací a upozornění! Přivítáme Vaši aktivní účast na budování osTicket komunity!
+  Nezapomeňte se připojit k <a href="http://osticket.com/forums">osTicket 
+  fóru</a> a do <a href="http://osticket.com/updates">e-mailovému 
+  seznamu</a> pro získání informací o posledních novinkách, bezpečnostních 
+  výstrahách a aktualizacích. Uvítáme i vaše příspěvky pro osTicket komunitu!
   </p><p>
-  Tým osTicket je připraven poskytovat podporu všem uživatelům prostřednictvím našich bezplatných informačních zdrojů a celé škály podpůrných balíčků a služeb provozovaných na komerční bázi. Pro další informace nás prosím kontaktujte na  http://osticket.com/support/. Vítáme jakoukoli  zpětnou vazbu!
+  Tým osTicket je připraven poskytovat podporu všem uživatelům prostřednictvím 
+  našich bezplatných informačních zdrojů a celé škály komerčních balíčků podpory 
+  a služeb. Pro další informace či k prodiskutování vašich potřeb, kontaktujte 
+  nás prosím kontaktujte na  http://osticket.com/support/. Vítáme jakoukoli  
+  zpětnou vazbu!
   </p><p>
-  Pokud si nejste jisti instalací a správou skriptu, můžete využít pronájem osTicket systému na http://www.supportsystem.com/ -- žádné aktualizace, můžeme importovat Vaše data! Na základní infrastrutuře SupportSystem získáte všechny funkce osTicket systému a budete se moci zaměřit pouze na Vaše zákazníky, protože aplikace je stabilní, udržovaná a bezpečná.
+  Pokud vám představa správy vaší instalace osTicket přivádí chmury, můžete 
+  zkusit provoz v pronájmu u společnosti http://www.supportsystem.com -- není 
+  potřeba žádné instalace a můžeme naimportovat i vaše stávající data! Provoz 
+  osTicket na prvotřídní infrastruktuře společnosti SupportSystem vám umožní se 
+  zaměřit na vaše zákazníky, aniž byste se museli zabývat, zda-li je vaše 
+  aplikace stabilní, udržovaná a bezpečná.
   </p><p>
   -<br/>
   osTicket tým<br/>

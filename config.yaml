@@ -1,3 +1,7 @@
+#
+# Default configuration. The format is key: value and the data will be
+# inserted into the %config table at install time
+#
 ---
 core:
   time_format: H:i
@@ -74,4 +78,4 @@ core:
   sequence_id: 0
   log_level: 2
   log_graceperiod: 12
-  client_registration: public
+  client_registration: 'public'

@@ -19,7 +19,7 @@
 - isenabled: 1
   title: Přípklad s použitím proměnných
   response: |
-    Zdravím, %{ticket.name.first},
+    Dobrý den, %{ticket.name.first},
     <br>
     <br>
     Váš požadavek č. %{ticket.number} vytvořený dne %{ticket.create_date} je v 

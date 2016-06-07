@@ -89,5 +89,5 @@ signature:
         na <span class="doc-desc-title">šabloně e-mailu</span>, která bude 
         použita pro odpověď na požadavek.
   links:
-      - title: Správa e-mailových šablon
+      - title: Správa šablon e-mailů
       href: /scp/templates.php

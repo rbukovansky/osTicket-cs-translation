@@ -1,28 +1,57 @@
 ---
 password_reset:
-  title: Zásada pro vypršení platnosti hesla
-  content: 'Zvolte jak často (v měsících) budou zaměstnanci nuceni si změnit heslo. Jestliže je toto vypnuto (nastaveno "bez vypršení platnosti"), hesla nikdy nevyprší.'
+    title: Zásady pro vypršení platnosti hesla
+  content: >
+        Nastavuje, jak často (v měsících) budou pracovníci povinni změnit své 
+        heslo. Pokud je toto vypnuto (nastaveno "Bez časového omezení"), tak hesla 
+        nikdy nevyprší.
+
 password_expiration_policy:
-  title: Zásada pro vypršení platnosti hesla
-  content: 'Zvolte, jak často budou zaměstnanci muset změnit své heslo. Je-li zakázáno (tedy <span class="doc-desc-opt">bez vypršení platnosti</span>), hesla nikdy nevyprší.'
+    title: Zásady pro vypršení platnosti hesla
+  content: >
+        Nastavuje, jak často (v měsících) budou pracovníci povinni změnit své 
+        heslo. Pokud je toto vypnuto (nastaveno "Bez časového omezení"), tak hesla 
+        nikdy nevyprší.
+
 allow_password_resets:
   title: Povolit obnovení hesla
-  content: 'Zapněte tuto vlastnost, pokud má být zobrazován odkaz <span class="doc-desc-title">Obnova zapomenutého hesla</span> na <span class="doc-desc-title">přihlašovací stránce</span> zaměstnanců po chybném pokusu o přihlášení.'
+  content: >
+        Tato volba povolí zobrazení odkazu 
+        <span class="doc-desc-title">Obnova zapomenutého hesla</span> na 
+        <span class="doc-desc-title">přihlašovací stránce pracovníků</span> 
+        po tom, co se nepodaří přihlísit.
+
 reset_token_expiration:
-  title: Lhůta obnovení hesla
-  content: 'Zvolte, jak dlouho (v minutách) bude <span class="doc-desc-title">žádost o obnovu hesla</span> platná. Když si zaměstnanec zažádá o <span class="doc-desc-title">obnovu hesla</span>, dostanou e-mail s žádostí pro obnovu hesla, která je po tuto zvolenou dobu platná.'
+    title: Lhůta obnovy hesla
+  content: >
+        Vyberte délku (v minutách), za jak dlouho bude <span class="doc-desc-title">
+        odkaz na obnovu hesla</span> zneplatněn. Když pracovník     požádá o <span
+        class="doc-desc-title">obnovu hesla</span>, je jim zaslán e-mail s odkazem, 
+        který jim umožní změnu hesla provést.
+
 staff_session_timeout:
-  title: Maximální doba nečinnosti zaměstnanců
-  content: 'Vyberte maximální délku nečinnosti (v minutách), po níž je zaměstnanec automaticky odhlášen.<br><br>Chcete-li <span class="doc-desc-title">automatické odhlašování zaměstnanců</span> vypnout, vyberte 0.'
-client_session_timeout:
-  title: Maximální doba nečinnosti zákazníka
-  content: 'Vyberte maximální délku nečinnosti (v minutách), po níž je zákazník automaticky odhlášen.<br><br>Chcete-li <span class="doc-desc-title">automatické odhlašování zákazníků</span> vypnout, vyberte 0.'
+    title: Maximální délka nečinnosti pracovníka
+    content: >
+        Vyberte maximální délku (v minutách) nečinnosti pracovníka, než bude 
+        vyžadováno, aby se pracovník znovu přihlásil.
+        <br><br>
+        Pokud chcete <span class="doc-desc-title">maximální dobu nečinnosti 
+        pracovníka</span> vypnout, zadejte 0.
+
 bind_staff_session_to_ip:
-  title: Spárovat relaci zaměstnance s IP adresou
-  content: 'Zapněte tuto volbu, pokud chcete, aby byl zaměstnanec zapamatován podle jeho IP adresy při přihlášení.<br><br>Toto nastavení není doporučeno pro ty, jež mají dynamicky přidělované IP adresy.'
+  title: Spárovat relaci pracovníka s IP adresou
+    content: >
+        Tato volba zajistí, aby přihlášení pracovníka bylo spárováno s IP 
+        adresou.
+        <br><br>
+        Toto nastavení není doporučováno dynamicky přidělované IP adresy pracovníků.
+
 registration_method:
   title: Možnosti registrace
-  content: '<span class="doc-desc-title">Metoda registrace</span> a <span class="doc-desc-title">vyžadovaná registrace</span> se používají společně k nastavení, jak se zákazníci registrují a přihlašují k vašemu systému zákaznické podpory. Tabulka níže shrnuje, jak je toto nastavení vykládáno systémem. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Registratce vyžadována</th> <th>Metoda registrace</th> <th>Výsledek</th></tr> <tr><td>Ne</td><td>Veřejný</td> <td>Registrace je doporučována, ale není vyžadována pro nové požadavky.</td></tr> <tr><td>Ano</td><td>Veřejný</td> <td>Registrace a přihlášení jsou vyžadovány pro nové požadavky.</td></tr> <tr><td>Ne</td><td>Soukromé</td> <td>Kdokoliv může vytvořit požadavek, ale jen zaměstnanci mohou registrovat účty zákazníků.</td></tr> <tr><td>Ano</td><td>Soukromé</td> <td>Zákaznický přístup je pouze na základě pozvánky.</td></tr> <tr><td>Ne</td><td>Zakázáno</td> <td>Nikdo nemůže zaregistrovat účet, ale každý může vytvořit požadavek. <em>Takto to fungovalo v osTicket před verzí 1.9</em></td></tr> <tr><td>Ano</td><td>Zakázáno</td> <td>Zakázat vytváření požadavků přes webový portál</td></tr> </tbody></table>'
+  content: >
+      <span class="doc-desc-title">Metoda registrace</span> a <span class="doc-desc-title">vyžadovaná registrace</span> se používají společně k nastavení, jak se zákazníci registrují a přihlašují k vašemu systému zákaznické podpory. Tabulka níže shrnuje, jak je toto nastavení vykládáno systémem. <table border="1" cellpadding="2px" cellspacing="0" style="margin-top:7px" ><tbody style="vertical-align:top;"> <tr><th>Registratce vyžadována</th> <th>Metoda registrace</th> <th>Výsledek</th></tr> <tr><td>Ne</td><td>Veřejný</td> <td>Registrace je doporučována, ale není vyžadována pro nové požadavky.</td></tr> <tr><td>Ano</td><td>Veřejný</td> <td>Registrace a přihlášení jsou vyžadovány pro nové požadavky.</td></tr> <tr><td>Ne</td><td>Soukromé</td> <td>Kdokoliv může vytvořit požadavek, ale jen zaměstnanci mohou registrovat účty zákazníků.</td></tr> <tr><td>Ano</td><td>Soukromé</td> <td>Zákaznický přístup je pouze na základě pozvánky.</td></tr> <tr><td>Ne</td><td>Zakázáno</td> <td>Nikdo nemůže zaregistrovat účet, ale každý může vytvořit požadavek. <em>Takto to fungovalo v osTicket před verzí 1.9</em></td></tr> <tr><td>Ano</td><td>Zakázáno</td> <td>Zakázat vytváření požadavků přes webový portál</td></tr> </tbody></table>
+
 client_verify_email:
   title: Vyžadovat ověření e-mailem
-  content: 'Zakázáním této volby dáte zákazníkům okamžitý přístup k požadavkům pomocí funkce "Zjisti stav požadavku" zákaznického portálu. Je-li povolena (výchozí), uživatelé nejdříve musí obdržet zaslaný e-mail s odkazem na tento požadavek. <br><br>Zakázání ověřování pomocí e-mailu by mohlo umožnit třetím stranám (např spolupracovníci na požadavcích) se vydávat za vlastníka požadavku.'
+  content: > 
+      Zakázáním této volby dáte zákazníkům okamžitý přístup k požadavkům pomocí funkce "Zjisti stav požadavku" zákaznického portálu. Je-li povolena (výchozí), uživatelé nejdříve musí obdržet zaslaný e-mail s odkazem na tento požadavek. <br><br>Zakázání ověřování pomocí e-mailu by mohlo umožnit třetím stranám (např spolupracovníci na požadavcích) se vydávat za vlastníka požadavku.
