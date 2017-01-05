@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: osticket-official\n"
 "Report-Msgid-Bugs-To: support@osticket.com\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-06-07 18:48+0200\n"
+"PO-Revision-Date: 2017-01-05 10:40+0100\n"
 "Last-Translator: Richard Bukovansky <richard.bukovansky@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Osticket-Major-Version: 1.10\n"
 "POT-Create-Date: 2016-03-29 02:36 +0000\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.0beta1\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Crowdin-Project: osticket-official\n"
 "X-Crowdin-Language: cs\n"
@@ -80,10 +80,9 @@ msgstr "Vítejte v zákaznickém centru podpory"
 
 #: index.php:56
 msgid "Featured Knowledge Base Articles"
-msgstr "Důležité články báze znalostí"
+msgstr "Propagované články báze znalostí"
 
-#: login.php:42 pwreset.php:13 scp/login.php:39 scp/pwreset.php:37
-#: scp/staff.inc.php:99
+#: login.php:42 pwreset.php:13 scp/login.php:39 scp/pwreset.php:37 scp/staff.inc.php:99
 msgid "Valid CSRF Token Required"
 msgstr "Je vyžadována platná CSRF poukázka"
 
@@ -2100,12 +2099,9 @@ msgstr "Nelze nahrát logo: %s"
 msgid "Unable to upload backdrop image: %s"
 msgstr "Nelze nahrát obrázek pozadí: %s"
 
-#: include/class.config.php:1511
-msgid ""
-"The knowledge base cannot be restricted unless client registration is enabled"
-msgstr ""
-"Databáze znalostí nemůže být omezena, pokud není povolena registrace "
-"uživatelů"
+#: include/class.config.php:1495
+msgid "The knowledge base cannot be restricted unless client registration is enabled"
+msgstr "Báze znalostí nemůže být omezena, pokud není povolena registrace uživatelů"
 
 #: include/class.dept.php:105 include/class.dept.php:768
 #: include/class.export.php:199 include/class.filter.php:26
@@ -5263,6 +5259,22 @@ msgstr "Zadána neplatná sada šablon"
 msgid "this template set"
 msgstr "tato sada šablon"
 
+#: include/class.template.php:619
+msgid "Message subject is required"
+msgstr "Vyžadován předmět zprávy"
+
+#: include/class.template.php:622
+msgid "Message body is required"
+msgstr "Vyžadováno tělo zprávy"
+
+#: include/class.template.php:626
+msgid "Template set is required"
+msgstr "Vyžadována sada šablon"
+
+#: include/class.template.php:628
+msgid "Code name is required"
+msgstr "Vyžadováno krycí jméno"
+
 #: include/class.template.php:700
 msgid ""
 "Email templates must define both \"subject\" and \"body\" parts of the "
@@ -6209,10 +6221,9 @@ msgstr "Časté dotazy nebyly nalezeny"
 
 #: include/client/kb-categories.inc.php:48
 msgid "Browse by Topic"
-msgstr "Prohlížed podle tématu podpory"
+msgstr "Prohlížet podle témat"
 
-#: include/client/kb-categories.inc.php:63
-#: include/client/templates/sidebar.tmpl.php:35
+#: include/client/kb-categories.inc.php:63 include/client/templates/sidebar.tmpl.php:35
 msgid "Other Resources"
 msgstr "Další odkazy"
 
@@ -13363,8 +13374,7 @@ msgstr "Zajišťujeme <u>profesionální instalaci</u> a placenou podporu."
 
 #: setup/inc/install.inc.php:128
 msgid "Please wait... while we install your new support ticket system!"
-msgstr ""
-"Prosím počkejte ... dokud se nenainstaluje nový systém zákaznické podpory!"
+msgstr "Prosím, vyčkejte... dokud se nenainstaluje nový systém zákaznické podpory!"
 
 #: setup/inc/subscribe.inc.php:5
 msgid "Basic Installation Completed"
